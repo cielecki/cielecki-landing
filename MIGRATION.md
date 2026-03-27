@@ -61,7 +61,7 @@ npm run preview
 ## File Structure
 
 ```
-cielecki-landing-astro/
+cielecki-landing/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml          # GitHub Actions deployment
@@ -83,8 +83,7 @@ cielecki-landing-astro/
 ## URLs
 
 - **Live Site**: https://cielecki.com
-- **Repository**: https://github.com/cielecki/cielecki-landing-astro
-- **Old Vanilla Repo**: https://github.com/cielecki/cielecki-landing (deprecated)
+- **Repository**: https://github.com/cielecki/cielecki-landing
 
 ## SSL Certificate
 
