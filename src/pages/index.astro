@@ -1,338 +1,68 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
-
-const posts = (await getCollection('blog'))
-  .filter(post => !post.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 3);
-
-const formatDate = (date: Date) => date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 ---
 
-<BaseLayout title="Maciej Cielecki - Builder, AI Loyalist, Executive Chairman at 10Clouds">
+<BaseLayout title="Maciej Cielecki">
 
-  <!-- Nav -->
-  <nav class="fixed top-0 left-0 right-0 z-50 bg-cream/80 backdrop-blur-xl border-b border-charcoal/5 animate-fade-in">
-    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-      <a href="/" class="font-serif text-2xl font-bold italic text-charcoal-dark tracking-tight">MC</a>
-      <div class="flex items-center gap-8">
-        <a href="#about" class="hidden sm:block text-sm text-charcoal-light hover:text-charcoal transition-colors">About</a>
-        <a href="#work" class="hidden sm:block text-sm text-charcoal-light hover:text-charcoal transition-colors">Work</a>
-        <a href="#writing" class="hidden sm:block text-sm text-charcoal-light hover:text-charcoal transition-colors">Writing</a>
-        <a href="#contact" class="text-sm px-4 py-2 bg-charcoal-dark text-cream rounded-lg hover:bg-charcoal transition-colors">Get in Touch</a>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero -->
-  <section class="relative min-h-screen flex items-center px-6 pt-24 pb-16 overflow-hidden">
-    <!-- Decorative blobs -->
+  <div class="min-h-screen flex flex-col">
+  <main class="relative flex-1 flex items-center px-6 py-16 overflow-hidden">
     <div class="absolute top-20 -right-32 w-96 h-96 bg-terracotta/10 blob blur-3xl"></div>
     <div class="absolute -bottom-20 -left-32 w-80 h-80 bg-sage/15 blob blur-3xl"></div>
 
-    <div class="relative z-10 max-w-6xl mx-auto w-full grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-      <!-- Text -->
-      <div class="text-center lg:text-left">
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-full text-sm text-charcoal-light mb-8 animate-fade-in">
-          <iconify-icon icon="solar:verified-check-bold" class="text-terracotta text-lg"></iconify-icon>
-          <span>AI Loyalist</span>
-        </div>
+    <div class="relative z-10 max-w-5xl mx-auto w-full grid lg:grid-cols-[auto_1fr] gap-12 lg:gap-16 items-center">
 
-        <h1 class="font-serif text-5xl sm:text-6xl lg:text-6xl xl:text-7xl font-bold leading-[1.1] text-charcoal-dark mb-6 animate-fade-in-up">
-          Building things that
-          <span class="hand-underline italic text-terracotta-dark">help people</span>
-          with AI
-        </h1>
-
-        <p class="text-lg sm:text-xl text-charcoal-light leading-relaxed max-w-xl mx-auto lg:mx-0 mb-10 animate-fade-in-up-d1">
-          Executive Chairman & Chief AI Officer at 10Clouds. 15 years running a 150+ person agency. Builder of AIConsole. Father. Obsessively deep in AI.
-        </p>
-
-        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in-up-d2">
-          <a href="#contact" class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-terracotta text-white rounded-xl font-semibold hover:bg-terracotta-dark transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-terracotta/20">
-            <span>Start the Conversation</span>
-            <iconify-icon icon="solar:arrow-right-linear" class="text-lg"></iconify-icon>
-          </a>
-          <a href="#work" class="inline-flex items-center justify-center gap-2 px-8 py-4 border border-charcoal/15 text-charcoal rounded-xl font-semibold hover:bg-white/50 transition-all">
-            <iconify-icon icon="solar:eye-bold" class="text-lg"></iconify-icon>
-            <span>See My Work</span>
-          </a>
-        </div>
-      </div>
-
-      <!-- Photo -->
-      <div class="hidden lg:flex justify-center animate-fade-in-up-d1">
+      <div class="flex justify-center lg:justify-start">
         <div class="relative">
-          <!-- Decorative ring -->
           <div class="absolute -inset-4 rounded-[2rem] border border-terracotta/15 -rotate-3"></div>
           <div class="absolute -inset-8 rounded-[2.5rem] border border-sage/10 rotate-2"></div>
           <img
             src="/images/hero-portrait.jpg"
             alt="Maciej Cielecki"
-            class="w-80 xl:w-96 aspect-square object-cover object-top rounded-2xl shadow-2xl shadow-charcoal/10"
+            class="w-64 sm:w-72 lg:w-80 aspect-square object-cover object-top rounded-2xl shadow-2xl shadow-charcoal/10 relative"
           />
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- About -->
-  <section id="about" class="relative py-24 px-6 bg-white/40 overflow-hidden">
-    <div class="max-w-6xl mx-auto">
-      <div class="flex items-center gap-3 mb-4 reveal">
-        <span class="font-serif italic text-sm text-terracotta">01</span>
-        <div class="h-px w-12 bg-terracotta/30"></div>
-      </div>
-
-      <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-16">
-        <div class="reveal">
-          <h2 class="font-serif text-4xl sm:text-5xl font-bold text-charcoal-dark mb-6">
-            I'm a builder. <span class="italic text-charcoal-light">That's it.</span>
-          </h2>
-
-          <p class="text-lg text-charcoal-light leading-relaxed">
-            I build products, companies, relationships, and financial security. I've been running 10Clouds for 15 years, and recently shifted from CEO to Executive Chairman to go all-in on AI. I spend my days creating things that help people organize their lives with AI.
-          </p>
+      <div class="text-center lg:text-left">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-full text-sm text-charcoal-light mb-6 animate-fade-in">
+          <iconify-icon icon="solar:verified-check-bold" class="text-terracotta text-lg"></iconify-icon>
+          <span>AI Loyalist</span>
         </div>
 
-        <!-- About photo -->
-        <div class="reveal">
-          <div class="relative rounded-2xl overflow-hidden">
-            <img
-              src="/images/about-outdoor.jpeg"
-              alt="Maciej listening in conversation outdoors"
-              class="w-full h-80 object-cover object-center"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-charcoal-dark/20 to-transparent"></div>
-          </div>
-        </div>
-      </div>
+        <h1 class="font-serif text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] text-charcoal-dark mb-6 animate-fade-in-up">
+          Maciej <span class="italic text-terracotta-dark">Cielecki</span>
+        </h1>
 
-      <div class="grid md:grid-cols-3 gap-6 reveal">
-        <div class="glass rounded-2xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-terracotta/10 flex items-center justify-center mb-5">
-            <iconify-icon icon="solar:user-speak-bold-duotone" class="text-terracotta text-2xl"></iconify-icon>
-          </div>
-          <h3 class="text-lg font-semibold text-charcoal-dark mb-2">Direct & Opinionated</h3>
-          <p class="text-charcoal-light leading-relaxed">15 years running 10Clouds taught me to cut through noise. I share what actually works in the AI trenches.</p>
-        </div>
+        <p class="text-lg sm:text-xl text-charcoal-light leading-relaxed max-w-xl mx-auto lg:mx-0 mb-10 animate-fade-in-up-d1">
+          Builder. Executive Chairman & Chief AI Officer at 10Clouds. 15 years running a 150+ person agency. Obsessively deep in AI &mdash; building things that help people.
+        </p>
 
-        <div class="glass rounded-2xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-sage/20 flex items-center justify-center mb-5">
-            <iconify-icon icon="solar:code-bold-duotone" class="text-sage-dark text-2xl"></iconify-icon>
-          </div>
-          <h3 class="text-lg font-semibold text-charcoal-dark mb-2">Technical Authenticity</h3>
-          <p class="text-charcoal-light leading-relaxed">Built AIConsole, an open-source desktop AI editor. Hands-on with AI every day, real implementation.</p>
-        </div>
-
-        <div class="glass rounded-2xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all group">
-          <div class="w-12 h-12 rounded-xl bg-terracotta/10 flex items-center justify-center mb-5">
-            <iconify-icon icon="solar:heart-bold-duotone" class="text-terracotta text-2xl"></iconify-icon>
-          </div>
-          <h3 class="text-lg font-semibold text-charcoal-dark mb-2">Builder at Heart</h3>
-          <p class="text-charcoal-light leading-relaxed">Products, companies, relationships. I create things that have value and help people. My son Julek is my biggest motivation.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Quote -->
-  <section class="relative py-28 px-6 overflow-hidden">
-    <!-- Background photo -->
-    <div class="absolute inset-0">
-      <img
-        src="/images/quote-mic.jpg"
-        alt=""
-        class="w-full h-full object-cover object-center"
-      />
-      <div class="absolute inset-0 bg-cream/80 backdrop-blur-sm"></div>
-    </div>
-
-    <div class="relative z-10 max-w-4xl mx-auto text-center reveal">
-      <blockquote class="font-serif text-2xl sm:text-3xl lg:text-4xl italic leading-snug text-charcoal-dark mb-10">
-        "I see a world where individuals have the same computational power as corporations. We're closer than you think."
-      </blockquote>
-
-      <div class="flex flex-wrap justify-center gap-12 pt-8 border-t border-charcoal/10">
-        <div class="text-center">
-          <div class="font-serif text-4xl font-bold text-terracotta">15+</div>
-          <div class="text-sm text-charcoal-light mt-1">Years at 10Clouds</div>
-        </div>
-        <div class="text-center">
-          <div class="font-serif text-4xl font-bold text-terracotta">150+</div>
-          <div class="text-sm text-charcoal-light mt-1">Team Members</div>
-        </div>
-        <div class="text-center">
-          <div class="font-serif text-4xl font-bold text-terracotta">2+</div>
-          <div class="text-sm text-charcoal-light mt-1">Years Deep in AI</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Work -->
-  <section id="work" class="py-24 px-6 bg-white/40">
-    <div class="max-w-6xl mx-auto">
-      <div class="flex items-center gap-3 mb-4 reveal">
-        <span class="font-serif italic text-sm text-terracotta">02</span>
-        <div class="h-px w-12 bg-terracotta/30"></div>
-      </div>
-
-      <h2 class="font-serif text-4xl sm:text-5xl font-bold text-charcoal-dark mb-12 reveal">
-        Building in Public
-      </h2>
-
-      <!-- Bento Grid -->
-      <div class="grid md:grid-cols-3 gap-5 reveal">
-        <!-- AIConsole - large -->
-        <div class="md:col-span-2 glass rounded-2xl p-8 sm:p-10 hover:shadow-lg transition-all group">
-          <iconify-icon icon="solar:programming-bold-duotone" class="text-terracotta text-4xl mb-4"></iconify-icon>
-          <h3 class="font-serif text-2xl font-bold text-charcoal-dark mb-3">AIConsole</h3>
-          <p class="text-charcoal-light leading-relaxed mb-5 max-w-lg">Open-source desktop AI editor for building AI-powered workflows. Built with the belief that powerful AI tools should be accessible to everyone.</p>
-          <a href="https://github.com/10clouds/aiconsole" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-terracotta font-semibold hover:gap-3 transition-all">
-            <span>View on GitHub</span>
-            <iconify-icon icon="solar:arrow-right-linear"></iconify-icon>
+        <div class="flex flex-wrap gap-3 justify-center lg:justify-start animate-fade-in-up-d2">
+          <a href="https://linkedin.com/in/cielecki" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-3 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl text-charcoal-dark font-medium hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all">
+            <iconify-icon icon="solar:linkedin-bold" class="text-terracotta text-xl"></iconify-icon>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://x.com/mcielecki" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-3 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl text-charcoal-dark font-medium hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all">
+            <iconify-icon icon="simple-icons:x" class="text-terracotta text-base"></iconify-icon>
+            <span>X / Twitter</span>
+          </a>
+          <a href="https://github.com/cielecki" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-3 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl text-charcoal-dark font-medium hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all">
+            <iconify-icon icon="simple-icons:github" class="text-terracotta text-lg"></iconify-icon>
+            <span>GitHub</span>
+          </a>
+          <a href="mailto:maciej@cielecki.com" class="inline-flex items-center gap-2 px-5 py-3 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl text-charcoal-dark font-medium hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all">
+            <iconify-icon icon="solar:letter-bold" class="text-terracotta text-lg"></iconify-icon>
+            <span>maciej@cielecki.com</span>
           </a>
         </div>
-
-        <!-- 10Clouds with photo -->
-        <div class="relative glass rounded-2xl overflow-hidden hover:shadow-lg transition-all group min-h-[250px]">
-          <img src="/images/work-10clouds.jpeg" alt="Maciej presenting at 10Clouds" class="absolute inset-0 w-full h-full object-cover object-top" />
-          <div class="absolute inset-0 bg-gradient-to-t from-charcoal-dark/90 via-charcoal-dark/40 to-transparent"></div>
-          <div class="relative z-10 flex flex-col justify-end h-full p-8">
-            <h3 class="font-serif text-xl font-bold text-white mb-2">10Clouds</h3>
-            <p class="text-white/80 leading-relaxed text-sm">150+ person software agency, now focusing on AI-powered digital products. 15 years and counting.</p>
-          </div>
-        </div>
-
-        <!-- LinkedIn -->
-        <div class="glass rounded-2xl p-8 hover:shadow-lg transition-all">
-          <iconify-icon icon="solar:pen-new-square-bold-duotone" class="text-terracotta text-3xl mb-4"></iconify-icon>
-          <h3 class="font-serif text-xl font-bold text-charcoal-dark mb-2">LinkedIn</h3>
-          <p class="text-charcoal-light leading-relaxed">5-7 posts/week on AI, leadership, and the future of work. Direct takes, no corporate fluff.</p>
-        </div>
-
-        <!-- Life Navigator with photo -->
-        <div class="relative md:col-span-2 glass rounded-2xl overflow-hidden hover:shadow-lg transition-all group min-h-[280px]">
-          <img src="/images/work-life-navigator.jpeg" alt="Maciej presenting Life Navigator" class="absolute inset-0 w-full h-full object-cover object-top" />
-          <div class="absolute inset-0 bg-gradient-to-r from-charcoal-dark/90 via-charcoal-dark/60 to-charcoal-dark/30"></div>
-          <div class="relative z-10 flex flex-col justify-center h-full p-8 max-w-md">
-            <iconify-icon icon="solar:compass-bold-duotone" class="text-sage-light text-3xl mb-4"></iconify-icon>
-            <h3 class="font-serif text-xl font-bold text-white mb-2">Life Navigator</h3>
-            <p class="text-white/80 leading-relaxed">An Obsidian plugin that helps people navigate their daily life with AI. Morning reflections, decision frameworks, structured journaling.</p>
-          </div>
-        </div>
       </div>
+
     </div>
-  </section>
+  </main>
 
-  <!-- Writing / Blog -->
-  <section id="writing" class="py-24 px-6">
-    <div class="max-w-6xl mx-auto">
-      <div class="flex items-center gap-3 mb-4 reveal">
-        <span class="font-serif italic text-sm text-terracotta">03</span>
-        <div class="h-px w-12 bg-terracotta/30"></div>
-      </div>
-
-      <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-12 reveal">
-        <h2 class="font-serif text-4xl sm:text-5xl font-bold text-charcoal-dark">Writing</h2>
-        <a href="/blog" class="mt-4 sm:mt-0 inline-flex items-center gap-2 text-terracotta font-semibold hover:gap-3 transition-all">
-          <span>All posts</span>
-          <iconify-icon icon="solar:arrow-right-linear"></iconify-icon>
-        </a>
-      </div>
-
-      <div class="grid md:grid-cols-3 gap-6 reveal">
-        {posts.map(post => (
-          <a href={`/blog/${post.id}`} class="glass rounded-2xl p-8 hover:shadow-lg hover:-translate-y-1 transition-all group block">
-            <time class="text-sm text-charcoal-light/70 font-mono">{formatDate(post.data.date)}</time>
-            <h3 class="font-serif text-xl font-bold text-charcoal-dark mt-3 mb-3 group-hover:text-terracotta-dark transition-colors">{post.data.title}</h3>
-            <p class="text-charcoal-light leading-relaxed text-sm">{post.data.description}</p>
-            {post.data.tags && (
-              <div class="flex flex-wrap gap-2 mt-4">
-                {post.data.tags.map(tag => (
-                  <span class="text-xs px-2.5 py-1 bg-terracotta/8 text-terracotta-dark rounded-full">{tag}</span>
-                ))}
-              </div>
-            )}
-          </a>
-        ))}
-      </div>
-
-      {posts.length === 0 && (
-        <div class="glass rounded-2xl p-12 text-center reveal">
-          <p class="text-charcoal-light text-lg">Posts coming soon. In the meantime, find me on <a href="https://linkedin.com/in/cielecki" class="text-terracotta underline underline-offset-4 hover:text-terracotta-dark">LinkedIn</a>.</p>
-        </div>
-      )}
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="py-24 px-6 bg-white/40">
-    <div class="max-w-6xl mx-auto">
-      <div class="flex items-center gap-3 mb-4 reveal">
-        <span class="font-serif italic text-sm text-terracotta">04</span>
-        <div class="h-px w-12 bg-terracotta/30"></div>
-      </div>
-
-      <div class="grid lg:grid-cols-2 gap-12 items-start">
-        <div>
-          <div class="flex items-center gap-5 mb-6 reveal">
-            <img src="/images/avatar-smile.jpg" alt="Maciej Cielecki" class="w-16 h-16 rounded-full object-cover border-2 border-white shadow-md" />
-            <h2 class="font-serif text-4xl sm:text-5xl font-bold text-charcoal-dark">Let's Talk</h2>
-          </div>
-
-          <p class="text-lg text-charcoal-light leading-relaxed max-w-xl mb-10 reveal">
-            Interested in AI strategy, want to discuss a project, or just want to exchange ideas about the future of AI. I'm open to conversations.
-          </p>
-
-          <div class="flex flex-col gap-4 max-w-md reveal">
-            <a href="https://linkedin.com/in/cielecki" target="_blank" rel="noopener" class="flex items-center gap-4 px-6 py-4 glass rounded-xl hover:shadow-md hover:translate-x-1 transition-all group">
-              <iconify-icon icon="solar:linkedin-bold" class="text-terracotta text-xl"></iconify-icon>
-              <span class="font-medium text-charcoal-dark">LinkedIn</span>
-              <iconify-icon icon="solar:arrow-right-up-linear" class="ml-auto text-charcoal-light/50 group-hover:text-terracotta transition-colors"></iconify-icon>
-            </a>
-            <a href="https://x.com/mcielecki" target="_blank" rel="noopener" class="flex items-center gap-4 px-6 py-4 glass rounded-xl hover:shadow-md hover:translate-x-1 transition-all group">
-              <iconify-icon icon="simple-icons:x" class="text-terracotta text-xl"></iconify-icon>
-              <span class="font-medium text-charcoal-dark">X / Twitter</span>
-              <iconify-icon icon="solar:arrow-right-up-linear" class="ml-auto text-charcoal-light/50 group-hover:text-terracotta transition-colors"></iconify-icon>
-            </a>
-            <a href="mailto:maciej@cielecki.com" class="flex items-center gap-4 px-6 py-4 glass rounded-xl hover:shadow-md hover:translate-x-1 transition-all group">
-              <iconify-icon icon="solar:letter-bold" class="text-terracotta text-xl"></iconify-icon>
-              <span class="font-medium text-charcoal-dark">maciej@cielecki.com</span>
-              <iconify-icon icon="solar:arrow-right-up-linear" class="ml-auto text-charcoal-light/50 group-hover:text-terracotta transition-colors"></iconify-icon>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="border-t border-charcoal/8 py-12 px-6">
-    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
-      <div class="flex items-center gap-4">
-        <span class="font-serif text-xl font-bold italic text-charcoal-dark">MC</span>
-        <span class="text-sm text-charcoal-light">Builder. AI Loyalist. Executive Chairman at 10Clouds.</span>
-      </div>
-
-      <div class="flex items-center gap-5">
-        <a href="https://github.com/cielecki" target="_blank" rel="noopener" class="text-charcoal-light hover:text-terracotta transition-colors text-xl">
-          <iconify-icon icon="simple-icons:github"></iconify-icon>
-        </a>
-        <a href="https://linkedin.com/in/cielecki" target="_blank" rel="noopener" class="text-charcoal-light hover:text-terracotta transition-colors text-xl">
-          <iconify-icon icon="solar:linkedin-bold"></iconify-icon>
-        </a>
-        <a href="https://x.com/mcielecki" target="_blank" rel="noopener" class="text-charcoal-light hover:text-terracotta transition-colors text-xl">
-          <iconify-icon icon="simple-icons:x"></iconify-icon>
-        </a>
-      </div>
-    </div>
-
-    <div class="max-w-6xl mx-auto mt-8 pt-6 border-t border-charcoal/5 text-center">
-      <p class="text-sm text-charcoal-light/60">&copy; 2026 Maciej Cielecki. Built with intention.</p>
-    </div>
+  <footer class="py-6 px-6 text-center">
+    <p class="text-sm text-charcoal-light/60">&copy; 2026 Maciej Cielecki</p>
   </footer>
+  </div>
 
 </BaseLayout>
