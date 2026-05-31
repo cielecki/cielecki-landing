@@ -1,0 +1,77 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { useTranslations, otherLang, languageNames, type Lang } from '../i18n/ui';
+
+interface Crumb {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  lang: Lang;
+  title: string;
+  /** URL of the equivalent page in the other language (for the switcher). */
+  altLangUrl: string;
+  /** Breadcrumb trail after the AuDHD root (root is prepended automatically). */
+  crumbs?: Crumb[];
+}
+
+const { lang, title, altLangUrl, crumbs = [] } = Astro.props;
+const t = useTranslations(lang);
+const other = otherLang(lang);
+const home = `/audhd/${lang}/`;
+const trail: Crumb[] = [{ label: t('breadcrumb.home'), href: home }, ...crumbs];
+---
+
+<BaseLayout title={`${title} · ${t('site.title')}`} description={t('site.description')} lang={lang}>
+  <div class="min-h-screen flex flex-col bg-cream text-charcoal">
+    <!-- decorative blobs -->
+    <div class="pointer-events-none fixed top-24 -right-40 w-[28rem] h-[28rem] bg-terracotta/10 blob blur-3xl"></div>
+    <div class="pointer-events-none fixed -bottom-32 -left-40 w-96 h-96 bg-sage/15 blob blur-3xl"></div>
+
+    <header class="relative z-10 border-b border-charcoal/8">
+      <div class="max-w-4xl mx-auto w-full px-6 py-5 flex items-center justify-between gap-4">
+        <a href={home} class="group flex items-center gap-3">
+          <span class="iconify text-terracotta-dark text-2xl" data-icon="mdi:brain"></span>
+          <span class="font-serif text-xl font-bold text-charcoal-dark group-hover:text-terracotta-dark transition-colors">
+            {t('site.title')}
+          </span>
+        </a>
+        <a
+          href={altLangUrl}
+          class="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-charcoal/10 bg-white/60 backdrop-blur text-sm font-medium text-charcoal-light hover:bg-white hover:text-terracotta-dark transition-all"
+          title={languageNames[other]}
+        >
+          <span class="iconify text-base" data-icon="mdi:translate"></span>
+          {other.toUpperCase()}
+        </a>
+      </div>
+    </header>
+
+    <!-- breadcrumb -->
+    <nav class="relative z-10 max-w-4xl mx-auto w-full px-6 pt-6" aria-label="breadcrumb">
+      <ol class="flex flex-wrap items-center gap-1.5 text-sm text-charcoal-light/70">
+        {trail.map((c, i) => (
+          <li class="flex items-center gap-1.5">
+            {i > 0 && <span class="iconify text-charcoal-light/40" data-icon="mdi:chevron-right"></span>}
+            {c.href && i < trail.length - 1 ? (
+              <a href={c.href} class="hover:text-terracotta-dark transition-colors">{c.label}</a>
+            ) : (
+              <span class="text-charcoal-light">{c.label}</span>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+
+    <main class="relative z-10 flex-1 max-w-4xl mx-auto w-full px-6 py-8">
+      <slot />
+    </main>
+
+    <footer class="relative z-10 border-t border-charcoal/8 mt-12">
+      <div class="max-w-4xl mx-auto w-full px-6 py-6 text-sm text-charcoal-light/70 leading-relaxed">
+        {t('footer.disclaimer')}
+      </div>
+    </footer>
+  </div>
+</BaseLayout>

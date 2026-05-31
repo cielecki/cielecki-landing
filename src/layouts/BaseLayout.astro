@@ -2,13 +2,14 @@
 interface Props {
   title: string;
   description?: string;
+  lang?: string;
 }
 
-const { title, description = "Builder. Founded 10Clouds and grew it from zero to 200 people. Now Executive Chairman & Chief AI Officer." } = Astro.props;
+const { title, description = "Builder. Founded 10Clouds and grew it from zero to 200 people. Now Executive Chairman & Chief AI Officer.", lang = "en" } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang={lang}>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import AudhdLayout from '../../../layouts/AudhdLayout.astro';
+import { useTranslations, otherLang, languages, type Lang } from '../../../i18n/ui';
+
+export async function getStaticPaths() {
+  return languages.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Lang;
+const t = useTranslations(lang);
+
+const challenges = (await getCollection('challenges', (e) => e.data.lang === lang)).sort(
+  (a, b) => a.data.order - b.data.order
+);
+const methods = await getCollection('methods', (e) => e.data.lang === lang);
+
+const slugOf = (id: string) => id.split('/').pop()!;
+const countFor = (challengeSlug: string) =>
+  methods.filter((m) => m.data.challenge === challengeSlug).length;
+
+const altLangUrl = `/audhd/${otherLang(lang)}/`;
+---
+
+<AudhdLayout lang={lang} title={t('nav.challenges')} altLangUrl={altLangUrl}>
+  <header class="mb-10 reveal">
+    <h1 class="font-serif text-4xl sm:text-5xl font-bold text-charcoal-dark leading-tight mb-4">
+      {t('site.title')}
+    </h1>
+    <p class="text-lg text-charcoal-light leading-relaxed max-w-2xl">{t('home.intro')}</p>
+  </header>
+
+  <ul class="grid gap-3 sm:grid-cols-2">
+    {
+      challenges.map((c) => {
+        const slug = slugOf(c.id);
+        const count = countFor(slug);
+        return (
+          <li class="reveal">
+            <a
+              href={`/audhd/${lang}/${slug}/`}
+              class="group flex flex-col h-full gap-3 p-5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-2xl hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all"
+            >
+              <div class="flex items-center gap-3">
+                <span class="flex-shrink-0 w-11 h-11 flex items-center justify-center bg-terracotta/10 rounded-xl text-terracotta-dark">
+                  <span class="iconify text-2xl" data-icon={c.data.icon} />
+                </span>
+                <h2 class="font-serif text-lg font-semibold text-charcoal-dark leading-snug group-hover:text-terracotta-dark transition-colors">
+                  {c.data.title}
+                </h2>
+              </div>
+              <p class="text-sm text-charcoal-light leading-relaxed flex-1">{c.data.summary}</p>
+              <div class="flex items-center justify-between text-xs text-charcoal-light/60 pt-1">
+                <span>
+                  {count > 0 ? `${count} ${t('challenge.methodCount')}` : t('challenge.empty')}
+                </span>
+                <span class="iconify text-base text-charcoal-light/40 group-hover:text-terracotta group-hover:translate-x-0.5 transition-all" data-icon="mdi:arrow-right" />
+              </div>
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+</AudhdLayout>
