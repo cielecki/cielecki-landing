@@ -76,21 +76,23 @@ const profiles = [
       </div>
     </div>
 
-    <!-- breadcrumb -->
-    <nav class="relative z-10 max-w-4xl mx-auto w-full px-6 pt-6" aria-label="breadcrumb">
-      <ol class="flex flex-wrap items-center gap-1.5 text-sm text-charcoal-light/70">
-        {trail.map((c, i) => (
-          <li class="flex items-center gap-1.5">
-            {i > 0 && <span class="iconify text-charcoal-light/40" data-icon="mdi:chevron-right"></span>}
-            {c.href && i < trail.length - 1 ? (
-              <a href={c.href} class="hover:text-terracotta-dark transition-colors">{c.label}</a>
-            ) : (
-              <span class="text-charcoal-light">{c.label}</span>
-            )}
-          </li>
-        ))}
-      </ol>
-    </nav>
+    <!-- breadcrumb — only on sub-pages; on the index it would just repeat the title -->
+    {crumbs.length > 0 && (
+      <nav class="relative z-10 max-w-4xl mx-auto w-full px-6 pt-6" aria-label="breadcrumb">
+        <ol class="flex flex-wrap items-center gap-1.5 text-sm text-charcoal-light/70">
+          {trail.map((c, i) => (
+            <li class="flex items-center gap-1.5">
+              {i > 0 && <span class="iconify text-charcoal-light/40" data-icon="mdi:chevron-right"></span>}
+              {c.href && i < trail.length - 1 ? (
+                <a href={c.href} class="hover:text-terracotta-dark transition-colors">{c.label}</a>
+              ) : (
+                <span class="text-charcoal-light">{c.label}</span>
+              )}
+            </li>
+          ))}
+        </ol>
+      </nav>
+    )}
 
     <main class="relative z-10 flex-1 max-w-4xl mx-auto w-full px-6 py-8">
       <p id="ad-filter-notice" hidden class="mb-5 text-sm text-charcoal-light/70"></p>

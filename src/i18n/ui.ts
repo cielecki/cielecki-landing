@@ -10,9 +10,9 @@ export const languageNames: Record<Lang, string> = {
 export const ui = {
   pl: {
     'site.title': 'Neuro Toolkit',
-    'site.tagline': 'Narzędziownik dla mózgu z ADHD i autyzmem — sprawdzone sposoby na codzienne wyzwania.',
+    'site.tagline': 'Narzędziownik dla mózgu z ADHD, autyzmem lub oboma — sprawdzone sposoby na codzienne wyzwania.',
     'site.description':
-      'Neuro Toolkit — narzędziownik dla mózgu z ADHD i autyzmem (też AuDHD): od wyzwania do konkretnych sposobów radzenia sobie, lifehacków i materiałów.',
+      'Neuro Toolkit — narzędziownik dla mózgu z ADHD, autyzmem lub oboma (AuDHD): od wyzwania do konkretnych sposobów radzenia sobie, lifehacków i materiałów.',
     'nav.challenges': 'Wyzwania',
     'nav.allChallenges': 'Wszystkie wyzwania',
     'home.intro':
@@ -48,9 +48,9 @@ export const ui = {
   },
   en: {
     'site.title': 'Neuro Toolkit',
-    'site.tagline': 'A toolkit for ADHD & autistic brains — field-tested ways for everyday challenges.',
+    'site.tagline': 'A toolkit for brains with ADHD, autism, or both — field-tested ways for everyday challenges.',
     'site.description':
-      'Neuro Toolkit — for ADHD and autistic brains (AuDHD too): from a challenge to concrete coping methods, lifehacks and resources.',
+      'Neuro Toolkit — for brains with ADHD, autism, or both (AuDHD): from a challenge to concrete coping methods, lifehacks and resources.',
     'nav.challenges': 'Challenges',
     'nav.allChallenges': 'All challenges',
     'home.intro':
