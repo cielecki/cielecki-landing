@@ -5,6 +5,11 @@
   "summary": "Zatyczki to loteria dopasowania — sprawdź zestaw próbny, zanim wydasz na droższe.",
   "order": 2,
   "lang": "pl",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [],
   "resources": [
     {
       "title": "Świat Zatyczek — test box 17 par",

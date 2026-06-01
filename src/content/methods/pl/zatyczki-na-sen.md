@@ -5,6 +5,11 @@
   "summary": "Na zasypianie sprawdzają się inne zatyczki niż na dzień — tanie woskowe lub piankowe.",
   "order": 3,
   "lang": "pl",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [],
   "resources": []
 }
 ---

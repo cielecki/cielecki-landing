@@ -5,6 +5,20 @@
   "summary": "Filter the world instead of cutting it off — different plugs/headphones for different situations.",
   "order": 1,
   "lang": "en",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [
+    {
+      "profile": "adhd",
+      "note": "Filter, but don't cut off entirely — too much silence gets boring and breaks flow."
+    },
+    {
+      "profile": "autism",
+      "note": "The goal is cutting input to the minimum — full silence is relief, not loss."
+    }
+  ],
   "resources": [
     {
       "title": "Loop Earplugs",

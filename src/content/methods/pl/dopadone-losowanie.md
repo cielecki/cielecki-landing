@@ -5,6 +5,16 @@
   "summary": "Aplikacja losowo serwuje zadania ważone priorytetem — nawet nudne w końcu wypadają.",
   "order": 1,
   "lang": "pl",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [
+    {
+      "profile": "audhd",
+      "note": "Losowość karmi głód nowości (ADHD) wewnątrz stałej ramy (autyzm) — zamiast zmuszać Cię do wyboru jednego."
+    }
+  ],
   "resources": [
     {
       "title": "DopaDone — losownik zadań dla ADHD (macOS)",

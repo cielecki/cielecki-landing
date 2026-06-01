@@ -5,6 +5,11 @@
   "summary": "Nie kończ — tylko sklaruj i zdefiniuj następny mały krok, potem zostaw.",
   "order": 2,
   "lang": "pl",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [],
   "resources": []
 }
 ---

@@ -5,6 +5,10 @@
   "summary": "A physical gadget and blocks reduce phone-reaching more reliably than resolutions.",
   "order": 2,
   "lang": "en",
+  "conditions": [
+    "adhd"
+  ],
+  "lenses": [],
   "resources": [
     {
       "title": "Scrolly",

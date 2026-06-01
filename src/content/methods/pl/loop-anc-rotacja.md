@@ -5,6 +5,20 @@
   "summary": "Filtruj świat zamiast go odcinać — różne zatyczki/słuchawki do różnych sytuacji.",
   "order": 1,
   "lang": "pl",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [
+    {
+      "profile": "adhd",
+      "note": "Filtruj, ale nie odcinaj się całkiem — zbyt duża cisza bywa nudna i wybija z flow."
+    },
+    {
+      "profile": "autism",
+      "note": "Cel to redukcja inputu do minimum — pełne wyciszenie to ulga, nie strata."
+    }
+  ],
   "resources": [
     {
       "title": "Loop Earplugs",

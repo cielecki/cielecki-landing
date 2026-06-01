@@ -5,6 +5,11 @@
   "summary": "Community-tested adult diagnosis routes — who diagnoses, and whose diagnosis gets accepted downstream.",
   "order": 2,
   "lang": "en",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [],
   "resources": [
     {
       "title": "Pracownia PIR — Paulina Roszkowska",

@@ -5,6 +5,11 @@
   "summary": "Don't finish it — just clarify and define the next small step, then leave it.",
   "order": 2,
   "lang": "en",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [],
   "resources": []
 }
 ---

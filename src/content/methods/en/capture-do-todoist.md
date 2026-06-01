@@ -5,6 +5,16 @@
   "summary": "Every thought and link goes straight to your task inbox — you never dive into a rabbit hole on the fly.",
   "order": 1,
   "lang": "en",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [
+    {
+      "profile": "audhd",
+      "note": "The system gives ADHD the novelty of one random task, and autism a predictable, stable routine container — at once."
+    }
+  ],
   "resources": [
     {
       "title": "DopaDone — losownik zadań dla ADHD (macOS)",

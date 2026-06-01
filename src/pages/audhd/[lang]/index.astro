@@ -36,7 +36,7 @@ const altLangUrl = `/audhd/${otherLang(lang)}/`;
         const slug = slugOf(c.id);
         const count = countFor(slug);
         return (
-          <li class="reveal">
+          <li class="reveal" data-conditions={c.data.conditions.join(' ')}>
             <a
               href={`/audhd/${lang}/${slug}/`}
               class="group flex flex-col h-full gap-3 p-5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-2xl hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all"

@@ -21,6 +21,13 @@ const t = useTranslations(lang);
 const other = otherLang(lang);
 const home = `/audhd/${lang}/`;
 const trail: Crumb[] = [{ label: t('breadcrumb.home'), href: home }, ...crumbs];
+
+const profiles = [
+  { id: 'all', label: t('filter.all') },
+  { id: 'adhd', label: t('filter.adhd') },
+  { id: 'autism', label: t('filter.autism') },
+  { id: 'audhd', label: t('filter.audhd') },
+];
 ---
 
 <BaseLayout title={`${title} · ${t('site.title')}`} description={t('site.description')} lang={lang}>
@@ -48,6 +55,28 @@ const trail: Crumb[] = [{ label: t('breadcrumb.home'), href: home }, ...crumbs];
       </div>
     </header>
 
+    <!-- profile selector (client-side filter; default = show all) -->
+    <div
+      id="ad-profiles"
+      class="relative z-10 border-b border-charcoal/8 bg-cream-dark/40"
+      data-hidden-label={t('filter.hidden')}
+      data-showall-label={t('filter.showAll')}
+    >
+      <div class="max-w-4xl mx-auto w-full px-6 py-2.5 flex flex-wrap items-center gap-2">
+        <span class="text-xs font-medium text-charcoal-light/70 mr-1">{t('filter.label')}</span>
+        {profiles.map((p) => (
+          <button
+            type="button"
+            data-profile={p.id}
+            aria-pressed={p.id === 'all' ? 'true' : 'false'}
+            class="ad-chip px-3 py-1 rounded-full text-sm border border-charcoal/10 bg-white/60 text-charcoal-light hover:bg-white transition-all"
+          >
+            {p.label}
+          </button>
+        ))}
+      </div>
+    </div>
+
     <!-- breadcrumb -->
     <nav class="relative z-10 max-w-4xl mx-auto w-full px-6 pt-6" aria-label="breadcrumb">
       <ol class="flex flex-wrap items-center gap-1.5 text-sm text-charcoal-light/70">
@@ -65,6 +94,7 @@ const trail: Crumb[] = [{ label: t('breadcrumb.home'), href: home }, ...crumbs];
     </nav>
 
     <main class="relative z-10 flex-1 max-w-4xl mx-auto w-full px-6 py-8">
+      <p id="ad-filter-notice" hidden class="mb-5 text-sm text-charcoal-light/70"></p>
       <slot />
     </main>
 
@@ -75,3 +105,95 @@ const trail: Crumb[] = [{ label: t('breadcrumb.home'), href: home }, ...crumbs];
     </footer>
   </div>
 </BaseLayout>
+
+<style is:global>
+  .ad-hidden { display: none !important; }
+  .ad-chip-active {
+    background: #36454F;
+    color: #F5F3EE;
+    border-color: #36454F;
+  }
+  .ad-emph { box-shadow: 0 0 0 2px rgba(201, 126, 93, 0.55); }
+  [data-lens] { transition: opacity 0.2s ease, box-shadow 0.2s ease; }
+  .ad-lens-dim { opacity: 0.45; }
+  .ad-lens-active { box-shadow: 0 0 0 2px rgba(139, 157, 131, 0.6); }
+</style>
+
+<script>
+  const PROFILES = ['all', 'adhd', 'autism', 'audhd'];
+
+  function applyProfile(profile: string) {
+    const root = document.getElementById('ad-profiles');
+    if (!root) return;
+
+    root.querySelectorAll('.ad-chip').forEach((c) => {
+      const on = c.getAttribute('data-profile') === profile;
+      c.setAttribute('aria-pressed', on ? 'true' : 'false');
+      c.classList.toggle('ad-chip-active', on);
+    });
+
+    let hidden = 0;
+    document.querySelectorAll('[data-conditions]').forEach((el) => {
+      const conds = (el.getAttribute('data-conditions') || '').split(' ').filter(Boolean);
+      const show = profile === 'all' || profile === 'audhd' || conds.includes(profile);
+      el.classList.toggle('ad-hidden', !show);
+      if (!show) hidden++;
+      el.classList.toggle('ad-emph', profile === 'audhd' && conds.includes('audhd'));
+    });
+
+    const notice = document.getElementById('ad-filter-notice');
+    if (notice) {
+      if (hidden > 0) {
+        const hl = root.getAttribute('data-hidden-label') || 'hidden';
+        const sa = root.getAttribute('data-showall-label') || 'show all';
+        notice.innerHTML =
+          hidden + ' ' + hl +
+          ' · <button type="button" id="ad-showall" class="underline hover:text-terracotta-dark">' + sa + '</button>';
+        (notice as HTMLElement).hidden = false;
+        const btn = document.getElementById('ad-showall');
+        if (btn) btn.addEventListener('click', () => setProfile('all'));
+      } else {
+        (notice as HTMLElement).hidden = true;
+        notice.textContent = '';
+      }
+    }
+
+    document.querySelectorAll('[data-lens]').forEach((el) => {
+      const lp = el.getAttribute('data-lens');
+      if (profile === 'all') {
+        el.classList.remove('ad-lens-active', 'ad-lens-dim');
+      } else {
+        const active = lp === profile;
+        el.classList.toggle('ad-lens-active', active);
+        el.classList.toggle('ad-lens-dim', !active);
+      }
+    });
+  }
+
+  function setProfile(profile: string) {
+    try { localStorage.setItem('audhd-profile', profile); } catch (e) {}
+    applyProfile(profile);
+  }
+
+  function initProfile() {
+    let profile = 'all';
+    const q = new URL(window.location.href).searchParams.get('profile');
+    if (q && PROFILES.includes(q)) {
+      profile = q;
+    } else {
+      try {
+        const saved = localStorage.getItem('audhd-profile');
+        if (saved && PROFILES.includes(saved)) profile = saved;
+      } catch (e) {}
+    }
+    const root = document.getElementById('ad-profiles');
+    if (root) {
+      root.querySelectorAll('.ad-chip').forEach((c) => {
+        c.addEventListener('click', () => setProfile(c.getAttribute('data-profile') || 'all'));
+      });
+    }
+    applyProfile(profile);
+  }
+
+  initProfile();
+</script>

@@ -5,6 +5,11 @@
   "summary": "Różne role robią różne rzeczy — wiedz, po co idziesz do kogo.",
   "order": 3,
   "lang": "pl",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [],
   "resources": []
 }
 ---

@@ -5,6 +5,24 @@
   "summary": "Gdy samo »muszę« wywołuje opór — przeramuj zadanie i zdejmij poczucie przymusu.",
   "order": 3,
   "lang": "pl",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [
+    {
+      "profile": "adhd",
+      "note": "Opór to często bariera inicjacji/EF — pomaga rozbicie na mały, konkretny next step."
+    },
+    {
+      "profile": "autism",
+      "note": "Opór może być PDA — reakcja na zagrożenie autonomii (fight/flight). Wtedy liczy się poczucie wyboru, nie technika produktywności."
+    },
+    {
+      "profile": "audhd",
+      "note": "U AuDHD oba mechanizmy działają naraz — najpierw zdejmij poczucie przymusu, potem zmniejsz próg wejścia."
+    }
+  ],
   "resources": [
     {
       "title": "Demand Avoidance in Autistic Adults — Why It Happens and What Helps",

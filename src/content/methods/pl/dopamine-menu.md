@@ -5,6 +5,10 @@
   "summary": "Lista zaplanowanych źródeł zdrowej dopaminy, po którą sięgasz zamiast scrolla.",
   "order": 3,
   "lang": "pl",
+  "conditions": [
+    "adhd"
+  ],
+  "lenses": [],
   "resources": []
 }
 ---

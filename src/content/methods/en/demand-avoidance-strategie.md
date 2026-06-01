@@ -5,6 +5,24 @@
   "summary": "When the mere 'I must' triggers resistance — reframe the task and remove the sense of compulsion.",
   "order": 3,
   "lang": "en",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [
+    {
+      "profile": "adhd",
+      "note": "Resistance is often an initiation/EF barrier — breaking it into a small, concrete next step helps."
+    },
+    {
+      "profile": "autism",
+      "note": "Resistance can be PDA — a response to a threat to autonomy (fight/flight). Then a sense of choice matters more than a productivity technique."
+    },
+    {
+      "profile": "audhd",
+      "note": "In AuDHD both mechanisms run at once — first remove the sense of compulsion, then lower the barrier to entry."
+    }
+  ],
   "resources": [
     {
       "title": "Demand Avoidance in Autistic Adults — Why It Happens and What Helps",

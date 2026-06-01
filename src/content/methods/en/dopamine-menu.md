@@ -5,6 +5,10 @@
   "summary": "A pre-planned list of healthy dopamine sources you reach for instead of scrolling.",
   "order": 3,
   "lang": "en",
+  "conditions": [
+    "adhd"
+  ],
+  "lenses": [],
   "resources": []
 }
 ---

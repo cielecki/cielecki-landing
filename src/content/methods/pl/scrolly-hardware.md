@@ -5,6 +5,10 @@
   "summary": "Fizyczny gadżet i blokady zmniejszają sięganie po telefon skuteczniej niż postanowienia.",
   "order": 2,
   "lang": "pl",
+  "conditions": [
+    "adhd"
+  ],
+  "lenses": [],
   "resources": [
     {
       "title": "Scrolly",

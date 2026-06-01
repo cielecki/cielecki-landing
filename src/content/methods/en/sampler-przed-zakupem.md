@@ -5,6 +5,11 @@
   "summary": "Earplug fit is a lottery — try a sampler set before spending on the pricey ones.",
   "order": 2,
   "lang": "en",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [],
   "resources": [
     {
       "title": "Świat Zatyczek — test box 17 par",

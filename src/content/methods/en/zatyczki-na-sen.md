@@ -5,6 +5,11 @@
   "summary": "Different plugs work for falling asleep than for daytime — cheap wax or foam ones.",
   "order": 3,
   "lang": "en",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [],
   "resources": []
 }
 ---

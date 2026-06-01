@@ -4,7 +4,11 @@
   "summary": "Emotions hit at full force and rejection can physically hurt (RSD).",
   "icon": "mdi:heart-pulse",
   "order": 5,
-  "lang": "en"
+  "lang": "en",
+  "conditions": [
+    "adhd",
+    "autism"
+  ]
 }
 ---
 

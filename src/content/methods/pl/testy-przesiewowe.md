@@ -5,6 +5,11 @@
   "summary": "Self-testy (ASRS, AQ) to pierwszy sygnał — nie diagnoza, ale dobry punkt wyjścia do rozmowy.",
   "order": 1,
   "lang": "pl",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [],
   "resources": [
     {
       "title": "Co chciałbym wcześniej wiedzieć o ADHD",

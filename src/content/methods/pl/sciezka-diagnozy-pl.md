@@ -5,6 +5,11 @@
   "summary": "Sprawdzone w społeczności trasy diagnozy dla dorosłych — kto diagnozuje i czyją diagnozę akceptują dalej.",
   "order": 2,
   "lang": "pl",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [],
   "resources": [
     {
       "title": "Pracownia PIR — Paulina Roszkowska",

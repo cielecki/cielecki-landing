@@ -5,6 +5,11 @@
   "summary": "Different roles do different things — know what you're going to whom for.",
   "order": 3,
   "lang": "en",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [],
   "resources": []
 }
 ---

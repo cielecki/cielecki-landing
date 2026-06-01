@@ -5,6 +5,16 @@
   "summary": "Każda myśl i link idzie od razu do skrzynki zadań — nigdy nie wchodzisz w rabbit hole w locie.",
   "order": 1,
   "lang": "pl",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [
+    {
+      "profile": "audhd",
+      "note": "System daje ADHD nowość pojedynczego losowego zadania, a autyzmowi przewidywalny, stały kontener rutyny — naraz."
+    }
+  ],
   "resources": [
     {
       "title": "DopaDone — losownik zadań dla ADHD (macOS)",

@@ -5,6 +5,16 @@
   "summary": "An app serves tasks at random, weighted by priority — even boring ones eventually come up.",
   "order": 1,
   "lang": "en",
+  "conditions": [
+    "adhd",
+    "autism"
+  ],
+  "lenses": [
+    {
+      "profile": "audhd",
+      "note": "Randomness feeds the novelty craving (ADHD) inside a fixed frame (autism) — instead of forcing you to pick one."
+    }
+  ],
   "resources": [
     {
       "title": "DopaDone — losownik zadań dla ADHD (macOS)",

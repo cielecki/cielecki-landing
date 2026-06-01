@@ -21,6 +21,11 @@ const resource = z.object({
 // A CHALLENGE — the top-level navigation unit. Slug is the filename; the same
 // slug exists in both the `pl/` and `en/` folders so locale-switching keeps you
 // on the equivalent page.
+// Which viewer profiles a piece of content is relevant to. This is a DITA-style
+// "profiling attribute": author once, filter per profile. `audhd` marks content
+// specific to the ADHD+autism INTERACTION (the push-pull), not just the union.
+const condition = z.enum(['adhd', 'autism', 'audhd']);
+
 const challenges = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/challenges' }),
   schema: z.object({
@@ -29,6 +34,7 @@ const challenges = defineCollection({
     icon: z.string().default('mdi:lightbulb-on-outline'),
     order: z.number().default(99),
     lang: z.enum(['pl', 'en']),
+    conditions: z.array(condition).default(['adhd', 'autism']),
   }),
 });
 
@@ -42,6 +48,13 @@ const methods = defineCollection({
     summary: z.string(),
     order: z.number().default(99),
     lang: z.enum(['pl', 'en']),
+    conditions: z.array(condition).default(['adhd', 'autism']),
+    // Inline "lenses": short profile-specific framing shown WITHIN one method,
+    // for challenges where the same surface behaviour has an opposite mechanism
+    // per profile. Single-source-of-truth — never fork the method into 3 files.
+    lenses: z
+      .array(z.object({ profile: condition, note: z.string() }))
+      .default([]),
     resources: z.array(resource).default([]),
   }),
 });

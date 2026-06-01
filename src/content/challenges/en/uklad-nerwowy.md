@@ -4,7 +4,11 @@
   "summary": "Regulating arousal, meltdowns, shutdowns and autistic/ADHD burnout.",
   "icon": "mdi:meditation",
   "order": 6,
-  "lang": "en"
+  "lang": "en",
+  "conditions": [
+    "adhd",
+    "autism"
+  ]
 }
 ---
 
