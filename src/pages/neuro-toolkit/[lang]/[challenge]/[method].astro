@@ -31,7 +31,7 @@ const challenges = await getCollection('challenges', (c) => c.data.lang === lang
 const parent = challenges.find((c) => c.id.split('/').pop() === challengeSlug);
 const parentTitle = parent?.data.title ?? challengeSlug;
 
-const altLangUrl = `/audhd/${otherLang(lang)}/${challengeSlug}/${methodSlug}/`;
+const altLangUrl = `/neuro-toolkit/${otherLang(lang)}/${challengeSlug}/${methodSlug}/`;
 
 const resourceIcon: Record<string, string> = {
   video: 'mdi:play-circle-outline',
@@ -61,7 +61,7 @@ const profileIcon: Record<string, string> = {
   title={entry.data.title}
   altLangUrl={altLangUrl}
   crumbs={[
-    { label: parentTitle, href: `/audhd/${lang}/${challengeSlug}/` },
+    { label: parentTitle, href: `/neuro-toolkit/${lang}/${challengeSlug}/` },
     { label: entry.data.title },
   ]}
 >

@@ -28,7 +28,7 @@ const methods = (
 ).sort((a, b) => a.data.order - b.data.order);
 
 const slugOf = (id: string) => id.split('/').pop()!;
-const altLangUrl = `/audhd/${otherLang(lang)}/${challengeSlug}/`;
+const altLangUrl = `/neuro-toolkit/${otherLang(lang)}/${challengeSlug}/`;
 ---
 
 <AudhdLayout
@@ -65,7 +65,7 @@ const altLangUrl = `/audhd/${otherLang(lang)}/${challengeSlug}/`;
           return (
             <li class="reveal" data-conditions={m.data.conditions.join(' ')}>
               <a
-                href={`/audhd/${lang}/${challengeSlug}/${slug}/`}
+                href={`/neuro-toolkit/${lang}/${challengeSlug}/${slug}/`}
                 class="group flex items-start gap-4 p-5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-2xl hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all"
               >
                 <div class="flex-1 min-w-0">

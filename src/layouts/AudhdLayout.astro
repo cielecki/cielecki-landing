@@ -19,7 +19,7 @@ interface Props {
 const { lang, title, altLangUrl, crumbs = [] } = Astro.props;
 const t = useTranslations(lang);
 const other = otherLang(lang);
-const home = `/audhd/${lang}/`;
+const home = `/neuro-toolkit/${lang}/`;
 const trail: Crumb[] = [{ label: t('breadcrumb.home'), href: home }, ...crumbs];
 
 const profiles = [

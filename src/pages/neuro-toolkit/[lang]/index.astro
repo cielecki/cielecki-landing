@@ -19,15 +19,16 @@ const slugOf = (id: string) => id.split('/').pop()!;
 const countFor = (challengeSlug: string) =>
   methods.filter((m) => m.data.challenge === challengeSlug).length;
 
-const altLangUrl = `/audhd/${otherLang(lang)}/`;
+const altLangUrl = `/neuro-toolkit/${otherLang(lang)}/`;
 ---
 
 <AudhdLayout lang={lang} title={t('nav.challenges')} altLangUrl={altLangUrl}>
   <header class="mb-10 reveal">
-    <h1 class="font-serif text-4xl sm:text-5xl font-bold text-charcoal-dark leading-tight mb-4">
+    <h1 class="font-serif text-4xl sm:text-5xl font-bold text-charcoal-dark leading-tight mb-3">
       {t('site.title')}
     </h1>
-    <p class="text-lg text-charcoal-light leading-relaxed max-w-2xl">{t('home.intro')}</p>
+    <p class="text-lg sm:text-xl text-charcoal leading-relaxed max-w-2xl mb-3">{t('site.tagline')}</p>
+    <p class="text-base text-charcoal-light/80 leading-relaxed max-w-2xl">{t('home.intro')}</p>
   </header>
 
   <ul class="grid gap-3 sm:grid-cols-2">
@@ -38,7 +39,7 @@ const altLangUrl = `/audhd/${otherLang(lang)}/`;
         return (
           <li class="reveal" data-conditions={c.data.conditions.join(' ')}>
             <a
-              href={`/audhd/${lang}/${slug}/`}
+              href={`/neuro-toolkit/${lang}/${slug}/`}
               class="group flex flex-col h-full gap-3 p-5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-2xl hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all"
             >
               <div class="flex items-center gap-3">

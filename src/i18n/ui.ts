@@ -9,10 +9,10 @@ export const languageNames: Record<Lang, string> = {
 
 export const ui = {
   pl: {
-    'site.title': 'Baza wiedzy AuDHD',
-    'site.tagline': 'Wyzwania ADHD i spektrum autyzmu → sprawdzone metody radzenia sobie.',
+    'site.title': 'Neuro Toolkit',
+    'site.tagline': 'Narzędziownik dla mózgu z ADHD i autyzmem — sprawdzone sposoby na codzienne wyzwania.',
     'site.description':
-      'Otwarta baza wiedzy o ADHD i autyzmie (AuDHD): zaczynasz od wyzwania, schodzisz do konkretnych metod radzenia sobie i materiałów.',
+      'Neuro Toolkit — narzędziownik dla mózgu z ADHD i autyzmem (też AuDHD): od wyzwania do konkretnych sposobów radzenia sobie, lifehacków i materiałów.',
     'nav.challenges': 'Wyzwania',
     'nav.allChallenges': 'Wszystkie wyzwania',
     'home.intro':
@@ -34,7 +34,7 @@ export const ui = {
     'profile.adhd': 'ADHD',
     'profile.autism': 'Autyzm',
     'profile.audhd': 'AuDHD',
-    'breadcrumb.home': 'AuDHD',
+    'breadcrumb.home': 'Neuro Toolkit',
     'footer.disclaimer':
       'To nie jest porada medyczna. Baza tworzona przez społeczność osób z ADHD/autyzmem — zawsze konsultuj się ze specjalistą.',
     'resource.video': 'Film',
@@ -47,10 +47,10 @@ export const ui = {
     'resource.specialist': 'Specjalista',
   },
   en: {
-    'site.title': 'AuDHD knowledge base',
-    'site.tagline': 'ADHD & autism-spectrum challenges → field-tested coping methods.',
+    'site.title': 'Neuro Toolkit',
+    'site.tagline': 'A toolkit for ADHD & autistic brains — field-tested ways for everyday challenges.',
     'site.description':
-      'An open knowledge base on ADHD and autism (AuDHD): start from a challenge, drill down into concrete coping methods and resources.',
+      'Neuro Toolkit — for ADHD and autistic brains (AuDHD too): from a challenge to concrete coping methods, lifehacks and resources.',
     'nav.challenges': 'Challenges',
     'nav.allChallenges': 'All challenges',
     'home.intro':
@@ -72,7 +72,7 @@ export const ui = {
     'profile.adhd': 'ADHD',
     'profile.autism': 'Autism',
     'profile.audhd': 'AuDHD',
-    'breadcrumb.home': 'AuDHD',
+    'breadcrumb.home': 'Neuro Toolkit',
     'footer.disclaimer':
       'This is not medical advice. Built by a community of people with ADHD/autism — always consult a professional.',
     'resource.video': 'Video',
