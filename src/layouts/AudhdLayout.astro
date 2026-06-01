@@ -23,7 +23,6 @@ const home = `/audhd/${lang}/`;
 const trail: Crumb[] = [{ label: t('breadcrumb.home'), href: home }, ...crumbs];
 
 const profiles = [
-  { id: 'all', label: t('filter.all') },
   { id: 'adhd', label: t('filter.adhd') },
   { id: 'autism', label: t('filter.autism') },
   { id: 'audhd', label: t('filter.audhd') },
@@ -68,7 +67,7 @@ const profiles = [
           <button
             type="button"
             data-profile={p.id}
-            aria-pressed={p.id === 'all' ? 'true' : 'false'}
+            aria-pressed={p.id === 'audhd' ? 'true' : 'false'}
             class="ad-chip px-3 py-1 rounded-full text-sm border border-charcoal/10 bg-white/60 text-charcoal-light hover:bg-white transition-all"
           >
             {p.label}
@@ -120,11 +119,18 @@ const profiles = [
 </style>
 
 <script>
-  const PROFILES = ['all', 'adhd', 'autism', 'audhd'];
+  const PROFILES = ['adhd', 'autism', 'audhd'];
+
+  // A selected profile expands to the conditions it implies. AuDHD = both + the
+  // interaction, so it shows everything and treats every lens as relevant.
+  function impliedSet(profile: string): string[] {
+    return profile === 'audhd' ? ['adhd', 'autism', 'audhd'] : [profile];
+  }
 
   function applyProfile(profile: string) {
     const root = document.getElementById('ad-profiles');
     if (!root) return;
+    const set = impliedSet(profile);
 
     root.querySelectorAll('.ad-chip').forEach((c) => {
       const on = c.getAttribute('data-profile') === profile;
@@ -135,7 +141,7 @@ const profiles = [
     let hidden = 0;
     document.querySelectorAll('[data-conditions]').forEach((el) => {
       const conds = (el.getAttribute('data-conditions') || '').split(' ').filter(Boolean);
-      const show = profile === 'all' || profile === 'audhd' || conds.includes(profile);
+      const show = conds.some((c) => set.includes(c));
       el.classList.toggle('ad-hidden', !show);
       if (!show) hidden++;
       el.classList.toggle('ad-emph', profile === 'audhd' && conds.includes('audhd'));
@@ -151,7 +157,7 @@ const profiles = [
           ' · <button type="button" id="ad-showall" class="underline hover:text-terracotta-dark">' + sa + '</button>';
         (notice as HTMLElement).hidden = false;
         const btn = document.getElementById('ad-showall');
-        if (btn) btn.addEventListener('click', () => setProfile('all'));
+        if (btn) btn.addEventListener('click', () => setProfile('audhd'));
       } else {
         (notice as HTMLElement).hidden = true;
         notice.textContent = '';
@@ -160,13 +166,9 @@ const profiles = [
 
     document.querySelectorAll('[data-lens]').forEach((el) => {
       const lp = el.getAttribute('data-lens');
-      if (profile === 'all') {
-        el.classList.remove('ad-lens-active', 'ad-lens-dim');
-      } else {
-        const active = lp === profile;
-        el.classList.toggle('ad-lens-active', active);
-        el.classList.toggle('ad-lens-dim', !active);
-      }
+      const relevant = !!lp && set.includes(lp);
+      el.classList.toggle('ad-lens-active', relevant);
+      el.classList.toggle('ad-lens-dim', !relevant);
     });
   }
 
@@ -176,7 +178,7 @@ const profiles = [
   }
 
   function initProfile() {
-    let profile = 'all';
+    let profile = 'audhd';
     const q = new URL(window.location.href).searchParams.get('profile');
     if (q && PROFILES.includes(q)) {
       profile = q;
@@ -189,7 +191,7 @@ const profiles = [
     const root = document.getElementById('ad-profiles');
     if (root) {
       root.querySelectorAll('.ad-chip').forEach((c) => {
-        c.addEventListener('click', () => setProfile(c.getAttribute('data-profile') || 'all'));
+        c.addEventListener('click', () => setProfile(c.getAttribute('data-profile') || 'audhd'));
       });
     }
     applyProfile(profile);
