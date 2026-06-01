@@ -67,7 +67,7 @@ const profiles = [
           <button
             type="button"
             data-profile={p.id}
-            aria-pressed={p.id === 'audhd' ? 'true' : 'false'}
+            aria-pressed={p.id === 'adhd' ? 'true' : 'false'}
             class="ad-chip px-3 py-1 rounded-full text-sm border border-charcoal/10 bg-white/60 text-charcoal-light hover:bg-white transition-all"
           >
             {p.label}
@@ -180,7 +180,7 @@ const profiles = [
   }
 
   function initProfile() {
-    let profile = 'audhd';
+    let profile = 'adhd';
     const q = new URL(window.location.href).searchParams.get('profile');
     if (q && PROFILES.includes(q)) {
       profile = q;
