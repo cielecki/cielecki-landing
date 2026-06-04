@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Neuro Toolkit — warianty góry strony</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: '#F5F3EE', 'cream-dark': '#EBE8E1',
+            terracotta: { DEFAULT: '#C97E5D', dark: '#A8624A' },
+            sage: { DEFAULT: '#8B9D83', dark: '#6E8066' },
+            charcoal: { DEFAULT: '#36454F', light: '#4A5C68', dark: '#252F36' },
+            sand: '#D4C5A9',
+          },
+          fontFamily: {
+            serif: ['Newsreader', 'Georgia', 'serif'],
+            sans: ['Space Grotesk', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body { background: #E7E4DD; }
+    .frame { background: #F5F3EE; }
+  </style>
+</head>
+<body class="font-sans text-charcoal antialiased">
+  <div class="max-w-3xl mx-auto px-5 py-10">
+    <h1 class="font-serif text-3xl font-bold text-charcoal-dark mb-2">Neuro Toolkit — góra strony</h1>
+    <p class="text-charcoal-light mb-1">Trzy warianty na widoku <strong>podstrony</strong> (tam, gdzie jest breadcrumb — najwięcej „pięter").</p>
+    <p class="text-charcoal-light/70 text-sm mb-10">Patrz na liczbę poziomych „półek" nad tytułem i na to, jak wysoko wskakuje treść.</p>
+
+    <!-- ============ OBECNIE ============ -->
+    <div class="mb-12">
+      <div class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-2">Obecnie — 3 piętra (2 pasy z tłem/borderem + breadcrumb)</div>
+      <div class="frame rounded-xl border border-charcoal/10 overflow-hidden shadow-sm">
+        <!-- header band -->
+        <div class="border-b border-charcoal/8">
+          <div class="px-5 py-3.5 flex items-center justify-between">
+            <span class="flex items-center gap-2">
+              <span class="iconify text-terracotta-dark text-xl" data-icon="mdi:brain"></span>
+              <span class="font-serif text-lg font-bold text-charcoal-dark">Neuro Toolkit</span>
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg border border-charcoal/10 bg-white/60 text-xs font-medium text-charcoal-light">
+              <span class="iconify" data-icon="mdi:translate"></span> EN
+            </span>
+          </div>
+        </div>
+        <!-- filter band -->
+        <div class="border-b border-charcoal/8 bg-cream-dark/50">
+          <div class="px-5 py-2.5 flex items-center gap-2">
+            <span class="text-xs font-medium text-charcoal-light/70 mr-1">Dla kogo:</span>
+            <span class="px-3 py-1 rounded-full text-sm bg-charcoal text-cream">ADHD</span>
+            <span class="px-3 py-1 rounded-full text-sm border border-charcoal/10 bg-white/60 text-charcoal-light">Autyzm</span>
+            <span class="px-3 py-1 rounded-full text-sm border border-charcoal/10 bg-white/60 text-charcoal-light">AuDHD</span>
+          </div>
+        </div>
+        <!-- content -->
+        <div class="px-5 pt-5 pb-6">
+          <div class="flex items-center gap-1.5 text-sm text-charcoal-light/70 mb-5">
+            <span>Neuro Toolkit</span>
+            <span class="iconify text-charcoal-light/40" data-icon="mdi:chevron-right"></span>
+            <span class="text-charcoal-light">Przeciążenie sensoryczne</span>
+          </div>
+          <h2 class="font-serif text-2xl font-bold text-charcoal-dark mb-2">Przeciążenie sensoryczne</h2>
+          <p class="text-charcoal-light mb-5">Hałas, światło, tłum — bodźce kumulują się aż do napięcia całego ciała.</p>
+          <div class="p-4 bg-white/60 border border-charcoal/8 rounded-xl">
+            <div class="font-serif font-semibold text-charcoal-dark">Loop + ANC w rotacji</div>
+            <div class="text-sm text-charcoal-light/80 mt-0.5">Filtruj świat zamiast go odcinać.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ WARIANT A ============ -->
+    <div class="mb-12">
+      <div class="text-xs font-semibold uppercase tracking-wider text-terracotta-dark mb-2">Wariant A — filtr w nagłówku (segmented control) · 1 pas</div>
+      <div class="frame rounded-xl border border-charcoal/10 overflow-hidden shadow-sm">
+        <!-- single header band with segmented control -->
+        <div class="border-b border-charcoal/8">
+          <div class="px-5 py-3 flex items-center justify-between gap-3">
+            <span class="flex items-center gap-2 flex-shrink-0">
+              <span class="iconify text-terracotta-dark text-xl" data-icon="mdi:brain"></span>
+              <span class="font-serif text-lg font-bold text-charcoal-dark">Neuro Toolkit</span>
+            </span>
+            <span class="flex items-center gap-3">
+              <span class="hidden sm:inline text-xs font-medium text-charcoal-light/60">Dla kogo:</span>
+              <span class="inline-flex rounded-full border border-charcoal/15 overflow-hidden text-sm">
+                <span class="px-3 py-1 bg-charcoal text-cream">ADHD</span>
+                <span class="px-3 py-1 text-charcoal-light border-l border-charcoal/15">Autyzm</span>
+                <span class="px-3 py-1 text-charcoal-light border-l border-charcoal/15">AuDHD</span>
+              </span>
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg border border-charcoal/10 bg-white/60 text-xs font-medium text-charcoal-light flex-shrink-0">
+                <span class="iconify" data-icon="mdi:translate"></span> EN
+              </span>
+            </span>
+          </div>
+        </div>
+        <!-- content: light breadcrumb in-content -->
+        <div class="px-5 pt-5 pb-6">
+          <div class="flex items-center gap-1.5 text-xs text-charcoal-light/55 mb-4">
+            <span>Neuro Toolkit</span>
+            <span class="iconify" data-icon="mdi:chevron-right"></span>
+            <span>Przeciążenie sensoryczne</span>
+          </div>
+          <h2 class="font-serif text-2xl font-bold text-charcoal-dark mb-2">Przeciążenie sensoryczne</h2>
+          <p class="text-charcoal-light mb-5">Hałas, światło, tłum — bodźce kumulują się aż do napięcia całego ciała.</p>
+          <div class="p-4 bg-white/60 border border-charcoal/8 rounded-xl">
+            <div class="font-serif font-semibold text-charcoal-dark">Loop + ANC w rotacji</div>
+            <div class="text-sm text-charcoal-light/80 mt-0.5">Filtruj świat zamiast go odcinać.</div>
+          </div>
+        </div>
+      </div>
+      <p class="text-xs text-charcoal-light/60 mt-2">Mobile: marka + EN w 1. wierszu, segmented control zawija się pod spód — wciąż jeden blok, bez osobnej półki.</p>
+    </div>
+
+    <!-- ============ WARIANT B ============ -->
+    <div class="mb-12">
+      <div class="text-xs font-semibold uppercase tracking-wider text-sage-dark mb-2">Wariant B — filtr jako lekki 2. wiersz nagłówka (bez tła/bordera)</div>
+      <div class="frame rounded-xl border border-charcoal/10 overflow-hidden shadow-sm">
+        <!-- header band: two rows, no inner band for filter -->
+        <div class="border-b border-charcoal/8">
+          <div class="px-5 pt-3 flex items-center justify-between">
+            <span class="flex items-center gap-2">
+              <span class="iconify text-terracotta-dark text-xl" data-icon="mdi:brain"></span>
+              <span class="font-serif text-lg font-bold text-charcoal-dark">Neuro Toolkit</span>
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg border border-charcoal/10 bg-white/60 text-xs font-medium text-charcoal-light">
+              <span class="iconify" data-icon="mdi:translate"></span> EN
+            </span>
+          </div>
+          <div class="px-5 pt-2 pb-3 flex items-center gap-2">
+            <span class="text-xs font-medium text-charcoal-light/60 mr-1">Dla kogo:</span>
+            <span class="px-3 py-1 rounded-full text-sm bg-charcoal text-cream">ADHD</span>
+            <span class="px-3 py-1 rounded-full text-sm text-charcoal-light hover:bg-white/60">Autyzm</span>
+            <span class="px-3 py-1 rounded-full text-sm text-charcoal-light hover:bg-white/60">AuDHD</span>
+          </div>
+        </div>
+        <!-- content -->
+        <div class="px-5 pt-5 pb-6">
+          <div class="flex items-center gap-1.5 text-xs text-charcoal-light/55 mb-4">
+            <span>Neuro Toolkit</span>
+            <span class="iconify" data-icon="mdi:chevron-right"></span>
+            <span>Przeciążenie sensoryczne</span>
+          </div>
+          <h2 class="font-serif text-2xl font-bold text-charcoal-dark mb-2">Przeciążenie sensoryczne</h2>
+          <p class="text-charcoal-light mb-5">Hałas, światło, tłum — bodźce kumulują się aż do napięcia całego ciała.</p>
+          <div class="p-4 bg-white/60 border border-charcoal/8 rounded-xl">
+            <div class="font-serif font-semibold text-charcoal-dark">Loop + ANC w rotacji</div>
+            <div class="text-sm text-charcoal-light/80 mt-0.5">Filtruj świat zamiast go odcinać.</div>
+          </div>
+        </div>
+      </div>
+      <p class="text-xs text-charcoal-light/60 mt-2">Filtr zostaje widoczny i opisany („Dla kogo:"), ale bez efektu osobnej półki — jeden pas nagłówka, dwa wiersze.</p>
+    </div>
+
+    <p class="text-sm text-charcoal-light/70 border-t border-charcoal/10 pt-5">
+      We wszystkich wariantach breadcrumb jest lżejszy i siedzi w treści (nie jako pas), a notka „X ukrytych · pokaż wszystko" doklejałaby się przy filtrze. Strona demonstracyjna — usunę po decyzji.
+    </p>
+  </div>
+</body>
+</html>
