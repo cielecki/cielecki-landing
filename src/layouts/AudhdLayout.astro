@@ -49,8 +49,6 @@ const profiles = [
           <div
             id="ad-profiles"
             class="flex items-center gap-2"
-            data-hidden-label={t('filter.hidden')}
-            data-showall-label={t('filter.showAll')}
           >
             <span class="hidden sm:inline text-xs font-medium text-charcoal-light/60">{t('filter.label')}</span>
             <div class="inline-flex rounded-full border border-charcoal/15 overflow-hidden">
@@ -97,7 +95,6 @@ const profiles = [
           </ol>
         </nav>
       )}
-      <p id="ad-filter-notice" hidden class="mb-5 text-sm text-charcoal-light/70"></p>
       <slot />
     </main>
 
@@ -143,31 +140,12 @@ const profiles = [
       c.classList.toggle('ad-chip-active', on);
     });
 
-    let hidden = 0;
     document.querySelectorAll('[data-conditions]').forEach((el) => {
       const conds = (el.getAttribute('data-conditions') || '').split(' ').filter(Boolean);
       const show = conds.some((c) => set.includes(c));
       el.classList.toggle('ad-hidden', !show);
-      if (!show) hidden++;
       el.classList.toggle('ad-emph', profile === 'audhd' && conds.includes('audhd'));
     });
-
-    const notice = document.getElementById('ad-filter-notice');
-    if (notice) {
-      if (hidden > 0) {
-        const hl = root.getAttribute('data-hidden-label') || 'hidden';
-        const sa = root.getAttribute('data-showall-label') || 'show all';
-        notice.innerHTML =
-          hidden + ' ' + hl +
-          ' · <button type="button" id="ad-showall" class="underline hover:text-terracotta-dark">' + sa + '</button>';
-        (notice as HTMLElement).hidden = false;
-        const btn = document.getElementById('ad-showall');
-        if (btn) btn.addEventListener('click', () => setProfile('audhd'));
-      } else {
-        (notice as HTMLElement).hidden = true;
-        notice.textContent = '';
-      }
-    }
 
     document.querySelectorAll('[data-lens]').forEach((el) => {
       const lp = el.getAttribute('data-lens');
