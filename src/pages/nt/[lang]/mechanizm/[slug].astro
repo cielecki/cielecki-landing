@@ -1,0 +1,103 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import AudhdLayout from '../../../../layouts/AudhdLayout.astro';
+import Signals from '../../../../components/Signals.astro';
+import { useTranslations, otherLang, type Lang } from '../../../../i18n/ui';
+import { edgeScore, conditionLabel, conditionIcon } from '../../../../lib/signals';
+
+export async function getStaticPaths() {
+  const mechanisms = await getCollection('mechanisms');
+  return mechanisms.map((entry) => {
+    const [lang, slug] = entry.id.split('/');
+    return { params: { lang, slug }, props: { entry } };
+  });
+}
+
+interface Props {
+  entry: CollectionEntry<'mechanisms'>;
+}
+
+const { entry } = Astro.props;
+const lang = Astro.params.lang as Lang;
+const slug = Astro.params.slug!;
+const t = useTranslations(lang);
+const { Content } = await render(entry);
+
+const slugOf = (id: string) => id.split('/').pop()!;
+
+// Parent symptom(s) for the breadcrumb + "helps with" back-links.
+const symptoms = await getCollection('symptoms', (s) => s.data.lang === lang);
+const parents = symptoms.filter((s) => entry.data.symptoms.includes(slugOf(s.id)));
+
+// Protocols that address THIS mechanism, with the signals for this edge.
+const protocols = await getCollection('protocols', (p) => p.data.lang === lang);
+type Ranked = { p: CollectionEntry<'protocols'>; ev: string; comm: string; note?: string; score: number };
+const ranked: Ranked[] = [];
+for (const p of protocols) {
+  const e = p.data.addresses.find((a) => a.kind === 'mechanism' && a.target === slug);
+  if (!e) continue;
+  ranked.push({ p, ev: e.evidence, comm: e.community, note: e.note, score: edgeScore(e.evidence, e.community) });
+}
+ranked.sort((a, b) => b.score - a.score);
+
+const crumbs = parents[0]
+  ? [{ label: parents[0].data.title, href: `/nt/${lang}/symptom/${slugOf(parents[0].id)}/` }, { label: entry.data.title }]
+  : [{ label: entry.data.title }];
+const altLangUrl = `/nt/${otherLang(lang)}/mechanizm/${slug}/`;
+---
+
+<AudhdLayout lang={lang} title={entry.data.title} altLangUrl={altLangUrl} crumbs={crumbs}>
+  <article class="reveal">
+    <header class="mb-6">
+      <div class="flex items-center gap-3 mb-3">
+        <span class="flex-shrink-0 w-11 h-11 flex items-center justify-center bg-sand/40 rounded-xl text-charcoal-light">
+          <span class="iconify text-xl" data-icon={entry.data.icon} />
+        </span>
+        <h1 class="font-serif text-3xl sm:text-4xl font-bold text-charcoal-dark leading-tight">{entry.data.title}</h1>
+      </div>
+      <p class="text-lg text-charcoal-light leading-relaxed">{entry.data.summary}</p>
+      <div class="flex flex-wrap items-center gap-1.5 mt-3">
+        <span class="text-xs text-charcoal-light/60 mr-1">{t('nt.appliesTo')}:</span>
+        {entry.data.conditions.map((c) => (
+          <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-white/70 border border-charcoal/8 text-xs text-charcoal-light">
+            <span class="iconify text-sm" data-icon={conditionIcon[c]} />
+            {conditionLabel[c]}
+          </span>
+        ))}
+      </div>
+    </header>
+
+    <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-2">{t('nt.background')}</h2>
+    <div class="audhd-prose text-charcoal leading-relaxed mb-10"><Content /></div>
+
+    <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-4">{t('nt.methodsHere')}</h2>
+    <ul class="grid gap-3">
+      {
+        ranked.map(({ p, ev, comm, note }) => {
+          const pslug = slugOf(p.id);
+          return (
+            <li class="reveal" data-conditions={p.data.conditions.join(' ')}>
+              <a
+                href={`/nt/${lang}/metoda/${pslug}/`}
+                class="group flex items-start gap-4 p-5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-2xl hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all"
+              >
+                <span class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-sage/15 rounded-xl text-sage-dark">
+                  <span class="iconify text-xl" data-icon={p.data.icon} />
+                </span>
+                <div class="flex-1 min-w-0">
+                  <h3 class="font-serif text-lg font-semibold text-charcoal-dark leading-snug group-hover:text-terracotta-dark transition-colors">
+                    {p.data.title}
+                  </h3>
+                  <p class="text-sm text-charcoal-light leading-relaxed mt-1 mb-2.5">{p.data.summary}</p>
+                  <Signals evidence={ev} community={comm} lang={lang} />
+                  {note && <p class="text-xs text-charcoal-light/70 italic mt-2">{note}</p>}
+                </div>
+                <span class="iconify flex-shrink-0 mt-1 text-lg text-charcoal-light/40 group-hover:text-terracotta group-hover:translate-x-0.5 transition-all" data-icon="mdi:arrow-right" />
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </article>
+</AudhdLayout>

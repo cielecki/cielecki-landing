@@ -1,0 +1,42 @@
+---
+import { useTranslations, type Lang, type UIKey } from '../i18n/ui';
+
+interface Props {
+  evidence: string;
+  community: string;
+  lang: Lang;
+}
+
+const { evidence, community, lang } = Astro.props;
+const t = useTranslations(lang);
+
+const evClass: Record<string, string> = {
+  A: 'bg-sage/30 text-sage-dark',
+  B: 'bg-sage/18 text-sage-dark',
+  C: 'bg-sand/45 text-charcoal-light',
+  D: 'bg-charcoal/8 text-charcoal-light/70',
+};
+const commClass: Record<string, string> = {
+  wysoki: 'bg-terracotta/22 text-terracotta-dark',
+  średni: 'bg-terracotta/12 text-terracotta-dark',
+  niski: 'bg-charcoal/8 text-charcoal-light/70',
+  brak: 'bg-charcoal/5 text-charcoal-light/50',
+};
+---
+
+<div class="flex flex-wrap items-center gap-2">
+  <span
+    class={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium ${evClass[evidence] ?? ''}`}
+    title={t('nt.evidence')}
+  >
+    <span class="iconify text-sm" data-icon="mdi:flask-outline"></span>
+    {t(`ev.${evidence}` as UIKey)}
+  </span>
+  <span
+    class={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium ${commClass[community] ?? ''}`}
+    title={t('nt.community')}
+  >
+    <span class="iconify text-sm" data-icon="mdi:account-group-outline"></span>
+    {t('nt.community')}: {t(`comm.${community}` as UIKey)}
+  </span>
+</div>

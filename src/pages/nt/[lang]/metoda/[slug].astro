@@ -1,0 +1,171 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import AudhdLayout from '../../../../layouts/AudhdLayout.astro';
+import Signals from '../../../../components/Signals.astro';
+import { useTranslations, otherLang, type Lang, type UIKey } from '../../../../i18n/ui';
+import { conditionLabel, conditionIcon } from '../../../../lib/signals';
+
+export async function getStaticPaths() {
+  const protocols = await getCollection('protocols');
+  return protocols.map((entry) => {
+    const [lang, slug] = entry.id.split('/');
+    return { params: { lang, slug }, props: { entry } };
+  });
+}
+
+interface Props {
+  entry: CollectionEntry<'protocols'>;
+}
+
+const { entry } = Astro.props;
+const lang = Astro.params.lang as Lang;
+const slug = Astro.params.slug!;
+const t = useTranslations(lang);
+const { Content } = await render(entry);
+
+const slugOf = (id: string) => id.split('/').pop()!;
+
+const mechanisms = await getCollection('mechanisms', (m) => m.data.lang === lang);
+const symptoms = await getCollection('symptoms', (s) => s.data.lang === lang);
+const mechMap = new Map(mechanisms.map((m) => [slugOf(m.id), m]));
+const sympMap = new Map(symptoms.map((s) => [slugOf(s.id), s]));
+
+// Resolve each edge to a real, linkable target (the graph drill-down).
+const links = entry.data.addresses
+  .map((e) => {
+    const target = e.kind === 'mechanism' ? mechMap.get(e.target) : sympMap.get(e.target);
+    if (!target) return null;
+    const href = e.kind === 'mechanism' ? `/nt/${lang}/mechanizm/${e.target}/` : `/nt/${lang}/symptom/${e.target}/`;
+    return { title: target.data.title, icon: target.data.icon, href, ev: e.evidence, comm: e.community, note: e.note };
+  })
+  .filter((x): x is NonNullable<typeof x> => x !== null);
+
+// Breadcrumb parent: a directly-addressed symptom, else the symptom behind the first mechanism.
+let parentSymptom = entry.data.addresses.find((e) => e.kind === 'symptom')?.target;
+if (!parentSymptom) {
+  const firstMech = entry.data.addresses.find((e) => e.kind === 'mechanism');
+  if (firstMech) parentSymptom = mechMap.get(firstMech.target)?.data.symptoms[0];
+}
+const parent = parentSymptom ? sympMap.get(parentSymptom) : undefined;
+const crumbs = parent
+  ? [{ label: parent.data.title, href: `/nt/${lang}/symptom/${parentSymptom}/` }, { label: entry.data.title }]
+  : [{ label: entry.data.title }];
+
+const resourceIcon: Record<string, string> = {
+  video: 'mdi:play-circle-outline',
+  article: 'mdi:text-box-outline',
+  book: 'mdi:book-open-variant',
+  podcast: 'mdi:podcast',
+  app: 'mdi:cellphone',
+  product: 'mdi:tag-outline',
+  tool: 'mdi:tools',
+  specialist: 'mdi:account-tie-outline',
+};
+
+const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
+---
+
+<AudhdLayout lang={lang} title={entry.data.title} altLangUrl={altLangUrl} crumbs={crumbs}>
+  <article class="reveal">
+    <header class="mb-6">
+      <div class="flex items-center gap-3 mb-3">
+        <span class="flex-shrink-0 w-11 h-11 flex items-center justify-center bg-sage/15 rounded-xl text-sage-dark">
+          <span class="iconify text-xl" data-icon={entry.data.icon} />
+        </span>
+        <h1 class="font-serif text-3xl sm:text-4xl font-bold text-charcoal-dark leading-tight">{entry.data.title}</h1>
+      </div>
+      <p class="text-lg text-charcoal-light leading-relaxed">{entry.data.summary}</p>
+      <div class="flex flex-wrap items-center gap-1.5 mt-3">
+        <span class="text-xs text-charcoal-light/60 mr-1">{t('nt.appliesTo')}:</span>
+        {entry.data.conditions.map((c) => (
+          <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-white/70 border border-charcoal/8 text-xs text-charcoal-light">
+            <span class="iconify text-sm" data-icon={conditionIcon[c]} />
+            {conditionLabel[c]}
+          </span>
+        ))}
+      </div>
+    </header>
+
+    <div class="audhd-prose text-charcoal leading-relaxed"><Content /></div>
+
+    {
+      links.length > 0 && (
+        <section class="mt-10">
+          <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-4">{t('nt.helpsWith')}</h2>
+          <ul class="grid gap-2.5">
+            {links.map((l) => (
+              <li>
+                <a
+                  href={l.href}
+                  class="group flex items-start gap-3 p-4 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl hover:bg-white hover:-translate-y-0.5 hover:shadow-sm transition-all"
+                >
+                  <span class="iconify flex-shrink-0 mt-0.5 text-lg text-charcoal-light/70" data-icon={l.icon} />
+                  <div class="flex-1 min-w-0">
+                    <div class="font-medium text-charcoal-dark leading-snug group-hover:text-terracotta-dark transition-colors">
+                      {l.title}
+                    </div>
+                    <div class="mt-1.5">
+                      <Signals evidence={l.ev} community={l.comm} lang={lang} />
+                    </div>
+                    {l.note && <p class="text-xs text-charcoal-light/70 italic mt-1.5">{l.note}</p>}
+                  </div>
+                  <span class="iconify flex-shrink-0 mt-1 text-base text-charcoal-light/40 group-hover:text-terracotta group-hover:translate-x-0.5 transition-all" data-icon="mdi:arrow-right" />
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <section class="mt-10 pt-6 border-t border-charcoal/8">
+      <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-4">{t('method.resources')}</h2>
+      {
+        entry.data.resources.length === 0 ? (
+          <p class="text-charcoal-light/70 text-sm">{t('method.noResources')}</p>
+        ) : (
+          <ul class="grid gap-2.5">
+            {entry.data.resources.map((r) => {
+              const label = t(`resource.${r.type}` as UIKey);
+              const icon = resourceIcon[r.type] ?? 'mdi:link-variant';
+              const inner = (
+                <>
+                  <span class="flex-shrink-0 w-9 h-9 flex items-center justify-center bg-sand/30 rounded-lg text-charcoal-light">
+                    <span class="iconify text-lg" data-icon={icon} />
+                  </span>
+                  <div class="flex-1 min-w-0">
+                    <div class="font-medium text-charcoal-dark leading-snug">{r.title}</div>
+                    <div class="text-xs text-charcoal-light/60 mt-0.5">
+                      {label}
+                      {r.author ? ` · ${r.author}` : ''}
+                      {!r.url ? ` · ${t('method.linkSoon')}` : ''}
+                    </div>
+                  </div>
+                  {r.url && (
+                    <span class="iconify flex-shrink-0 text-base text-charcoal-light/40 group-hover:text-terracotta transition-colors" data-icon="mdi:open-in-new" />
+                  )}
+                </>
+              );
+              return (
+                <li>
+                  {r.url ? (
+                    <a
+                      href={r.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="group flex items-center gap-3 p-3 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl hover:bg-white hover:-translate-y-0.5 hover:shadow-sm transition-all"
+                    >
+                      {inner}
+                    </a>
+                  ) : (
+                    <div class="flex items-center gap-3 p-3 bg-white/40 border border-charcoal/8 rounded-xl opacity-80">{inner}</div>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        )
+      }
+    </section>
+  </article>
+</AudhdLayout>

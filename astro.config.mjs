@@ -7,6 +7,7 @@ export default defineConfig({
   integrations: [tailwind()],
   redirects: {
     '/neuro-toolkit': '/neuro-toolkit/pl/',
+    '/nt': '/nt/pl/',
     '/audhd': '/neuro-toolkit/pl/',
     '/audhd/pl': '/neuro-toolkit/pl/',
     '/audhd/en': '/neuro-toolkit/en/'

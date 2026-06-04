@@ -38,6 +38,65 @@ const challenges = defineCollection({
   }),
 });
 
+// ── GRAPH MODEL (pilot) ──────────────────────────────────────────────────────
+// New three-layer graph that supersedes the flat challenge→method model:
+//   SYMPTOM (lay-language entry) → MECHANISM (why) → PROTOCOL (what to do).
+// Edges are many-to-many and directional, each carrying TWO independent signals:
+//   evidence  — strength of scientific backing (A = meta-analysis/RCT … D = anecdote/theory)
+//   community — whether people report it works (the group, lived experience)
+// Shown SEPARATELY so the reader weighs "strong in studies" vs "people say it works".
+
+const evidence = z.enum(['A', 'B', 'C', 'D']);
+const community = z.enum(['wysoki', 'średni', 'niski', 'brak']);
+
+// A directed edge from a PROTOCOL to the mechanism (or symptom) it addresses.
+const edge = z.object({
+  target: z.string(), // slug of the mechanism or symptom (language-agnostic)
+  kind: z.enum(['mechanism', 'symptom']),
+  evidence,
+  community,
+  note: z.string().optional(),
+});
+
+const symptoms = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/symptoms' }),
+  schema: z.object({
+    title: z.string(),
+    summary: z.string(),
+    icon: z.string().default('mdi:help-circle-outline'),
+    order: z.number().default(99),
+    lang: z.enum(['pl', 'en']),
+    conditions: z.array(condition).default(['adhd', 'autism', 'audhd']),
+  }),
+});
+
+const mechanisms = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/mechanisms' }),
+  schema: z.object({
+    title: z.string(),
+    summary: z.string(),
+    icon: z.string().default('mdi:cog-outline'),
+    order: z.number().default(99),
+    lang: z.enum(['pl', 'en']),
+    conditions: z.array(condition).default(['adhd', 'autism', 'audhd']),
+    symptoms: z.array(z.string()).default([]), // symptom slugs this mechanism underlies
+  }),
+});
+
+const protocols = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/protocols' }),
+  schema: z.object({
+    title: z.string(),
+    summary: z.string(),
+    icon: z.string().default('mdi:tools'),
+    order: z.number().default(99),
+    lang: z.enum(['pl', 'en']),
+    conditions: z.array(condition).default(['adhd', 'autism', 'audhd']),
+    addresses: z.array(edge).default([]),
+    resources: z.array(resource).default([]),
+  }),
+});
+
 // A METHOD — a concrete way of coping with a given challenge. `challenge` is the
 // slug of the parent challenge. Body (markdown) = the how-to. `resources` = links.
 const methods = defineCollection({
@@ -59,4 +118,4 @@ const methods = defineCollection({
   }),
 });
 
-export const collections = { challenges, methods };
+export const collections = { challenges, methods, symptoms, mechanisms, protocols };

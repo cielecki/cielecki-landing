@@ -1,0 +1,128 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import AudhdLayout from '../../../../layouts/AudhdLayout.astro';
+import Signals from '../../../../components/Signals.astro';
+import { useTranslations, otherLang, type Lang } from '../../../../i18n/ui';
+import { edgeScore } from '../../../../lib/signals';
+
+export async function getStaticPaths() {
+  const symptoms = await getCollection('symptoms');
+  return symptoms.map((entry) => {
+    const [lang, slug] = entry.id.split('/');
+    return { params: { lang, slug }, props: { entry } };
+  });
+}
+
+interface Props {
+  entry: CollectionEntry<'symptoms'>;
+}
+
+const { entry } = Astro.props;
+const lang = Astro.params.lang as Lang;
+const slug = Astro.params.slug!;
+const t = useTranslations(lang);
+const { Content } = await render(entry);
+
+const slugOf = (id: string) => id.split('/').pop()!;
+
+const mechanisms = (
+  await getCollection('mechanisms', (m) => m.data.lang === lang && m.data.symptoms.includes(slug))
+).sort((a, b) => a.data.order - b.data.order);
+const mechSlugs = new Set(mechanisms.map((m) => slugOf(m.id)));
+
+// A protocol is relevant if it addresses this symptom directly OR any of its mechanisms.
+const protocols = await getCollection('protocols', (p) => p.data.lang === lang);
+type Ranked = { p: CollectionEntry<'protocols'>; ev: string; comm: string; score: number };
+const ranked: Ranked[] = [];
+for (const p of protocols) {
+  let best: { ev: string; comm: string; score: number } | null = null;
+  for (const e of p.data.addresses) {
+    const relevant =
+      (e.kind === 'symptom' && e.target === slug) ||
+      (e.kind === 'mechanism' && mechSlugs.has(e.target));
+    if (!relevant) continue;
+    const s = edgeScore(e.evidence, e.community);
+    if (!best || s > best.score) best = { ev: e.evidence, comm: e.community, score: s };
+  }
+  if (best) ranked.push({ p, ...best });
+}
+ranked.sort((a, b) => b.score - a.score);
+
+const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
+---
+
+<AudhdLayout lang={lang} title={entry.data.title} altLangUrl={altLangUrl} crumbs={[{ label: entry.data.title }]}>
+  <header class="mb-8 reveal">
+    <div class="flex items-center gap-3 mb-3">
+      <span class="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-terracotta/10 rounded-xl text-terracotta-dark">
+        <span class="iconify text-2xl" data-icon={entry.data.icon} />
+      </span>
+      <h1 class="font-serif text-3xl sm:text-4xl font-bold text-charcoal-dark leading-tight">{entry.data.title}</h1>
+    </div>
+    <p class="text-lg text-charcoal-light leading-relaxed max-w-2xl">{entry.data.summary}</p>
+    <div class="audhd-prose text-charcoal leading-relaxed mt-4 text-base"><Content /></div>
+  </header>
+
+  <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-4">{t('nt.topMethods')}</h2>
+  <ul class="grid gap-3 mb-12">
+    {
+      ranked.map(({ p, ev, comm }) => {
+        const pslug = slugOf(p.id);
+        return (
+          <li class="reveal" data-conditions={p.data.conditions.join(' ')}>
+            <a
+              href={`/nt/${lang}/metoda/${pslug}/`}
+              class="group flex items-start gap-4 p-5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-2xl hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all"
+            >
+              <span class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-sage/15 rounded-xl text-sage-dark">
+                <span class="iconify text-xl" data-icon={p.data.icon} />
+              </span>
+              <div class="flex-1 min-w-0">
+                <h3 class="font-serif text-lg font-semibold text-charcoal-dark leading-snug group-hover:text-terracotta-dark transition-colors">
+                  {p.data.title}
+                </h3>
+                <p class="text-sm text-charcoal-light leading-relaxed mt-1 mb-2.5">{p.data.summary}</p>
+                <Signals evidence={ev} community={comm} lang={lang} />
+              </div>
+              <span class="iconify flex-shrink-0 mt-1 text-lg text-charcoal-light/40 group-hover:text-terracotta group-hover:translate-x-0.5 transition-all" data-icon="mdi:arrow-right" />
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+
+  {
+    mechanisms.length > 0 && (
+      <section>
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-1">{t('nt.why')}</h2>
+        <p class="text-sm text-charcoal-light/70 mb-4 max-w-2xl">
+          {lang === 'pl'
+            ? 'Zwykle składa się na to kilka mechanizmów naraz. Klikaj, żeby zrozumieć, który dotyczy Ciebie.'
+            : 'Usually several mechanisms stack at once. Click to understand which one is yours.'}
+        </p>
+        <ul class="grid gap-3 sm:grid-cols-2">
+          {mechanisms.map((m) => {
+            const mslug = slugOf(m.id);
+            return (
+              <li class="reveal" data-conditions={m.data.conditions.join(' ')}>
+                <a
+                  href={`/nt/${lang}/mechanizm/${mslug}/`}
+                  class="group flex flex-col h-full gap-2 p-4 bg-sand/15 border border-charcoal/8 rounded-2xl hover:bg-sand/25 hover:-translate-y-0.5 transition-all"
+                >
+                  <div class="flex items-center gap-2.5">
+                    <span class="iconify text-lg text-charcoal-light/70" data-icon={m.data.icon} />
+                    <h3 class="font-serif text-base font-semibold text-charcoal-dark leading-snug group-hover:text-terracotta-dark transition-colors">
+                      {m.data.title}
+                    </h3>
+                  </div>
+                  <p class="text-sm text-charcoal-light leading-relaxed">{m.data.summary}</p>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    )
+  }
+</AudhdLayout>
