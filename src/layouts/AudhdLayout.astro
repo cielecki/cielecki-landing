@@ -36,65 +36,67 @@ const profiles = [
     <div class="pointer-events-none fixed -bottom-32 -left-40 w-96 h-96 bg-sage/15 blob blur-3xl"></div>
 
     <header class="relative z-10 border-b border-charcoal/8">
-      <div class="max-w-4xl mx-auto w-full px-6 py-5 flex items-center justify-between gap-4">
-        <a href={home} class="group flex items-center gap-3">
+      <div class="max-w-4xl mx-auto w-full px-6 py-4 flex flex-wrap items-center gap-x-4 gap-y-3">
+        <a href={home} class="group flex items-center gap-3 flex-shrink-0">
           <span class="iconify text-terracotta-dark text-2xl" data-icon="mdi:brain"></span>
           <span class="font-serif text-xl font-bold text-charcoal-dark group-hover:text-terracotta-dark transition-colors">
             {t('site.title')}
           </span>
         </a>
-        <a
-          href={altLangUrl}
-          class="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-charcoal/10 bg-white/60 backdrop-blur text-sm font-medium text-charcoal-light hover:bg-white hover:text-terracotta-dark transition-all"
-          title={languageNames[other]}
-        >
-          <span class="iconify text-base" data-icon="mdi:translate"></span>
-          {other.toUpperCase()}
-        </a>
+
+        <div class="flex items-center gap-3 ml-auto">
+          <!-- profile selector as a segmented control (client-side filter) -->
+          <div
+            id="ad-profiles"
+            class="flex items-center gap-2"
+            data-hidden-label={t('filter.hidden')}
+            data-showall-label={t('filter.showAll')}
+          >
+            <span class="hidden sm:inline text-xs font-medium text-charcoal-light/60">{t('filter.label')}</span>
+            <div class="inline-flex rounded-full border border-charcoal/15 overflow-hidden">
+              {profiles.map((p, i) => (
+                <button
+                  type="button"
+                  data-profile={p.id}
+                  aria-pressed={p.id === 'adhd' ? 'true' : 'false'}
+                  class={`ad-chip px-3 py-1 text-sm text-charcoal-light hover:bg-white/60 transition-colors${i > 0 ? ' border-l border-charcoal/15' : ''}`}
+                >
+                  {p.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <a
+            href={altLangUrl}
+            class="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-charcoal/10 bg-white/60 backdrop-blur text-sm font-medium text-charcoal-light hover:bg-white hover:text-terracotta-dark transition-all"
+            title={languageNames[other]}
+          >
+            <span class="iconify text-base" data-icon="mdi:translate"></span>
+            {other.toUpperCase()}
+          </a>
+        </div>
       </div>
     </header>
 
-    <!-- profile selector (client-side filter; default = show all) -->
-    <div
-      id="ad-profiles"
-      class="relative z-10 border-b border-charcoal/8 bg-cream-dark/40"
-      data-hidden-label={t('filter.hidden')}
-      data-showall-label={t('filter.showAll')}
-    >
-      <div class="max-w-4xl mx-auto w-full px-6 py-2.5 flex flex-wrap items-center gap-2">
-        <span class="text-xs font-medium text-charcoal-light/70 mr-1">{t('filter.label')}</span>
-        {profiles.map((p) => (
-          <button
-            type="button"
-            data-profile={p.id}
-            aria-pressed={p.id === 'adhd' ? 'true' : 'false'}
-            class="ad-chip px-3 py-1 rounded-full text-sm border border-charcoal/10 bg-white/60 text-charcoal-light hover:bg-white transition-all"
-          >
-            {p.label}
-          </button>
-        ))}
-      </div>
-    </div>
-
-    <!-- breadcrumb — only on sub-pages; on the index it would just repeat the title -->
-    {crumbs.length > 0 && (
-      <nav class="relative z-10 max-w-4xl mx-auto w-full px-6 pt-6" aria-label="breadcrumb">
-        <ol class="flex flex-wrap items-center gap-1.5 text-sm text-charcoal-light/70">
-          {trail.map((c, i) => (
-            <li class="flex items-center gap-1.5">
-              {i > 0 && <span class="iconify text-charcoal-light/40" data-icon="mdi:chevron-right"></span>}
-              {c.href && i < trail.length - 1 ? (
-                <a href={c.href} class="hover:text-terracotta-dark transition-colors">{c.label}</a>
-              ) : (
-                <span class="text-charcoal-light">{c.label}</span>
-              )}
-            </li>
-          ))}
-        </ol>
-      </nav>
-    )}
-
-    <main class="relative z-10 flex-1 max-w-4xl mx-auto w-full px-6 py-8">
+    <main class="relative z-10 flex-1 max-w-4xl mx-auto w-full px-6 pt-6 pb-8">
+      <!-- breadcrumb — only on sub-pages; lighter, in-content (not a band) -->
+      {crumbs.length > 0 && (
+        <nav class="mb-4" aria-label="breadcrumb">
+          <ol class="flex flex-wrap items-center gap-1.5 text-xs text-charcoal-light/55">
+            {trail.map((c, i) => (
+              <li class="flex items-center gap-1.5">
+                {i > 0 && <span class="iconify text-charcoal-light/40" data-icon="mdi:chevron-right"></span>}
+                {c.href && i < trail.length - 1 ? (
+                  <a href={c.href} class="hover:text-terracotta-dark transition-colors">{c.label}</a>
+                ) : (
+                  <span class="text-charcoal-light/70">{c.label}</span>
+                )}
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )}
       <p id="ad-filter-notice" hidden class="mb-5 text-sm text-charcoal-light/70"></p>
       <slot />
     </main>
@@ -109,9 +111,10 @@ const profiles = [
 
 <style is:global>
   .ad-hidden { display: none !important; }
-  .ad-chip-active {
-    background: #36454F;
-    color: #F5F3EE;
+  .ad-chip-active,
+  .ad-chip-active:hover {
+    background: #36454F !important;
+    color: #F5F3EE !important;
     border-color: #36454F;
   }
   .ad-emph { box-shadow: 0 0 0 2px rgba(201, 126, 93, 0.55); }
