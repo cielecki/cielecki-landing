@@ -44,6 +44,13 @@
       "title": "Dr Stephen Porges: Polyvagal Theory & ADHD (YouTube)",
       "url": "https://www.youtube.com/watch?v=-tQ2e4V4wjY",
       "type": "video"
+    },
+    {
+      "title": "Nicole Vignola: oddech fizjologiczny (physiological sigh) na nocne pobudzenie",
+      "url": "https://www.youtube.com/watch?v=-nl5Rh1HuSs&t=768s",
+      "type": "video",
+      "author": "Nicole Vignola",
+      "note": "Gdy o 1 w nocy łapie Cię zryw energii — „fizjologiczne westchnienie” (dwa wdechy nosem + długi wydech) reaktywuje układ przywspółczulny i wycisza centralny układ nerwowy."
     }
   ],
   "lang": "pl"

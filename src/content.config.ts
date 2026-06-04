@@ -16,6 +16,9 @@ const resource = z.object({
     'specialist',
   ]),
   author: z.string().optional(),
+  // The "nugget": the specific claim/insight pulled from this source. For a video,
+  // pair this with a timestamped url (…&t=NNNs) so it links to the exact moment.
+  note: z.string().optional(),
 });
 
 // A CHALLENGE — the top-level navigation unit. Slug is the filename; the same

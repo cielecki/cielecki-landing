@@ -29,6 +29,13 @@
       "title": "Wieczorne jasne światło obniża późniejszą melatoninę u nastolatków (Nature npj)",
       "url": "https://www.nature.com/articles/s44323-025-00040-6",
       "type": "article"
+    },
+    {
+      "title": "Nicole Vignola: artificial light after 11pm hits melatonin AND dopamine (habenula)",
+      "url": "https://www.youtube.com/watch?v=-nl5Rh1HuSs&t=1499s",
+      "type": "video",
+      "author": "Nicole Vignola",
+      "note": "Light in your face = brain thinks it's daytime (no wind-down). It also hits dopamine production via the habenula → less motivation in the morning. Vignola: 'the hardest hack but the most return'."
     }
   ],
   "lang": "en"

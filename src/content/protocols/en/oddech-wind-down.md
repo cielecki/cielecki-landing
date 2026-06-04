@@ -44,6 +44,13 @@
       "title": "Dr Stephen Porges: Polyvagal Theory & ADHD (YouTube)",
       "url": "https://www.youtube.com/watch?v=-tQ2e4V4wjY",
       "type": "video"
+    },
+    {
+      "title": "Nicole Vignola: the physiological sigh for night-time arousal",
+      "url": "https://www.youtube.com/watch?v=-nl5Rh1HuSs&t=768s",
+      "type": "video",
+      "author": "Nicole Vignola",
+      "note": "When a burst of energy hits at 1am — the 'physiological sigh' (two inhales through the nose + long exhale) reactivates the parasympathetic system and calms the central nervous system."
     }
   ],
   "lang": "en"

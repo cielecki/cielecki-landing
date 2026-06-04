@@ -29,6 +29,13 @@
       "title": "Wieczorne jasne światło obniża późniejszą melatoninę u nastolatków (Nature npj)",
       "url": "https://www.nature.com/articles/s44323-025-00040-6",
       "type": "article"
+    },
+    {
+      "title": "Nicole Vignola: sztuczne światło po 23:00 bije w melatoninę I dopaminę (habenula)",
+      "url": "https://www.youtube.com/watch?v=-nl5Rh1HuSs&t=1499s",
+      "type": "video",
+      "author": "Nicole Vignola",
+      "note": "Światło w twarz = mózg myśli, że jest dzień (brak wind-down). Dodatkowo uderza w produkcję dopaminy przez habenulę → rano mniej motywacji. Vignola: „najtrudniejszy hack, ale największy zwrot”."
     }
   ],
   "lang": "pl"
