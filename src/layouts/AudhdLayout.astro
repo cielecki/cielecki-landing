@@ -114,7 +114,6 @@ const profiles = [
     color: #F5F3EE !important;
     border-color: #36454F;
   }
-  .ad-emph { box-shadow: 0 0 0 2px rgba(201, 126, 93, 0.55); }
   [data-lens] { transition: opacity 0.2s ease, box-shadow 0.2s ease; }
   .ad-lens-dim { opacity: 0.45; }
   .ad-lens-active { box-shadow: 0 0 0 2px rgba(139, 157, 131, 0.6); }
@@ -144,7 +143,6 @@ const profiles = [
       const conds = (el.getAttribute('data-conditions') || '').split(' ').filter(Boolean);
       const show = conds.some((c) => set.includes(c));
       el.classList.toggle('ad-hidden', !show);
-      el.classList.toggle('ad-emph', profile === 'audhd' && conds.includes('audhd'));
     });
 
     document.querySelectorAll('[data-lens]').forEach((el) => {

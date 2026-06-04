@@ -49,12 +49,11 @@ const altLangUrl = `/nt/${otherLang(lang)}/mechanizm/${slug}/`;
 <AudhdLayout lang={lang} title={entry.data.title} altLangUrl={altLangUrl} crumbs={crumbs}>
   <article class="reveal">
     <header class="mb-6">
-      <div class="flex items-center gap-3 mb-3">
-        <span class="flex-shrink-0 w-11 h-11 flex items-center justify-center bg-sand/40 rounded-xl text-charcoal-light">
-          <span class="iconify text-xl" data-icon={entry.data.icon} />
-        </span>
-        <h1 class="font-serif text-3xl sm:text-4xl font-bold text-charcoal-dark leading-tight">{entry.data.title}</h1>
+      <div class="flex items-center gap-1.5 mb-2 text-xs font-semibold uppercase tracking-wider text-charcoal-light/60">
+        <span class="iconify text-sm" data-icon="mdi:cog-outline" />
+        {t('type.mechanism')}
       </div>
+      <h1 class="font-serif text-3xl sm:text-4xl font-bold text-charcoal-dark leading-tight mb-3">{entry.data.title}</h1>
       <p class="text-lg text-charcoal-light leading-relaxed">{entry.data.summary}</p>
       <div class="flex flex-wrap items-center gap-1.5 mt-3">
         <span class="text-xs text-charcoal-light/60 mr-1">{t('nt.appliesTo')}:</span>

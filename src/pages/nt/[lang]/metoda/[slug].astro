@@ -3,7 +3,7 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 import AudhdLayout from '../../../../layouts/AudhdLayout.astro';
 import Signals from '../../../../components/Signals.astro';
 import { useTranslations, otherLang, type Lang, type UIKey } from '../../../../i18n/ui';
-import { conditionLabel, conditionIcon } from '../../../../lib/signals';
+import { edgeScore, conditionLabel, conditionIcon } from '../../../../lib/signals';
 
 export async function getStaticPaths() {
   const protocols = await getCollection('protocols');
@@ -36,9 +36,14 @@ const links = entry.data.addresses
     const target = e.kind === 'mechanism' ? mechMap.get(e.target) : sympMap.get(e.target);
     if (!target) return null;
     const href = e.kind === 'mechanism' ? `/nt/${lang}/mechanizm/${e.target}/` : `/nt/${lang}/symptom/${e.target}/`;
-    return { title: target.data.title, icon: target.data.icon, href, ev: e.evidence, comm: e.community, note: e.note };
+    return { title: target.data.title, icon: target.data.icon, href, kind: e.kind, ev: e.evidence, comm: e.community, note: e.note };
   })
   .filter((x): x is NonNullable<typeof x> => x !== null);
+
+// Headline "how proven is this method" — the strongest edge, summarised at the top.
+const best = [...entry.data.addresses]
+  .map((e) => ({ ev: e.evidence, comm: e.community, score: edgeScore(e.evidence, e.community) }))
+  .sort((a, b) => b.score - a.score)[0];
 
 // Breadcrumb parent: a directly-addressed symptom, else the symptom behind the first mechanism.
 let parentSymptom = entry.data.addresses.find((e) => e.kind === 'symptom')?.target;
@@ -68,14 +73,19 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
 <AudhdLayout lang={lang} title={entry.data.title} altLangUrl={altLangUrl} crumbs={crumbs}>
   <article class="reveal">
     <header class="mb-6">
-      <div class="flex items-center gap-3 mb-3">
-        <span class="flex-shrink-0 w-11 h-11 flex items-center justify-center bg-sage/15 rounded-xl text-sage-dark">
-          <span class="iconify text-xl" data-icon={entry.data.icon} />
-        </span>
-        <h1 class="font-serif text-3xl sm:text-4xl font-bold text-charcoal-dark leading-tight">{entry.data.title}</h1>
+      <div class="flex items-center gap-1.5 mb-2 text-xs font-semibold uppercase tracking-wider text-sage-dark">
+        <span class="iconify text-sm" data-icon="mdi:tools" />
+        {t('type.method')}
       </div>
+      <h1 class="font-serif text-3xl sm:text-4xl font-bold text-charcoal-dark leading-tight mb-3">{entry.data.title}</h1>
       <p class="text-lg text-charcoal-light leading-relaxed">{entry.data.summary}</p>
-      <div class="flex flex-wrap items-center gap-1.5 mt-3">
+      {best && (
+        <div class="mt-4">
+          <div class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/55 mb-1.5">{t('nt.howProven')}</div>
+          <Signals evidence={best.ev} community={best.comm} lang={lang} />
+        </div>
+      )}
+      <div class="flex flex-wrap items-center gap-1.5 mt-4">
         <span class="text-xs text-charcoal-light/60 mr-1">{t('nt.appliesTo')}:</span>
         {entry.data.conditions.map((c) => (
           <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-white/70 border border-charcoal/8 text-xs text-charcoal-light">
@@ -101,6 +111,9 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
                 >
                   <span class="iconify flex-shrink-0 mt-0.5 text-lg text-charcoal-light/70" data-icon={l.icon} />
                   <div class="flex-1 min-w-0">
+                    <div class="text-[11px] font-semibold uppercase tracking-wide text-charcoal-light/45">
+                      {l.kind === 'mechanism' ? t('type.mechanism') : t('type.symptom')}
+                    </div>
                     <div class="font-medium text-charcoal-dark leading-snug group-hover:text-terracotta-dark transition-colors">
                       {l.title}
                     </div>
