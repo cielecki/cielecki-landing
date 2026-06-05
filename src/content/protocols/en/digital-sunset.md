@@ -36,6 +36,13 @@
       "type": "video",
       "author": "Nicole Vignola",
       "note": "Light in your face = brain thinks it's daytime (no wind-down). It also hits dopamine production via the habenula → less motivation in the morning. Vignola: 'the hardest hack but the most return'."
+    },
+    {
+      "title": "Wind-down boundaries: block news an hour before bed",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=210s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "Set boundaries protecting wind-down time — like blocking news sites one hour before bed and not arguing with internet trolls in the evening."
     }
   ],
   "lang": "en"

@@ -34,6 +34,13 @@
       "title": "Poranne jasne światło przesuwa rytm dobowy (przegląd, PMC)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4344919/",
       "type": "article"
+    },
+    {
+      "title": "Shift bedtime in 15-minute steps, aided by light cues",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=454s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "You can't change a late chronotype but can shift bedtime earlier in 15-minute steps using cues: dim lights at night and get sunlight right after waking."
     }
   ],
   "lang": "en"

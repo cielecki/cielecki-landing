@@ -51,6 +51,27 @@
       "type": "video",
       "author": "Nicole Vignola",
       "note": "Gdy o 1 w nocy łapie Cię zryw energii — „fizjologiczne westchnienie” (dwa wdechy nosem + długi wydech) reaktywuje układ przywspółczulny i wycisza centralny układ nerwowy."
+    },
+    {
+      "title": "Powolny wydech jako najszybsze uziemienie",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=qcryeu8g2fA&t=1325s",
+      "author": "The Neuroscience of ADHD and Emotional Dysregulation",
+      "note": "Najszybszy sposób na uziemienie układu nerwowego, gdy czujesz się przytłoczony, to powolny wydech — wydłużony wydech aktywuje układ przywspółczulny."
+    },
+    {
+      "title": "Jeden głęboki oddech przeponowy z przytrzymaniem",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Cczp8F1x8VA&t=121s",
+      "author": "Calm Down, Slow Down | ADHD Positive Affirmations",
+      "note": "Zacznij od jednego głębokiego oddechu: wdech wypełniający klatkę i brzuch, przytrzymanie u góry, potem pełne rozluźnienie i wypuszczenie powietrza."
+    },
+    {
+      "title": "Oddech-i-pauza przy emocjonalnym zalewie",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=38nBvOtgH-I&t=2820s",
+      "author": "Leading ADHD Expert Shares New Emotional Dysregulation Trick",
+      "note": "Gdy emocjonalnie cię zalewa, weź jeden głęboki oddech i zrób pauzę, zanim cokolwiek powiesz — przerywa to limbiczną reakcję na zagrożenie."
     }
   ],
   "lang": "pl"

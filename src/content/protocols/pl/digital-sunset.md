@@ -36,6 +36,13 @@
       "type": "video",
       "author": "Nicole Vignola",
       "note": "Światło w twarz = mózg myśli, że jest dzień (brak wind-down). Dodatkowo uderza w produkcję dopaminy przez habenulę → rano mniej motywacji. Vignola: „najtrudniejszy hack, ale największy zwrot”."
+    },
+    {
+      "title": "Granice na wyciszenie: blokuj newsy godzinę przed snem",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=210s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "Wyznacz granice chroniące czas na wyciszenie — np. blokuj strony z newsami na godzinę przed snem i nie kłóć się wieczorem z trollami w internecie."
     }
   ],
   "lang": "pl"

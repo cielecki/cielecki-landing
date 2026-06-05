@@ -33,6 +33,13 @@
     {
       "title": "Woskowe zatyczki / piankowe 3M (rekomendacja z grupy)",
       "type": "product"
+    },
+    {
+      "title": "Reduce sensory load to avoid fight-or-flight",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=qcryeu8g2fA&t=878s",
+      "author": "The Neuroscience of ADHD and Emotional Dysregulation",
+      "note": "To reduce sensory load and stay out of fight-or-flight, decrease multitasking and make the environment more ADHD-friendly."
     }
   ],
   "lang": "en"

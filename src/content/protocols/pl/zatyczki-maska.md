@@ -33,6 +33,13 @@
     {
       "title": "Woskowe zatyczki / piankowe 3M (rekomendacja z grupy)",
       "type": "product"
+    },
+    {
+      "title": "Ogranicz obciążenie sensoryczne, by nie wpaść w walcz-uciekaj",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=qcryeu8g2fA&t=878s",
+      "author": "The Neuroscience of ADHD and Emotional Dysregulation",
+      "note": "Żeby zmniejszyć obciążenie sensoryczne i nie przejść w tryb walki-lub-ucieczki, ogranicz wielozadaniowość i przerób otoczenie tak, by było bardziej przyjazne dla ADHD."
     }
   ],
   "lang": "pl"

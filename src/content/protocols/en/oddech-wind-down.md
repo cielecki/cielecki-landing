@@ -51,6 +51,27 @@
       "type": "video",
       "author": "Nicole Vignola",
       "note": "When a burst of energy hits at 1am — the 'physiological sigh' (two inhales through the nose + long exhale) reactivates the parasympathetic system and calms the central nervous system."
+    },
+    {
+      "title": "Slow exhale as the fastest grounding",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=qcryeu8g2fA&t=1325s",
+      "author": "The Neuroscience of ADHD and Emotional Dysregulation",
+      "note": "The easiest way to ground your nervous system when overwhelmed is a slow exhale — an extended exhale activates the parasympathetic system."
+    },
+    {
+      "title": "One deep diaphragmatic breath with a hold",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Cczp8F1x8VA&t=121s",
+      "author": "Calm Down, Slow Down | ADHD Positive Affirmations",
+      "note": "Start with one deep breath: inhale filling chest and belly, hold at the top, then fully release and let the air fall out."
+    },
+    {
+      "title": "Breath-and-pause when emotionally flooded",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=38nBvOtgH-I&t=2820s",
+      "author": "Leading ADHD Expert Shares New Emotional Dysregulation Trick",
+      "note": "When emotionally flooded, take one deep breath and pause before responding — it interrupts the limbic threat response."
     }
   ],
   "lang": "en"

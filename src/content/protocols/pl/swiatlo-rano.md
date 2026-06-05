@@ -34,6 +34,13 @@
       "title": "Poranne jasne światło przesuwa rytm dobowy (przegląd, PMC)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4344919/",
       "type": "article"
+    },
+    {
+      "title": "Przesuwaj porę snu po 15 minut, wsparty wskazówkami świetlnymi",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=454s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "Późnego chronotypu nie zmienisz, ale przesuwaj porę snu wcześniej po 15 minut, używając wskazówek: przyciemniaj światło wieczorem i wystaw się na słońce zaraz po przebudzeniu."
     }
   ],
   "lang": "pl"

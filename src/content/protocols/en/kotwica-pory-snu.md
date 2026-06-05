@@ -27,6 +27,27 @@
       "title": "Bedtime procrastination — przegląd pojęcia (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/Bedtime_procrastination",
       "type": "article"
+    },
+    {
+      "title": "A fixed bedtime is one of the most powerful ADHD strategies",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=235s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "A consistent bedtime is one of the most powerful ADHD sleep strategies — in kids with ADHD just 30 minutes less sleep worsened daytime functioning."
+    },
+    {
+      "title": "Two sleep systems: circadian rhythm and sleep pressure",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=256s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "Sleep depends on circadian rhythm and sleep pressure (builds like hunger) — you sleep best when both are in sync; a consistent wake time syncs them."
+    },
+    {
+      "title": "Sleeping in sabotages the next night",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=290s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "Sleeping in sabotages the next night — not enough sleep pressure builds before bedtime, so you can't fall asleep, fueling a vicious cycle."
     }
   ],
   "lang": "en"
