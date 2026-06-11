@@ -1,7 +1,7 @@
 ---
 {
-  "title": "Emocje i czarno-białe myślenie",
-  "summary": "„Albo świetnie, albo beznadziejnie”, „jestem do niczego” — skrajne stany, które wzmacniają cierpienie.",
+  "title": "Rozregulowane emocje — złość, wstyd, branie do siebie",
+  "summary": "Emocje Tobą rzucają: wybuchasz, wstydzisz się, myślisz zero-jedynkowo, a czasem w ogóle nie wiesz, co czujesz.",
   "icon": "mdi:emoticon-sad-outline",
   "order": 4,
   "conditions": [

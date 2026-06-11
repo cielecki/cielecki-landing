@@ -73,7 +73,7 @@ phase('Synthesize')
 const synth = await agent(
   `Design graph ADDITIONS for a neurodivergent knowledge base. Polish first, mirror in English.\n` +
   `EXISTING taxonomy — REUSE these slugs, never duplicate (EDIT THIS LIST before each run):\n` +
-  `- symptoms: sen, zaczynanie, lek-unikanie, emocje-czarnobiale, pamiec-mysli, energia-wypalenie, szukam-pomocy\n` +
+  `- symptoms (canonical, see docs/neuro-toolkit/taxonomy.md): sen, zaczynanie, chaos-czas-organizacja, energia-wypalenie, emocje-rozregulowane, pamiec-mysli, lek-unikanie, odrzucenie-rsd, samoocena-wstyd, depresja-sens, diagnoza, maskowanie-tozsamosc, relacje-spoleczne, randki-zwiazki, seks-porno-wstyd, uzaleznienia, praca-kariera, trauma-przeszlosc, szukam-pomocy, rodzicielstwo-bliscy\n` +
   `- mechanisms: revenge-bedtime, opozniona-faza, pobudzony-uklad, sensoryczne-zaklocenia, nocny-zryw, chroniczna-czujnosc, dlug-snu-presja, rsd, slaba-pamiec-robocza\n` +
   `Nuggets (each carries a timestamped url):\n${JSON.stringify(allNuggets)}\n\n` +
   `Return: new_mechanisms (only if a cluster justifies a NEW cause; set symptoms[]), new_methods (full how-to body pl+en, conditions, addresses[] edges with honest evidence + community + note, resources[] = the nuggets with their timestamped url, type video, author), ` +

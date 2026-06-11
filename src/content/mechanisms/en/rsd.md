@@ -9,7 +9,7 @@
     "audhd"
   ],
   "symptoms": [
-    "emocje-czarnobiale",
+    "emocje-rozregulowane",
     "lek-unikanie"
   ],
   "lang": "en"

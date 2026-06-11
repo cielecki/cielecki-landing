@@ -18,8 +18,8 @@
       "note": "Akceptacja (ACT): wsiądź z lękiem zamiast z nim walczyć — walka go powiększa."
     },
     {
-      "target": "emocje-czarnobiale",
-      "kind": "mechanism",
+      "target": "emocje-rozregulowane",
+      "kind": "symptom",
       "evidence": "C",
       "community": "niski"
     }

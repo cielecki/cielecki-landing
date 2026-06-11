@@ -1,7 +1,7 @@
 ---
 {
-  "title": "Emotions and black-and-white thinking",
-  "summary": "'Either great or hopeless', 'I'm useless' — extreme states that amplify suffering.",
+  "title": "Emotions out of control — anger, shame, taking things personally",
+  "summary": "Emotions throw you around: you explode, feel shame, think in black-and-white, and sometimes can't even tell what you feel.",
   "icon": "mdi:emoticon-sad-outline",
   "order": 4,
   "conditions": [

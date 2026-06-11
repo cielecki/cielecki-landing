@@ -18,8 +18,8 @@
       "note": "Acceptance (ACT): board with the fear instead of fighting it — fighting grows it."
     },
     {
-      "target": "emocje-czarnobiale",
-      "kind": "mechanism",
+      "target": "emocje-rozregulowane",
+      "kind": "symptom",
       "evidence": "C",
       "community": "niski"
     }

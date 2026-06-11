@@ -11,7 +11,7 @@
   ],
   "addresses": [
     {
-      "target": "emocje-czarnobiale",
+      "target": "emocje-rozregulowane",
       "kind": "symptom",
       "evidence": "B",
       "community": "średni",
