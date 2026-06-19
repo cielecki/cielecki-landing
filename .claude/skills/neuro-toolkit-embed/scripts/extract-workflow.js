@@ -1,17 +1,15 @@
-// Neuro Toolkit extraction workflow — TEMPLATE.
-// Invoke via the Workflow tool with args = JSON array of
-//   { id, title, path, url }  (one per cleaned transcript .txt)
-// Phase 1 (Extract): one agent per transcript -> structured nuggets.
-// Phase 2 (Synthesize): one agent clusters all nuggets -> new_mechanisms /
-//   new_methods / enrichments, aligned to content.config.ts so apply_synth.py
-//   can write them directly. Returns { synth }.
-//
-// NOTE: args may arrive as a JSON string — the `sources` line below handles both.
-// Edit the EXISTING-taxonomy list in the synth prompt before each run so it
-// reuses current slugs and never duplicates them.
+// Neuro Toolkit extraction workflow — TEMPLATE (resilient/batched).
+// Invoke via the Workflow tool with args = JSON array of { id, title, path, url }.
+// Phase 1 (Extract): transcripts processed in SMALL BATCHES (avoids the rate-limit
+//   that killed a 22-agent fan-out) -> structured nuggets, failures degrade to [].
+// Phase 2 (Synthesize): cluster all nuggets -> new_mechanisms / new_methods /
+//   enrichments aligned to content.config.ts. Guarded against a null (rate-limited)
+//   synth so the run returns whatever nuggets it got instead of crashing.
+// args may arrive as a JSON string — the `sources` line handles both.
+// Edit the EXISTING-taxonomy list in the synth prompt before each run.
 export const meta = {
   name: 'nt-extract',
-  description: 'Extract nuggets from cleaned transcripts and synthesize graph additions',
+  description: 'Extract nuggets from cleaned transcripts and synthesize graph additions (batched, resilient)',
   phases: [{ title: 'Extract' }, { title: 'Synthesize' }],
 }
 
@@ -50,34 +48,45 @@ const SYNTH_SCHEMA = { type: 'object', additionalProperties: false, properties: 
 
 phase('Extract')
 const sources = typeof args === 'string' ? JSON.parse(args) : args
-const perTx = await parallel(sources.map((s) => () =>
-  agent(
-    `You are mining a transcript for a knowledge base helping neurodivergent people (ADHD / autism / AuDHD).\n` +
-    `Read the file at: ${s.path}\nVideo: "${s.title}"   base url: ${s.url}\n` +
-    `Lines: [H:MM:SS | <url>&t=Ns] spoken text.\n` +
-    `Extract up to 12 CONCRETE, actionable or genuinely-instructive nuggets. Skip filler/sponsor/intro. ` +
-    `Per nugget: claim_pl + claim_en, timestamp_s (line start second), kind, evidence_hint (A best..D; be conservative — a bare claim is usually C), ` +
-    `mechanism_hint, method_hint, verbatim. Return few/zero if little relevant content — don't pad.`,
-    { label: `extract:${s.id}`, phase: 'Extract', schema: NUGGET_SCHEMA }
-  ).then((r) => ({ source: s, nuggets: (r && r.nuggets) || [] })).catch(() => ({ source: s, nuggets: [] }))
-))
+const BATCH = 5 // keep concurrency well under the rate-limit threshold
+const extractOne = (s) => agent(
+  `You are mining a transcript for a knowledge base helping neurodivergent people (ADHD / autism / AuDHD).\n` +
+  `Read the file at: ${s.path}\nVideo: "${s.title}"   base url: ${s.url}\n` +
+  `Lines: [H:MM:SS | <url>&t=Ns] spoken text.\n` +
+  `Extract up to 12 CONCRETE, actionable or genuinely-instructive nuggets. Skip filler/sponsor/intro. ` +
+  `Per nugget: claim_pl + claim_en, timestamp_s (line start second), kind, evidence_hint (A best..D; be conservative — a bare claim is usually C), ` +
+  `mechanism_hint, method_hint, verbatim. Return few/zero if little relevant content — don't pad.`,
+  { label: `extract:${s.id}`, phase: 'Extract', schema: NUGGET_SCHEMA }
+).then((r) => ({ source: s, nuggets: (r && r.nuggets) || [] })).catch(() => ({ source: s, nuggets: [] }))
+
 const allNuggets = []
-for (const b of perTx.filter(Boolean))
-  for (const n of b.nuggets)
-    allNuggets.push({ claim_pl: n.claim_pl, claim_en: n.claim_en, kind: n.kind, evidence_hint: n.evidence_hint,
-      mechanism_hint: n.mechanism_hint || '', method_hint: n.method_hint || '', verbatim: n.verbatim || '',
-      source_title: b.source.title, url: `${b.source.url}&t=${Math.round(n.timestamp_s)}s` })
-log(`extracted ${allNuggets.length} nuggets`)
+let okCount = 0
+for (let i = 0; i < sources.length; i += BATCH) {
+  const chunk = sources.slice(i, i + BATCH)
+  const res = await parallel(chunk.map((s) => () => extractOne(s)))
+  for (const b of res.filter(Boolean)) {
+    if (b.nuggets.length) okCount++
+    for (const n of b.nuggets)
+      allNuggets.push({ claim_pl: n.claim_pl, claim_en: n.claim_en, kind: n.kind, evidence_hint: n.evidence_hint,
+        mechanism_hint: n.mechanism_hint || '', method_hint: n.method_hint || '', verbatim: n.verbatim || '',
+        source_title: b.source.title, url: `${b.source.url}&t=${Math.round(n.timestamp_s)}s` })
+  }
+  log(`batch ${i / BATCH + 1}: ${allNuggets.length} nuggets so far (${okCount}/${i + chunk.length} transcripts ok)`)
+}
+
+if (!allNuggets.length) return { error: 'no nuggets extracted (all transcripts failed/rate-limited)', nuggetCount: 0 }
 
 phase('Synthesize')
-const synth = await agent(
+const synthPrompt =
   `Design graph ADDITIONS for a neurodivergent knowledge base. Polish first, mirror in English.\n` +
-  `EXISTING taxonomy — REUSE these slugs, never duplicate (EDIT THIS LIST before each run):\n` +
-  `- symptoms (canonical, see docs/neuro-toolkit/taxonomy.md): sen, zaczynanie, chaos-czas-organizacja, energia-wypalenie, emocje-rozregulowane, pamiec-mysli, lek-unikanie, odrzucenie-rsd, samoocena-wstyd, depresja-sens, diagnoza, maskowanie-tozsamosc, relacje-spoleczne, randki-zwiazki, seks-porno-wstyd, uzaleznienia, praca-kariera, trauma-przeszlosc, szukam-pomocy, rodzicielstwo-bliscy\n` +
+  `EXISTING taxonomy — REUSE these slugs, never duplicate (see docs/neuro-toolkit/taxonomy.md):\n` +
+  `- symptoms: sen, zaczynanie, chaos-czas-organizacja, energia-wypalenie, emocje-rozregulowane, pamiec-mysli, lek-unikanie, odrzucenie-rsd, samoocena-wstyd, depresja-sens, diagnoza, maskowanie-tozsamosc, relacje-spoleczne, randki-zwiazki, seks-porno-wstyd, uzaleznienia, praca-kariera, trauma-przeszlosc, szukam-pomocy, rodzicielstwo-bliscy\n` +
   `- mechanisms: revenge-bedtime, opozniona-faza, pobudzony-uklad, sensoryczne-zaklocenia, nocny-zryw, chroniczna-czujnosc, dlug-snu-presja, rsd, slaba-pamiec-robocza\n` +
   `Nuggets (each carries a timestamped url):\n${JSON.stringify(allNuggets)}\n\n` +
   `Return: new_mechanisms (only if a cluster justifies a NEW cause; set symptoms[]), new_methods (full how-to body pl+en, conditions, addresses[] edges with honest evidence + community + note, resources[] = the nuggets with their timestamped url, type video, author), ` +
-  `enrichments (resources to attach to EXISTING methods). Evidence honest: a bare claim is C; B/A only with study/mechanism. Slugs lowercase-hyphen ASCII. Prefer enriching over near-duplicates.`,
-  { label: 'synthesize', phase: 'Synthesize', schema: SYNTH_SCHEMA }
-)
-return { nuggetCount: allNuggets.length, newMechanisms: synth.new_mechanisms.length, newMethods: synth.new_methods.length, enrichments: synth.enrichments.length, synth }
+  `enrichments (resources to attach to EXISTING methods). Evidence honest: a bare claim is C; B/A only with study/mechanism. Slugs lowercase-hyphen ASCII. Prefer enriching over near-duplicates.`
+let synth = await agent(synthPrompt, { label: 'synthesize', phase: 'Synthesize', schema: SYNTH_SCHEMA })
+if (!synth) synth = await agent(synthPrompt, { label: 'synthesize-retry', phase: 'Synthesize', schema: SYNTH_SCHEMA })
+if (!synth) return { error: 'synthesis failed (rate-limited)', nuggetCount: allNuggets.length, nuggets: allNuggets }
+
+return { nuggetCount: allNuggets.length, transcriptsOk: okCount, newMechanisms: synth.new_mechanisms.length, newMethods: synth.new_methods.length, enrichments: synth.enrichments.length, synth }

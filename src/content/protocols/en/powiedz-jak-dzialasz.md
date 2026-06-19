@@ -25,6 +25,12 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "'This'll take me 13× more energy — let's find another way'; not an excuse but an energy strategy."
+    },
+    {
+      "title": "Is Your ADHD Actually AuDHD? — ADHD vs autistic masking",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=1965s",
+      "note": "ADHD: bending into the situation; autism: building a whole role — context for speaking plainly about how your brain works."
     }
   ],
   "lang": "en"

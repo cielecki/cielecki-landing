@@ -25,6 +25,12 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "„To zajmie mi 13× więcej energii — poszukajmy innego sposobu”; nie wymówka, lecz strategia energii."
+    },
+    {
+      "title": "Is Your ADHD Actually AuDHD? — różnica maskowania ADHD vs autyzm",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=1965s",
+      "note": "ADHD: wyginanie się pod sytuację; autyzm: budowanie całej roli — kontekst dla mówienia wprost, jak działa mózg."
     }
   ],
   "lang": "pl"

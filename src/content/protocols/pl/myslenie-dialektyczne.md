@@ -31,6 +31,13 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "„Mam trudny poranek I mogę być produktywny” — dialektyka rozbraja myślenie zero-jedynkowe."
+    },
+    {
+      "title": "Jordan Stephens o ADHD: RSD jak sztylet wbity w klatkę",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=dj5aESA9aLQ&t=2071s",
+      "author": "Jordan Stephens",
+      "note": "RSD to fizjologiczna, trzewna reakcja na krytykę — kontekst dla dialektycznego rozbrajania skrajności."
     }
   ],
   "lang": "pl"

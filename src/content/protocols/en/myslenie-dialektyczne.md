@@ -31,6 +31,13 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "'I had a rough morning AND I can be productive' — dialectics defuses zero-one thinking."
+    },
+    {
+      "title": "Jordan Stephens on ADHD: RSD like a dagger to the chest",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=dj5aESA9aLQ&t=2071s",
+      "author": "Jordan Stephens",
+      "note": "RSD is a physiological, visceral reaction to criticism — context for dialectically defusing extremes."
     }
   ],
   "lang": "en"
