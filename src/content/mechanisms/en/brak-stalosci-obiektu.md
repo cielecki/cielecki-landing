@@ -17,3 +17,5 @@
 ---
 
 Weak object permanence means ADHD people drop off the radar not from lack of affection but because an absent person stops being held in working memory. People outside immediate proximity simply 'fall out of mind' — there's no intent and no rejection in it. That's why friendships and contact come back in bursts, spontaneously, not from a plan or an obligation to text regularly. Understanding this lifts the shame and guilt around long gaps in contact and lets you build 'low maintenance' relationships you can return to without a bombardment of messages or the feeling that the relationship has ended.
+
+(A note on the label: 'object permanence' here is a colloquial term borrowed from developmental psychology — it names the real 'out of sight, out of mind' experience, but it isn't a formal clinical ADHD criterion.)

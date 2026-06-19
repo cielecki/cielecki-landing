@@ -17,3 +17,5 @@
 ---
 
 Słaba stałość obiektu sprawia, że osoby z ADHD wypadają z pola uwagi nie z braku sympatii, tylko dlatego, że ktoś nieobecny przestaje być w pamięci roboczej. Ludzie spoza bezpośredniej bliskości po prostu „znikają z głowy” — nie ma w tym intencji ani odrzucenia. To dlatego przyjaźnie i kontakty wracają zrywami, spontanicznie, a nie z planu czy obowiązku regularnego pisania. Zrozumienie tego zdejmuje wstyd i winę z długich przerw w kontakcie i pozwala budować relacje typu „low maintenance”, do których wraca się bez bombardowania wiadomościami i poczucia, że relacja się skończyła.
+
+(Uwaga na nazwę: „stałość obiektu” to potoczny skrót zapożyczony z psychologii rozwojowej — opisuje realne przeżycie „co z oczu, to z myśli”, ale nie jest formalnym, klinicznym kryterium ADHD.)
