@@ -44,7 +44,7 @@ def write(coll, lang, slug, fm, body):
 
 def res_for(r, lang):
     out = {"title": r.get(f"title_{lang}") or r.get("title_pl") or r.get("title_en"), "type": r.get("type", "video")}
-    if r.get("url"): out["url"] = r["url"]
+    if r.get("url"): out["url"] = r["url"].replace("&amp;", "&").strip()
     if r.get("author"): out["author"] = r["author"]
     note = r.get(f"note_{lang}") or r.get("note_pl") or r.get("note_en")
     if note: out["note"] = note

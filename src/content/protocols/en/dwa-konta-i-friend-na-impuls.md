@@ -44,6 +44,12 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=526s",
       "note": "'I text friends: I'm struggling not to spend everything — distract me with something.'"
+    },
+    {
+      "title": "AuDHD: Awkward Dating, Late Diagnosis + Unmasking (autistic routine offsets impulsivity)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=660s",
+      "note": "In AuDHD the rigid, routine (autistic) side around money genuinely reins in impulsive (ADHD) spending — lean on it deliberately."
     }
   ],
   "lang": "en"

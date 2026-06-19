@@ -43,6 +43,12 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2927s",
       "note": "„Czuję to w klatce — wychodzę z sytuacji: wróćmy do tego za kilka godzin lub dni.”"
+    },
+    {
+      "title": "I Spent Years Pretending I Was Fine (80% osób z ADHD ma różnice sensoryczne)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=hPSp2vqAjWo&t=2144s",
+      "note": "Ok. 80% osób z ADHD ma znaczące różnice w profilu sensorycznym (dotyk, smak, zapach, hałas) — rozpoznaj własne wrażliwości jako część ADHD, nie tylko autyzmu."
     }
   ],
   "lang": "pl"

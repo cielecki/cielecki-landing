@@ -31,6 +31,12 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=2924s",
       "note": "A trait only matters in the context of friction; judge per trait, not per person."
+    },
+    {
+      "title": "Why ADHD Women Find It So Hard To Unmask (be neurotypical, or ask for adjustments)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_AAm-_8spAE&t=3011s",
+      "note": "Before 'working on symptoms', ask: do you want to be more neurotypical, or accept yourself and ask for adjustments — 'low productivity' is often the environment's fault."
     }
   ],
   "lang": "en"

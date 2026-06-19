@@ -51,6 +51,19 @@
       "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=2992s",
       "author": "Karen Doherty",
       "note": "„Zamiast obrony: dziękuję, że to powiedziałeś, przemyślę to — i odsuń się.”"
+    },
+    {
+      "title": "How To Beat Imposter Syndrome — Leanne Maskell (name it to tame it na RSD)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=vCe_L6M915g&t=3215s",
+      "author": "Leanne Maskell",
+      "note": "„Nazwij to: to RSD, nie dramatyzowanie; minie (godziny–dzień); nie reaguj teraz, idź do bezpiecznego pokoju bez telefonu i obejrzyj coś.”"
+    },
+    {
+      "title": "AuDHD: Awkward Dating, Late Diagnosis + Unmasking (nagraj wideo, obejrzyj świeżym okiem)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2855s",
+      "note": "Na falę RSD: nagraj telefonem, co czujesz, zanim zaczniesz szukać zapewnień u innych; obejrzyj dzień–dwa później — zwykle widać, że odrzucenie nie było realne."
     }
   ],
   "lang": "pl"

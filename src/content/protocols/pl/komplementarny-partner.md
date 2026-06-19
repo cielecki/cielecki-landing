@@ -31,6 +31,19 @@
       "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=2404s",
       "author": "Karen Doherty",
       "note": "„Nadmierne ułatwianie wyłącza drugą osobę — nie 'nie umiesz', tylko 'zrobię inaczej'.”"
+    },
+    {
+      "title": "I'm Finally Being My Authentic Self — Sonya Barlow (jesteś całością, nie połówką)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=1849s",
+      "author": "Sonya Barlow",
+      "note": "Najpierw zidentyfikuj własne mocne i słabe strony, potem dobieraj komplementarnych ludzi do KONKRETNYCH luk — będąc całością, nie szukając „drugiej połówki”."
+    },
+    {
+      "title": "I Spent Years Pretending I Was Fine (właściwa praca, właściwy partner)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=hPSp2vqAjWo&t=1546s",
+      "note": "Rama Neda Hallowella „właściwa kariera, właściwa praca, właściwy partner”: przekuj posiadane umiejętności w rolę z większym ruchem, różnorodnością lub kontaktem z ludźmi."
     }
   ],
   "lang": "pl"

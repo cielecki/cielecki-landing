@@ -38,6 +38,13 @@
       "url": "https://www.youtube.com/watch?v=dj5aESA9aLQ&t=1981s",
       "author": "Jordan Stephens",
       "note": "Dopiero w wieku 35 lat zrozumiał, że można odmówić bez uzasadnienia."
+    },
+    {
+      "title": "How To Beat Imposter Syndrome — Leanne Maskell (zasady przeciw przeciążeniu)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=vCe_L6M915g&t=2753s",
+      "author": "Leanne Maskell",
+      "note": "Twarde reguły: płatny próg na „pogawędki”, regularny przegląd kalendarza z wyprzedzeniem, filtr „jeśli to nie jest hell yes, to nie”."
     }
   ],
   "lang": "pl"

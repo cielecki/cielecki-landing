@@ -31,6 +31,12 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=2924s",
       "note": "Cecha liczy się tylko w kontekście tarcia; oceniaj per cecha, nie per człowiek."
+    },
+    {
+      "title": "Why ADHD Women Find It So Hard To Unmask (czy chcesz być neurotypowy, czy prosić o dostosowania)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_AAm-_8spAE&t=3011s",
+      "note": "Zanim zaczniesz „pracować nad objawami”, zapytaj: chcesz być bardziej neurotypowy, czy akceptować siebie i prosić o dostosowania — bo „niska produktywność” to często wina środowiska."
     }
   ],
   "lang": "pl"

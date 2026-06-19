@@ -25,6 +25,39 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "Akceptuj, czego nie zrobisz; pytaj czy ciało udźwignie plan głowy; zaczynaj dzień od zera."
+    },
+    {
+      "title": "Why ADHD Women Find It So Hard To Unmask (burnout to nie zwykłe zmęczenie)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_AAm-_8spAE&t=868s",
+      "note": "Burnout przy ADHD to poważny stan — powrót do formy bywa liczony w miesiącach; sam sen i wakacje nie wystarczą."
+    },
+    {
+      "title": "Why ADHD Women Find It So Hard To Unmask (mapuj proces aż do crashu)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_AAm-_8spAE&t=2374s",
+      "note": "Burnout rzadko jest nagły — prześledź wstecz swoje sygnały i triggery od pierwszych oznak do crashu, by interweniować wcześniej."
+    },
+    {
+      "title": "I'm Finally Being My Authentic Self — Sonya Barlow (wskaźniki burnoutu co kwartał)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=1972s",
+      "author": "Sonya Barlow",
+      "note": "Burnout bywa cykliczny (mniej więcej co kwartał) — kluczowe jest rozpoznawanie własnych wskaźników i wiedza, gdzie na nich jesteś."
+    },
+    {
+      "title": "I'm Finally Being My Authentic Self — Sonya Barlow (sygnały crashu: jąkanie, łzy ze złości)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=1987s",
+      "author": "Sonya Barlow",
+      "note": "Konkretne czerwone flagi: złość zamieniająca się w łzy, jąkanie, wymyślanie słów bez sensu, lęk do „wyoddychania”."
+    },
+    {
+      "title": "I'm Finally Being My Authentic Self — Sonya Barlow (rutyna regeneracji)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=2347s",
+      "author": "Sonya Barlow",
+      "note": "Self-care w wypaleniu konkretnie: zejdź offline (i powiedz to bliskim), spacer/hike w naturze, fikcja, woda, witaminy, dobre jedzenie."
     }
   ],
   "lang": "pl"

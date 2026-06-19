@@ -38,6 +38,13 @@
       "url": "https://www.youtube.com/watch?v=dj5aESA9aLQ&t=1981s",
       "author": "Jordan Stephens",
       "note": "Only at 35 did he realise you can decline without justifying it."
+    },
+    {
+      "title": "How To Beat Imposter Syndrome — Leanne Maskell (rules against overload)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=vCe_L6M915g&t=2753s",
+      "author": "Leanne Maskell",
+      "note": "Hard rules: a paid gate on 'chats', regular advance calendar review, and the 'if it's not a hell yes, it's a no' filter."
     }
   ],
   "lang": "en"

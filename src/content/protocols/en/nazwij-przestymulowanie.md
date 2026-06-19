@@ -43,6 +43,12 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2927s",
       "note": "'I feel it in my chest — I take myself out: let's pick this up in a few hours or days.'"
+    },
+    {
+      "title": "I Spent Years Pretending I Was Fine (80% of ADHD people have sensory differences)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=hPSp2vqAjWo&t=2144s",
+      "note": "About 80% of ADHD people have significant sensory-profile differences (touch, taste, smell, noise) — recognize your own sensitivities as part of ADHD, not just autism."
     }
   ],
   "lang": "en"

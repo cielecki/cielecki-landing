@@ -44,6 +44,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=324s",
       "note": "„Dostaję więcej dopaminy z planu niż z samej akcji — tańsza alternatywa niż fortuna na sprzęt.”"
+    },
+    {
+      "title": "How To Beat Imposter Syndrome — Leanne Maskell (rzeka pomysłów)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=vCe_L6M915g&t=2804s",
+      "author": "Leanne Maskell",
+      "note": "„Rzeka pomysłów”: każdy pomysł to ryba — wyciągasz tylko jedną naraz, resztę zapisz i wracaj co ~3 miesiące, bo jak wyciągniesz dwie, jedna zginie."
     }
   ],
   "lang": "pl"

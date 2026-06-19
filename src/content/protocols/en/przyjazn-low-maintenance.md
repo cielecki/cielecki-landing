@@ -45,6 +45,20 @@
       "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=419s",
       "author": "Jay Beech",
       "note": "'A break without a bombardment of texts, shame or guilt — you return after a year and it's all fine.'"
+    },
+    {
+      "title": "I'm Finally Being My Authentic Self — Sonya Barlow (show up for bad moments + ask for capacity)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=2900s",
+      "author": "Sonya Barlow",
+      "note": "Closest friends are ones you return to after years as if nothing passed; when you need support, first ask 'do you have the capacity for this?'."
+    },
+    {
+      "title": "I'm Finally Being My Authentic Self — Sonya Barlow (friendship hyperfixation cycle)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=2483s",
+      "author": "Sonya Barlow",
+      "note": "Pattern: hyperfixate on a new person, intense closeness, sudden loss of interest — it's an ADHD trend, not disrespect; design lighter upkeep."
     }
   ],
   "lang": "en"

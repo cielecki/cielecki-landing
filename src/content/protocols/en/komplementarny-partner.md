@@ -31,6 +31,19 @@
       "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=2404s",
       "author": "Karen Doherty",
       "note": "'Over-facilitation disables the other — not 'you can't', but 'I'll do it differently'.'"
+    },
+    {
+      "title": "I'm Finally Being My Authentic Self — Sonya Barlow (you're whole, not half)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=1849s",
+      "author": "Sonya Barlow",
+      "note": "First identify your own strengths and weaknesses, then recruit complementary people for SPECIFIC gaps — as a whole person, not seeking your 'other half'."
+    },
+    {
+      "title": "I Spent Years Pretending I Was Fine (right job, right partner)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=hPSp2vqAjWo&t=1546s",
+      "note": "Ned Hallowell's 'right career, right job, right partner': repurpose your existing skills into a role with more movement, variety, or human contact."
     }
   ],
   "lang": "en"

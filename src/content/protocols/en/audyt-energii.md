@@ -25,6 +25,39 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "Accept what you won't do; ask if the body can carry the head's plan; start the day from zero."
+    },
+    {
+      "title": "Why ADHD Women Find It So Hard To Unmask (burnout isn't ordinary tiredness)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_AAm-_8spAE&t=868s",
+      "note": "ADHD burnout is a serious condition — recovery can take months; rest and a holiday alone aren't enough."
+    },
+    {
+      "title": "Why ADHD Women Find It So Hard To Unmask (map the process up to the crash)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_AAm-_8spAE&t=2374s",
+      "note": "Burnout is rarely sudden — trace your own signs and triggers from the earliest cues to the crash, to intervene earlier."
+    },
+    {
+      "title": "I'm Finally Being My Authentic Self — Sonya Barlow (quarterly burnout indicators)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=1972s",
+      "author": "Sonya Barlow",
+      "note": "Burnout can be cyclical (roughly quarterly) — the key is recognizing your own indicators and knowing where you are on them."
+    },
+    {
+      "title": "I'm Finally Being My Authentic Self — Sonya Barlow (crash signals: stutter, tears from anger)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=1987s",
+      "author": "Sonya Barlow",
+      "note": "Concrete red flags: anger turning to tears, stuttering, making up words that don't make sense, anxiety to 'breathe out of'."
+    },
+    {
+      "title": "I'm Finally Being My Authentic Self — Sonya Barlow (recovery routine)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=2347s",
+      "author": "Sonya Barlow",
+      "note": "Burnout self-care concretely: go offline (and tell loved ones), a nature walk/hike, fiction, water, vitamins, eating well."
     }
   ],
   "lang": "en"

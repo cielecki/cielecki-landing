@@ -51,6 +51,19 @@
       "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=2992s",
       "author": "Karen Doherty",
       "note": "'Instead of defending: thank you for saying that, I'll think about it — and move away.'"
+    },
+    {
+      "title": "How To Beat Imposter Syndrome — Leanne Maskell (name it to tame it for RSD)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=vCe_L6M915g&t=3215s",
+      "author": "Leanne Maskell",
+      "note": "'Name it: this is RSD, not being dramatic; it will pass (hours to a day); don't react now, go to a safe room without your phone and watch something.'"
+    },
+    {
+      "title": "AuDHD: Awkward Dating, Late Diagnosis + Unmasking (record a video, rewatch with fresh eyes)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2855s",
+      "note": "For an RSD spike: record on your phone what you feel before seeking reassurance from others; rewatch a day or two later — usually the rejection wasn't real."
     }
   ],
   "lang": "en"

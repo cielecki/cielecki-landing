@@ -44,6 +44,12 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=526s",
       "note": "„Piszę do znajomych: walczę, żeby nie wydać wszystkiego — rozprosz mnie czymś.”"
+    },
+    {
+      "title": "AuDHD: Awkward Dating, Late Diagnosis + Unmasking (autystyczna rutyna kontruje impulsywność)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=660s",
+      "note": "W AuDHD sztywna, rutynowa strona (autyzm) wokół pieniędzy realnie hamuje impulsywne wydawanie (ADHD) — celowo na tym graj."
     }
   ],
   "lang": "pl"

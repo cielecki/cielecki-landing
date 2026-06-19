@@ -38,6 +38,12 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=1866s",
       "note": "'If a boundary makes someone not want to be your friend — they never were one.'"
+    },
+    {
+      "title": "AuDHD: Awkward Dating, Late Diagnosis + Unmasking (hypervigilance + people-pleasing in dating)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2447s",
+      "note": "People-pleasing can override accurate intuition: you sense someone is wrong but can't say no — hence unwanted dates and relationships. Honor the gut feeling despite the fear."
     }
   ],
   "lang": "en"

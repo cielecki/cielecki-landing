@@ -45,6 +45,20 @@
       "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=419s",
       "author": "Jay Beech",
       "note": "„Przerwa bez bombardowania wiadomościami, wstydu i winy — wracasz po roku i wszystko gra.”"
+    },
+    {
+      "title": "I'm Finally Being My Authentic Self — Sonya Barlow (pokazują się w złych chwilach + pytaj o pojemność)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=2900s",
+      "author": "Sonya Barlow",
+      "note": "Najbliżsi to ci, do których wracasz po latach jak gdyby nigdy nic; przy potrzebie wsparcia pytaj najpierw „masz teraz pojemność na to?”."
+    },
+    {
+      "title": "I'm Finally Being My Authentic Self — Sonya Barlow (cykl hiperfiksacji na przyjaźni)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=2483s",
+      "author": "Sonya Barlow",
+      "note": "Wzorzec: hiperfiksacja na nowej osobie, intensywna bliskość, nagła utrata zainteresowania — to trend ADHD, nie brak szacunku; projektuj lżejsze utrzymanie."
     }
   ],
   "lang": "pl"

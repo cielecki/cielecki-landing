@@ -44,6 +44,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=324s",
       "note": "'I get more dopamine from the plan than the action — cheaper than spending a fortune on gear.'"
+    },
+    {
+      "title": "How To Beat Imposter Syndrome — Leanne Maskell (river of ideas)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=vCe_L6M915g&t=2804s",
+      "author": "Leanne Maskell",
+      "note": "'River of ideas': each idea is a fish — take only one out at a time, park the rest and review every ~3 months, because if you pull two out one will die."
     }
   ],
   "lang": "en"

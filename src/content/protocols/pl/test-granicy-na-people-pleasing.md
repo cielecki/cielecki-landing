@@ -38,6 +38,12 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=1866s",
       "note": "„Jeśli granica sprawia, że ktoś nie chce być twoim przyjacielem — nigdy nim nie był.”"
+    },
+    {
+      "title": "AuDHD: Awkward Dating, Late Diagnosis + Unmasking (hiperczujność + people-pleasing w randkach)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2447s",
+      "note": "People-pleasing potrafi przebić trafną intuicję: wyczuwasz, że ktoś jest niewłaściwy, ale nie umiesz odmówić — stąd niechciane randki i związki. Honoruj przeczucie mimo lęku."
     }
   ],
   "lang": "pl"
