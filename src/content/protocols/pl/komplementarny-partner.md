@@ -24,6 +24,13 @@
       "url": "https://www.youtube.com/watch?v=dj5aESA9aLQ&t=1267s",
       "author": "Jordan Stephens",
       "note": "„To, w czym jestem dobry, i to, w czym nie — połączmy siły.”"
+    },
+    {
+      "title": "ADHD & Relationship Issues — Karen Doherty (nie traktuj ADHD jak niepełnosprawności)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=2404s",
+      "author": "Karen Doherty",
+      "note": "„Nadmierne ułatwianie wyłącza drugą osobę — nie 'nie umiesz', tylko 'zrobię inaczej'.”"
     }
   ],
   "lang": "pl"

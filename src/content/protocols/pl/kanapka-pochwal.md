@@ -31,6 +31,13 @@
       "url": "https://www.youtube.com/watch?v=dj5aESA9aLQ&t=3266s",
       "author": "Jordan Stephens",
       "note": "„Powiedz najpierw wszystko, co lubisz, daj mi w tym pobyć, a potem rozmawiaj o reszcie.”"
+    },
+    {
+      "title": "ADHD & Relationship Issues — Karen Doherty (najpierw pozytywy)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=3036s",
+      "author": "Karen Doherty",
+      "note": "„Przeciwieństwem RSD jest euforia od pochwały — otwórz pochwałą, by rozcieńczyć późniejszą krytykę.”"
     }
   ],
   "lang": "pl"

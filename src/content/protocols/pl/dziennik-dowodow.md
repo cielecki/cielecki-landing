@@ -24,6 +24,12 @@
       "url": "https://www.youtube.com/watch?v=mTT4Qrfrm-A&t=2764s",
       "author": "Martine McCutcheon",
       "note": "Po wystąpieniu celowo zapisuje rozmowy i pochwały, by mieć dowód na następny raz."
+    },
+    {
+      "title": "AuDHD: Awkward Dating, Late Diagnosis + Unmasking (nagraj wideo o odrzuceniu)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2859s",
+      "note": "„Nagrywam wideo, że czuję odrzucenie, oglądam dzień–dwa później świeżym okiem — zwykle to nieprawda.”"
     }
   ],
   "lang": "pl"

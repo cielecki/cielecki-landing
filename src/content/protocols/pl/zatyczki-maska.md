@@ -40,6 +40,20 @@
       "url": "https://www.youtube.com/watch?v=qcryeu8g2fA&t=878s",
       "author": "The Neuroscience of ADHD and Emotional Dysregulation",
       "note": "Żeby zmniejszyć obciążenie sensoryczne i nie przejść w tryb walki-lub-ucieczki, ogranicz wielozadaniowość i przerób otoczenie tak, by było bardziej przyjazne dla ADHD."
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — Jay Beech (słuchawki ANC jako koc bezpieczeństwa)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1490s",
+      "author": "Jay Beech",
+      "note": "„Słuchawki ANC pozwalają zablokować bodziec, zanim przytłoczy, i kontrolować, co słyszę.”"
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — Jay Beech (misofonia = walka lub ucieczka)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1622s",
+      "author": "Jay Beech",
+      "note": "„Konkretne dźwięki odpalają walkę-lub-ucieczkę — praktyczne wyjścia to zmiana miejsca albo słuchawki.”"
     }
   ],
   "lang": "pl"

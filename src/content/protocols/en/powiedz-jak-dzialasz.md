@@ -31,6 +31,20 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=1965s",
       "note": "ADHD: bending into the situation; autism: building a whole role — context for speaking plainly about how your brain works."
+    },
+    {
+      "title": "How ADHD Affects His Marriage — Dad V Girls (reframe: not broken, I need a workaround)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AuIrlA-myos&t=3326s",
+      "author": "Dad V Girls",
+      "note": "'I'm not broken — I have ADHD, what works for neurotypicals doesn't work for me, I need a workaround and that's okay.'"
+    },
+    {
+      "title": "How ADHD Affects His Marriage — Dad V Girls (caution: diagnosis as a crutch)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AuIrlA-myos&t=3372s",
+      "author": "Dad V Girls",
+      "note": "'Diagnosis can become a crutch to stop trying — the reframe should unlock workarounds, not excuse giving up.'"
     }
   ],
   "lang": "en"

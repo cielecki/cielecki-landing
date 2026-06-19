@@ -37,6 +37,12 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=320s",
       "note": "Rozpoznaj nie tylko moment, ale ryzykowne okoliczności; pytaj „jak długo tu jestem” i planuj wyjście."
+    },
+    {
+      "title": "AuDHD: Awkward Dating, Late Diagnosis + Unmasking (nazwij i wyjdź przy eskalacji)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2927s",
+      "note": "„Czuję to w klatce — wychodzę z sytuacji: wróćmy do tego za kilka godzin lub dni.”"
     }
   ],
   "lang": "pl"

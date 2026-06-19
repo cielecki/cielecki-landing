@@ -30,6 +30,27 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=1224s",
       "note": "Nazwij, nic nie mów, odłóż na 24h; zacznij od 3-4h i wydłużaj."
+    },
+    {
+      "title": "ADHD & Relationship Issues — Karen Doherty (nazwij zranienie)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=767s",
+      "author": "Karen Doherty",
+      "note": "„Gdy nie bronisz się, tylko mówisz: jestem zraniony, potrzebuję chwili — zmienia to rozmowę natychmiast.”"
+    },
+    {
+      "title": "ADHD & Relationship Issues — Karen Doherty (kwestionuj przypisaną intencję)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=557s",
+      "author": "Karen Doherty",
+      "note": "„Może nie było tej intencji, którą przypisałem — to pomaga moderować reakcję RSD.”"
+    },
+    {
+      "title": "ADHD & Relationship Issues — Karen Doherty (skrypt: dziękuję, przemyślę)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=2992s",
+      "author": "Karen Doherty",
+      "note": "„Zamiast obrony: dziękuję, że to powiedziałeś, przemyślę to — i odsuń się.”"
     }
   ],
   "lang": "pl"

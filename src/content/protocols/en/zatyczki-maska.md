@@ -40,6 +40,20 @@
       "url": "https://www.youtube.com/watch?v=qcryeu8g2fA&t=878s",
       "author": "The Neuroscience of ADHD and Emotional Dysregulation",
       "note": "To reduce sensory load and stay out of fight-or-flight, decrease multitasking and make the environment more ADHD-friendly."
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — Jay Beech (ANC headphones as a safety blanket)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1490s",
+      "author": "Jay Beech",
+      "note": "'ANC headphones let me block input before it overwhelms and control what I hear.'"
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — Jay Beech (misophonia = fight or flight)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1622s",
+      "author": "Jay Beech",
+      "note": "'Specific sounds trigger fight-or-flight — the practical exits are moving away or headphones.'"
     }
   ],
   "lang": "en"

@@ -31,6 +31,20 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=1965s",
       "note": "ADHD: wyginanie się pod sytuację; autyzm: budowanie całej roli — kontekst dla mówienia wprost, jak działa mózg."
+    },
+    {
+      "title": "How ADHD Affects His Marriage — Dad V Girls (reframe: nie zepsuty, potrzebuję workaroundu)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AuIrlA-myos&t=3326s",
+      "author": "Dad V Girls",
+      "note": "„Nie jestem zepsuty — mam ADHD, to, co działa na neurotypowych, nie działa na mnie, potrzebuję obejścia i to okej.”"
+    },
+    {
+      "title": "How ADHD Affects His Marriage — Dad V Girls (uwaga: diagnoza jako wymówka)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AuIrlA-myos&t=3372s",
+      "author": "Dad V Girls",
+      "note": "„Diagnoza może stać się wymówką, by nie próbować — reframe ma odblokowywać obejścia, nie usprawiedliwiać rezygnację.”"
     }
   ],
   "lang": "pl"

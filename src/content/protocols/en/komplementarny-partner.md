@@ -24,6 +24,13 @@
       "url": "https://www.youtube.com/watch?v=dj5aESA9aLQ&t=1267s",
       "author": "Jordan Stephens",
       "note": "'What I'm good at and what I'm not — let's merge.'"
+    },
+    {
+      "title": "ADHD & Relationship Issues — Karen Doherty (don't frame ADHD as a disability)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=2404s",
+      "author": "Karen Doherty",
+      "note": "'Over-facilitation disables the other — not 'you can't', but 'I'll do it differently'.'"
     }
   ],
   "lang": "en"

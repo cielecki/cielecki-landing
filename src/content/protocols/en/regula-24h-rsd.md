@@ -30,6 +30,27 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=1224s",
       "note": "Name it, say nothing, park it for 24h; start at 3-4h and build up."
+    },
+    {
+      "title": "ADHD & Relationship Issues — Karen Doherty (name the hurt)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=767s",
+      "author": "Karen Doherty",
+      "note": "'When you don't defend but say: I'm hurt, I need a moment — it changes the conversation immediately.'"
+    },
+    {
+      "title": "ADHD & Relationship Issues — Karen Doherty (question the attributed intention)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=557s",
+      "author": "Karen Doherty",
+      "note": "'Perhaps there wasn't the intention I attributed — that helps moderate the RSD reaction.'"
+    },
+    {
+      "title": "ADHD & Relationship Issues — Karen Doherty (script: thank you, I'll think about it)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=2992s",
+      "author": "Karen Doherty",
+      "note": "'Instead of defending: thank you for saying that, I'll think about it — and move away.'"
     }
   ],
   "lang": "en"

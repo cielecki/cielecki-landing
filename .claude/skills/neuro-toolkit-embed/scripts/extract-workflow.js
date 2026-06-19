@@ -48,7 +48,7 @@ const SYNTH_SCHEMA = { type: 'object', additionalProperties: false, properties: 
 
 phase('Extract')
 const sources = typeof args === 'string' ? JSON.parse(args) : args
-const BATCH = 3 // small concurrency to stay under the API rate-limit — slower but full coverage
+const BATCH = 2 // 529 overload defense: minimal concurrency + keep runs SHORT (few transcripts) to avoid long-exposure stalls
 const extractOne = (s) => agent(
   `You are mining a transcript for a knowledge base helping neurodivergent people (ADHD / autism / AuDHD).\n` +
   `Read the file at: ${s.path}\nVideo: "${s.title}"   base url: ${s.url}\n` +

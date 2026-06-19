@@ -24,6 +24,12 @@
       "url": "https://www.youtube.com/watch?v=mTT4Qrfrm-A&t=2764s",
       "author": "Martine McCutcheon",
       "note": "After a talk she intentionally journals the conversations and praise, to have proof for next time."
+    },
+    {
+      "title": "AuDHD: Awkward Dating, Late Diagnosis + Unmasking (record a video about the rejection)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2859s",
+      "note": "'I record a video that I feel rejected, rewatch it a day or two later with fresh eyes — usually it's not true.'"
     }
   ],
   "lang": "en"

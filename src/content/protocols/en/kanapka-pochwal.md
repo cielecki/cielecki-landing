@@ -31,6 +31,13 @@
       "url": "https://www.youtube.com/watch?v=dj5aESA9aLQ&t=3266s",
       "author": "Jordan Stephens",
       "note": "'Tell me everything you love first, let me dwell in it, then engage on the rest.'"
+    },
+    {
+      "title": "ADHD & Relationship Issues — Karen Doherty (lead with positives)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=3036s",
+      "author": "Karen Doherty",
+      "note": "'The opposite of RSD is euphoria from praise — open with praise to dilute later criticism.'"
     }
   ],
   "lang": "en"

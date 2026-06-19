@@ -37,6 +37,12 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=320s",
       "note": "Recognise not just the moment but the risky circumstances; ask 'how long am I here' and plan the exit."
+    },
+    {
+      "title": "AuDHD: Awkward Dating, Late Diagnosis + Unmasking (name it and step out on escalation)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2927s",
+      "note": "'I feel it in my chest — I take myself out: let's pick this up in a few hours or days.'"
     }
   ],
   "lang": "en"
