@@ -48,7 +48,7 @@ const SYNTH_SCHEMA = { type: 'object', additionalProperties: false, properties: 
 
 phase('Extract')
 const sources = typeof args === 'string' ? JSON.parse(args) : args
-const BATCH = 5 // keep concurrency well under the rate-limit threshold
+const BATCH = 3 // small concurrency to stay under the API rate-limit — slower but full coverage
 const extractOne = (s) => agent(
   `You are mining a transcript for a knowledge base helping neurodivergent people (ADHD / autism / AuDHD).\n` +
   `Read the file at: ${s.path}\nVideo: "${s.title}"   base url: ${s.url}\n` +
@@ -59,20 +59,31 @@ const extractOne = (s) => agent(
   { label: `extract:${s.id}`, phase: 'Extract', schema: NUGGET_SCHEMA }
 ).then((r) => ({ source: s, nuggets: (r && r.nuggets) || [] })).catch(() => ({ source: s, nuggets: [] }))
 
+const results = new Map() // id -> { source, nuggets }
+async function runBatches(list, tag) {
+  for (let i = 0; i < list.length; i += BATCH) {
+    const chunk = list.slice(i, i + BATCH)
+    const res = await parallel(chunk.map((s) => () => extractOne(s)))
+    for (const b of res.filter(Boolean)) results.set(b.source.id, b)
+    const ok = [...results.values()].filter((x) => x.nuggets.length).length
+    log(`${tag} batch ${Math.floor(i / BATCH) + 1}: ${ok}/${sources.length} transcripts ok`)
+  }
+}
+await runBatches(sources, 'pass1')
+// retry transcripts the throttle dropped (0 nuggets) — gives full coverage in one slower run
+const failed = sources.filter((s) => !(results.get(s.id) && results.get(s.id).nuggets.length))
+if (failed.length) { log(`retrying ${failed.length} empty/rate-limited transcripts`); await runBatches(failed, 'retry') }
+
 const allNuggets = []
 let okCount = 0
-for (let i = 0; i < sources.length; i += BATCH) {
-  const chunk = sources.slice(i, i + BATCH)
-  const res = await parallel(chunk.map((s) => () => extractOne(s)))
-  for (const b of res.filter(Boolean)) {
-    if (b.nuggets.length) okCount++
-    for (const n of b.nuggets)
-      allNuggets.push({ claim_pl: n.claim_pl, claim_en: n.claim_en, kind: n.kind, evidence_hint: n.evidence_hint,
-        mechanism_hint: n.mechanism_hint || '', method_hint: n.method_hint || '', verbatim: n.verbatim || '',
-        source_title: b.source.title, url: `${b.source.url}&t=${Math.round(n.timestamp_s)}s` })
-  }
-  log(`batch ${i / BATCH + 1}: ${allNuggets.length} nuggets so far (${okCount}/${i + chunk.length} transcripts ok)`)
+for (const b of results.values()) {
+  if (b.nuggets.length) okCount++
+  for (const n of b.nuggets)
+    allNuggets.push({ claim_pl: n.claim_pl, claim_en: n.claim_en, kind: n.kind, evidence_hint: n.evidence_hint,
+      mechanism_hint: n.mechanism_hint || '', method_hint: n.method_hint || '', verbatim: n.verbatim || '',
+      source_title: b.source.title, url: `${b.source.url}&t=${Math.round(n.timestamp_s)}s` })
 }
+log(`extracted ${allNuggets.length} nuggets from ${okCount}/${sources.length} transcripts`)
 
 if (!allNuggets.length) return { error: 'no nuggets extracted (all transcripts failed/rate-limited)', nuggetCount: 0 }
 
