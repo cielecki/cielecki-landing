@@ -25,6 +25,13 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "Psychodynamiczna — trudne dopasowanie; Gestalt (ciało) i trzecia fala CBT (DBT/ACT) — realne przełomy."
+    },
+    {
+      "title": "Czego nauczyliśmy się od osób uzależnionych od porno — to coping emocjonalny, nie zboczenie",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=y1CkUhfHSxQ&t=60s",
+      "author": "Dr K (HealthyGamerGG)",
+      "note": "„Używanie porno to bardzo silny coping emocjonalny — tłumi negatywne emocje”; pętla wstydu napędza kolejne sięgnięcie."
     }
   ],
   "lang": "pl"

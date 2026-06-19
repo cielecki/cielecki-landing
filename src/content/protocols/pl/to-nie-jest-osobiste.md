@@ -31,6 +31,12 @@
       "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1314s",
       "author": "Jay Beech",
       "note": "„To nie osobiste — wyjmij mnie z tego, nazwij: ADHD tu działa, jak to ogarniemy.”"
+    },
+    {
+      "title": "Przewodnik po intymności dla kobiet z ADHD: psychoedukacja zamiast „jestem zepsuty”",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=PJ0g4NEXDvU&t=1172s",
+      "note": "„Jestem teraz rozregulowana, funkcja wykonawcza szwankuje, myślę o liście zakupów” — nazwanie mechanizmu zamiast brania za porażkę."
     }
   ],
   "lang": "pl"

@@ -25,6 +25,13 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "Psychodynamic — a hard fit; Gestalt (body) and third-wave CBT (DBT/ACT) — the real breakthroughs."
+    },
+    {
+      "title": "What We've Learned from Working with Porn Addicts — it's emotional coping, not perversion",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=y1CkUhfHSxQ&t=60s",
+      "author": "Dr K (HealthyGamerGG)",
+      "note": "\"Porn use is a very powerful emotional coping mechanism — it suppresses negative emotions\"; the shame loop drives the next use."
     }
   ],
   "lang": "en"

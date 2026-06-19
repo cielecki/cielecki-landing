@@ -31,6 +31,12 @@
       "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1314s",
       "author": "Jay Beech",
       "note": "'It's not personal — take me out of it, name it: ADHD is at play, how do we navigate this.'"
+    },
+    {
+      "title": "The ADHD Woman's Guide To Intimacy: psychoeducation, not 'I'm broken'",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=PJ0g4NEXDvU&t=1172s",
+      "note": "\"I'm dysregulated now, my executive function's off, I'm thinking about the shopping list\" — naming the mechanism instead of taking it as failure."
     }
   ],
   "lang": "en"

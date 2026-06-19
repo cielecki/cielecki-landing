@@ -31,6 +31,18 @@
       "url": "https://www.youtube.com/watch?v=dj5aESA9aLQ&t=3797s",
       "author": "Jordan Stephens",
       "note": "Dopamine after a hard task (hunting) vs an easy grab (KFC, sugar)."
+    },
+    {
+      "title": "The Link Between Porn Addiction & ADHD — supernormal stimulus",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=KxpWwKC1gCs&t=274s",
+      "note": "Porn spikes dopamine from a ~6 baseline to ~14–15 — higher than any natural reward; the rise is paid back with an equal drop below baseline."
+    },
+    {
+      "title": "The Link Between Porn Addiction & ADHD — a gentle rise = a shallow trough",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=KxpWwKC1gCs&t=352s",
+      "note": "After a workout (a rise from ~6 to ~7.5) you only lose a little motivation, you don't crash — the swing was small."
     }
   ],
   "lang": "en"

@@ -38,6 +38,12 @@
       "url": "https://www.youtube.com/watch?v=4gksLQ_HG30&t=1764s",
       "author": "Jamie Johnston",
       "note": "'It's about setting yourself timers — I'll invest some time in online dating and that's it.'"
+    },
+    {
+      "title": "The Link Between Porn Addiction & ADHD — chasing the 'next shiny object'",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=KxpWwKC1gCs&t=408s",
+      "note": "In the dopamine trough you chase porn/social/YouTube to pull out — this drives jumping attention and app overuse."
     }
   ],
   "lang": "en"

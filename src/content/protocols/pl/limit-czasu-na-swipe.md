@@ -38,6 +38,12 @@
       "url": "https://www.youtube.com/watch?v=4gksLQ_HG30&t=1764s",
       "author": "Jamie Johnston",
       "note": "„Chodzi o ustawianie sobie timerów — daję czas na online dating i tyle.”"
+    },
+    {
+      "title": "Link między uzależnieniem od porno a ADHD — pogoń za „następnym błyszczącym obiektem”",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=KxpWwKC1gCs&t=408s",
+      "note": "W dopaminowym dołku szukasz porno/social/YouTube, żeby się wyrwać — to napędza skakanie uwagi i nadużywanie aplikacji."
     }
   ],
   "lang": "pl"

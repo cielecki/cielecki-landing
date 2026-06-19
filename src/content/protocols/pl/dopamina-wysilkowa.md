@@ -31,6 +31,18 @@
       "url": "https://www.youtube.com/watch?v=dj5aESA9aLQ&t=3797s",
       "author": "Jordan Stephens",
       "note": "Dopamina po trudnym zadaniu (polowanie) vs łatwy chwyt (KFC, cukier)."
+    },
+    {
+      "title": "Link między uzależnieniem od porno a ADHD — supernormalny bodziec",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=KxpWwKC1gCs&t=274s",
+      "note": "Porno podbija dopaminę z bazy ~6 do ~14–15 — wyżej niż jakakolwiek naturalna nagroda; po wzroście przychodzi spadek o równej mierze poniżej bazy."
+    },
+    {
+      "title": "Link między uzależnieniem od porno a ADHD — łagodny wzrost = płytki dół",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=KxpWwKC1gCs&t=352s",
+      "note": "Po treningu (wzrost z ~6 do ~7,5) tracisz tylko trochę motywacji, nie wpadasz w depresję — skala była mała."
     }
   ],
   "lang": "pl"
