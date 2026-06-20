@@ -1,15 +1,22 @@
 ---
 {
   "title": "Start with screening tests",
-  "challenge": "diagnoza",
   "summary": "Self-tests (ASRS, AQ) are a first signal — not a diagnosis, but a good starting point for the conversation.",
-  "order": 1,
+  "icon": "mdi:clipboard-check-outline",
+  "order": 34,
   "lang": "en",
   "conditions": [
     "adhd",
     "autism"
   ],
-  "lenses": [],
+  "addresses": [
+    {
+      "target": "diagnoza",
+      "kind": "symptom",
+      "evidence": "B",
+      "community": "wysoki"
+    }
+  ],
   "resources": [
     {
       "title": "Co chciałbym wcześniej wiedzieć o ADHD",

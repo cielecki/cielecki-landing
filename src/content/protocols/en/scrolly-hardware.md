@@ -1,14 +1,21 @@
 ---
 {
   "title": "Hardware beats willpower",
-  "challenge": "dopamina",
   "summary": "A physical gadget and blocks reduce phone-reaching more reliably than resolutions.",
-  "order": 2,
+  "icon": "mdi:cellphone-lock",
+  "order": 36,
   "lang": "en",
   "conditions": [
     "adhd"
   ],
-  "lenses": [],
+  "addresses": [
+    {
+      "target": "uzaleznienia",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "średni"
+    }
+  ],
   "resources": [
     {
       "title": "Scrolly",

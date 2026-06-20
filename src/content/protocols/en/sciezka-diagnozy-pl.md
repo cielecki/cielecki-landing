@@ -1,15 +1,22 @@
 ---
 {
   "title": "The diagnosis path in Poland (adults)",
-  "challenge": "diagnoza",
   "summary": "Community-tested adult diagnosis routes — who diagnoses, and whose diagnosis gets accepted downstream.",
-  "order": 2,
+  "icon": "mdi:map-marker-path",
+  "order": 33,
   "lang": "en",
   "conditions": [
     "adhd",
     "autism"
   ],
-  "lenses": [],
+  "addresses": [
+    {
+      "target": "diagnoza",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "wysoki"
+    }
+  ],
   "resources": [
     {
       "title": "Pracownia PIR — Paulina Roszkowska",

@@ -1,26 +1,26 @@
 ---
 {
   "title": "Strategie na demand avoidance",
-  "challenge": "inicjacja",
   "summary": "Gdy samo »muszę« wywołuje opór — przeramuj zadanie i zdejmij poczucie przymusu.",
-  "order": 3,
+  "icon": "mdi:hand-back-left-outline",
+  "order": 30,
   "lang": "pl",
   "conditions": [
     "adhd",
     "autism"
   ],
-  "lenses": [
+  "addresses": [
     {
-      "profile": "adhd",
-      "note": "Opór to często bariera inicjacji/EF — pomaga rozbicie na mały, konkretny next step."
+      "target": "zaczynanie",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "średni"
     },
     {
-      "profile": "autism",
-      "note": "Opór może być PDA — reakcja na zagrożenie autonomii (fight/flight). Wtedy liczy się poczucie wyboru, nie technika produktywności."
-    },
-    {
-      "profile": "audhd",
-      "note": "U AuDHD oba mechanizmy działają naraz — najpierw zdejmij poczucie przymusu, potem zmniejsz próg wejścia."
+      "target": "lek-unikanie",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "niski"
     }
   ],
   "resources": [
@@ -41,3 +41,8 @@ Demand avoidance to nie prokrastynacja — to reakcja układu nerwowego na poczu
 - Self-compassion: opór to sygnał przeciążenia, nie lenistwa.
 
 Orion Kelly omawia 13 dorosłych wyzwalaczy i kilkanaście strategii w filmie „Demand Avoidance in Autistic Adults".
+
+Według profilu:
+- ADHD: Opór to często bariera inicjacji/EF — pomaga rozbicie na mały, konkretny next step.
+- AUTISM: Opór może być PDA — reakcja na zagrożenie autonomii (fight/flight). Wtedy liczy się poczucie wyboru, nie technika produktywności.
+- AUDHD: U AuDHD oba mechanizmy działają naraz — najpierw zdejmij poczucie przymusu, potem zmniejsz próg wejścia.

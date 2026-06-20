@@ -1,26 +1,26 @@
 ---
 {
   "title": "Demand-avoidance strategies",
-  "challenge": "inicjacja",
   "summary": "When the mere 'I must' triggers resistance — reframe the task and remove the sense of compulsion.",
-  "order": 3,
+  "icon": "mdi:hand-back-left-outline",
+  "order": 30,
   "lang": "en",
   "conditions": [
     "adhd",
     "autism"
   ],
-  "lenses": [
+  "addresses": [
     {
-      "profile": "adhd",
-      "note": "Resistance is often an initiation/EF barrier — breaking it into a small, concrete next step helps."
+      "target": "zaczynanie",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "średni"
     },
     {
-      "profile": "autism",
-      "note": "Resistance can be PDA — a response to a threat to autonomy (fight/flight). Then a sense of choice matters more than a productivity technique."
-    },
-    {
-      "profile": "audhd",
-      "note": "In AuDHD both mechanisms run at once — first remove the sense of compulsion, then lower the barrier to entry."
+      "target": "lek-unikanie",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "niski"
     }
   ],
   "resources": [
@@ -41,3 +41,8 @@ Demand avoidance isn't procrastination — it's a nervous-system reaction to a s
 - Self-compassion: resistance is a signal of overload, not laziness.
 
 Orion Kelly covers 13 adult-specific triggers and a dozen-plus strategies in the video "Demand Avoidance in Autistic Adults".
+
+By profile:
+- ADHD: Resistance is often an initiation/EF barrier — breaking it into a small, concrete next step helps.
+- AUTISM: Resistance can be PDA — a response to a threat to autonomy (fight/flight). Then a sense of choice matters more than a productivity technique.
+- AUDHD: In AuDHD both mechanisms run at once — first remove the sense of compulsion, then lower the barrier to entry.

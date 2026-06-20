@@ -1,14 +1,27 @@
 ---
 {
   "title": "Dopaminowe menu",
-  "challenge": "dopamina",
   "summary": "Lista zaplanowanych źródeł zdrowej dopaminy, po którą sięgasz zamiast scrolla.",
-  "order": 3,
+  "icon": "mdi:playlist-star",
+  "order": 32,
   "lang": "pl",
   "conditions": [
     "adhd"
   ],
-  "lenses": [],
+  "addresses": [
+    {
+      "target": "uzaleznienia",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "średni"
+    },
+    {
+      "target": "zaczynanie",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "niski"
+    }
+  ],
   "resources": []
 }
 ---

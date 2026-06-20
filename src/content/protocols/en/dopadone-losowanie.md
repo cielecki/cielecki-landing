@@ -1,18 +1,20 @@
 ---
 {
   "title": "Task randomization (DopaDone)",
-  "challenge": "inicjacja",
   "summary": "An app serves tasks at random, weighted by priority — even boring ones eventually come up.",
-  "order": 1,
+  "icon": "mdi:slot-machine-outline",
+  "order": 31,
   "lang": "en",
   "conditions": [
     "adhd",
     "autism"
   ],
-  "lenses": [
+  "addresses": [
     {
-      "profile": "audhd",
-      "note": "Randomness feeds the novelty craving (ADHD) inside a fixed frame (autism) — instead of forcing you to pick one."
+      "target": "zaczynanie",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "niski"
     }
   ],
   "resources": [
@@ -36,3 +38,6 @@ The initiation problem isn't laziness — it's the lack of surprise the ADHD bra
 - A **randomizer** serves one task at a time, weighted by priority. The randomness adds novelty → easier to start.
 - The rule **always one at a time** kills the "I have too much to do" paralysis.
 - Time-critical tasks go to the calendar; everything else into the randomizer.
+
+By profile:
+- AUDHD: Randomness feeds the novelty craving (ADHD) inside a fixed frame (autism) — instead of forcing you to pick one.

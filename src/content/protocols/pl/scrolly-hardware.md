@@ -1,14 +1,21 @@
 ---
 {
   "title": "Hardware zamiast siły woli",
-  "challenge": "dopamina",
   "summary": "Fizyczny gadżet i blokady zmniejszają sięganie po telefon skuteczniej niż postanowienia.",
-  "order": 2,
+  "icon": "mdi:cellphone-lock",
+  "order": 36,
   "lang": "pl",
   "conditions": [
     "adhd"
   ],
-  "lenses": [],
+  "addresses": [
+    {
+      "target": "uzaleznienia",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "średni"
+    }
+  ],
   "resources": [
     {
       "title": "Scrolly",

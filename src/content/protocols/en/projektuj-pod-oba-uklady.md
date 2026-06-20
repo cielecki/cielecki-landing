@@ -1,14 +1,27 @@
 ---
 {
   "title": "Design for both systems at once",
-  "challenge": "konflikt-audhd",
   "summary": "Build a system that feeds the novelty craving (ADHD) inside a predictable frame (autism) — instead of picking one.",
-  "order": 1,
+  "icon": "mdi:set-center",
+  "order": 35,
   "lang": "en",
   "conditions": [
     "audhd"
   ],
-  "lenses": [],
+  "addresses": [
+    {
+      "target": "chaos-czas-organizacja",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "średni"
+    },
+    {
+      "target": "przeciwny-ciag-audhd",
+      "kind": "mechanism",
+      "evidence": "C",
+      "community": "niski"
+    }
+  ],
   "resources": [
     {
       "title": "ADHD vs Autism — the overlap (Venn)",

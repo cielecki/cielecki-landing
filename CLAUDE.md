@@ -10,13 +10,14 @@ A navigable ADHD / autism / AuDHD knowledge base: **CHALLENGE/SYMPTOM → coping
 articles + timestamped links**, filterable per profile (ADHD / autism / AuDHD). Plan + model:
 `docs/neuro-toolkit/2026-06-04-graph-model-pilot.md`.
 
-**Two structures exist right now (mid-migration):**
-- **NEW graph model** at `/nt/[lang]/` — the real one. Three layers: `symptoms` → `mechanisms`
-  → `protocols` (collections in `src/content/`), many-to-many directed edges, each edge carrying
-  **two independent signals**: `evidence` (A–D scientific) + `community` (real-world). Defined in
-  `src/content.config.ts`. This is where new work goes.
-- **OLD flat model** at `/neuro-toolkit/[lang]/` — `challenges` + `methods` collections, the
-  original pilot. To be folded into the graph and retired (don't add to it).
+**One structure: the graph model at `/nt/[lang]/`.** Three layers: `symptoms` → `mechanisms`
+→ `protocols` (collections in `src/content/`), many-to-many directed edges, each edge carrying
+**two independent signals**: `evidence` (A–D scientific) + `community` (real-world). Defined in
+`src/content.config.ts`. Currently ~20 symptoms / ~22 mechanisms / ~87 methods, bilingual.
+
+The OLD flat pilot (`challenges` + `methods` collections, `/neuro-toolkit/*`) was retired
+2026-06-20: its unique methods were ported into the graph, the collections + pages deleted,
+and `/neuro-toolkit*` + `/audhd*` now redirect to `/nt/`.
 
 Schema is authoritative in `src/content.config.ts`. Every node is bilingual (same slug in
 `pl/` and `en/`) and tagged `conditions: [adhd|autism|audhd]` so the header profile filter

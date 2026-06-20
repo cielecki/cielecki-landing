@@ -1,15 +1,22 @@
 ---
 {
   "title": "Ścieżka diagnozy w Polsce (dorośli)",
-  "challenge": "diagnoza",
   "summary": "Sprawdzone w społeczności trasy diagnozy dla dorosłych — kto diagnozuje i czyją diagnozę akceptują dalej.",
-  "order": 2,
+  "icon": "mdi:map-marker-path",
+  "order": 33,
   "lang": "pl",
   "conditions": [
     "adhd",
     "autism"
   ],
-  "lenses": [],
+  "addresses": [
+    {
+      "target": "diagnoza",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "wysoki"
+    }
+  ],
   "resources": [
     {
       "title": "Pracownia PIR — Paulina Roszkowska",

@@ -1,15 +1,22 @@
 ---
 {
   "title": "Zacznij od testów przesiewowych",
-  "challenge": "diagnoza",
   "summary": "Self-testy (ASRS, AQ) to pierwszy sygnał — nie diagnoza, ale dobry punkt wyjścia do rozmowy.",
-  "order": 1,
+  "icon": "mdi:clipboard-check-outline",
+  "order": 34,
   "lang": "pl",
   "conditions": [
     "adhd",
     "autism"
   ],
-  "lenses": [],
+  "addresses": [
+    {
+      "target": "diagnoza",
+      "kind": "symptom",
+      "evidence": "B",
+      "community": "wysoki"
+    }
+  ],
   "resources": [
     {
       "title": "Co chciałbym wcześniej wiedzieć o ADHD",

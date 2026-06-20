@@ -1,14 +1,27 @@
 ---
 {
   "title": "Projektuj pod oba układy naraz",
-  "challenge": "konflikt-audhd",
   "summary": "Zbuduj system, który karmi głód nowości (ADHD) wewnątrz przewidywalnej ramy (autyzm) — zamiast wybierać jedno.",
-  "order": 1,
+  "icon": "mdi:set-center",
+  "order": 35,
   "lang": "pl",
   "conditions": [
     "audhd"
   ],
-  "lenses": [],
+  "addresses": [
+    {
+      "target": "chaos-czas-organizacja",
+      "kind": "symptom",
+      "evidence": "C",
+      "community": "średni"
+    },
+    {
+      "target": "przeciwny-ciag-audhd",
+      "kind": "mechanism",
+      "evidence": "C",
+      "community": "niski"
+    }
+  ],
   "resources": [
     {
       "title": "ADHD vs Autism — the overlap (Venn)",
