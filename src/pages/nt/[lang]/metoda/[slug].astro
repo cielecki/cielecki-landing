@@ -3,7 +3,7 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 import AudhdLayout from '../../../../layouts/AudhdLayout.astro';
 import Signals from '../../../../components/Signals.astro';
 import { useTranslations, otherLang, type Lang, type UIKey } from '../../../../i18n/ui';
-import { edgeScore, conditionLabel, conditionIcon } from '../../../../lib/signals';
+import { edgeScore, conditionLabel, conditionIcon, conditionColor } from '../../../../lib/signals';
 
 export async function getStaticPaths() {
   const protocols = await getCollection('protocols');
@@ -89,7 +89,7 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
         <span class="text-xs text-charcoal-light/60 mr-1">{t('nt.appliesTo')}:</span>
         {entry.data.conditions.map((c) => (
           <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-white/70 border border-charcoal/8 text-xs text-charcoal-light">
-            <span class="iconify text-sm" data-icon={conditionIcon[c]} />
+            <span class="iconify text-sm" data-icon={conditionIcon[c]} style={`color:${conditionColor[c]}`} />
             {conditionLabel[c]}
           </span>
         ))}

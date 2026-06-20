@@ -17,3 +17,9 @@ export const conditionIcon: Record<string, string> = {
   autism: 'mdi:infinity',
   audhd: 'mdi:yin-yang',
 };
+// Colour language: ADHD = terracotta, autism = sage, AuDHD = a violet blend of the two.
+export const conditionColor: Record<string, string> = {
+  adhd: '#A8624A',
+  autism: '#6E8268',
+  audhd: '#7E6BA8',
+};
