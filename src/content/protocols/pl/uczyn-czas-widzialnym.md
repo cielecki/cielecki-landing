@@ -1,6 +1,6 @@
 ---
 {
-  "title": "Uczyń czas widzialnym (kolory w kalendarzu)",
+  "title": "Uczyń czas widzialnym (alarmy + kolory w kalendarzu)",
   "summary": "ADHD wiąże się ze ślepotą czasową — czas nie jest odczuwany intuicyjnie. Wynieś go na zewnątrz konkretnymi wskazówkami wzrokowymi: koloruj wpisy w kalendarzu, ustaw zewnętrzne markery. Wpis w złym kolorze potrafi sprawić, że spóźnisz się pół godziny.",
   "icon": "mdi:tools",
   "order": 64,
@@ -30,6 +30,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=hPSp2vqAjWo&t=1494s",
       "note": "„Musiałam ciężko pracować, by uczynić czas widzialnym — dziś spóźniłam się pół godziny, bo wpis był w złym kolorze.”"
+    },
+    {
+      "title": "Martine McCutcheon: budzik i alarmy na wszystko",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=mTT4Qrfrm-A&t=4846s",
+      "author": "Martine McCutcheon",
+      "note": "Bez dzwonka/alarmu nie wraca do tego, co miała zrobić — od mycia zębów po wyprawienie syna."
     }
   ],
   "lang": "pl"

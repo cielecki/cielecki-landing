@@ -1,7 +1,7 @@
 ---
 {
-  "title": "Dziennik dowodów przeciw syndromowi oszusta",
-  "summary": "Po każdym stresującym wystąpieniu celowo zapisuj dowody, że poszło dobrze (pozytywne komentarze ludzi) — żeby następnym razem mieć zgromadzony materiał kontrujący lęk.",
+  "title": "Dziennik dowodów i wygranych (kontra na syndrom oszusta)",
+  "summary": "Po każdym stresującym wystąpieniu zapisuj dowody, że poszło dobrze; prowadź też codzienny dziennik wygranych — mózg ADHD szybko zapomina sukcesy, więc pewność siebie się nie kumuluje.",
   "icon": "mdi:tools",
   "order": 22,
   "conditions": [
@@ -15,6 +15,13 @@
       "evidence": "C",
       "community": "niski",
       "note": "Zgromadzony zapis pozytywnego feedbacku jako materiał kontrujący lęk przed kolejnym wystąpieniem."
+    },
+    {
+      "target": "slaba-pamiec-robocza",
+      "kind": "mechanism",
+      "evidence": "C",
+      "community": "niski",
+      "note": "Kompensuje „sukces-amnezję” — niezapamiętane osiągnięcia nie budują obrazu siebie."
     }
   ],
   "resources": [
@@ -30,6 +37,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2859s",
       "note": "„Nagrywam wideo, że czuję odrzucenie, oglądam dzień–dwa później świeżym okiem — zwykle to nieprawda.”"
+    },
+    {
+      "title": "How To Beat Imposter Syndrome — Leanne Maskell (dziennik wygranych)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=vCe_L6M915g&t=695s",
+      "author": "Leanne Maskell",
+      "note": "Codzienny dziennik, miesięczna lista osiągnięć i zaplanowany w kalendarzu czas na świętowanie — bo mózg ADHD szybko zapomina, co zrobił."
     }
   ],
   "lang": "pl"

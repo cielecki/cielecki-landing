@@ -1,7 +1,7 @@
 ---
 {
-  "title": "Counter-evidence journal against imposter syndrome",
-  "summary": "After each feared event, deliberately journal the evidence it went well (what people said) — so next time you have stored proof to counter the fear.",
+  "title": "Evidence & wins journal (against imposter syndrome)",
+  "summary": "After each feared event, journal the evidence it went well; also keep a daily wins journal — the ADHD brain forgets successes fast, so confidence never accumulates.",
   "icon": "mdi:tools",
   "order": 22,
   "conditions": [
@@ -15,6 +15,13 @@
       "evidence": "C",
       "community": "niski",
       "note": "A stored record of positive feedback as material to counter the fear before the next performance."
+    },
+    {
+      "target": "slaba-pamiec-robocza",
+      "kind": "mechanism",
+      "evidence": "C",
+      "community": "niski",
+      "note": "Compensates for 'success amnesia' — unremembered achievements never build a self-image."
     }
   ],
   "resources": [
@@ -30,6 +37,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2859s",
       "note": "'I record a video that I feel rejected, rewatch it a day or two later with fresh eyes — usually it's not true.'"
+    },
+    {
+      "title": "How To Beat Imposter Syndrome — Leanne Maskell (win journal)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=vCe_L6M915g&t=695s",
+      "author": "Leanne Maskell",
+      "note": "Daily journal, monthly achievement list, and scheduled celebration time — because the ADHD brain quickly forgets what it has done."
     }
   ],
   "lang": "en"

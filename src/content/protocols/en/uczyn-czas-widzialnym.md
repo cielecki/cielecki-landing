@@ -1,6 +1,6 @@
 ---
 {
-  "title": "Make time visible (color-code the calendar)",
+  "title": "Make time visible (alarms + color-code the calendar)",
   "summary": "ADHD comes with time blindness — time isn't felt intuitively. Externalize it with concrete visual cues: color-code calendar entries, set external markers. An entry in the wrong color can make you half an hour late.",
   "icon": "mdi:tools",
   "order": 64,
@@ -30,6 +30,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=hPSp2vqAjWo&t=1494s",
       "note": "'I've had to work hard to make time visible — today I was half an hour late because the entry was the wrong color.'"
+    },
+    {
+      "title": "Martine McCutcheon: alarm clock and alarms for everything",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=mTT4Qrfrm-A&t=4846s",
+      "author": "Martine McCutcheon",
+      "note": "Without a bell/alarm she doesn't get back to what she meant to do — from brushing teeth to getting her son ready."
     }
   ],
   "lang": "en"

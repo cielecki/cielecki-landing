@@ -22,6 +22,20 @@
       "kind": "mechanism",
       "evidence": "C",
       "community": "średni"
+    },
+    {
+      "target": "dlug-snu-presja",
+      "kind": "mechanism",
+      "evidence": "C",
+      "community": "średni",
+      "note": "Harder snoozing stabilizes wake time, syncing circadian rhythm with sleep pressure."
+    },
+    {
+      "target": "sen",
+      "kind": "symptom",
+      "evidence": "B",
+      "community": "wysoki",
+      "note": "Phone out of reach shortens sleep onset and increases actual sleep time."
     }
   ],
   "resources": [
@@ -43,6 +57,20 @@
       "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=210s",
       "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
       "note": "Set boundaries protecting wind-down time — like blocking news sites one hour before bed and not arguing with internet trolls in the evening."
+    },
+    {
+      "title": "It's not blue light, it's the 40 lost minutes",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=622s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "The strong evidence is about not bringing screens to bed — those who do lose about 40 extra minutes scrolling that could be sleep."
+    },
+    {
+      "title": "Charge the phone outside the bedroom",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=646s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "Charge your phone outside the bedroom — out of sight, out of mind; bonus: harder to snooze, syncing circadian rhythm and sleep pressure."
     }
   ],
   "lang": "en"

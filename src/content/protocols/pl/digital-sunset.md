@@ -22,6 +22,20 @@
       "kind": "mechanism",
       "evidence": "C",
       "community": "średni"
+    },
+    {
+      "target": "dlug-snu-presja",
+      "kind": "mechanism",
+      "evidence": "C",
+      "community": "średni",
+      "note": "Trudniejsze klikanie drzemki stabilizuje porę pobudki, synchronizując rytm dobowy z presją snu."
+    },
+    {
+      "target": "sen",
+      "kind": "symptom",
+      "evidence": "B",
+      "community": "wysoki",
+      "note": "Telefon poza zasięgiem skraca czas zasypiania i zwiększa realny czas snu."
     }
   ],
   "resources": [
@@ -43,6 +57,20 @@
       "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=210s",
       "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
       "note": "Wyznacz granice chroniące czas na wyciszenie — np. blokuj strony z newsami na godzinę przed snem i nie kłóć się wieczorem z trollami w internecie."
+    },
+    {
+      "title": "Nie chodzi o niebieskie światło, lecz o utracone 40 minut",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=622s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "Silny dowód dotyczy nieprzynoszenia ekranów do łóżka — kto idzie spać z telefonem, traci ok. 40 minut na scrollowanie, które mogłyby być snem."
+    },
+    {
+      "title": "Ładuj telefon poza sypialnią",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=646s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "Ładuj telefon poza sypialnią — z oczu, z myśli; bonus: trudniej rano klikać drzemkę, co synchronizuje rytm dobowy i presję snu."
     }
   ],
   "lang": "pl"

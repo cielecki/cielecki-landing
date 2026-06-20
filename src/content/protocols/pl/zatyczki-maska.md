@@ -22,6 +22,13 @@
       "kind": "symptom",
       "evidence": "C",
       "community": "wysoki"
+    },
+    {
+      "target": "revenge-bedtime",
+      "kind": "mechanism",
+      "evidence": "C",
+      "community": "niski",
+      "note": "Przyjemny sensorycznie setup obniża awersję do łóżka, która napędza odkładanie pory snu."
     }
   ],
   "resources": [
@@ -54,6 +61,13 @@
       "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1622s",
       "author": "Jay Beech",
       "note": "„Konkretne dźwięki odpalają walkę-lub-ucieczkę — praktyczne wyjścia to zmiana miejsca albo słuchawki.”"
+    },
+    {
+      "title": "Napraw sensoryczne tarcia wokół snu",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=513s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "Napraw problemy sensoryczne wokół snu (metki, drapiące koce, dziwna pasta) — przyjemny sensorycznie zestaw do spania zwiększa motywację, by w ogóle iść do łóżka."
     }
   ],
   "lang": "pl"

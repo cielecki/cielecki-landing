@@ -22,6 +22,13 @@
       "kind": "symptom",
       "evidence": "C",
       "community": "wysoki"
+    },
+    {
+      "target": "revenge-bedtime",
+      "kind": "mechanism",
+      "evidence": "C",
+      "community": "niski",
+      "note": "A sensorily pleasant setup lowers the bed-aversion that drives bedtime procrastination."
     }
   ],
   "resources": [
@@ -54,6 +61,13 @@
       "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1622s",
       "author": "Jay Beech",
       "note": "'Specific sounds trigger fight-or-flight — the practical exits are moving away or headphones.'"
+    },
+    {
+      "title": "Fix sensory friction around sleep",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=513s",
+      "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
+      "note": "Fix sensory friction around sleep (PJ tags, scratchy blankets, weird toothpaste) — a sleep setup that feels good makes you want to go to bed."
     }
   ],
   "lang": "en"
