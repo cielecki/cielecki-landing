@@ -51,7 +51,37 @@
       "note": "If it's a stimulant: a walk, calling a friend, an engaging book instead of porn."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "A Meta-Analysis of Functional Communication Training for Young Children with ASD and Challenging Behavior in Natural Settings",
+      "type": "meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12730082/",
+      "year": 2025,
+      "finding": "FCT (teaching a functionally-equivalent replacement that serves the same purpose as the problem behavior, identified via functional assessment) produced large reductions in challenging behavior (Tau-BC=0.97) and moderate-to-large increases in replacement behavior (Tau-BC=0.78) across 34 single-case studies in autistic children. Validates the core mechanism (identify the function, substitute a matched alternative) but in young children for observable behaviors, not adults self-applying it to porn/screens."
+    },
+    {
+      "title": "A Meta-Analytic Review of Functional Communication Training Across Mode of Communication, Age, and Disability",
+      "type": "meta-analysis",
+      "url": "https://link.springer.com/article/10.1007/s40489-014-0044-3",
+      "year": 2015,
+      "finding": "Function-based replacement training showed a large effect for decreasing challenging behavior (Robust IRD=0.79) across communication modes, ages and disabilities, strong support for the function-matching principle the method rests on, though for caregivers/therapists teaching replacements rather than self-directed functional questioning."
+    },
+    {
+      "title": "Cognitive-Behavioral Therapy for Substance Use Disorders (functional analysis + coping skills components)",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2897895/",
+      "year": 2010,
+      "finding": "CBT for addictions is built on two core components: functional analysis (identifying the triggers, function and consequences of the behavior) and coping-skills training (substituting alternative responses for the same need). This is the adult, self-medication-framed analogue of the method, and CBT has demonstrated efficacy for substance use, but the functional-questioning step itself is bundled inside multi-session therapy and never isolated as a standalone one-week self-help drill."
+    },
+    {
+      "title": "Treatments and interventions for compulsive sexual behavior disorder with a focus on problematic pornography use: a preregistered systematic review",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9872540/",
+      "year": 2022,
+      "finding": "Systematic review of PPU/CSBD treatments found promise for CBT, mindfulness and approaches targeting root causes (depression, anxiety, shame), but concluded the field has a marked gap in high-quality controlled treatment research. No study isolates a stimulant-vs-relaxant functional-substitution self-questioning protocol, and none is ADHD/autism-specific."
+    }
+  ]
 }
 ---
 

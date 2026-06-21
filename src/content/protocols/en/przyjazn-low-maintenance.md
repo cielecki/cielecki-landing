@@ -61,7 +61,37 @@
       "note": "Pattern: hyperfixate on a new person, intense closeness, sudden loss of interest — it's an ADHD trend, not disrespect; design lighter upkeep."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Loneliness, friendship, and well-being in adults with autism spectrum disorders",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24092838/",
+      "year": 2014,
+      "finding": "In autistic adults, greater quantity AND quality of friendships were associated with less loneliness; loneliness in turn predicted more depression/anxiety and lower life satisfaction and self-esteem, even after controlling for autism symptoms. Supports the value of having satisfying friendships, but does not test contact frequency or a 'long gaps are OK' arrangement."
+    },
+    {
+      "title": "Weak ties and the value of social connections for autistic people as revealed during the COVID-19 pandemic",
+      "type": "cohort",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11883032/",
+      "year": 2024,
+      "finding": "During lockdowns autistic people missed low-frequency 'weak-tie' and incidental contact (acquaintances, strangers), which appeared to support wellbeing much as for non-autistic people. Indirectly suggests low-intensity connections are valuable, but is not about a deliberate low-maintenance close-friendship protocol."
+    },
+    {
+      "title": "Evaluating Associations Between Friendship Characteristics and Mental, Physical, and Cognitive Health (Health and Retirement Study, 23,248 adults, 16-year)",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41455095/",
+      "year": 2025,
+      "finding": "In a large general-population longitudinal study, cross-lagged effects between friendship characteristics (including contact frequency) and health were consistently small, with health predicting friendship more than the reverse. Indirectly consistent with the idea that infrequent contact need not harm wellbeing if quality is retained — but not an ADHD/autism sample and not a test of this method."
+    },
+    {
+      "title": "Object permanence and ADHD: definition and tips for coping",
+      "type": "review",
+      "url": "https://www.medicalnewstoday.com/articles/object-permanence-adhd",
+      "year": 2023,
+      "finding": "Plain-language clinical review stating that 'object permanence' is NOT a recognized condition in adults with ADHD; the underlying recognized features are inattention/forgetfulness/working-memory difficulty. The 'poor object constancy → friends forgotten' mechanism this method relies on is a popular construct, not an empirically validated clinical entity."
+    }
+  ]
 }
 ---
 

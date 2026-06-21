@@ -41,7 +41,44 @@
       "note": "„Rozmowa telefoniczna albo FaceTime przed randką sprawia, że pierwsza randka jest łatwiejsza.”"
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Eye Gaze in Autism Spectrum Disorder: A Review of Neural Evidence for the Eye Avoidance Hypothesis",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10123036/",
+      "year": 2023,
+      "finding": "Przegląd dowodów neuronalnych: osoby autystyczne mogą odbierać kontakt wzrokowy jako zagrażający i go unikać, by obniżyć hiperpobudzenie ciała migdałowatego — co uzasadnia mechanizm, w którym format randki bez ciągłego kontaktu wzrokowego redukuje pobudzenie/lęk."
+    },
+    {
+      "title": "Vigilance or avoidance: How do autistic traits and social anxiety modulate attention to the eyes?",
+      "type": "other",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9876610/",
+      "year": 2022,
+      "finding": "Zarówno cechy autystyczne, jak i lęk społeczny wiążą się z unikaniem oczu jako strategią radzenia sobie z zagrożeniem społecznym — spójne z przeniesieniem fokusu wzrokowego na wspólną aktywność."
+    },
+    {
+      "title": "Disrupted joint action accounts for reduced likability of socially anxious individuals",
+      "type": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7232015/",
+      "year": 2020,
+      "finding": "Wspólne działanie (joint action) pośredniczyło między lękiem społecznym a jakością interakcji, sympatią i chęcią dalszego kontaktu — pośrednie wsparcie, że robienie czegoś RAZEM poprawia wyniki społeczne u osób z lękiem; nie jest to jednak badanie nad formatem randki."
+    },
+    {
+      "title": "Romance 101: Dating for Autistic Adults (CHOP Center for Autism Research, CAR Autism Roadmap)",
+      "type": "guideline",
+      "url": "https://www.research.chop.edu/car-autism-roadmap/romance-101-dating-for-autistic-adults",
+      "year": 2024,
+      "finding": "Wytyczne kliniczne/eksperckie zalecają krótkie, ustrukturyzowane, oparte na aktywności pierwsze randki w znanym otoczeniu, by zmniejszyć presję — konsensus kliniczny, nie test empiryczny."
+    },
+    {
+      "title": "Fostering Friendship and Dating Skills Among Adults on the Autism Spectrum: A Randomized Controlled Trial of the Polish Version of the PEERS for Young Adults Curriculum",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37043040/",
+      "year": 2023,
+      "finding": "RCT pokazujące, że ustrukturyzowany trening umiejętności randkowych/społecznych poprawia umiejętności i wiedzę u dorosłych autystyków — dowodzi, że umiejętności randkowe są trenowalne, ale testuje program, a NIE konkretny wybór formatu aktywność-vs-kolacja."
+    }
+  ]
 }
 ---
 

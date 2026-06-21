@@ -51,7 +51,37 @@
       "note": "Jeśli to stymulant: spacer, telefon do znajomego, wciągająca książka zamiast porno."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "A Meta-Analysis of Functional Communication Training for Young Children with ASD and Challenging Behavior in Natural Settings",
+      "type": "meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12730082/",
+      "year": 2025,
+      "finding": "FCT (uczenie funkcjonalnie rownowaznego zachowania zastepczego pelniacego te sama funkcje co zachowanie problemowe, po wczesniejszej ocenie funkcjonalnej) dalo duze redukcje zachowan trudnych (Tau-BC=0,97) i umiarkowane-duze wzrosty zachowan zastepczych (Tau-BC=0,78) w 34 badaniach single-case u dzieci z autyzmem. Potwierdza sam mechanizm (zdiagnozuj funkcje, podstaw dopasowana alternatywe), ale u malych dzieci i dla obserwowalnych zachowan, nie u doroslych stosujacych to do porno/ekranow."
+    },
+    {
+      "title": "A Meta-Analytic Review of Functional Communication Training Across Mode of Communication, Age, and Disability",
+      "type": "meta-analysis",
+      "url": "https://link.springer.com/article/10.1007/s40489-014-0044-3",
+      "year": 2015,
+      "finding": "Trening zastepowania oparty na funkcji wykazal duzy efekt redukcji zachowan trudnych (Robust IRD=0,79) w roznych modalnosciach, grupach wiekowych i niepelnosprawnosciach, mocno wspierajac zasade dopasowania-funkcji, na ktorej opiera sie metoda, ale dla opiekunow/terapeutow uczacych zastepnik, nie dla samodzielnego zadawania sobie pytania o funkcje."
+    },
+    {
+      "title": "Cognitive-Behavioral Therapy for Substance Use Disorders (functional analysis + coping skills components)",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2897895/",
+      "year": 2010,
+      "finding": "CBT uzaleznien opiera sie na dwoch filarach: analizie funkcjonalnej (identyfikacja wyzwalaczy, funkcji i konsekwencji zachowania) oraz treningu umiejetnosci radzenia sobie (podstawienie alternatywnych reakcji pelniacych te sama potrzebe). To doroslosciowy, ujmowany jako samoleczenie odpowiednik metody; CBT ma udowodniona skutecznosc w uzaleznieniach, ale sam krok pytania-o-funkcje jest osadzony w wielosesyjnej terapii, nigdy nie wyizolowany jako samodzielne tygodniowe cwiczenie."
+    },
+    {
+      "title": "Treatments and interventions for compulsive sexual behavior disorder with a focus on problematic pornography use: a preregistered systematic review",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9872540/",
+      "year": 2022,
+      "finding": "Przegląd systematyczny terapii PPU/CSBD wskazal obiecujace dane dla CBT, uwaznosci i podejsc adresujacych przyczyny zrodlowe (depresja, lek, wstyd), ale stwierdzil wyrazna luke w wysokiej jakosci kontrolowanych badaniach terapeutycznych. Zadne badanie nie izoluje protokolu pytania o funkcje stymulant-vs-relaksant z podstawieniem, zadne nie jest specyficzne dla ADHD/autyzmu."
+    }
+  ]
 }
 ---
 
