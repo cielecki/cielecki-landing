@@ -17,4 +17,4 @@
 }
 ---
 
-This is a self-reinforcing loop, not laziness. You see the clutter (or task), want to handle it, but the scale overwhelms you — so you freeze and sit down. The result: the problem sits there longer, exposure to the trigger grows, you get more and more overstimulated, and the threshold to start rises further. Naming the pattern (instead of the 'lazy' label) is the first step — because then it's clear you must defuse the scale (cut it into small pieces, set a near-term reward), not 'force yourself'.
+This is a self-reinforcing loop, not laziness. You see the clutter (or task), want to handle it, but the scale overwhelms you — so you freeze and sit down. The result: the problem sits there longer and looms larger in your head (and for some people, mounting overstimulation adds to it), and the threshold to start rises further. Naming the pattern (instead of the 'lazy' label) is the first step — because then it's clear you must defuse the scale (cut it into small pieces, set a near-term reward), not 'force yourself'.

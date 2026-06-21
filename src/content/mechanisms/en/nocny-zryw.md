@@ -15,4 +15,4 @@
 }
 ---
 
-Very ADHD: in the evening dopamine and arousal can spike exactly when you 'should' be sleeping. A sudden idea, a new project, excitement — and the body gets a jolt of energy instead of sleepiness. It isn't a lack of discipline, it's how the reward and arousal system works in ADHD. The key: don't fight the thought head-on — have a 'dump' ritual ready (write the idea down, return in the morning) plus a fast body wind-down (physiological sigh) so the burst doesn't run the whole night.
+Very ADHD: in the evening arousal and alertness can climb right when you 'should' be sleeping — less a sudden dopamine 'injection' than a circadian rhythm shifted late (delayed melatonin) plus a brain seeking stimulation. A sudden idea, a new project, excitement — and the body gets energy instead of sleepiness. It isn't a lack of discipline, it's how the reward and arousal system works in ADHD. The key: don't fight the thought head-on — have a 'dump' ritual ready (write the idea down, return in the morning) plus a fast body wind-down (physiological sigh) so the burst doesn't run the whole night.

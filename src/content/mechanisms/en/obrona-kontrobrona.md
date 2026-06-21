@@ -17,4 +17,4 @@
 }
 ---
 
-RSD fires a defensive reflex: the triggered person defends (sometimes aggressively), and the other instinctively comes back with their own defense to protect themselves. Both move into a protective stance — and the conversation is over before anything gets resolved. It's a mutual communication-closing mechanism: defense begets counter-defense. The key is for both partners to learn to spot this escalation and for one to deliberately de-escalate (rather than match the tone) — e.g. replacing the reflex with a 'I'm hurt + I need a moment' line.
+RSD can amplify a defensive reflex: the triggered person defends (sometimes aggressively), and the other instinctively comes back with their own defense to protect themselves. Both move into a protective stance — and the conversation is over before anything gets resolved. It's a mutual communication-closing mechanism: defense begets counter-defense. The key is for both partners to learn to spot this escalation and for one to deliberately de-escalate (rather than match the tone) — e.g. replacing the reflex with a 'I'm hurt + I need a moment' line.

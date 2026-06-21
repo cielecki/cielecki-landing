@@ -17,4 +17,4 @@
 }
 ---
 
-RSD odpala odruch obronny: zaatakowana osoba broni się (czasem agresywnie), a druga strona instynktownie odpowiada własną obroną, żeby się ochronić. Obie strony przechodzą w tryb obronny — i rozmowa jest skończona, zanim cokolwiek zostanie rozwiązane. To wzajemny mechanizm zamykania komunikacji: obrona rodzi kontrobronę. Kluczowe jest, by oboje partnerzy nauczyli się rozpoznawać tę eskalację i by jedna osoba świadomie deeskalowała (zamiast dopasowywać się do tonu) — np. zastępując odruch zdaniem typu „zranienie + prośba o chwilę”.
+RSD może nasilać odruch obronny: zaatakowana osoba broni się (czasem agresywnie), a druga strona instynktownie odpowiada własną obroną, żeby się ochronić. Obie strony przechodzą w tryb obronny — i rozmowa jest skończona, zanim cokolwiek zostanie rozwiązane. To wzajemny mechanizm zamykania komunikacji: obrona rodzi kontrobronę. Kluczowe jest, by oboje partnerzy nauczyli się rozpoznawać tę eskalację i by jedna osoba świadomie deeskalowała (zamiast dopasowywać się do tonu) — np. zastępując odruch zdaniem typu „zranienie + prośba o chwilę”.
