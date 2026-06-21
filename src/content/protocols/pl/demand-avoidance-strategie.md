@@ -29,6 +29,36 @@
       "type": "video",
       "author": "Orion Kelly"
     }
+  ],
+  "studies": [
+    {
+      "title": "Pathological demand avoidance in children and adolescents: A systematic review",
+      "type": "review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34320869/",
+      "year": 2021,
+      "finding": "Przegląd systematyczny 13 badań nad PDA: baza dowodowa jest słaba — większość badań opierała się na relacji rodziców, nie uwzględniała alternatywnych wyjaśnień, BRAK kontrolowanych badań interwencyjnych. Brakuje opartych na dowodach wytycznych klinicznych; strategie zarządzania (low-arousal, redukcja wymagań, oferowanie wyboru) opierają się na konsensusie klinicznym, nie na badaniach RCT."
+    },
+    {
+      "title": "Methods of studying pathological demand avoidance in children and adolescents: a scoping review",
+      "type": "review",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1230011/full",
+      "year": 2024,
+      "finding": "Przegląd zakresowy potwierdza, że badania nad PDA pozostają metodologicznie niedojrzałe, bez rygorystycznych danych o skuteczności interwencji; strategie to opisowe, zindywidualizowane zalecenia kliniczne, a nie przetestowane protokoły."
+    },
+    {
+      "title": "Testing self-supportive strategies to regulate autonomy and motivation",
+      "type": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11516008/",
+      "year": 2024,
+      "finding": "Prace w nurcie teorii autodeterminacji (SDT): framing wspierający autonomię (oferowanie wyboru, unikanie kontrolującego języka 'muszę/powinienem', podawanie uzasadnienia) zwiększa autonomiczną motywację i wytrwałość. Wspiera MECHANIZM przeramowania 'muszę'->'wybieram', ale dotyczy populacji ogólnej, nie testu w demand avoidance przy ADHD/autyzmie."
+    },
+    {
+      "title": "A Neuroaffirmative, Self-Determination Theory-Based Psychosocial Intervention for Adults With ADHD: Randomized Feasibility Study",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41161339/",
+      "year": 2025,
+      "finding": "Małe randomizowane badanie WYKONALNOSCI (n=20; 11 interwencja vs 9 lista oczekujacych) coachingu opartego na SDT/wsparciu autonomii dla doroslych z ADHD. Wykazalo wykonalnosc i wysoka adherencje, ale NIE bylo zaprojektowane jako badanie skutecznosci i nie mierzylo bezposrednio demand avoidance, inicjacji zadan ani redukcji unikania."
+    }
   ]
 }
 ---

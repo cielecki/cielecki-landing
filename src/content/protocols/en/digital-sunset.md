@@ -73,7 +73,37 @@
       "note": "Charge your phone outside the bedroom — out of sight, out of mind; bonus: harder to snooze, syncing circadian rhythm and sleep pressure."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Reducing the use of screen electronic devices in the evening is associated with improved sleep and daytime vigilance in adolescents (Perrault et al.)",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31260534/",
+      "year": 2019,
+      "finding": "Controlled actigraphy intervention in adolescents (12-19y): a screen curfew after 9 pm during a 2-week intervention phase (vs 2-week baseline) correlated with earlier sleep onset, increased total sleep duration, and improved daytime vigilance. Directly tests the method on sleep timing/onset."
+    },
+    {
+      "title": "Restoring the sleep disruption by blue light emitting screen use in adolescents: a randomized controlled crossover trial (van der Lely / Geijlswijk et al.)",
+      "type": "rct",
+      "url": "https://www.endocrine-abstracts.org/ea/0063/ea0063p652",
+      "year": 2019,
+      "finding": "5-week RCT crossover in frequent-screen-using adolescents: BOTH blue-light-blocking glasses AND full evening screen abstinence advanced the sleep midpoint back toward the timing of infrequent users, and reduced absolute evening melatonin levels vs habitual screen use. Supports both arms of 'digital sunset' (less light + less screen) for circadian phase."
+    },
+    {
+      "title": "Interventions to reduce short-wavelength ('blue') light exposure at night and their effects on sleep: a systematic review and meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10127364/",
+      "year": 2020,
+      "finding": "Meta-analysis of the LIGHT half of the method: evening blue-light reduction reduces sleep-onset latency in adults with sleep disorders, jet lag, or shift work, but healthy adults generally do not benefit — evidence is inconsistent and population-dependent. Tempers grading upward."
+    },
+    {
+      "title": "Sleep disturbances in children and adolescents with attention-deficit/hyperactivity disorder: a narrative review",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12620782/",
+      "year": 2024,
+      "finding": "Documents high prevalence of delayed sleep onset and bidirectional sleep-ADHD links, and that bedtime delay is the most prevalent screen-related sleep problem; supports sleep-hygiene incl. reduced evening screens as clinical recommendation. Indirect — establishes plausibility in ADHD but does not directly test a digital-sunset intervention in the diagnostic population."
+    }
+  ]
 }
 ---
 

@@ -27,7 +27,37 @@
       "note": "Obserwuj zachowanie bez kontekstu i etykiety; widać tylko czubek góry lodowej, nie funkcję pod spodem."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Self-Compassion Interventions and Psychosocial Outcomes: a Meta-Analysis of RCTs (Ferrari et al.)",
+      "type": "meta-analysis",
+      "url": "https://link.springer.com/article/10.1007/s12671-019-01134-6",
+      "year": 2019,
+      "finding": "Metaanaliza 27 RCT: interwencje wspolczucia wobec siebie (ciekawa, niekrytyczna postawa wobec wlasnego zachowania) istotnie obnizaly samokrytyke, ruminacje, lek, depresje i stres w probach ogolnych (nie ADHD/autyzm). Wspiera mechanizm 'ciekawosc zamiast oceny', ale nie w populacji docelowej."
+    },
+    {
+      "title": "Effectiveness of self-compassion-related interventions for reducing self-criticism: A systematic review and meta-analysis (Wakelin et al.)",
+      "type": "meta-analysis",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/cpp.2586",
+      "year": 2022,
+      "finding": "Przeglad systematyczny/metaanaliza: interwencje oparte na wspolczuciu istotnie obnizaja samokrytyke w porownaniu z grupami kontrolnymi. Bezposrednio dotyka celu (wstyd/branie do siebie/samoocena), ale proby sa ogolne, nie ADHD/autyzm."
+    },
+    {
+      "title": "Mindfulness-based interventions for adults with ADHD: A systematic review and meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12440486/",
+      "year": 2025,
+      "finding": "Dziesiec kontrolowanych badan interwencji opartych na uwaznosci (ktore ucza nieoceniajacej obserwacji i decentracji wobec mysli/emocji) u doroslych z ADHD wykazalo istotna poprawe objawow ADHD i afektu. Wsparcie posrednie: skladnik nieoceniajacej obserwacji jest badany w populacji docelowej, ale zadne badanie nie izoluje cwiczenia kamera/gora lodowa ani konkretnie celu rozregulowania emocji."
+    },
+    {
+      "title": "The role of self-compassion in the mental health of adults with ADHD",
+      "type": "cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9790285/",
+      "year": 2022,
+      "finding": "Badanie przekrojowe (n=856): dorosli z ADHD maja istotnie nizsze wspolczucie wobec siebie, ktore czesciowo posredniczy w gorszym zdrowiu psychicznym. Wylacznie korelacyjne - autorzy wprost zaznaczaja brak wnioskow przyczynowych i wzywaja do badania interwencyjnego. Pokazuje trafnosc konstruktu dla ADHD, ale nie testuje skutecznosci metody."
+    }
+  ]
 }
 ---
 

@@ -29,6 +29,36 @@
       "type": "video",
       "author": "Orion Kelly"
     }
+  ],
+  "studies": [
+    {
+      "title": "Pathological demand avoidance in children and adolescents: A systematic review",
+      "type": "review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34320869/",
+      "year": 2021,
+      "finding": "Systematic review of 13 studies on PDA found the evidence base is weak: most studies relied on parental report, failed to consider alternative explanations, and there were NO controlled intervention trials. Evidence-based clinical guidance for managing demand avoidance is lacking; management approaches (low-arousal, demand reduction, offering choice) rest on clinical consensus, not trials."
+    },
+    {
+      "title": "Methods of studying pathological demand avoidance in children and adolescents: a scoping review",
+      "type": "review",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1230011/full",
+      "year": 2024,
+      "finding": "Scoping review confirms PDA research remains methodologically immature with no rigorous intervention-efficacy data; strategies are descriptive/individualized clinical recommendations rather than tested protocols."
+    },
+    {
+      "title": "Testing self-supportive strategies to regulate autonomy and motivation",
+      "type": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11516008/",
+      "year": 2024,
+      "finding": "Self-Determination Theory work: autonomy-supportive framing (offering choice, avoiding controlling 'must/should' language, providing rationale) enhances autonomous motivation and sustained effort. Supports the MECHANISM behind reframing 'muszę'->'wybieram', but is general-population and not a test in ADHD/autism demand-avoidance."
+    },
+    {
+      "title": "A Neuroaffirmative, Self-Determination Theory-Based Psychosocial Intervention for Adults With ADHD: Randomized Feasibility Study",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41161339/",
+      "year": 2025,
+      "finding": "Small randomized FEASIBILITY study (n=20; 11 intervention vs 9 waitlist) of an SDT/autonomy-support coaching intervention for adults with ADHD. Demonstrated feasibility and high adherence but was NOT powered as an efficacy trial and did not specifically measure demand avoidance, task initiation, or avoidance reduction as outcomes."
+    }
   ]
 }
 ---

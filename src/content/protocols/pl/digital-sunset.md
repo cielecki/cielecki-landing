@@ -73,7 +73,37 @@
       "note": "Ładuj telefon poza sypialnią — z oczu, z myśli; bonus: trudniej rano klikać drzemkę, co synchronizuje rytm dobowy i presję snu."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Reducing the use of screen electronic devices in the evening is associated with improved sleep and daytime vigilance in adolescents (Perrault et al.)",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31260534/",
+      "year": 2019,
+      "finding": "Kontrolowana interwencja aktygraficzna u nastolatków (12-19 lat): zakaz ekranów po 21:00 w 2-tygodniowej fazie interwencyjnej (vs 2-tygodniowy baseline) wiązał się z wcześniejszym zaśnięciem, dłuższym snem i lepszą czujnością w dzień. Bezpośrednio testuje metodę na zasypianiu/długości snu."
+    },
+    {
+      "title": "Restoring the sleep disruption by blue light emitting screen use in adolescents: a randomized controlled crossover trial (van der Lely / Geijlswijk et al.)",
+      "type": "rct",
+      "url": "https://www.endocrine-abstracts.org/ea/0063/ea0063p652",
+      "year": 2019,
+      "finding": "5-tygodniowy RCT krzyżowy u nastolatków intensywnie korzystających z ekranów: ZARÓWNO okulary blokujące niebieskie światło, JAK I całkowita abstynencja wieczorna od ekranów przesunęły środek snu z powrotem ku godzinom rzadkich użytkowników i obniżyły wieczorny poziom melatoniny vs zwykłe użycie. Wspiera oba mechanizmy 'digital sunset' (mniej światła + mniej ekranu)."
+    },
+    {
+      "title": "Interventions to reduce short-wavelength ('blue') light exposure at night and their effects on sleep: a systematic review and meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10127364/",
+      "year": 2020,
+      "finding": "Metaanaliza ŚWIETLNEJ połowy metody: redukcja niebieskiego światła wieczorem skraca latencję zasypiania u dorosłych z zaburzeniami snu, jet lag lub pracą zmianową, ale zdrowi dorośli zwykle nie odnoszą korzyści — dowody są niespójne i zależne od populacji. Hamuje podniesienie oceny."
+    },
+    {
+      "title": "Sleep disturbances in children and adolescents with attention-deficit/hyperactivity disorder: a narrative review",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12620782/",
+      "year": 2024,
+      "finding": "Dokumentuje wysoką częstość opóźnionego zasypiania i dwukierunkowy związek sen-ADHD oraz że opóźnianie pory snu to najczęstszy ekranowy problem snu; wspiera higienę snu z redukcją ekranów wieczorem jako zalecenie kliniczne. Pośrednio — uzasadnia sens w ADHD, ale nie testuje bezpośrednio interwencji digital sunset w populacji diagnostycznej."
+    }
+  ]
 }
 ---
 

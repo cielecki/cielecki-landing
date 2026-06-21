@@ -47,7 +47,23 @@
       "note": "Hard rules: a paid gate on 'chats', regular advance calendar review, and the 'if it's not a hell yes, it's a no' filter."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Meta-analysis of cognitive-behavioral treatments for adult ADHD",
+      "type": "meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28504540/",
+      "year": 2017,
+      "finding": "Meta-analysis of 32 studies (up to 896 participants) found CBT for adult ADHD produced medium-to-large pre-post effects on self-reported symptoms and functioning, with meaningful (more modest) effects vs. controls; CBT-ADHD explicitly targets time management, organization and work performance — the closest umbrella evidence for these targets, but it tests multi-component programs, not the isolated 'buffer-before-yes' tactic."
+    },
+    {
+      "title": "Suboptimal decision making and interpersonal problems in ADHD: longitudinal evidence from a laboratory task",
+      "type": "cohort",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10951300/",
+      "year": 2024,
+      "finding": "Longitudinal/laboratory evidence links impulsive, delay-discounting-driven decision making in ADHD to interpersonal and functional problems — provides the mechanistic rationale (impulsive 'yes' is costly) that a deliberate delay aims to interrupt, but is observational and does not test the buffer intervention itself."
+    }
+  ]
 }
 ---
 

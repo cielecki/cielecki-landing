@@ -47,7 +47,23 @@
       "note": "Twarde reguły: płatny próg na „pogawędki”, regularny przegląd kalendarza z wyprzedzeniem, filtr „jeśli to nie jest hell yes, to nie”."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Meta-analysis of cognitive-behavioral treatments for adult ADHD",
+      "type": "meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28504540/",
+      "year": 2017,
+      "finding": "Metaanaliza 32 badań (do 896 uczestników) wykazała, że CBT w ADHD dorosłych daje średnie-do-dużych efekty przed-po dla objawów i funkcjonowania oraz znaczące (skromniejsze) efekty względem grup kontrolnych; CBT-ADHD wprost celuje w zarządzanie czasem, organizację i wydajność w pracy — to najbliższy parasolowy dowód dla tych celów, ale testuje programy wieloskładnikowe, nie wyizolowaną taktykę 'bufora przed tak'."
+    },
+    {
+      "title": "Suboptimal decision making and interpersonal problems in ADHD: longitudinal evidence from a laboratory task",
+      "type": "cohort",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10951300/",
+      "year": 2024,
+      "finding": "Dowody longitudinalne/laboratoryjne łączą impulsywne, napędzane delay-discountingiem podejmowanie decyzji w ADHD z problemami interpersonalnymi i funkcjonalnymi — dają uzasadnienie mechanistyczne (impulsywne 'tak' jest kosztowne), które celowy bufor ma przerwać, ale są obserwacyjne i nie testują samej interwencji bufora."
+    }
+  ]
 }
 ---
 
