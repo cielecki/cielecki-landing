@@ -195,6 +195,14 @@ const profiles = [
       el.classList.toggle('ad-hidden', !show);
     });
 
+    // Inverse of the above: a "not for this profile" note that appears ONLY when the
+    // page you opened directly doesn't match the active profile (we don't hide the page).
+    document.querySelectorAll('[data-applies]').forEach((el) => {
+      const conds = (el.getAttribute('data-applies') || '').split(' ').filter(Boolean);
+      const matches = conds.some((c) => set.includes(c));
+      el.classList.toggle('ad-hidden', matches);
+    });
+
     document.querySelectorAll('[data-lens]').forEach((el) => {
       const lp = el.getAttribute('data-lens');
       const relevant = !!lp && set.includes(lp);

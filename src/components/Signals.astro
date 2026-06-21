@@ -11,9 +11,11 @@ interface Props {
   muted?: boolean;
   /** If set, the evidence badge becomes a link (e.g. "#badania" to jump to the studies). */
   href?: string;
+  /** Hide the source-count badge (e.g. when the count is shown once in a section header). */
+  hideSources?: boolean;
 }
 
-const { evidence, sources, lang, muted = false, href } = Astro.props;
+const { evidence, sources, lang, muted = false, href, hideSources = false } = Astro.props;
 const t = useTranslations(lang);
 
 const srcClass: Record<string, string> = {
@@ -43,7 +45,7 @@ const evBase = `inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs 
       {t(`ev.${evidence}` as UIKey)}
     </span>
   )}
-  {sources > 0 && (
+  {sources > 0 && !hideSources && (
     <span
       class={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium ${srcClass[tier]}`}
       title={t('nt.sourcesHint')}

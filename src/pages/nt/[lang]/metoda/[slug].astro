@@ -3,7 +3,7 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 import AudhdLayout from '../../../../layouts/AudhdLayout.astro';
 import Signals from '../../../../components/Signals.astro';
 import { useTranslations, otherLang, type Lang, type UIKey } from '../../../../i18n/ui';
-import { edgeScore, sourceCount, conditionLabel, conditionIcon, conditionColor, evidenceClass, gradeOrder } from '../../../../lib/signals';
+import { edgeScore, sourceCount, sourcesLabel, conditionIcon, conditionColor, evidenceClass, gradeOrder } from '../../../../lib/signals';
 
 export async function getStaticPaths() {
   const protocols = await getCollection('protocols');
@@ -107,27 +107,13 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
       </div>
       <h1 class="font-serif text-3xl sm:text-4xl font-bold text-charcoal-dark leading-tight mb-3">{entry.data.title}</h1>
       <p class="text-lg text-charcoal-light leading-relaxed">{entry.data.summary}</p>
-      {best && (
-        <div class="mt-4">
-          <div class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/55 mb-1.5">{t('nt.howProven')}</div>
-          <Signals
-            evidence={best.ev}
-            sources={methodSources}
-            lang={lang}
-            muted={entry.data.studies.length === 0}
-            href={entry.data.studies.length > 0 ? '#badania' : undefined}
-          />
-        </div>
-      )}
-      <div class="flex flex-wrap items-center gap-1.5 mt-4">
-        <span class="text-xs text-charcoal-light/60 mr-1">{t('nt.appliesTo')}:</span>
-        {entry.data.conditions.map((c) => (
-          <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-white/70 border border-charcoal/8 text-xs text-charcoal-light">
-            <span class="iconify text-sm" data-icon={conditionIcon[c]} style={`color:${conditionColor[c]}`} />
-            {conditionLabel[c]}
-          </span>
-        ))}
-      </div>
+      <p
+        data-applies={entry.data.conditions.join(' ')}
+        class="ad-hidden mt-4 flex items-start gap-2 text-xs text-charcoal-light/75 bg-terracotta/8 border border-terracotta/15 rounded-lg px-3 py-2 max-w-2xl"
+      >
+        <span class="iconify text-sm mt-0.5 text-terracotta-dark flex-shrink-0" data-icon="mdi:information-outline" />
+        {t('nt.notForProfile')}
+      </p>
     </header>
 
     <div class="audhd-prose text-charcoal leading-relaxed max-w-2xl"><Content /></div>
@@ -152,7 +138,7 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
                       {l.title}
                     </div>
                     <div class="mt-1.5">
-                      <Signals evidence={l.ev} sources={methodSources} lang={lang} muted={entry.data.studies.length === 0} />
+                      <Signals evidence={l.ev} sources={methodSources} lang={lang} muted={entry.data.studies.length === 0} hideSources={true} />
                     </div>
                     {l.note && <p class="text-xs text-charcoal-light/70 italic mt-1.5">{l.note}</p>}
                   </div>
@@ -166,7 +152,15 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
     }
 
     <section class="mt-10 pt-6 border-t border-charcoal/8">
-      <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-4">{t('method.resources')}</h2>
+      <div class="flex items-center justify-between gap-3 mb-4">
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60">{t('method.resources')}</h2>
+        {methodSources > 0 && (
+          <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-terracotta/12 text-terracotta-dark" title={t('nt.sourcesHint')}>
+            <span class="iconify text-sm" data-icon="mdi:account-voice" />
+            {sourcesLabel(methodSources, lang)}
+          </span>
+        )}
+      </div>
       {
         entry.data.resources.length === 0 ? (
           <p class="text-charcoal-light/70 text-sm">{t('method.noResources')}</p>
@@ -282,5 +276,15 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
         ))}
       </div>
     </section>
+
+    <div class="mt-10 pt-6 border-t border-charcoal/8 flex flex-wrap items-center gap-1.5">
+      <span class="text-xs text-charcoal-light/60 mr-1">{t('nt.appliesTo')}:</span>
+      {entry.data.conditions.map((c) => (
+        <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-white/70 border border-charcoal/8 text-xs text-charcoal-light">
+          <span class="iconify text-sm" data-icon={conditionIcon[c]} style={`color:${conditionColor[c]}`} />
+          {t(`profile.${c}` as UIKey)}
+        </span>
+      ))}
+    </div>
   </article>
 </AudhdLayout>

@@ -2,8 +2,8 @@
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import AudhdLayout from '../../../../layouts/AudhdLayout.astro';
 import Signals from '../../../../components/Signals.astro';
-import { useTranslations, otherLang, type Lang } from '../../../../i18n/ui';
-import { edgeScore, sourceCount, conditionLabel, conditionIcon, conditionColor } from '../../../../lib/signals';
+import { useTranslations, otherLang, type Lang, type UIKey } from '../../../../i18n/ui';
+import { edgeScore, sourceCount, conditionIcon, conditionColor } from '../../../../lib/signals';
 
 export async function getStaticPaths() {
   const mechanisms = await getCollection('mechanisms');
@@ -62,7 +62,7 @@ const altLangUrl = `/nt/${otherLang(lang)}/mechanizm/${slug}/`;
         {entry.data.conditions.map((c) => (
           <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-white/70 border border-charcoal/8 text-xs text-charcoal-light">
             <span class="iconify text-sm" data-icon={conditionIcon[c]} style={`color:${conditionColor[c]}`} />
-            {conditionLabel[c]}
+            {t(`profile.${c}` as UIKey)}
           </span>
         ))}
       </div>
