@@ -47,7 +47,37 @@
       "note": "Jako uległy/a wciąż antycypujesz, jako dominujący/a prowadzisz — w obu rolach nie ma wolnej uwagi na rozproszenia."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "BDSM as a tool for an altered state / flow and mindfulness (TIME report on Brad Sagarin's research)",
+      "type": "other",
+      "url": "https://time.com/4511726/bdsm-sex-flow-state-mindfulness/",
+      "year": 2016,
+      "finding": "Sensoryczne praktyki i ograniczenie ruchu w BDSM mogą wywołać stan flow / odmiennej świadomości z intensywnym skupieniem na chwili obecnej, mierzony fizjologicznie — wspiera prawdopodobieństwo mechanizmu (intensywny bodziec cielesny zawęża uwagę do tu-i-teraz), ale nie jest to kontrolowane badanie dotyczące ADHD."
+    },
+    {
+      "title": "ADHD and Sex: Optimizing Intimacy for the Neurodivergent Brain (clinical/psychotherapy review)",
+      "type": "review",
+      "url": "https://www.resiliencepsychotherapy.com/blog/adhd-and-sex-optimizing-intimacy-for-the-neurodivergent-brain",
+      "year": 2023,
+      "finding": "Konsensus kliniczny: mózg ADHD traci obecność podczas rutynowego, nisko-bodźcowego seksu (odpływanie uwagi, spadek pobudzenia), a intensywna, bogata sensorycznie, ustrukturyzowana intymność (w tym BDSM/sensation play) może przywrócić obecność. Opinia ekspercka, nie badanie."
+    },
+    {
+      "title": "Mindfulness-based interventions improve sexual desire, arousal and orgasmic function (sexual mindfulness literature)",
+      "type": "review",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6538816/",
+      "year": 2019,
+      "finding": "Uważność seksualna — kierowanie akceptującej uwagi na bieżące doznania cielesne — poprawia pożądanie, pobudzenie i funkcję orgazmiczną/erekcję w badaniach kontrolowanych. Pośrednio: kotwiczenie sensoryczne to behawioralna droga do tego samego stanu 'skup się na doznaniu teraz', ale te badania używały uważności, nie dodatkowych bodźców dotykowych/termicznych, i nie obejmowały próby ADHD."
+    },
+    {
+      "title": "Ayres Sensory Integration With Children Ages 0-12: A Systematic Review of Randomized Controlled Trials (AJOT)",
+      "type": "meta-analysis",
+      "url": "https://research.aota.org/ajot/article/79/3/7903205180/27150/Ayres-Sensory-IntegrationR-With-Children-Ages-0-to",
+      "year": 2025,
+      "finding": "Silne dowody (5 RCT), że interwencja integracji sensorycznej pomaga dzieciom autystycznym osiągać zindywidualizowane cele, ale umiarkowane dowody na BRAK korzyści dla zachowań problemowych; korzyści dla uwagi/regulacji pozostają w dużej mierze teoretyczne. Inna populacja/modalność (terapia zajęciowa dzieci, nie intymność dorosłych) — pokazuje jedynie, że teza 'bodziec sensoryczny reguluje stan' ma częściowe, niespójne wsparcie empiryczne."
+    }
+  ]
 }
 ---
 

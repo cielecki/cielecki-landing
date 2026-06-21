@@ -12,7 +12,7 @@
     {
       "target": "uzaleznienia",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "niski",
       "note": "Purpose gives a reason to endure withdrawal; small goals replace the big hit."
     },
@@ -53,7 +53,44 @@
       "note": "\"Small tasks, small wins that, recognized, nudge dopamine gently upward.\""
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Targeting Mechanisms for Problematic Pornography Use Interventions",
+      "type": "rct",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/26929953.2023.2272613",
+      "year": 2023,
+      "finding": "Randomized online experiment (n=711) comparing brief inductions of life meaning, willpower, mindfulness and awe vs active control. The life-meaning manipulation reduced craving/desire for pornography use — direct experimental support that activating meaning lowers porn desire, though brief/lab-style and not clinical-population follow-up."
+    },
+    {
+      "title": "Purpose in life and depressive symptoms: An individual-participant meta-analysis of >500,000 participants across six world regions",
+      "type": "meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12823043/",
+      "year": 2024,
+      "finding": "Across 71 of 72 samples (>500k participants) purpose in life was significantly negatively associated with depressive symptoms (pooled estimate ~ -.32). Strong, robust correlational base for the 'meaninglessness drives distress' premise, but correlational — not causal for the intervention."
+    },
+    {
+      "title": "Effects of meaning therapy on spirituality, psychological health, and quality of life in patients with cancer: a systematic review and meta-analysis of RCTs",
+      "type": "meta-analysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S234756252400012X",
+      "year": 2024,
+      "finding": "Meta-analysis of 8 RCTs (n=1,251) found meaning therapy significantly improved depression (SMD -0.37, 95% CI -0.55 to -0.20). Demonstrates that meaning-building interventions can causally improve mood — but in cancer patients, not ADHD/autism or addiction."
+    },
+    {
+      "title": "The effect of a behavioral activation treatment for substance use on post-treatment abstinence: a randomized controlled trial (Daughters et al., Addiction)",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5807178/",
+      "year": 2018,
+      "finding": "RCT of behavioral activation (LETS ACT) — increasing engagement in healthy, positively-reinforcing substance-free activities (the 'small meaningful wins replace the big hit' logic) — improved post-treatment abstinence. Direct trial support for the 'small reinforcing goals' lever in addiction, grounded in reinforcement theory."
+    },
+    {
+      "title": "Origins of altered reinforcement effects in ADHD / Abnormal striatal BOLD responses to reward anticipation and delivery in ADHD",
+      "type": "review",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2649942/",
+      "year": 2009,
+      "finding": "ADHD reward-system work shows altered dopamine transfer to reward-predicting cues and steeper delay discounting — adults with ADHD respond more to immediate, frequent reinforcement and lose motivation under delayed reward. This supports the mechanism (frequent small near-baseline wins fit ADHD reward biology) but does NOT test the porn-recovery application."
+    }
+  ]
 }
 ---
 

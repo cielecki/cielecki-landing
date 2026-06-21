@@ -40,7 +40,30 @@
       "note": "„Gdy milczę i nie reaguję — to nie przez ciebie, shutnąłem się, rebootuję.”"
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Describing the communication of autistic people during experiences of distress: A scoping review",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13005890/",
+      "year": 2026,
+      "finding": "Przegląd typu scoping 18 badań (jakościowe/ilościowe/mieszane, brak badań kontrolowanych). Potwierdza, że shutdown to wycofanie, zamrożenie i ograniczenie/brak mowy w dystresie, a 7 badań opisywało wycofanie z komunikacji z powodu przeciążenia. Ułatwienia opisane w literaturze są środowiskowe (spokojne miejsce, AAC, wsparcia wizualne). Przegląd wprost NIE obejmuje uzgodnionego wcześniej protokołu relacyjnego typu 'cisza = reset, nie odrzucenie' — ta konkretna strategia jest słabo zbadana."
+    },
+    {
+      "title": "What Is Autistic Burnout? A Thematic Analysis of Posts on Two Online Platforms",
+      "type": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8992925/",
+      "year": 2022,
+      "finding": "Analiza tematyczna postów pisanych przez osoby autystyczne. Regeneracja po wypaleniu autystycznym wymaga odpoczynku, samotności, ulgi sensorycznej i redukcji wymagań — co wspiera MECHANIZM, że wycofanie po przeciążeniu jest regenerujące (potrzeba, nie unikanie). To dane jakościowe/samoopisowe, nie badanie efektów, i nie testuje komunikowania tej potrzeby partnerowi."
+    },
+    {
+      "title": "Therapy outcomes for neurodiverse couples: Exploring a solution-focused approach",
+      "type": "other",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33960423/",
+      "year": 2021,
+      "finding": "Opisowe studium przypadku jednej pary (n=1 diada), 12 sesji terapii skoncentrowanej na rozwiązaniach; oboje partnerzy poprawili komunikację i świadomość emocjonalną. Bez grupy kontrolnej, bez randomizacji, nie testuje konkretnego protokołu 'uzgodnij, że cisza = reboot'; istotne tylko jako najbliższy dowód na poziomie relacji, że ustrukturyzowana praca nad komunikacją w parze neuroróżnorodnej może pomóc."
+    }
+  ]
 }
 ---
 

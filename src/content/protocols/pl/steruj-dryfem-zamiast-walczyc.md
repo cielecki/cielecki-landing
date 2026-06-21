@@ -40,7 +40,37 @@
       "note": "„Pozwoliłam umysłowi dryfować, ale ku gorącym rzeczom… nie przerywało to przyjemności, bo nie wpadałam w negatywne myśli ani się nie obwiniałam.”"
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "The Role of Cognitive Processing Factors in Sexual Function and Dysfunction in Women and Men: A Systematic Review (Tavares, Moura & Nobre)",
+      "type": "review",
+      "url": "https://academic.oup.com/smr/article-abstract/8/3/403/6880212",
+      "year": 2020,
+      "finding": "Przegląd systematyczny 67 badań: dystrakcja poznawcza i kierunek uwagi to jedne z najbardziej spójnych predyktorów (dys)funkcji seksualnej u obu płci; uwaga odciągnięta na treści pozazadaniowe/zagrażające (wydajność, wygląd) obniża pobudzenie. Potwierdza mechanizm, nie samą technikę dla ADHD."
+    },
+    {
+      "title": "Cognitive Distraction and Women's Sexual Functioning (Dove & Wiederman)",
+      "type": "cohort",
+      "url": "https://www.researchgate.net/publication/12622697_Cognitive_Distraction_and_Women's_Sexual_Functioning",
+      "year": 2000,
+      "finding": "Większa dystrakcja poznawcza podczas seksu z partnerem wiązała się z mniej regularnym orgazmem, niższą satysfakcją i samooceną seksualną, niezależnie od pożądania/nastroju/obrazu ciała. Szkodliwa jest dystrakcja ku wydajności/wyglądowi (nie ku bodźcom erotycznym) — spójne z kierowaniem uwagi ku temu, co podniecające."
+    },
+    {
+      "title": "The effects of state and trait self-focused attention on sexual arousal in sexually functional and dysfunctional women (Meana & Nunnink / van Lankveld tradition; Barlow spectatoring model)",
+      "type": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2859206/",
+      "year": 2006,
+      "finding": "Eksperymentalnie wywołana uwaga skupiona na sobie obniżyła pobudzenie genitalne (amplituda pulsu pochwowego), zgodnie z modelem 'spectatoring' Barlowa: wstyd/monitorowanie wydajności odciąga uwagę od bodźców pobudzających i tłumi pobudzenie. Wspiera część 'nie walcz z dryfem / przestań się monitorować', ale w próbach bez ADHD."
+    },
+    {
+      "title": "Sexual fantasy task RCT (IMAGINE project) on sexual desire and distress in women",
+      "type": "rct",
+      "url": "https://osf.io/sz3mb/overview",
+      "year": 2023,
+      "finding": "Zarejestrowane badanie RCT testujące wielotygodniowe zadanie fantazji seksualnej w celu zwiększenia pożądania i redukcji dystresu oraz lęków o wydajność/ciało — najbliższy kontrolowany dowód dla komponentu 'kieruj dryf ku podniecającej fantazji'. Próba nie dotyczy ADHD/autyzmu; szczegóły siły efektu ograniczone w publicznym opisie."
+    }
+  ]
 }
 ---
 
