@@ -46,7 +46,37 @@
       "note": "„Rzeka pomysłów”: każdy pomysł to ryba — wyciągasz tylko jedną naraz, resztę zapisz i wracaj co ~3 miesiące, bo jak wyciągniesz dwie, jedna zginie."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "If-Then Plans Benefit Delay of Gratification Performance in Children With and Without ADHD",
+      "type": "rct",
+      "url": "https://link.springer.com/article/10.1007/s10608-010-9309-z",
+      "year": 2011,
+      "finding": "Dwa randomizowane eksperymenty: dzieci z ADHD, ktore utworzyly intencje implementacyjna jezeli-to ('Gdy pojawi sie czerwony obrazek, to poczekam na niebieski'), odraczaly gratyfikacje znacznie dluzej i zarabialy wiecej niz grupa kontrolna. Wspiera mechanizm metody (gotowy plan 'jezeli nowy impuls, to odkladam na polke', by wydluzyc odstep miedzy impulsem a dzialaniem), ale testuje laboratoryjne zadanie odraczania u dzieci, nie 'polke pomyslow' przy hobby/wydatkach."
+    },
+    {
+      "title": "Implementation Intentions Facilitate Response Inhibition in Children with ADHD",
+      "type": "rct",
+      "url": "https://www.semanticscholar.org/paper/Implementation-Intentions-Facilitate-Response-in-Gawrilow-Gollwitzer/676726226cd8d35a7aaeae2fccc5bf64dfeaf292",
+      "year": 2008,
+      "finding": "Eksperyment kontrolowany: tworzenie planow jezeli-to poprawialo hamowanie reakcji (Go/No-Go) u dzieci z ADHD - ten sam mechanizm hamowania, na ktorym opiera sie 'polka' (swiadome niedzialanie na impuls nowego pomyslu). Posrednie: zadanie laboratoryjne u dzieci, nie rzeczywiste przeciazenie zobowiazaniami ani zachowania nalogowe."
+    },
+    {
+      "title": "Impulsive Buying and Deferment of Gratification Among Adults With ADHD",
+      "type": "cohort",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11636743/",
+      "year": 2024,
+      "finding": "Badanie obserwacyjne u doroslych z ADHD wiazace slabsze odraczanie gratyfikacji z impulsywnym kupowaniem. Potwierdza problem docelowy (impulsywne nabywanie zwiazane ze slabym odraczaniem), ale nie testuje zadnej interwencji - nie pokazuje, ze strategia odraczania/polki redukuje to zachowanie."
+    },
+    {
+      "title": "Anticipation of Appetitive Operant Action Induces Sustained Dopamine Release in the Nucleus Accumbens",
+      "type": "other",
+      "url": "https://www.jneurosci.org/content/43/21/3922",
+      "year": 2023,
+      "finding": "Neuronauka podstawowa: antycypacja nagradzanego dzialania wywoluje utrzymujace sie uwalnianie dopaminy w jadrze polezacym. Daje prawdopodobny mechanizm dla tezy 'planuj zamiast kupowac sprzet - planowanie daje porownywalna dopamine', ale to praca podstawowa/zwierzeca, bez testu u ludzi z ADHD i bez danych o wyniku behawioralnym tej substytucji."
+    }
+  ]
 }
 ---
 

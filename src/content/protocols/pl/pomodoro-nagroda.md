@@ -40,7 +40,37 @@
       "note": "Neurotypowy wie, że nagroda przyjdzie po; mózg ADHD potrzebuje jej teraz — buduj świadomość nagrody."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "ADHD and the Choice of Small Immediate Over Larger Delayed Rewards: A Comparative Meta-Analysis of Performance on Simple Choice-Delay and Temporal Discounting Paradigms",
+      "type": "meta-analysis",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1087054718772138",
+      "year": 2021,
+      "finding": "Metaanaliza potwierdzająca, że osoby z ADHD systematycznie wybierają mniejszą natychmiastową nagrodę zamiast większej odroczonej (awersja do odroczenia / stromsze dyskontowanie czasowe). Uzasadnia mechanizm, który metoda wykorzystuje — bliska, konkretna nagroda bije odległą — ale bada paradygmaty wyboru, nie sam protokół 30 min + nagroda."
+    },
+    {
+      "title": "Delay and reward choice in ADHD: an experimental test of the role of delay aversion",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19413450/",
+      "year": 2009,
+      "finding": "Eksperyment potwierdzający awersję do odroczenia jako kluczową cechę motywacyjną ADHD: samo czekanie ma silnie negatywny ładunek afektywny (frustracja, pobudzenie). Tłumaczy, dlaczego skrócenie horyzontu i nazwanie konkretnej nagrody na koniec redukuje awersyjny stan 'ogromnego nieokreślonego zadania', ale nie testuje interwałów Pomodoro."
+    },
+    {
+      "title": "Investigating the Effectiveness of Self-Regulated, Pomodoro, and Flowtime Break-Taking Techniques Among Students",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12292963/",
+      "year": 2025,
+      "finding": "Kontrolowane porównanie u studentów (bez ADHD): w grupie Pomodoro raportowano wyższą koncentrację/motywację i niższą postrzeganą trudność zadania, ale różnice między grupami w rzeczywistej produktywności NIE były istotne statystycznie. Najlepszy bezpośredni test komponentu time-boxingu — i wypada słabo, co uzasadnia ostrożną ocenę."
+    },
+    {
+      "title": "Effectiveness of time-related interventions in children with ADHD aged 9-15 years: a randomized controlled study",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28956183/",
+      "year": 2017,
+      "finding": "RCT (n=38) u dzieci z ADHD na lekach: trening umiejętności czasowych + urządzenia wspomagające istotnie poprawiły zdolność przetwarzania czasu (p=0,019) i oceniane przez rodziców codzienne zarządzanie czasem (p=0,01). Dowód poboczny, że eksternalizacja/strukturyzacja czasu pomaga w ADHD, ale bada wielomodalny program treningu czasu, nie pojedynczą taktykę Pomodoro+nagroda na rozpoczęcie zadania."
+    }
+  ]
 }
 ---
 

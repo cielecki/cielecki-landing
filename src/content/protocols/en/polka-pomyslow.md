@@ -46,7 +46,37 @@
       "note": "'River of ideas': each idea is a fish — take only one out at a time, park the rest and review every ~3 months, because if you pull two out one will die."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "If-Then Plans Benefit Delay of Gratification Performance in Children With and Without ADHD",
+      "type": "rct",
+      "url": "https://link.springer.com/article/10.1007/s10608-010-9309-z",
+      "year": 2011,
+      "finding": "Two randomized experiments: children with ADHD who formed an if-then implementation intention ('Whenever a red picture appears, then I will wait for the blue one') delayed gratification markedly longer and earned more than controls (who waited poorly, ~3.35 of 6 euro). Supports the underlying mechanism of the method - insert a pre-set 'if new impulse, then shelf it' plan to widen the gap between impulse and action - but tests a lab delay-of-gratification task in children, not the idea-shelf applied to hobbies or spending."
+    },
+    {
+      "title": "Implementation Intentions Facilitate Response Inhibition in Children with ADHD",
+      "type": "rct",
+      "url": "https://www.semanticscholar.org/paper/Implementation-Intentions-Facilitate-Response-in-Gawrilow-Gollwitzer/676726226cd8d35a7aaeae2fccc5bf64dfeaf292",
+      "year": 2008,
+      "finding": "Controlled experiment: forming if-then plans improved Go/No-Go response inhibition in children with ADHD - the same inhibitory primitive the 'shelf' relies on (deliberately not acting on the new-idea impulse). Indirect: lab inhibition task in children, not real-world over-commitment or addictive-behavior targets."
+    },
+    {
+      "title": "Impulsive Buying and Deferment of Gratification Among Adults With ADHD",
+      "type": "cohort",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11636743/",
+      "year": 2024,
+      "finding": "Observational study in adults with ADHD linking poorer deferment of gratification to impulsive buying. Establishes the target problem (impulsive acquisition tied to weak delay) but tests no intervention; it does not show that a delay/shelf strategy reduces the behavior."
+    },
+    {
+      "title": "Anticipation of Appetitive Operant Action Induces Sustained Dopamine Release in the Nucleus Accumbens",
+      "type": "other",
+      "url": "https://www.jneurosci.org/content/43/21/3922",
+      "year": 2023,
+      "finding": "Basic neuroscience: anticipating a rewarded action drives sustained nucleus-accumbens dopamine release. Offers a plausible mechanism for the 'plan instead of buy gear - planning gives comparable dopamine' claim, but is animal/basic work with no test in humans with ADHD and no behavioral-outcome data for the substitution."
+    }
+  ]
 }
 ---
 
