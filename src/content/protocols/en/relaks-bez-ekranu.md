@@ -12,21 +12,21 @@
     {
       "target": "revenge-bedtime",
       "kind": "mechanism",
-      "evidence": "D",
+      "evidence": "C",
       "community": "średni",
       "note": "Low-friction screen-free relaxing removes doomscrolling's role as the default evening activity."
     },
     {
       "target": "pobudzony-uklad",
       "kind": "mechanism",
-      "evidence": "D",
+      "evidence": "C",
       "community": "średni",
       "note": "Screen-free calming activities lower cognitive and visual arousal better than relaxing on the phone."
     },
     {
       "target": "sen",
       "kind": "symptom",
-      "evidence": "D",
+      "evidence": "C",
       "community": "średni",
       "note": "Earlier, genuine relaxation makes it easier to fall into sleep."
     }
@@ -82,7 +82,51 @@
       "note": "Don't use all the relaxation tools at once — pick one or two to start with."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Smartphone screen time reduction improves mental health: a randomized controlled trial",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39985031/",
+      "year": 2025,
+      "finding": "3-week reduction of smartphone screen time to <=2h/day produced small-to-medium improvements in depressive symptoms, stress, sleep quality and well-being vs control - supports the value of displacing evening phone use."
+    },
+    {
+      "title": "A Nudge-Based Intervention to Reduce Problematic Smartphone Use: Randomised Controlled Trial",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9112639/",
+      "year": 2022,
+      "finding": "Environmental/friction nudges (adding cost to reaching habit apps) reduced problematic smartphone use - mechanistic support for redesigning the environment so the default reach is not the phone."
+    },
+    {
+      "title": "Altering micro-environments to change population health behaviour: towards an evidence base for choice architecture interventions",
+      "type": "review",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3881502/",
+      "year": 2013,
+      "finding": "Review of choice-architecture: altering the micro-environment where decisions are made shifts behavior - directly underpins placing relaxation tools where you usually grab the phone."
+    },
+    {
+      "title": "The acute psychological effects of screen time and the restorative potential of nature immersion amongst adolescents: A randomised pre-post pilot study",
+      "type": "rct",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0272494423002311",
+      "year": 2023,
+      "finding": "Screen time acutely worsened affect while nature immersion restored mood and attention - supports the 'green time' option on the menu as more restorative than screen relaxation."
+    },
+    {
+      "title": "Psychological impacts of screen time and green time for children and adolescents: A systematic scoping review",
+      "type": "review",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237725",
+      "year": 2020,
+      "finding": "Higher screen time associated with unfavourable, green time with favourable psychological outcomes - consistent with substituting screen relaxation for non-screen/outdoor activities."
+    },
+    {
+      "title": "Associations of Passive and Active Screen Time With Psychosomatic Complaints of Adolescents",
+      "type": "cohort",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0749379722000630",
+      "year": 2022,
+      "finding": "Passive screen leisure linked to more psychosomatic complaints/mood problems than active leisure - supports the premise that screen relaxation is less restorative."
+    }
+  ]
 }
 ---
 

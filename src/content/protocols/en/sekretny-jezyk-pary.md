@@ -48,7 +48,37 @@
       "note": "'The couple need a symbol for when they're good and loving — the item that snaps memory back to a good time.'"
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Repair During Marital Conflict in Newlyweds: How Couples Move from Attack-Defend to Collaboration",
+      "type": "cohort",
+      "url": "https://www.researchgate.net/publication/281415188_Repair_During_Marital_Conflict_in_Newlyweds_How_Couples_Move_from_Attack-Defend_to_Collaboration",
+      "year": 2016,
+      "finding": "Observational coding of newlywed conflict found that successful repair attempts (statements/signals that interrupt escalation) move couples from attack-defend cycles to collaboration; effectiveness depends on the couple's positive sentiment override. Supports the mechanism behind a pre-agreed de-escalation cue, but is observational, not an RCT of pre-arranged code words, and not in ADHD/autism samples."
+    },
+    {
+      "title": "Sequential effects of reappraisal and rumination on anger during recall of an anger-provoking event",
+      "type": "rct",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0209029",
+      "year": 2018,
+      "finding": "Experimental study showing cognitive reappraisal reduces anger during recall of an anger-provoking event, while rumination does not; switching from rumination to reappraisal produced the largest anger decrease. Supports the reappraisal/positive-reframing mechanism behind invoking a shared positive symbol mid-conflict, but does not test a shared couple symbol and is a general (non-couple, non-ADHD/autism) lab sample."
+    },
+    {
+      "title": "Emotion Regulation in Romantic Relationships: The Cognitive Consequences of Concealing Feelings (Richards, Butler & Gross)",
+      "type": "rct",
+      "url": "https://journals.sagepub.com/doi/10.1177/02654075030205002",
+      "year": 2003,
+      "finding": "Experimental manipulation of reappraisal vs. suppression in dating couples discussing a relationship conflict: reappraisal preserved/improved memory for the conversation whereas suppression impaired it. Indirect support that reappraisal is a viable in-vivo couple conflict strategy; does not test secret cues or shared symbols, and not an ADHD/autism sample."
+    },
+    {
+      "title": "Communication Tips / Therapy Strategies for Neurodiverse (ADHD & Autism) Couples",
+      "type": "other",
+      "url": "https://adhdandautismclinic.co.uk/communication-tips-for-neurodiverse-couples/",
+      "year": 2024,
+      "finding": "Clinical/practitioner guidance for neurodivergent couples recommends pre-established cues to pause arguments, cool-down routines, and revisiting conflicts after processing time. This is clinical consensus/blog-level advice, not an empirical test, but it is the closest content to the ADHD/autism target population."
+    }
+  ]
 }
 ---
 

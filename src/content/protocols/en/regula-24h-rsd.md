@@ -66,7 +66,37 @@
       "note": "For an RSD spike: record on your phone what you feel before seeking reassurance from others; rewatch a day or two later — usually the rejection wasn't real."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Putting Feelings Into Words: Affect Labeling Disrupts Amygdala Activity in Response to Affective Stimuli",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17576282/",
+      "year": 2007,
+      "finding": "Experimental study: labeling an emotion ('affect labeling') reduced amygdala reactivity and recruited right ventrolateral prefrontal cortex, supporting the 'name it' component as implicit emotion regulation. General adult sample, brief lab stimuli — not RSD or ADHD/autism."
+    },
+    {
+      "title": "Affect Labeling and Reappraisal as an Emotion Regulation Strategy (Affective Science)",
+      "type": "other",
+      "url": "https://link.springer.com/article/10.1007/s42761-026-00362-z",
+      "year": 2024,
+      "finding": "Across studies affect labeling attenuated affective responses relative to mere attention, comparably to reappraisal/distraction — strengthens the mechanistic basis for naming the feeling, but again in general samples and lab settings."
+    },
+    {
+      "title": "The efficacy of cognitive-behavioral therapy for adults with ADHD (meta-analysis)",
+      "type": "meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12434339/",
+      "year": 2024,
+      "finding": "Meta-analysis of RCTs: CBT significantly improves emotion dysregulation, anxiety, depression and quality of life in adults with ADHD. CBT routinely teaches pause/delay-before-reacting and cognitive distancing — indirect support for the broader skill family, but does not isolate or test the 24h-delay-for-RSD protocol."
+    },
+    {
+      "title": "Emotion dysregulation in adults with attention deficit hyperactivity disorder: a meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7069054/",
+      "year": 2020,
+      "finding": "Confirms emotion dysregulation (including heightened reactivity to perceived rejection/criticism) is a robust, central feature of adult ADHD — establishes the target the method aims at, though it tests no intervention."
+    }
+  ]
 }
 ---
 

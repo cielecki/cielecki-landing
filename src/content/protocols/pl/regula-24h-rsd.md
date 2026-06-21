@@ -66,7 +66,37 @@
       "note": "Na falę RSD: nagraj telefonem, co czujesz, zanim zaczniesz szukać zapewnień u innych; obejrzyj dzień–dwa później — zwykle widać, że odrzucenie nie było realne."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Putting Feelings Into Words: Affect Labeling Disrupts Amygdala Activity in Response to Affective Stimuli",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17576282/",
+      "year": 2007,
+      "finding": "Badanie eksperymentalne: nazwanie emocji ('affect labeling') obniżało reaktywność ciała migdałowatego i aktywowało prawą korę przedczołową — wsparcie dla komponentu 'nazwij to' jako niejawnej regulacji emocji. Ogólna próba dorosłych, krótkie bodźce laboratoryjne, nie RSD ani ADHD/autyzm."
+    },
+    {
+      "title": "Affect Labeling and Reappraisal as an Emotion Regulation Strategy (Affective Science)",
+      "type": "other",
+      "url": "https://link.springer.com/article/10.1007/s42761-026-00362-z",
+      "year": 2024,
+      "finding": "W serii badań nazywanie afektu osłabiało reakcje emocjonalne względem samego patrzenia, porównywalnie do reappraisalu/dystrakcji — wzmacnia podstawę mechanistyczną 'nazwij to', ale na ogólnych próbach i w warunkach laboratoryjnych."
+    },
+    {
+      "title": "The efficacy of cognitive-behavioral therapy for adults with ADHD (meta-analysis)",
+      "type": "meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12434339/",
+      "year": 2024,
+      "finding": "Metaanaliza RCT: CBT istotnie poprawia dysregulację emocji, lęk, depresję i jakość życia u dorosłych z ADHD. CBT standardowo uczy pauzy/odroczenia reakcji i dystansowania poznawczego — pośrednie wsparcie dla szerszej rodziny umiejętności, ale nie izoluje ani nie testuje protokołu '24h dla RSD'."
+    },
+    {
+      "title": "Emotion dysregulation in adults with attention deficit hyperactivity disorder: a meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7069054/",
+      "year": 2020,
+      "finding": "Potwierdza, że dysregulacja emocji (w tym wzmożona reaktywność na odrzucenie/krytykę) jest solidną, centralną cechą ADHD u dorosłych — uzasadnia cel metody, choć nie testuje żadnej interwencji."
+    }
+  ]
 }
 ---
 

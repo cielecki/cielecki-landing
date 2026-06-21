@@ -48,7 +48,37 @@
       "note": "„Para potrzebuje symbolu na czas, gdy są dobrzy i kochający — który snapuje pamięć do dobrego czasu.”"
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Repair During Marital Conflict in Newlyweds: How Couples Move from Attack-Defend to Collaboration",
+      "type": "cohort",
+      "url": "https://www.researchgate.net/publication/281415188_Repair_During_Marital_Conflict_in_Newlyweds_How_Couples_Move_from_Attack-Defend_to_Collaboration",
+      "year": 2016,
+      "finding": "Obserwacyjna analiza konfliktów par młodożeńców: udane proby naprawy (wypowiedzi/sygnaly przerywajace eskalacje) przesuwaja pare z petli atak-obrona ku wspolpracy; skutecznosc zalezy od pozytywnego nastawienia pary. Wspiera mechanizm uzgodnionego sygnalu de-eskalacji, ale to badanie obserwacyjne, nie RCT umowionego kodu, i nie na probie ADHD/autyzm."
+    },
+    {
+      "title": "Sequential effects of reappraisal and rumination on anger during recall of an anger-provoking event",
+      "type": "rct",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0209029",
+      "year": 2018,
+      "finding": "Badanie eksperymentalne: przewartosciowanie poznawcze (reappraisal) obniza zlosc podczas przypominania wydarzenia zlościorodnego, a ruminacja nie; przejscie z ruminacji na reappraisal dawalo najwiekszy spadek zlosci. Wspiera mechanizm pozytywnego przeramowania stojacy za przywolaniem wspolnego symbolu w konflikcie, ale nie testuje wspolnego symbolu pary i to ogolna proba laboratoryjna (nie pary, nie ADHD/autyzm)."
+    },
+    {
+      "title": "Emotion Regulation in Romantic Relationships: The Cognitive Consequences of Concealing Feelings (Richards, Butler & Gross)",
+      "type": "rct",
+      "url": "https://journals.sagepub.com/doi/10.1177/02654075030205002",
+      "year": 2003,
+      "finding": "Eksperymentalna manipulacja reappraisal vs. tlumienie u par randkujacych omawiajacych konflikt: reappraisal zachowywal/poprawial pamiec rozmowy, a tlumienie ja pogarszalo. Posrednie wsparcie, ze reappraisal jest realna strategia w trakcie konfliktu pary; nie testuje sekretnych sygnalow ani wspolnych symboli i nie jest proba ADHD/autyzm."
+    },
+    {
+      "title": "Communication Tips / Therapy Strategies for Neurodiverse (ADHD & Autism) Couples",
+      "type": "other",
+      "url": "https://adhdandautismclinic.co.uk/communication-tips-for-neurodiverse-couples/",
+      "year": 2024,
+      "finding": "Wytyczne kliniczne/praktyczne dla par neuroroznorodnych zalecaja wczesniej uzgodnione sygnaly do wstrzymania klotni, rytualy wyciszenia i powracanie do konfliktu po czasie na przetworzenie. To konsensus kliniczny / poziom bloga, nie test empiryczny, ale tresciowo najblizsza populacji ADHD/autyzm."
+    }
+  ]
 }
 ---
 

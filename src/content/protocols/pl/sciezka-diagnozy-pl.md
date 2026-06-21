@@ -27,6 +27,29 @@
       "title": "Centrum Dialog (Warszawa)",
       "type": "specialist"
     }
+  ],
+  "studies": [
+    {
+      "title": "Risks Associated With Undiagnosed ADHD and/or Autism: A Mixed-Method Systematic Review",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10498662/",
+      "year": 2023,
+      "finding": "Przegląd systematyczny: brak diagnozy wiąże się z gorszym zdrowiem psychicznym, używaniem substancji, niższym dochodem/wykształceniem, depresją, lękiem i myślami samobójczymi — co uzasadnia SAM cel (zdobycie diagnozy), ale nie mówi nic o tym, która ścieżka skierowań jest najlepsza."
+    },
+    {
+      "title": "Diagnosis acceptance, masking, and perceived benefits and challenges in adults with ADHD and ASD: associations with quality of life",
+      "type": "cohort",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12568611/",
+      "year": 2025,
+      "finding": "Postrzegane korzyści z diagnozy były zmienną najsilniej powiązaną z jakością życia u zdiagnozowanych dorosłych — wspiera wartość bycia zdiagnozowanym, ale dotyczy okresu po diagnozie, nie tego gdzie/jak ją postawiono."
+    },
+    {
+      "title": "Validation of a criterion-based screening and triage pathway for adult ADHD: a prospective observational study of safety and operational efficiency",
+      "type": "cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13219367/",
+      "year": 2026,
+      "finding": "Prospektywne badanie ŚCIEŻKI diagnostycznej ADHD u dorosłych: triaż miał 100% czułości, ale niską swoistość (45%) i PPV 20,7% — a szersza literatura wskazuje, że samoskierowania/ścieżki prywatne rodzą ryzyko nad-rozpoznawania w porównaniu z kierowaniem do specjalisty. Pokazuje, że ścieżka istotnie wpływa na trafność diagnozy, więc wybór klinicysty/trasy nie jest obojętny dowodowo."
+    }
   ]
 }
 ---

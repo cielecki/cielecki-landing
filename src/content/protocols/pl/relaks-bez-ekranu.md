@@ -12,21 +12,21 @@
     {
       "target": "revenge-bedtime",
       "kind": "mechanism",
-      "evidence": "D",
+      "evidence": "C",
       "community": "średni",
       "note": "Niskoprogowy relaks bez ekranu odbiera doomscrollingowi rolę domyślnej wieczornej aktywności."
     },
     {
       "target": "pobudzony-uklad",
       "kind": "mechanism",
-      "evidence": "D",
+      "evidence": "C",
       "community": "średni",
       "note": "Bezekranowe, kojące zajęcia obniżają pobudzenie poznawcze i wizualne lepiej niż relaks przy telefonie."
     },
     {
       "target": "sen",
       "kind": "symptom",
-      "evidence": "D",
+      "evidence": "C",
       "community": "średni",
       "note": "Wcześniejszy, prawdziwy relaks ułatwia wejście w sen."
     }
@@ -82,7 +82,51 @@
       "note": "Nie używaj wszystkich narzędzi relaksu naraz — wybierz jedno lub dwa na początek."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Smartphone screen time reduction improves mental health: a randomized controlled trial",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39985031/",
+      "year": 2025,
+      "finding": "3-tygodniowe ograniczenie czasu przed telefonem do <=2h/dobe dalo male-srednie poprawy objawow depresyjnych, stresu, jakosci snu i dobrostanu vs grupa kontrolna - wspiera sens wypierania wieczornego uzycia telefonu."
+    },
+    {
+      "title": "A Nudge-Based Intervention to Reduce Problematic Smartphone Use: Randomised Controlled Trial",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9112639/",
+      "year": 2022,
+      "finding": "Nudge srodowiskowy/tarcie (utrudnienie siegania po nalogowe apki) ograniczylo problematyczne uzycie telefonu - wsparcie mechanistyczne dla przebudowy otoczenia tak, by domyslny ruch nie byl telefonem."
+    },
+    {
+      "title": "Altering micro-environments to change population health behaviour: towards an evidence base for choice architecture interventions",
+      "type": "review",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3881502/",
+      "year": 2013,
+      "finding": "Przeglad choice-architecture: zmiana mikro-otoczenia, w ktorym podejmuje sie decyzje, przesuwa zachowanie - bezposrednio uzasadnia rozstawienie narzedzi relaksu tam, gdzie zwykle siegasz po telefon."
+    },
+    {
+      "title": "The acute psychological effects of screen time and the restorative potential of nature immersion amongst adolescents: A randomised pre-post pilot study",
+      "type": "rct",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0272494423002311",
+      "year": 2023,
+      "finding": "Czas przed ekranem ostro pogarszal nastroj, a zanurzenie w naturze przywracalo nastroj i uwage - wspiera opcje 'wyjscia na zielen' z menu jako bardziej regeneracyjna niz relaks przy ekranie."
+    },
+    {
+      "title": "Psychological impacts of screen time and green time for children and adolescents: A systematic scoping review",
+      "type": "review",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237725",
+      "year": 2020,
+      "finding": "Wiekszy czas ekranowy wiazal sie z niekorzystnymi, a 'green time' z korzystnymi wynikami psychologicznymi - spojne z zamiana relaksu ekranowego na aktywnosci bezekranowe/na powietrzu."
+    },
+    {
+      "title": "Associations of Passive and Active Screen Time With Psychosomatic Complaints of Adolescents",
+      "type": "cohort",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0749379722000630",
+      "year": 2022,
+      "finding": "Bierny relaks ekranowy wiazal sie z wieksza liczba dolegliwosci psychosomatycznych/problemow nastroju niz aktywny - wspiera teze, ze relaks przy ekranie jest mniej regeneracyjny."
+    }
+  ]
 }
 ---
 

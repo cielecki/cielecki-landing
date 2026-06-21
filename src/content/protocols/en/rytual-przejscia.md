@@ -26,7 +26,7 @@
     {
       "target": "sen",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "średni",
       "note": "A deliberate pre-sleep buffer shortens sleep-onset time."
     }
@@ -54,7 +54,37 @@
       "note": "Practicing redirecting attention and not reacting to every thought or to-do makes it easier to focus on relaxing."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Effectiveness of Cognitive Behavioural Therapy for Insomnia (CBT-I) in Individuals With Neurodevelopmental Conditions: A Systematic Review",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12426716/",
+      "year": 2025,
+      "finding": "Two RCTs plus six before-after studies showed significant SHORT-TERM effectiveness of CBT-I (whose core components include a wind-down/stimulus-control routine and cognitive techniques for intrusive thoughts) in people with ADHD and/or autism, but findings were inconsistent and mostly NOT maintained at follow-up; overall quality moderate (small samples, no blinding)."
+    },
+    {
+      "title": "Effects and clinical feasibility of a behavioral treatment for sleep problems in adult ADHD: a pragmatic within-group pilot evaluation (Jernelöv et al.)",
+      "type": "cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6657040/",
+      "year": 2019,
+      "finding": "Uncontrolled pilot (n=19 adults with ADHD) of a 10-week behavioral sleep program that EXPLICITLY included bedtime/wind-down routines, stimulus control, relaxation and cognitive restructuring. Insomnia Severity Index improved markedly (d=0.84 post-treatment, d=1.52 at 3 months; 42% remission). No control group, so causal/specific attribution to the transition-ritual component is unproven."
+    },
+    {
+      "title": "Effects of sleep hygiene education for insomnia: A systematic review and meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40449065/",
+      "year": 2025,
+      "finding": "Across 42 RCTs (n=4,245), sleep-hygiene/wind-down education produced significant pre-post improvement in insomnia severity but was INFERIOR to full CBT-I; 86% of trials had high risk of bias. General population, not ADHD-specific. Indirect support: the wind-down/routine element alone helps but is weaker than the multi-component package."
+    },
+    {
+      "title": "Cognitive and Affective Control in Insomnia",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3232458/",
+      "year": 2011,
+      "finding": "Up to ~90% of people with insomnia attribute their sleep problems to pre-sleep cognitive arousal (racing thoughts/worry); poor sleepers use dysfunctional control strategies that maintain arousal. Provides the mechanistic rationale for a buffer ritual plus attention-defusion ('notice the thought, don't react'), but is a narrative mechanism review, not a test of the ritual."
+    }
+  ]
 }
 ---
 
