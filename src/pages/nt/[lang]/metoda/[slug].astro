@@ -86,6 +86,15 @@ function fragmentAt(url?: string): string | null {
   return m ? fmtTime(parseInt(m[1], 10)) : null;
 }
 
+const studyIcon: Record<string, string> = {
+  'meta-analysis': 'mdi:chart-box-outline',
+  rct: 'mdi:flask-outline',
+  cohort: 'mdi:account-group-outline',
+  review: 'mdi:text-box-search-outline',
+  guideline: 'mdi:clipboard-text-outline',
+  other: 'mdi:school-outline',
+};
+
 const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
 ---
 
@@ -116,6 +125,54 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
     </header>
 
     <div class="audhd-prose text-charcoal leading-relaxed max-w-2xl"><Content /></div>
+
+    {
+      entry.data.studies.length > 0 && (
+        <section class="mt-10">
+          <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-1">{t('nt.research')}</h2>
+          <p class="text-xs text-charcoal-light/55 mb-4 max-w-2xl">{t('nt.researchNote')}</p>
+          <ul class="grid gap-2.5">
+            {entry.data.studies.map((s) => {
+              const icon = studyIcon[s.type] ?? 'mdi:school-outline';
+              const inner = (
+                <>
+                  <span class="flex-shrink-0 w-9 h-9 flex items-center justify-center bg-sage/15 rounded-lg text-sage-dark">
+                    <span class="iconify text-lg" data-icon={icon} />
+                  </span>
+                  <div class="flex-1 min-w-0">
+                    <div class="font-medium text-charcoal-dark leading-snug">{s.title}</div>
+                    <div class="text-xs text-charcoal-light/60 mt-0.5 uppercase tracking-wide">
+                      {t(`study.${s.type}` as UIKey)}
+                      {s.year ? ` · ${s.year}` : ''}
+                    </div>
+                    {s.finding && <p class="text-sm text-charcoal-light/80 leading-relaxed mt-1.5">{s.finding}</p>}
+                  </div>
+                  {s.url && (
+                    <span class="iconify flex-shrink-0 mt-0.5 text-base text-charcoal-light/40 group-hover:text-terracotta transition-colors" data-icon="mdi:open-in-new" />
+                  )}
+                </>
+              );
+              return (
+                <li>
+                  {s.url ? (
+                    <a
+                      href={s.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="group flex items-start gap-3 p-3.5 bg-sage/5 border border-sage/20 rounded-xl hover:bg-sage/10 hover:-translate-y-0.5 hover:shadow-sm transition-all"
+                    >
+                      {inner}
+                    </a>
+                  ) : (
+                    <div class="flex items-start gap-3 p-3.5 bg-sage/5 border border-sage/20 rounded-xl">{inner}</div>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )
+    }
 
     {
       links.length > 0 && (

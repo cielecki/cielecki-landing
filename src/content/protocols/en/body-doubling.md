@@ -26,7 +26,7 @@
     {
       "target": "deficyt-dopaminy",
       "kind": "mechanism",
-      "evidence": "C",
+      "evidence": "B",
       "community": "średni",
       "note": "Stimulation from others' presence helps cross the initiation threshold."
     }
@@ -47,7 +47,37 @@
       "note": "'I get the most work done in a loud cafe, alone on my laptop — vs half that by myself.'"
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Social facilitation: A meta-analysis of 241 studies",
+      "type": "meta-analysis",
+      "url": "https://psycnet.apa.org/record/1983-22923-001",
+      "year": 1983,
+      "finding": "Across 241 studies, the mere presence of others speeds up performance of simple/well-learned tasks and slightly improves their accuracy, while slowing and impairing complex/novel tasks. Establishes the mechanism (social facilitation) body doubling relies on, but is general-population, not ADHD."
+    },
+    {
+      "title": "Meta-Analysis of Social Presence Effects on Stroop Task Performance",
+      "type": "meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38291607/",
+      "year": 2024,
+      "finding": "Social presence reliably reduces Stroop interference (better cognitive control); effect is strongest with an attentive non-evaluative presence and null with an evaluative audience — matching body doubling's 'present but not judging' setup. General population, not ADHD."
+    },
+    {
+      "title": "You Are Not Alone: Designing Body Doubling for ADHD in Virtual Reality",
+      "type": "other",
+      "url": "https://arxiv.org/abs/2509.12153",
+      "year": 2025,
+      "finding": "Small within-subject experiment (n=12) in a VR task: working with a human OR AI body double yielded faster completion and higher perceived accuracy/sustained attention vs working alone. Only direct test of body doubling framed for ADHD, but tiny n, lab/VR task, ADHD diagnosis not clearly confirmed, and a non-peer-reviewed preprint — weak direct evidence."
+    },
+    {
+      "title": "Listen to the noise: Noise is beneficial for cognitive performance in ADHD",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17683456/",
+      "year": 2007,
+      "finding": "Controlled study (Söderlund et al., J Child Psychol Psychiatry): white/background noise improved memory performance in children with ADHD while worsening it in controls (stochastic-resonance / moderate-arousal account). Supports the 'noisy coffee shop' variant and the dopamine/under-arousal mechanism, but uses lab cognitive tasks in children, not real-world task initiation."
+    }
+  ]
 }
 ---
 

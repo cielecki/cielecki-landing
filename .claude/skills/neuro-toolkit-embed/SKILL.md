@@ -42,6 +42,24 @@ established frameworks (DBT/ACT/GTD/CBT) to B.
 - `scripts/harvest_batch.sh` harvests the dedicated channels (full) + general channels (title-filtered) + the hand-picked seed. Resumable (`--no-overwrites`). **Runs long — the harness kills multi-hundred-video background tasks; chunk per channel** (set the channel list small per run) so each finishes.
 - Then the same extract→synthesize→apply as B, fanned over the corpus. This is how the **symptom taxonomy is derived bottom-up** — let the synthesis propose symptoms, then curate with Maciej (the decision gate).
 
+## Verify evidence grades against the literature (gradecheck)
+
+The A–D `evidence` grade starts as the synth's GUESS. This process recalibrates it against real
+science and attaches citations, which render as the **"Co mówią badania"** section on the method page.
+
+1. **Prep**: `python3 scripts/prep_grades.py /tmp/grades.json [--slugs a,b,c | --cap N]` → JSON of methods + current grades + resolved target names.
+2. **Verify**: run the **Workflow** tool with `scripts/gradecheck-workflow.js`, args = that JSON. Each agent literature-searches the method→target efficacy, assigns a defensible grade, returns REAL citations. Small batches (`BATCH=2`) + retry (529 defense). Keep a run ≤ ~6 methods.
+3. **Apply**: `python3 scripts/apply_grades.py <workflow-output.json>` — auto-applies **downgrades**, reports **upgrades** for review (rerun with `--apply-upgrades` to accept), writes `studies[]`. `--dry-run` first.
+4. `npm run build`, spot-check the "Co mówią badania" section, **fetch 1–2 of the returned citations to confirm they are real** (the agent can hallucinate URLs — this is the top risk), commit.
+
+Grade taxonomy — **keep identical** in the workflow prompt AND on the page:
+- **A** meta-analysis / systematic review / multiple RCTs
+- **B** ≥1 RCT or consistent controlled studies; or strong mechanism w/ supporting trials
+- **C** small/uncontrolled/indirect; strong mechanism, little direct test; clinical consensus only
+- **D** no empirical test — theory / single voice / lived experience
+
+Hard rules: conservative (downgrade on doubt); cite only sources actually found — **NEVER invent a PMID/DOI**; no study found → C/D + `no_direct_evidence`, say so plainly. `nt-factcheck` (prose-claim truth) and `nt-gradecheck` (grade calibration) are SEPARATE workflows — run both.
+
 ## Conventions (enforce on every embed)
 - **Two signals**: `evidence` A–D (scientific strength, per-edge) and the **source count** (how many INDEPENDENT sources back the method — computed from `resources[]`, NOT authored). Be HONEST on evidence — a bare YouTube claim is C; A/B needs a study or strong mechanism. The old `community` enum is retired (it was an unmeasurable guess); you no longer set it. The way to make a method's source signal stronger is to attach MORE genuine resources from DIFFERENT authors — never inflate.
 - **Every resource nugget links to the exact second**: url `…&t=Ns`, plus a `note` (the nugget itself = the quote shown on the page), `author` (drives the independent-source count — distinct authors count as distinct sources), `type`. Two nuggets from the same interview = ONE source.
@@ -58,4 +76,4 @@ descriptive message (push deploys via GitHub Pages). Raw transcripts stay privat
 ## Schema (authoritative: `src/content.config.ts`)
 - **symptom**: title, summary, icon, order, lang, conditions[]
 - **mechanism**: + `symptoms[]` (slugs it underlies)
-- **protocol (method)**: + `addresses[]` (edges: target, kind mechanism|symptom, evidence, community, note), `resources[]` (title, url, type, author, note)
+- **protocol (method)**: + `addresses[]` (edges: target, kind mechanism|symptom, evidence A–D, note; `community` is deprecated/optional, not displayed), `resources[]` (title, url, type, author, note), `studies[]` (title, url, year, type, finding — written by gradecheck, renders as "Co mówią badania")

@@ -12,14 +12,14 @@
     {
       "target": "energia-wypalenie",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "średni",
       "note": "Movement as a mood/attention regulator; benefit threshold ~20 min."
     },
     {
       "target": "deficyt-dopaminy",
       "kind": "mechanism",
-      "evidence": "C",
+      "evidence": "B",
       "community": "średni",
       "note": "A dopamine/endorphin release partly offsets the deficit — effort, not easy, dopamine."
     }
@@ -32,7 +32,37 @@
       "note": "Past 20 minutes you 'enter the magic'; a 20-25 min run = ~80% of the mental benefit."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "The Effects of Acute Exercise on Mood, Cognition, Neurophysiology, and Neurochemical Pathways: A Review (Basso & Suzuki)",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5928534/",
+      "year": 2017,
+      "finding": "A single bout of exercise acutely raises dopamine, norepinephrine and serotonin in a region-specific way (incl. prefrontal cortex), with levels returning toward baseline ~2h post-exercise, and improves mood and cognition in the minutes-to-hours after. Directly supports the 'exercise = dopamine hit that quiets the mind' mechanism, though the acute-effect literature is heterogeneous."
+    },
+    {
+      "title": "Acute Effects of Aerobic Exercise on Executive Function and Attention in Adult Patients With ADHD (Fritz et al.)",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6443849/",
+      "year": 2016,
+      "finding": "A single 30-min bout of moderate-intensity aerobic exercise significantly improved flanker-task reaction times in adults with ADHD (effect not seen in healthy controls), supporting an acute, single-session benefit close to the proposed 20-30 min dose."
+    },
+    {
+      "title": "Effects of aerobic exercise on executive function in children and adolescents with ADHD: a systematic review and meta-analysis of RCTs",
+      "type": "meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12398161/",
+      "year": 2025,
+      "finding": "Pooled RCTs (~668 participants) show moderate effect sizes of aerobic exercise on inhibitory control, working memory and cognitive flexibility in youth with ADHD — consistent controlled evidence for the method's direction of effect."
+    },
+    {
+      "title": "Exercisers achieve greater acute exercise-induced mood enhancement than nonexercisers",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18226663/",
+      "year": 2008,
+      "finding": "A single ~20-min moderate-intensity treadmill bout (RPE ~13) produced measurable acute mood enhancement, supporting the ~20-min dosing for the mood/energy target (though magnitude was larger in habitual exercisers)."
+    }
+  ]
 }
 ---
 

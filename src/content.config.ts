@@ -44,6 +44,17 @@ const evidence = z.enum(['A', 'B', 'C', 'D']);
 // displayed — the second signal is now the computed source count. New synth may omit it.
 const community = z.enum(['wysoki', 'średni', 'niski', 'brak']).optional();
 
+// A scientific study backing a method, found by the grade-verification process
+// (gradecheck-workflow.js). Drives the displayed "Co mówią badania" section and
+// justifies the A-D evidence grade. Only ever populated from real, found sources.
+const study = z.object({
+  title: z.string(),
+  url: z.string().url().optional(),
+  year: z.number().optional(),
+  type: z.enum(['meta-analysis', 'rct', 'cohort', 'review', 'guideline', 'other']),
+  finding: z.string().optional(), // one-line plain-language takeaway, in the page language
+});
+
 // A directed edge from a PROTOCOL to the mechanism (or symptom) it addresses.
 const edge = z.object({
   target: z.string(), // slug of the mechanism or symptom (language-agnostic)
@@ -89,6 +100,7 @@ const protocols = defineCollection({
     conditions: z.array(condition).default(['adhd', 'autism', 'audhd']),
     addresses: z.array(edge).default([]),
     resources: z.array(resource).default([]),
+    studies: z.array(study).default([]),
   }),
 });
 

@@ -26,7 +26,7 @@
     {
       "target": "deficyt-dopaminy",
       "kind": "mechanism",
-      "evidence": "C",
+      "evidence": "B",
       "community": "średni",
       "note": "Stymulacja z obecności innych pomaga przekroczyć próg rozpoczęcia."
     }
@@ -47,7 +47,37 @@
       "note": "„Najwięcej pracy robię w głośnej kawiarni, sam na laptopie — vs. połowa tego w samotności.”"
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Social facilitation: A meta-analysis of 241 studies",
+      "type": "meta-analysis",
+      "url": "https://psycnet.apa.org/record/1983-22923-001",
+      "year": 1983,
+      "finding": "W 241 badaniach sama obecność innych przyspiesza wykonywanie zadań prostych/dobrze wyuczonych i lekko poprawia ich dokładność, a spowalnia i pogarsza zadania złożone/nowe. Potwierdza mechanizm (facylitacja społeczna), na którym opiera się body doubling, ale na populacji ogólnej, nie ADHD."
+    },
+    {
+      "title": "Meta-Analysis of Social Presence Effects on Stroop Task Performance",
+      "type": "meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38291607/",
+      "year": 2024,
+      "finding": "Obecność społeczna wiarygodnie zmniejsza interferencję Stroopa (lepsza kontrola poznawcza); efekt najsilniejszy przy uważnej, nieoceniającej obecności, a zerowy przy audytorium oceniającym — co odpowiada układowi body doublingu 'obecny, ale nie oceniający'. Populacja ogólna, nie ADHD."
+    },
+    {
+      "title": "You Are Not Alone: Designing Body Doubling for ADHD in Virtual Reality",
+      "type": "other",
+      "url": "https://arxiv.org/abs/2509.12153",
+      "year": 2025,
+      "finding": "Małe badanie wewnątrzosobnicze (n=12) w zadaniu VR: praca z ludzkim LUB AI body double dawała szybsze ukończenie i wyższą postrzeganą dokładność/uwagę niż praca samemu. Jedyny bezpośredni test body doublingu pod ADHD, ale maleńkie n, zadanie laboratoryjne/VR, diagnoza ADHD niepotwierdzona jasno i preprint bez recenzji — słaby dowód bezpośredni."
+    },
+    {
+      "title": "Listen to the noise: Noise is beneficial for cognitive performance in ADHD",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17683456/",
+      "year": 2007,
+      "finding": "Badanie kontrolowane (Söderlund i in., J Child Psychol Psychiatry): biały/tła szum poprawiał pamięć u dzieci z ADHD, a pogarszał u grupy kontrolnej (rezonans stochastyczny / umiarkowane pobudzenie). Wspiera wariant 'głośnej kawiarni' i mechanizm dopaminowy/niedobudzenia, ale na zadaniach laboratoryjnych u dzieci, nie na realnym rozpoczynaniu zadań."
+    }
+  ]
 }
 ---
 
