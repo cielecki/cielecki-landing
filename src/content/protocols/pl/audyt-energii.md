@@ -60,7 +60,37 @@
       "note": "Self-care w wypaleniu konkretnie: zejdź offline (i powiedz to bliskim), spacer/hike w naturze, fikcja, woda, witaminy, dobre jedzenie."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Burnout as experienced by autistic people: A systematic review (Ali et al.)",
+      "type": "review",
+      "url": "https://www.researchgate.net/publication/397236526_Burnout_as_experienced_by_autistic_people_A_systematic_review",
+      "year": 2025,
+      "finding": "Przegląd systematyczny wypalenia u osób autystycznych wskazuje zarządzanie energią, samoświadomość i akceptację jako czynniki ochronne łagodzące wypalenie; baza dowodowa to dane jakościowe / z doświadczenia, nie kontrolowane badania konkretnego protokołu pacingu."
+    },
+    {
+      "title": "Mindful Self-Compassion Training Reduces Stress and Burnout Symptoms: A Randomized Controlled Trial of a Brief Web-Based Intervention (Eriksson et al.)",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6277494/",
+      "year": 2018,
+      "finding": "RCT (n=101): krótka interwencja samo-współczucia podniosła współczucie do siebie i obniżyła samokrytykę, stres i wypalenie. Wspiera mechanizm akceptacji i redukcji winy ('parking'/'nowa gra') — ale populacją byli psycholodzy, nie osoby z ADHD/autyzmem, więc związek jest pośredni."
+    },
+    {
+      "title": "A Randomized Controlled Trial of Group-Based Acceptance and Commitment Therapy / ACT for work-related rumination and job fatigue",
+      "type": "rct",
+      "url": "https://link.springer.com/article/10.1186/s12888-024-06150-y",
+      "year": 2024,
+      "finding": "Badania kontrolowane pokazują, że terapia oparta na akceptacji (ACT) redukuje ruminacje związane z pracą i zmęczenie poprzez 'odpięcie się' od niezrobionych/niekontrolowalnych zadań — mechanizm stojący za 'parkingiem' i zaczynaniem dnia od zera. Testowane na próbach ogólnych/zawodowych, nie ADHD/autyzm."
+    },
+    {
+      "title": "Studying Motivation in ADHD: The Role of Internal Motives and the Relevance of Self-Determination Theory (Morsink et al.)",
+      "type": "review",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9066661/",
+      "year": 2022,
+      "finding": "Przegląd zastosowania SDT do ADHD: motywacja autonomiczna/wewnętrzna i zaspokojenie potrzeb (autonomia, kompetencja) wspierają trwałą motywację i dobrostan, podczas gdy motywacja kontrolowana / frustracja potrzeb przewidują wypalenie. Daje teoretyczno-korelacyjną podstawę dla balansu 'muszę bo chcę' vs 'muszę bo muszę', ale nie jest testem interwencyjnym tej metody."
+    }
+  ]
 }
 ---
 

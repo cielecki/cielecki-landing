@@ -33,7 +33,30 @@
       "note": "Trzecia droga: nie walcz i nie uciekaj — wsiądź RAZEM z lękiem, oczekując go (akceptacja ACT)."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Acceptance and commitment therapy for autistic adults: A randomized controlled pilot study in a psychiatric outpatient setting (NeuroACT)",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36510817/",
+      "year": 2023,
+      "finding": "Pilotażowy RCT (n=20 NeuroACT vs n=19 zwykła opieka, 14 tyg.) u dorosłych autystów. Trening akceptacji/gotowości oparty na ACT istotnie obniżył odczuwany stres i unikanie oraz zwiększył elastyczność psychologiczną/poznawczą (czyli dokładnie mechanizm tej metody), ALE BEZ istotnej różnicy w LĘKU, depresji, śnie, cechach autyzmu, funkcjonowaniu. Bezpośredni test ruchu „akceptuj dyskomfort\" w autyzmie: mechanizm się ruszył, sam lęk nie."
+    },
+    {
+      "title": "Efficacy of Acceptance and Commitment Therapy in Social Anxiety Disorder: A Systematic Review and Meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://www.researchgate.net/publication/385958509_Efficacy_of_Acceptance_and_Commitment_Therapy_in_Social_Anxiety_Disorder_A_Systematic_Review_and_Meta-analysis",
+      "year": 2024,
+      "finding": "Metaanaliza: ACT (akceptacja/gotowość zamiast walki czy ucieczki przed lękiem) dało duży spadek lęku społecznego vs lista oczekujących (g = -1,28; 95% CI -1,88 do -0,69). Mocne wsparcie dla ogólnej skuteczności ruchu „zaakceptuj i wejdź w to\" wobec lęku — ale nie w populacji ADHD/autyzm."
+    },
+    {
+      "title": "Acceptance and Commitment Therapy for Adults with ADHD during COVID-19: An Open Trial",
+      "type": "other",
+      "url": "https://www.scirp.org/journal/paperinformation?paperid=103499",
+      "year": 2020,
+      "finding": "Otwarte (niekontrolowane) badanie ACT zdalnie u dorosłych z ADHD — poprawa nastroju, lęku i przystosowania psychospołecznego. Sugestywne dla ADHD, ale bez grupy kontrolnej — nie dowodzi skuteczności."
+    }
+  ]
 }
 ---
 

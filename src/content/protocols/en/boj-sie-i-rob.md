@@ -33,7 +33,30 @@
       "note": "A third path: don't fight, don't flee — board WITH the fear, expecting it (ACT acceptance)."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Acceptance and commitment therapy for autistic adults: A randomized controlled pilot study in a psychiatric outpatient setting (NeuroACT)",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36510817/",
+      "year": 2023,
+      "finding": "Pilot RCT (n=20 NeuroACT vs n=19 ordinary care, 14 wks) in autistic adults. ACT-based acceptance/willingness training significantly reduced perceived stress and avoidance behaviour and increased psychological/cognitive flexibility (the exact mechanism of this method), but found NO significant between-group difference in ANXIETY, depression, sleep, social autism features, functioning, or executive challenges. Direct test of the acceptance-of-distress move in autism: mechanism moved, anxiety target did not."
+    },
+    {
+      "title": "Efficacy of Acceptance and Commitment Therapy in Social Anxiety Disorder: A Systematic Review and Meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://www.researchgate.net/publication/385958509_Efficacy_of_Acceptance_and_Commitment_Therapy_in_Social_Anxiety_Disorder_A_Systematic_Review_and_Meta-analysis",
+      "year": 2024,
+      "finding": "Meta-analysis: ACT (acceptance/willingness rather than fighting or avoiding anxiety) produced a large reduction in social anxiety vs waitlist (g = -1.28, 95% CI -1.88 to -0.69). Strong support for the general efficacy of the acceptance-and-approach move on anxiety — but not in an ADHD/autism sample."
+    },
+    {
+      "title": "Acceptance and Commitment Therapy for Adults with ADHD during COVID-19: An Open Trial",
+      "type": "other",
+      "url": "https://www.scirp.org/journal/paperinformation?paperid=103499",
+      "year": 2020,
+      "finding": "Open (uncontrolled) trial of remotely delivered ACT in adults with ADHD reported improvements in mood, anxiety and psychosocial adjustment. Suggestive for the ADHD population but no control group — cannot establish efficacy."
+    }
+  ]
 }
 ---
 

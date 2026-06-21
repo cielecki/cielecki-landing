@@ -40,7 +40,37 @@
       "note": "\"Don't just do it and go — cuddle, give water, snacks, a blanket; sometimes someone hits subspace and is vulnerable.\""
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "How was That for You?: Gender, Aftercare and Impression Management in BDSM",
+      "type": "other",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39360893/",
+      "year": 2024,
+      "finding": "Qualitative interview study of BDSM practitioners describing aftercare as a normative, expected practice for emotional/physical recovery after a scene. Documents that aftercare exists and is socially structured, but does not test whether it improves any clinical, shame, or relationship outcome, and is not specific to ADHD/autism."
+    },
+    {
+      "title": "Positive Psychological Effects of BDSM Practices and Their Implications for Psychological and Psychotherapeutic Work: A Systematic Literature Review",
+      "type": "review",
+      "url": "https://www.researchgate.net/publication/386242322_Positive_Psychological_Effects_of_BDSM_Practices_and_Their_Implications_for_Psychological_and_Psychotherapeutic_Work_A_Systematic_Literature_Review",
+      "year": 2024,
+      "finding": "Systematic literature review reporting that BDSM practitioners are generally psychologically healthy and that practices grounded in negotiation, consent and aftercare are associated with strong communication and trust. The review is descriptive/observational; it does not establish that the safety framework causally improves shame-compulsion or dating outcomes, and is not ADHD/autism-specific."
+    },
+    {
+      "title": "Kink/BDSM and autistic adults (qualitative interview study of autistic BDSM practitioners)",
+      "type": "other",
+      "url": "https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1107&context=ought",
+      "year": 2023,
+      "finding": "Small qualitative study of autistic adults involved in BDSM/kink: participants reported that explicit structured communication and clearly negotiated boundaries reduced uncertainty and felt safer, and that controlled sensory input was a key draw. Directly relevant to the neurodivergent mechanism but very small (n~6), uncontrolled, self-report; cannot grade efficacy on the named symptom/relationship targets."
+    },
+    {
+      "title": "NCSF Consent Violations Survey (n=4,115 BDSM practitioners)",
+      "type": "other",
+      "url": "https://www.ncsfreedom.org/",
+      "year": 2013,
+      "finding": "Community survey: 14.9% reported a safeword being ignored and 30.1% reported pre-negotiated boundary violations. Establishes that the harms the framework targets are real and prevalent (supporting the rationale for negotiation/safewords/aftercare) but does not test the framework as an intervention or measure outcomes."
+    }
+  ]
 }
 ---
 

@@ -60,7 +60,37 @@
       "note": "Burnout self-care concretely: go offline (and tell loved ones), a nature walk/hike, fiction, water, vitamins, eating well."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Burnout as experienced by autistic people: A systematic review (Ali et al.)",
+      "type": "review",
+      "url": "https://www.researchgate.net/publication/397236526_Burnout_as_experienced_by_autistic_people_A_systematic_review",
+      "year": 2025,
+      "finding": "Systematic review of autistic burnout identifies energy management, self-awareness and acceptance as protective factors that mitigate burnout; evidence base is qualitative/lived-experience, not controlled trials of any specific pacing protocol."
+    },
+    {
+      "title": "Mindful Self-Compassion Training Reduces Stress and Burnout Symptoms: A Randomized Controlled Trial of a Brief Web-Based Intervention (Eriksson et al.)",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6277494/",
+      "year": 2018,
+      "finding": "RCT (n=101) showing a brief self-compassion intervention raised self-compassion and lowered self-coldness, perceived stress and burnout. Supports the 'parking'/'nowa gra' guilt-acceptance mechanism — but population was practicing psychologists, not ADHD/autism, so the link is indirect."
+    },
+    {
+      "title": "A Randomized Controlled Trial of Group-Based Acceptance and Commitment Therapy / ACT for work-related rumination and job fatigue",
+      "type": "rct",
+      "url": "https://link.springer.com/article/10.1186/s12888-024-06150-y",
+      "year": 2024,
+      "finding": "Controlled trials show acceptance-based therapy (ACT) reduces work-related rumination and job fatigue by enabling disengagement from unfinished/uncontrollable demands — the mechanism behind 'parking' and starting each day fresh. Tested in general/occupational samples, not ADHD/autism."
+    },
+    {
+      "title": "Studying Motivation in ADHD: The Role of Internal Motives and the Relevance of Self-Determination Theory (Morsink et al.)",
+      "type": "review",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9066661/",
+      "year": 2022,
+      "finding": "Reviews SDT applied to ADHD: autonomous/intrinsic motivation and need-satisfaction (autonomy, competence) support sustained motivation and well-being while controlled motivation/need-frustration predict burnout. Gives a theoretical-plus-correlational basis for the 'muszę bo chcę' vs 'muszę bo muszę' balance, but is not an intervention test of this method."
+    }
+  ]
 }
 ---
 
