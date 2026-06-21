@@ -2,8 +2,8 @@
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import AudhdLayout from '../../../../layouts/AudhdLayout.astro';
 import Signals from '../../../../components/Signals.astro';
-import { useTranslations, otherLang, type Lang } from '../../../../i18n/ui';
-import { edgeScore, sourceCount } from '../../../../lib/signals';
+import { useTranslations, otherLang, type Lang, type UIKey } from '../../../../i18n/ui';
+import { edgeScore, sourceCount, conditionIcon, conditionColor } from '../../../../lib/signals';
 
 export async function getStaticPaths() {
   const symptoms = await getCollection('symptoms');
@@ -70,6 +70,13 @@ const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
     </div>
     <p class="text-lg text-charcoal-light leading-relaxed max-w-2xl">{entry.data.summary}</p>
     <div class="audhd-prose text-charcoal leading-relaxed mt-4 text-base max-w-2xl"><Content /></div>
+    <p
+      data-applies={entry.data.conditions.join(' ')}
+      class="ad-hidden mt-4 flex items-start gap-2 text-xs text-charcoal-light/75 bg-terracotta/8 border border-terracotta/15 rounded-lg px-3 py-2 max-w-2xl"
+    >
+      <span class="iconify text-sm mt-0.5 text-terracotta-dark flex-shrink-0" data-icon="mdi:information-outline" />
+      {t('nt.notForProfile')}
+    </p>
   </header>
 
   <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-4">{t('nt.topMethods')}</h2>
@@ -135,4 +142,14 @@ const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
       </section>
     )
   }
+
+  <div class="mt-12 pt-6 border-t border-charcoal/8 flex flex-wrap items-center gap-1.5">
+    <span class="text-xs text-charcoal-light/60 mr-1">{t('nt.appliesTo')}:</span>
+    {entry.data.conditions.map((c) => (
+      <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-white/70 border border-charcoal/8 text-xs text-charcoal-light">
+        <span class="iconify text-sm" data-icon={conditionIcon[c]} style={`color:${conditionColor[c]}`} />
+        {t(`profile.${c}` as UIKey)}
+      </span>
+    ))}
+  </div>
 </AudhdLayout>

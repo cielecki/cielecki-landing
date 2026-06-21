@@ -57,15 +57,13 @@ const altLangUrl = `/nt/${otherLang(lang)}/mechanizm/${slug}/`;
       </div>
       <h1 class="font-serif text-3xl sm:text-4xl font-bold text-charcoal-dark leading-tight mb-3">{entry.data.title}</h1>
       <p class="text-lg text-charcoal-light leading-relaxed">{entry.data.summary}</p>
-      <div class="flex flex-wrap items-center gap-1.5 mt-3">
-        <span class="text-xs text-charcoal-light/60 mr-1">{t('nt.appliesTo')}:</span>
-        {entry.data.conditions.map((c) => (
-          <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-white/70 border border-charcoal/8 text-xs text-charcoal-light">
-            <span class="iconify text-sm" data-icon={conditionIcon[c]} style={`color:${conditionColor[c]}`} />
-            {t(`profile.${c}` as UIKey)}
-          </span>
-        ))}
-      </div>
+      <p
+        data-applies={entry.data.conditions.join(' ')}
+        class="ad-hidden mt-4 flex items-start gap-2 text-xs text-charcoal-light/75 bg-terracotta/8 border border-terracotta/15 rounded-lg px-3 py-2 max-w-2xl"
+      >
+        <span class="iconify text-sm mt-0.5 text-terracotta-dark flex-shrink-0" data-icon="mdi:information-outline" />
+        {t('nt.notForProfile')}
+      </p>
     </header>
 
     <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-2">{t('nt.background')}</h2>
@@ -100,5 +98,15 @@ const altLangUrl = `/nt/${otherLang(lang)}/mechanizm/${slug}/`;
         })
       }
     </ul>
+
+    <div class="mt-10 pt-6 border-t border-charcoal/8 flex flex-wrap items-center gap-1.5">
+      <span class="text-xs text-charcoal-light/60 mr-1">{t('nt.appliesTo')}:</span>
+      {entry.data.conditions.map((c) => (
+        <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-white/70 border border-charcoal/8 text-xs text-charcoal-light">
+          <span class="iconify text-sm" data-icon={conditionIcon[c]} style={`color:${conditionColor[c]}`} />
+          {t(`profile.${c}` as UIKey)}
+        </span>
+      ))}
+    </div>
   </article>
 </AudhdLayout>
