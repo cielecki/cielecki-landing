@@ -46,7 +46,44 @@
       "note": "Wypisz rzeczy, które ciągle robisz wbrew sobie, i te, z którymi się męczysz, choć robisz je dobrze."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "A systematic review and meta-analysis of mental health outcomes associated with camouflaging in autistic people",
+      "type": "meta-analysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1750946724001673",
+      "year": 2024,
+      "finding": "Metaanaliza wykazała istotne, umiarkowane dodatnie korelacje między maskowaniem a lękiem, depresją i lękiem społecznym oraz słabą ujemną korelację z dobrostanem psychicznym. Potwierdza, że maskowanie wiąże się z gorszym zdrowiem psychicznym (szkoda, którą metoda chce ograniczyć), ale to korelacja, nie test odmaskowania."
+    },
+    {
+      "title": "Does Camouflaging Cause Reduced Quality of Life? A Co-Twin Control Study",
+      "type": "cohort",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12864277/",
+      "year": 2025,
+      "finding": "Badanie kontroli bliźniąt (mocniejsza inferencja przyczynowa niż typowe dane obserwacyjne) sprawdzające, czy maskowanie obniża jakość życia. Wspiera kierunek przyczynowy leżący u podstaw metody, ale nie testuje protokołu stopniowego odmaskowania."
+    },
+    {
+      "title": "Exploring the mediating effect of camouflaging and the moderating effect of autistic identity on the relationship between autistic traits and mental wellbeing (Moore et al.)",
+      "type": "cohort",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/aur.3073",
+      "year": 2024,
+      "finding": "Maskowanie (zwłaszcza asymilacja/'udawanie') pośredniczyło w związku między cechami autystycznymi a niższym dobrostanem; pozytywna tożsamość autystyczna moderowała tę relację. Wspiera mechanizm (ograniczać udawanie, budować tożsamość), ale jest przekrojowe, nie jest badaniem interwencyjnym."
+    },
+    {
+      "title": "Personal Identity After an Autism Diagnosis: Relationships With Self-Esteem, Mental Wellbeing, and Diagnostic Timing",
+      "type": "cohort",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8360844/",
+      "year": 2021,
+      "finding": "Dłuższy czas od diagnozy wiązał się z mniejszym niezadowoleniem z tożsamości autystycznej; duma z autyzmu przewidywała wyższą samoocenę, niezadowolenie — niższą. Wspiera ramę 'to potrwa' oraz cel samooceny/wstydu, ale jest obserwacyjne."
+    },
+    {
+      "title": "The consequences of social camouflaging in autistic adults: A systematic review",
+      "type": "review",
+      "url": "https://www.sciencedirect.com/science/article/pii/S3050656525000288",
+      "year": 2025,
+      "finding": "Przegląd systematyczny: klinicyści powinni omawiać, czy maskowanie szkodzi dobrostanowi, i wspierać strategie jego ograniczania — konsensus kliniczny zgodny z metodą, ale wyraźnie zaznacza, że maskowanie nie zawsze szkodzi i nie dostarcza kontrolowanego testu protokołu odmaskowania."
+    }
+  ]
 }
 ---
 

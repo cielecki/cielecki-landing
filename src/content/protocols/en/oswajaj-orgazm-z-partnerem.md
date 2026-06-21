@@ -19,7 +19,7 @@
     {
       "target": "lek-unikanie",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "niski",
       "note": "Habituates the anxious 'can I come', which itself blocks arousal."
     }
@@ -40,7 +40,37 @@
       "note": "Most need external stimulation — plan for that, not for the penetration myth."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Psychological and Behavioral Treatment of Female Orgasmic Disorder",
+      "type": "review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33069622/",
+      "year": 2020,
+      "finding": "Directed masturbation (DM) shows 50-100% of women with primary FOD learning to orgasm via masturbation and 33-85% learning to orgasm during partnered sex; DM, sensate focus and systematic desensitization are the most consistently supported components. CBT-based protocols report 88-90% success."
+    },
+    {
+      "title": "A Comparison of Systematic Desensitization and Directed Masturbation in the Treatment of Primary Orgasmic Dysfunction in Females",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6114968/",
+      "year": 1981,
+      "finding": "Controlled comparison: directed masturbation increased sexual arousal and orgasm; systematic desensitization is particularly useful when anxiety is the primary blocker — directly supports the exposure/pairing mechanism this method describes."
+    },
+    {
+      "title": "Efficacy of Psychological Interventions for Sexual Dysfunction: A Systematic Review and Meta-Analysis",
+      "type": "meta-analysis",
+      "url": "https://link.springer.com/article/10.1007/S10508-012-0062-0",
+      "year": 2013,
+      "finding": "Meta-analysis confirms psychological/behavioral interventions (including DM and exposure-based methods) are efficacious for sexual dysfunctions including orgasmic disorder."
+    },
+    {
+      "title": "Generalization of treatment effects following masturbatory training with erotic stimuli",
+      "type": "other",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/0005791679900715",
+      "year": 1979,
+      "finding": "Documents that gains from solo masturbatory training generalize/transfer to partnered sexual activity — the exact transfer mechanism this method relies on (one report: 87% orgasm during partner activities post-treatment)."
+    }
+  ]
 }
 ---
 

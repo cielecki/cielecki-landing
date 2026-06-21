@@ -45,7 +45,30 @@
       "note": "„Flirtuj wcześnie, drobne dotyki w ciągu dnia — dłuższe przejście jest mniej gwałtowne.”"
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Is Spontaneous Sex Ideal? Beliefs and Perceptions of Spontaneous and Planned Sex and Sexual Satisfaction in Romantic Relationships",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36779790/",
+      "year": 2024,
+      "finding": "Dwa preregistrowane badania (n=303 przekrojowe; 121 par, 21-dniowy dziennik). Ludzie wierzą, że spontaniczny seks daje większą satysfakcję, ale postrzeganie ostatniego zbliżenia jako zaplanowanego NIE obniżało satysfakcji u osób z pozytywnym nastawieniem do planowania; w parach przekonanie o planowaniu wiązało się z wyższą bazową satysfakcją partnera. Wspiera tezę, że planowanie nie jest gorsze — ale próba to populacja ogólna, nie ADHD/autyzm."
+    },
+    {
+      "title": "A Meta-Analysis of Cognitive Flexibility in Autism Spectrum Disorder",
+      "type": "meta-analysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0149763423004803",
+      "year": 2023,
+      "finding": "Metaanaliza (efekty losowe) potwierdza wyraźny deficyt elastyczności poznawczej / przełączania zadań w ASD w wieku 4-85 lat. Uzasadnia MECHANIZM, że nagłe przełączenie trybu ('curveball') jest trudniejsze dla osób neuroróżnorodnych — ale nie testuje samej metody planowania intymności."
+    },
+    {
+      "title": "Evaluating an Integrated Approach to Improve Couple Sexual Desire Disorders: A Randomized Clinical Trial",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11488552/",
+      "year": 2024,
+      "finding": "RCT u par z hipoaktywnym pożądaniem; ustrukturyzowane, zaplanowane sesje (Masters-Johnson + terapia skoncentrowana na emocjach) poprawiły pożądanie vs kontrola. Pośrednie wsparcie dla intencjonalnego, ustrukturyzowanego (vs spontaniczne) podejścia; nie dotyczy ADHD/autyzmu i nie jest czystym testem 'wpisz intymność do kalendarza'."
+    }
+  ]
 }
 ---
 

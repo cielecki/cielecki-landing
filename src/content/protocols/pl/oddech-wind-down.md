@@ -74,7 +74,44 @@
       "note": "Gdy emocjonalnie cię zalewa, weź jeden głęboki oddech i zrób pauzę, zanim cokolwiek powiesz — przerywa to limbiczną reakcję na zagrożenie."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "The Effect of Slow-Paced Breathing on Cardiovascular and Emotion Functions: A Meta-Analysis and Systematic Review",
+      "type": "meta-analysis",
+      "url": "https://link.springer.com/article/10.1007/s12671-023-02294-2",
+      "year": 2024,
+      "finding": "Metaanaliza: wolny oddech (~6/min) daje powtarzalne krótkoterminowe obniżenie ciśnienia skurczowego, wzrost HRV i umiarkowane zmniejszenie odczuwanego stresu/lęku. Efekt wyciszenia układu autonomicznego solidny; długoterminowa skuteczność niepotwierdzona. Populacje ogólne, nie ADHD/autyzm."
+    },
+    {
+      "title": "Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0149763422002007",
+      "year": 2022,
+      "finding": "Przegląd systematyczny/metaanaliza potwierdzająca, że dobrowolny wolny oddech podnosi HRV (aktywacja przywspółczulna/nerwu błędnego) względem oddechu spontanicznego — mechanizm fizjologiczny stojący za wyciszeniem."
+    },
+    {
+      "title": "The Effects of Presleep Slow Breathing and Music Listening on Polysomnographic Sleep Measures – a pilot trial",
+      "type": "rct",
+      "url": "https://www.nature.com/articles/s41598-020-64218-7",
+      "year": 2020,
+      "finding": "RCT krzyżowe (pilotaż, młodzi dorośli): ok. 20-min sesja wolnego oddechu 0,1 Hz przed snem skróciła czas zasypiania i poprawiła subiektywną jakość snu vs kontrola. Bezpośrednio wspiera tezę o rytuale schodzenia, ale mały pilotaż i nie w ADHD/autyzmie."
+    },
+    {
+      "title": "Lower breathing frequencies in personalized slow-paced breathing enhance relaxation and reduce arousal",
+      "type": "rct",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2589004226011788",
+      "year": 2026,
+      "finding": "Badanie kontrolowane: spowolnienie do ~40-60% spontanicznego tempa dało większe odprężenie subiektywne, niższe tętno, wyższe HRV i wyższą temperaturę skóry obwodowej — potwierdza zależny od dawki efekt wyciszenia (np. wdech 4s / wydech 6s)."
+    },
+    {
+      "title": "Healing Minds: Biofeedback and Breathing Practices in Children and Adolescents With ADHD (RCT) / HRV biofeedback ADHD symptom studies",
+      "type": "rct",
+      "url": "https://clinicaltrials.gov/study/NCT06648252",
+      "year": 2024,
+      "finding": "Badania w ADHD nad treningiem ~6 oddechów/min istnieją, ale celują w objawy osiowe ADHD/uwagę/hamowanie przez biofeedback HRV, a nie w ścieżkę wieczornego wyciszenia → szybsze zasypianie. Małe RCT sugerują redukcję części zachowań ADHD. Wobec celu 'sen' dowód pośredni."
+    }
+  ]
 }
 ---
 

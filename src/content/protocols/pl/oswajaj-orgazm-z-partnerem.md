@@ -19,7 +19,7 @@
     {
       "target": "lek-unikanie",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "niski",
       "note": "Oswaja lękowe „czy dam radę dojść”, które samo blokuje pobudzenie."
     }
@@ -40,7 +40,37 @@
       "note": "Większość potrzebuje stymulacji zewnętrznej — planuj pod to, nie pod mit penetracji."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Psychological and Behavioral Treatment of Female Orgasmic Disorder",
+      "type": "review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33069622/",
+      "year": 2020,
+      "finding": "Masturbacja ukierunkowana: 50-100% kobiet z pierwotnymi zaburzeniami orgazmu uczy się dochodzić solo, a 33-85% przenosi to na seks z partnerem; masturbacja ukierunkowana, sensate focus i systematyczna desensytyzacja to najlepiej udokumentowane komponenty. Protokoły CBT raportują 88-90% skuteczności."
+    },
+    {
+      "title": "A Comparison of Systematic Desensitization and Directed Masturbation in the Treatment of Primary Orgasmic Dysfunction in Females",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6114968/",
+      "year": 1981,
+      "finding": "Kontrolowane porównanie: masturbacja ukierunkowana zwiększyła pobudzenie i orgazm; systematyczna desensytyzacja jest szczególnie użyteczna, gdy głównym blokerem jest lęk — wprost wspiera mechanizm ekspozycji/parowania opisany w tej metodzie."
+    },
+    {
+      "title": "Efficacy of Psychological Interventions for Sexual Dysfunction: A Systematic Review and Meta-Analysis",
+      "type": "meta-analysis",
+      "url": "https://link.springer.com/article/10.1007/S10508-012-0062-0",
+      "year": 2013,
+      "finding": "Meta-analiza potwierdza, że interwencje psychologiczne/behawioralne (w tym masturbacja ukierunkowana i metody oparte na ekspozycji) są skuteczne w dysfunkcjach seksualnych, w tym w zaburzeniach orgazmu."
+    },
+    {
+      "title": "Generalization of treatment effects following masturbatory training with erotic stimuli",
+      "type": "other",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/0005791679900715",
+      "year": 1979,
+      "finding": "Dokumentuje, że efekty treningu masturbacyjnego solo przenoszą się na aktywność z partnerem — dokładnie ten mechanizm transferu, na którym opiera się ta metoda (jedno doniesienie: 87% orgazmów z partnerem po terapii)."
+    }
+  ]
 }
 ---
 

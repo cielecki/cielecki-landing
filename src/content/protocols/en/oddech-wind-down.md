@@ -74,7 +74,44 @@
       "note": "When emotionally flooded, take one deep breath and pause before responding — it interrupts the limbic threat response."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "The Effect of Slow-Paced Breathing on Cardiovascular and Emotion Functions: A Meta-Analysis and Systematic Review",
+      "type": "meta-analysis",
+      "url": "https://link.springer.com/article/10.1007/s12671-023-02294-2",
+      "year": 2024,
+      "finding": "Meta-analysis: slow-paced breathing (~6 cpm) produces reliable short-term reductions in systolic BP, increases time-domain HRV (SDNN/RMSSD), and a modest reduction in perceived stress/anxiety. Acute de-arousal effect is robust; long-term efficacy unestablished. General (non-ADHD/autism) populations."
+    },
+    {
+      "title": "Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0149763422002007",
+      "year": 2022,
+      "finding": "Systematic review/meta-analysis confirming voluntary slow breathing reliably raises HRV (vagal/parasympathetic activation) vs spontaneous breathing — the physiological mechanism behind 'układ schodzi z obrotów'."
+    },
+    {
+      "title": "The Effects of Presleep Slow Breathing and Music Listening on Polysomnographic Sleep Measures – a pilot trial",
+      "type": "rct",
+      "url": "https://www.nature.com/articles/s41598-020-64218-7",
+      "year": 2020,
+      "finding": "Crossover RCT (pilot, young adults): a ~20-min presleep slow-breathing session at 0.1 Hz reduced sleep onset latency and improved subjective sleep quality vs control. Directly supports the bedtime wind-down sleep claim, but small/pilot and not in ADHD/autism."
+    },
+    {
+      "title": "Lower breathing frequencies in personalized slow-paced breathing enhance relaxation and reduce arousal",
+      "type": "rct",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2589004226011788",
+      "year": 2026,
+      "finding": "Controlled study: slowing to ~40-60% of spontaneous breathing rate produced greater subjective relaxation, lower heart rate, higher HRV and higher peripheral skin temperature — confirms the dose-response de-arousal effect of slowing breath (e.g. 4s in / 6s out)."
+    },
+    {
+      "title": "Healing Minds: Biofeedback and Breathing Practices in Children and Adolescents With ADHD (RCT) / HRV biofeedback ADHD symptom studies",
+      "type": "rct",
+      "url": "https://clinicaltrials.gov/study/NCT06648252",
+      "year": 2024,
+      "finding": "ADHD-specific work on ~6 breaths/min training exists but targets ADHD core symptoms/attention/inhibitory control via HRV biofeedback, not the evening wind-down → faster sleep pathway. Small RCTs suggest HRV-biofeedback can reduce some ADHD behaviors. Indirect for the sleep target."
+    }
+  ]
 }
 ---
 

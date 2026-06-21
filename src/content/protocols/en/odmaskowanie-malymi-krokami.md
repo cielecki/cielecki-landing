@@ -46,7 +46,44 @@
       "note": "List things you constantly do against yourself, and things you struggle with yet do well."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "A systematic review and meta-analysis of mental health outcomes associated with camouflaging in autistic people",
+      "type": "meta-analysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1750946724001673",
+      "year": 2024,
+      "finding": "Meta-analysis found significant moderate positive associations between camouflaging and anxiety, depression and social anxiety, and a significant small negative association with mental wellbeing. Establishes that masking correlates with worse mental health — the harm the method aims to reduce — but is correlational, not a test of unmasking."
+    },
+    {
+      "title": "Does Camouflaging Cause Reduced Quality of Life? A Co-Twin Control Study",
+      "type": "cohort",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12864277/",
+      "year": 2025,
+      "finding": "Co-twin control design (stronger causal inference than standard observational data) examining whether camouflaging causes reduced quality of life. Supports the causal direction underlying the method's rationale but does not test a gradual-unmasking protocol."
+    },
+    {
+      "title": "Exploring the mediating effect of camouflaging and the moderating effect of autistic identity on the relationship between autistic traits and mental wellbeing (Moore et al.)",
+      "type": "cohort",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/aur.3073",
+      "year": 2024,
+      "finding": "Camouflaging (especially assimilation/'putting on an act') mediated the link between autistic traits and lower wellbeing; positive autistic identity moderated the relationship. Directly supports the mechanism (reduce assimilation, build identity) but is cross-sectional, not an intervention trial."
+    },
+    {
+      "title": "Personal Identity After an Autism Diagnosis: Relationships With Self-Esteem, Mental Wellbeing, and Diagnostic Timing",
+      "type": "cohort",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8360844/",
+      "year": 2021,
+      "finding": "Greater time since diagnosis related to less dissatisfaction with autistic identity; autism pride predicted higher self-esteem, dissatisfaction predicted lower self-esteem. Supports the 'it takes time' framing and the self-esteem/shame target, but is observational."
+    },
+    {
+      "title": "The consequences of social camouflaging in autistic adults: A systematic review",
+      "type": "review",
+      "url": "https://www.sciencedirect.com/science/article/pii/S3050656525000288",
+      "year": 2025,
+      "finding": "Narrative/systematic review concluding clinicians should discuss whether camouflaging harms wellbeing and support individuals to identify strategies to reduce it — clinical consensus consistent with the method, but explicitly notes camouflaging is not always harmful and provides no controlled test of an unmasking protocol."
+    }
+  ]
 }
 ---
 

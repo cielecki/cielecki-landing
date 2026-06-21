@@ -45,7 +45,30 @@
       "note": "\"Be flirtatious early, little touches throughout the day — a longer transition feels less jarring.\""
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Is Spontaneous Sex Ideal? Beliefs and Perceptions of Spontaneous and Planned Sex and Sexual Satisfaction in Romantic Relationships",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36779790/",
+      "year": 2024,
+      "finding": "Two pre-registered studies (Study 1 n=303 cross-sectional; Study 2 n=121 couples, 21-day daily diary). People believe spontaneous sex is more satisfying, but perceiving one's most recent sex as planned did NOT reduce satisfaction for those who held positive planned-sex beliefs; in couples, endorsing planned-sex beliefs correlated with a partner's higher baseline satisfaction. Supports that planning intimacy is not inherently less satisfying — but the sample is general-population, not ADHD/autistic."
+    },
+    {
+      "title": "A Meta-Analysis of Cognitive Flexibility in Autism Spectrum Disorder",
+      "type": "meta-analysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0149763423004803",
+      "year": 2023,
+      "finding": "Random-effects meta-analysis confirms robust cognitive flexibility / set-shifting deficits in ASD across ages 4-85. Establishes the MECHANISM underlying the claim that abrupt mode-switching (a sudden initiation 'curveball') is harder for neurodivergent people — but does not test the intimacy-planning method itself."
+    },
+    {
+      "title": "Evaluating an Integrated Approach to Improve Couple Sexual Desire Disorders: A Randomized Clinical Trial",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11488552/",
+      "year": 2024,
+      "finding": "RCT in couples with hypoactive sexual desire; structured, scheduled therapeutic sessions (Masters-Johnson + emotion-focused) improved desire vs control. Indirect support that intentional, structured (vs spontaneous) approaches to intimacy work in non-ND couples; not ADHD/autism-specific and not a pure 'calendar your intimacy' test."
+    }
+  ]
 }
 ---
 
