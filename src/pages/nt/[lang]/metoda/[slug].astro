@@ -67,6 +67,21 @@ const resourceIcon: Record<string, string> = {
   specialist: 'mdi:account-tie-outline',
 };
 
+// A timestamped link (…&t=NNNs) points at one moment in a long video. Surface that
+// as a "clip from MM:SS" badge so it's clear the link is a fragment, not the whole film.
+function fmtTime(total: number): string {
+  const h = Math.floor(total / 3600);
+  const m = Math.floor((total % 3600) / 60);
+  const s = total % 60;
+  const pad = (n: number) => String(n).padStart(2, '0');
+  return h > 0 ? `${h}:${pad(m)}:${pad(s)}` : `${m}:${pad(s)}`;
+}
+function fragmentAt(url?: string): string | null {
+  if (!url) return null;
+  const m = url.match(/[?&]t=(\d+)/);
+  return m ? fmtTime(parseInt(m[1], 10)) : null;
+}
+
 const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
 ---
 
@@ -141,6 +156,7 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
             {entry.data.resources.map((r) => {
               const label = t(`resource.${r.type}` as UIKey);
               const icon = resourceIcon[r.type] ?? 'mdi:link-variant';
+              const frag = fragmentAt(r.url);
               const inner = (
                 <>
                   <span class="flex-shrink-0 w-9 h-9 flex items-center justify-center bg-sand/30 rounded-lg text-charcoal-light">
@@ -148,14 +164,23 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
                   </span>
                   <div class="flex-1 min-w-0">
                     <div class="font-medium text-charcoal-dark leading-snug">{r.title}</div>
-                    <div class="text-xs text-charcoal-light/60 mt-0.5">
-                      {label}
-                      {r.author ? ` · ${r.author}` : ''}
-                      {!r.url ? ` · ${t('method.linkSoon')}` : ''}
+                    <div class="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs text-charcoal-light/60 mt-1">
+                      <span>{label}</span>
+                      {r.author && <span>· {r.author}</span>}
+                      {frag && (
+                        <span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-md bg-terracotta/10 text-terracotta-dark font-medium">
+                          <span class="iconify text-sm" data-icon="mdi:play-circle" />
+                          {t('resource.fragment')} {frag}
+                        </span>
+                      )}
+                      {!r.url && <span>· {t('method.linkSoon')}</span>}
                     </div>
+                    {r.note && (
+                      <p class="text-sm text-charcoal-light/80 italic leading-relaxed mt-1.5">{r.note}</p>
+                    )}
                   </div>
                   {r.url && (
-                    <span class="iconify flex-shrink-0 text-base text-charcoal-light/40 group-hover:text-terracotta transition-colors" data-icon="mdi:open-in-new" />
+                    <span class="iconify flex-shrink-0 mt-0.5 text-base text-charcoal-light/40 group-hover:text-terracotta transition-colors" data-icon="mdi:open-in-new" />
                   )}
                 </>
               );
@@ -166,12 +191,12 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
                       href={r.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="group flex items-center gap-3 p-3 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl hover:bg-white hover:-translate-y-0.5 hover:shadow-sm transition-all"
+                      class="group flex items-start gap-3 p-3.5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl hover:bg-white hover:-translate-y-0.5 hover:shadow-sm transition-all"
                     >
                       {inner}
                     </a>
                   ) : (
-                    <div class="flex items-center gap-3 p-3 bg-white/40 border border-charcoal/8 rounded-xl opacity-80">{inner}</div>
+                    <div class="flex items-start gap-3 p-3.5 bg-white/40 border border-charcoal/8 rounded-xl opacity-80">{inner}</div>
                   )}
                 </li>
               );

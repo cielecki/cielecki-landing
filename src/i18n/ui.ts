@@ -70,6 +70,8 @@ export const ui = {
     'resource.product': 'Produkt',
     'resource.tool': 'Narzędzie',
     'resource.specialist': 'Specjalista',
+    'resource.fragment': 'fragment od',
+    'resource.watchFrom': 'Obejrzyj fragment od',
   },
   en: {
     'site.title': 'Neuro Toolkit',
@@ -133,6 +135,8 @@ export const ui = {
     'resource.product': 'Product',
     'resource.tool': 'Tool',
     'resource.specialist': 'Specialist',
+    'resource.fragment': 'clip from',
+    'resource.watchFrom': 'Watch the clip from',
   },
 } as const;
 
