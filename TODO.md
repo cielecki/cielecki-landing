@@ -9,13 +9,17 @@ Stan: **20 objawów · 22 mechanizmy · 87 metod**, bilingualnie. Deploy: push n
 
 ## 🔜 Do zrobienia
 
-### 1. Pełny przemiał ocen + badań  ⏳ `4 / 87 metod`
+### 1. Pełny przemiał ocen + badań  ✅ `87 / 87 metod`
 Kalibracja każdej oceny A–D względem literatury + realne cytowania (sekcja „Co mówią badania").
-- [ ] Przemielić pozostałe **83 metody** — małymi partiami (5–6 naraz), z ręczną weryfikacją każdego cytowania
-- [ ] Fact-check pozostałych **~16 mechanizmów** (treść + cytowania w „Tło")
+- [x] Przemielono **wszystkie 87 metod** (14 partii po ~6, batche 1–14), każde cytowanie zweryfikowane
+      tytułem przez NCBI eutils. Rozkład krawędzi: **A=4, B=45, C=121, D=11**. Wyłapano i usunięto
+      kilka zhalucynowanych PMID-ów (m.in. badanie kwetiapiny i pracę fizyczną DESY podszyte pod „badania").
+- [ ] Fact-check pozostałych **~16 mechanizmów** (treść + cytowania w „Tło") — osobny przebieg (mechanizmy
+      nie mają `studies[]`; cytowania idą inline w body). Do zrobienia.
 - **Jak:** skill `neuro-toolkit-embed` → `prep_grades.py` → `gradecheck-workflow.js` (Workflow) → `apply_grades.py`
   (downgrade auto, upgrade po przeglądzie: `--upgrade-slugs`). Recepta na 529: małe runy, batch 2, retry.
-- **Zasada:** ZAWSZE sprawdź, czy URL cytowania się rozwiązuje i tytuł się zgadza, zanim zaufasz syntezie.
+- **Narzędzie weryfikacji:** `/tmp/verify_batch.py` (auto-sprawdza wszystkie PubMed/PMC przez eutils:
+  tytuł+rok, flaguje mismatch/halucynacje). ZAWSZE uruchamiaj przed `apply_grades`.
 
 ### 2. Wyszukiwarka (po wszystkim) ✅
 - [x] Pełnotekstowe wyszukiwanie po objawach / mechanizmach / metodach / treści — **Pagefind**, ikona lupy
@@ -55,3 +59,8 @@ Kalibracja każdej oceny A–D względem literatury + realne cytowania (sekcja �
 - Powtarzalny pipeline jako skill `neuro-toolkit-embed` (harvest → clean → Workflow → apply → fact-check)
 - Spójny układ stron: „Dotyczy" na dole, źródła w nagłówku „Materiały", ocena per-cel w „Pomaga na" (wszystkie 3 typy)
 - testy-przesiewowe → A (zweryfikowane: walidacje ASRS/AQ)
+- **Przemiał ocen wszystkich 87 metod** (batche 1–14): każda ocena A–D skalibrowana z literaturą,
+  realne cytowania w „Co mówią badania", każdy PubMed/PMC zweryfikowany tytułem przez NCBI eutils
+- **Wyszukiwarka (Pagefind)** — nagłówek + skrót `/` + modal, indeks per-język, zakres `/nt/`
+- **Footer z mapą bazy + `sitemap.xml`** (@astrojs/sitemap, 261 URL-i)
+- **Audyt szerokości krawędzi** (1. przejście) — usunięto 6 za szerokich krawędzi metoda→mechanizm
