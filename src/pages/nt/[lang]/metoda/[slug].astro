@@ -70,7 +70,7 @@ const resourceIcon: Record<string, string> = {
 const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
 ---
 
-<AudhdLayout lang={lang} title={entry.data.title} altLangUrl={altLangUrl} crumbs={crumbs}>
+<AudhdLayout lang={lang} title={entry.data.title} altLangUrl={altLangUrl} crumbs={crumbs} showNav={true} activeSlug={parentSymptom}>
   <article class="reveal">
     <header class="mb-6">
       <div class="flex items-center gap-1.5 mb-2 text-xs font-semibold uppercase tracking-wider text-sage-dark">
@@ -96,7 +96,7 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
       </div>
     </header>
 
-    <div class="audhd-prose text-charcoal leading-relaxed"><Content /></div>
+    <div class="audhd-prose text-charcoal leading-relaxed max-w-2xl"><Content /></div>
 
     {
       links.length > 0 && (

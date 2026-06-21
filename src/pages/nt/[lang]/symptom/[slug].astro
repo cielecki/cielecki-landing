@@ -51,7 +51,7 @@ ranked.sort((a, b) => b.score - a.score);
 const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
 ---
 
-<AudhdLayout lang={lang} title={entry.data.title} altLangUrl={altLangUrl} crumbs={[{ label: entry.data.title }]}>
+<AudhdLayout lang={lang} title={entry.data.title} altLangUrl={altLangUrl} crumbs={[{ label: entry.data.title }]} showNav={true} activeSlug={slug}>
   <header class="mb-8 reveal">
     <div class="flex items-center gap-3 mb-3">
       <span class="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-terracotta/10 rounded-xl text-terracotta-dark">
@@ -60,11 +60,11 @@ const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
       <h1 class="font-serif text-3xl sm:text-4xl font-bold text-charcoal-dark leading-tight">{entry.data.title}</h1>
     </div>
     <p class="text-lg text-charcoal-light leading-relaxed max-w-2xl">{entry.data.summary}</p>
-    <div class="audhd-prose text-charcoal leading-relaxed mt-4 text-base"><Content /></div>
+    <div class="audhd-prose text-charcoal leading-relaxed mt-4 text-base max-w-2xl"><Content /></div>
   </header>
 
   <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-4">{t('nt.topMethods')}</h2>
-  <ul class="grid gap-3 mb-12">
+  <ul class="grid gap-3 mb-12 xl:grid-cols-2">
     {
       ranked.map(({ p, ev, comm }) => {
         const pslug = slugOf(p.id);

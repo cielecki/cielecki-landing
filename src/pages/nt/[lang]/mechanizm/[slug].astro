@@ -40,13 +40,14 @@ for (const p of protocols) {
 }
 ranked.sort((a, b) => b.score - a.score);
 
+const parentSlug = parents[0] ? slugOf(parents[0].id) : undefined;
 const crumbs = parents[0]
-  ? [{ label: parents[0].data.title, href: `/nt/${lang}/symptom/${slugOf(parents[0].id)}/` }, { label: entry.data.title }]
+  ? [{ label: parents[0].data.title, href: `/nt/${lang}/symptom/${parentSlug}/` }, { label: entry.data.title }]
   : [{ label: entry.data.title }];
 const altLangUrl = `/nt/${otherLang(lang)}/mechanizm/${slug}/`;
 ---
 
-<AudhdLayout lang={lang} title={entry.data.title} altLangUrl={altLangUrl} crumbs={crumbs}>
+<AudhdLayout lang={lang} title={entry.data.title} altLangUrl={altLangUrl} crumbs={crumbs} showNav={true} activeSlug={parentSlug}>
   <article class="reveal">
     <header class="mb-6">
       <div class="flex items-center gap-1.5 mb-2 text-xs font-semibold uppercase tracking-wider text-charcoal-light/60">
@@ -67,10 +68,10 @@ const altLangUrl = `/nt/${otherLang(lang)}/mechanizm/${slug}/`;
     </header>
 
     <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-2">{t('nt.background')}</h2>
-    <div class="audhd-prose text-charcoal leading-relaxed mb-10"><Content /></div>
+    <div class="audhd-prose text-charcoal leading-relaxed mb-10 max-w-2xl"><Content /></div>
 
     <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-4">{t('nt.methodsHere')}</h2>
-    <ul class="grid gap-3">
+    <ul class="grid gap-3 xl:grid-cols-2">
       {
         ranked.map(({ p, ev, comm, note }) => {
           const pslug = slugOf(p.id);
