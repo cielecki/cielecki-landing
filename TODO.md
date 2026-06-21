@@ -14,8 +14,10 @@ Kalibracja każdej oceny A–D względem literatury + realne cytowania (sekcja �
 - [x] Przemielono **wszystkie 87 metod** (14 partii po ~6, batche 1–14), każde cytowanie zweryfikowane
       tytułem przez NCBI eutils. Rozkład krawędzi: **A=4, B=45, C=121, D=11**. Wyłapano i usunięto
       kilka zhalucynowanych PMID-ów (m.in. badanie kwetiapiny i pracę fizyczną DESY podszyte pod „badania").
-- [ ] Fact-check pozostałych **~16 mechanizmów** (treść + cytowania w „Tło") — osobny przebieg (mechanizmy
-      nie mają `studies[]`; cytowania idą inline w body). Do zrobienia.
+- [x] Fact-check **wszystkich 22 mechanizmów** (runy A–C, `factcheck-workflow.js`): zweryfikowano twierdzenia
+      neuro/faktualne, złagodzono przesadzone (m.in. boom-and-bust „endorfiny"→dopamina; revenge-bedtime
+      „autonomia" = popnauka, nie konsensus; RSD jako konstrukt Dodsona z cienkim zapleczem; DLMO 45/90 wg
+      wieku; supernormalny-bodziec — liczby dopaminy i status „uzależnienia" oznaczone jako sporne).
 - **Jak:** skill `neuro-toolkit-embed` → `prep_grades.py` → `gradecheck-workflow.js` (Workflow) → `apply_grades.py`
   (downgrade auto, upgrade po przeglądzie: `--upgrade-slugs`). Recepta na 529: małe runy, batch 2, retry.
 - **Narzędzie weryfikacji:** `/tmp/verify_batch.py` (auto-sprawdza wszystkie PubMed/PMC przez eutils:
@@ -33,8 +35,12 @@ Kalibracja każdej oceny A–D względem literatury + realne cytowania (sekcja �
 - [ ] (opcjonalnie później) link do grupy założycieli w footerze — patrz pkt 5
 
 ### 4. Kuracja (jakość treści)
-- [ ] Przejść 87 metod pod kątem near-duplikatów / przegenerowania → scalić / przyciąć
-- [ ] Dorobić głębię cienkim objawom (część ma 1–2 metody) — kolejne małe runy harvestu
+- [x] Przejść 87 metod pod kątem near-duplikatów → **brak realnych duplikatów** (analiza podobieństwa
+      tytuł+summary: najwyższe pary sim ≤0.36 to komplementarne metody, nie duplikaty — np. światło rano vs
+      melatonina wieczór). Korpus już odkurzony dyscypliną „wzbogacaj zamiast duplikować".
+- [ ] **Dorobić głębię 3 cienkim objawom** (trawersja tranzytywna): `trauma-przeszlosc` (1 metoda),
+      `szukam-pomocy` (1), `rodzicielstwo-bliscy` (2). ⛔ Wymaga NOWEGO materiału źródłowego (harvest filmów) —
+      metod się nie zmyśla, więc to czeka na źródła + run harvestu, nie na samo przeliczenie.
 - [x] **Audyt szerokości krawędzi metoda→mechanizm** (1. przejście). Przejrzano 37 metod / 55
       tranzytywnych linków. Usunięto 6 jednoznacznie za szerokich krawędzi do mechanizmów (niskoocenowe
       C/D rozsmarowujące wąską metodę na niepowiązany objaw, przy zachowanych trafnych krawędziach
