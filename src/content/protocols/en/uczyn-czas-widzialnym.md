@@ -39,7 +39,30 @@
       "note": "Without a bell/alarm she doesn't get back to what she meant to do — from brushing teeth to getting her son ready."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Patterns of time processing and time management in children with disabilities: effectiveness of an intervention (time aids)",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24417452/",
+      "year": 2014,
+      "finding": "Small RCT (n=37, ages 6-11, ADHD plus ASD/ID/spina bifida/CP) of an intervention using time aids that externalize and make time visible. The intervention group improved time-processing ability (Cohen's d=0.81, large) and time management (d=0.68, medium) significantly more than waitlist controls. Authors call it 'preliminary evidence.' Mixed diagnostic population and small sample limit ADHD-specific inference."
+    },
+    {
+      "title": "The Efficacy of Visual Activity Schedule Intervention in Reducing Problem Behaviors in Children With ADHD Between the Age of 5 and 12 Years: A Systematic Review",
+      "type": "review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35035237/",
+      "year": 2022,
+      "finding": "Systematic review of visual activity schedules (visual/scheduled representations of the day) in ADHD children. Only 4 studies met criteria; included RCT rated low quality, others high. Interventions associated with reduced problem behavior and higher satisfaction, but evidence base is thin and not aimed specifically at time perception."
+    },
+    {
+      "title": "Time Perception in Adult ADHD: Findings from a Decade — A Review",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9962130/",
+      "year": 2023,
+      "finding": "Narrative review confirms time perception/time blindness is a consistent ADHD feature (strong mechanism). Explicitly notes that adult ADHD treatment manuals do not address the time-perception deficit and that intervention evidence is minimal — contains essentially no controlled evaluation of external/visual time aids or color-coded calendars."
+    }
+  ]
 }
 ---
 

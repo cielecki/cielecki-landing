@@ -12,21 +12,21 @@
     {
       "target": "pobudzony-uklad",
       "kind": "mechanism",
-      "evidence": "C",
+      "evidence": "B",
       "community": "wysoki",
       "note": "Externalizing thoughts onto paper offloads working memory and quiets the racing thoughts that sustain arousal."
     },
     {
       "target": "chroniczna-czujnosc",
       "kind": "mechanism",
-      "evidence": "C",
+      "evidence": "B",
       "community": "średni",
       "note": "The forgetting log confronts inflated fear with data, lowering baseline pre-sleep anxiety."
     },
     {
       "target": "sen",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "wysoki",
       "note": "Dumping thoughts and emotions onto paper eases sleep onset when the head is full."
     }
@@ -68,7 +68,44 @@
       "note": "If your brain is sharp at night but foggy in the morning, plan your top 5 priorities the night before."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "The Effects of Bedtime Writing on Difficulty Falling Asleep: A Polysomnographic Study Comparing To-Do Lists and Completed Activity Lists",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29058942/",
+      "year": 2018,
+      "finding": "RCT (n=57, lab polysomnography). Writing a specific 5-minute to-do list at bedtime led to falling asleep ~9 minutes faster than writing about completed activities; the more specific the list, the shorter the sleep-onset latency. Supports externalizing pending tasks/worries to reduce pre-sleep cognitive activation. Healthy young adults, not an ADHD/autism sample."
+    },
+    {
+      "title": "Behavior therapy singly and combined with constructive worry for insomnia: Cognitive and behavioral processes as mediators",
+      "type": "rct",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1389945713015815",
+      "year": 2014,
+      "finding": "RCT (n=31, primary insomnia). Adding 'constructive worry' (writing down worries and solutions earlier in the evening) to behavior therapy; reductions in insomnia-related worry mediated improvements in insomnia severity and sleep quality. Supports the brain-dump-of-worries mechanism for pre-sleep arousal."
+    },
+    {
+      "title": "Effects of worry postponement on daily worry and sleep: a randomised controlled trial",
+      "type": "rct",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/08870446.2025.2590072",
+      "year": 2025,
+      "finding": "Four-arm RCT (n=186). Worry-postponement / scheduled-worry interventions reduced daily worry and affected sleep outcomes, consistent with offloading rumination away from bedtime. General population, not ADHD-specific."
+    },
+    {
+      "title": "Randomized controlled trial of expressive writing for psychological and physical health: the moderating role of emotional expressivity",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23742666/",
+      "year": 2014,
+      "finding": "RCT (n=116). No main effect of expressive writing on anxiety or depressive symptoms; benefit appeared ONLY in high-expressivity individuals, while low-expressivity participants showed INCREASED anxiety. Important caveat: the emotional check-in variant is not universally helpful and may backfire for some."
+    },
+    {
+      "title": "The online journaling effects on mental health: meta-analysis (journaling and mental health outcomes)",
+      "type": "meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=journaling+mental+health+meta-analysis",
+      "year": 2022,
+      "finding": "Meta-analysis: journaling produced a small statistically significant ~5% reduction in mental-health scores vs controls, with the largest effect in anxiety (~9%) and PTSD subgroups, smaller in depression (~2%). Effects are real but modest; not ADHD/autism-specific."
+    }
+  ]
 }
 ---
 

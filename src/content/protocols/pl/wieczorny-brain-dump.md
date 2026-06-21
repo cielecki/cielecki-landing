@@ -12,21 +12,21 @@
     {
       "target": "pobudzony-uklad",
       "kind": "mechanism",
-      "evidence": "C",
+      "evidence": "B",
       "community": "wysoki",
       "note": "Externalizacja myśli na papier odciąża pamięć roboczą i ścisza gonitwę myśli, która podtrzymuje pobudzenie."
     },
     {
       "target": "chroniczna-czujnosc",
       "kind": "mechanism",
-      "evidence": "C",
+      "evidence": "B",
       "community": "średni",
       "note": "Log zapominania konfrontuje zawyżony strach z danymi, obniżając bazowy niepokój przed snem."
     },
     {
       "target": "sen",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "wysoki",
       "note": "Wyrzucenie myśli i emocji na papier ułatwia zaśnięcie, gdy głowa jest pełna."
     }
@@ -68,7 +68,44 @@
       "note": "Jeśli wieczorem masz jasność umysłu, a rano mgłę, zaplanuj 5 najważniejszych zadań poprzedniego wieczoru."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "The Effects of Bedtime Writing on Difficulty Falling Asleep: A Polysomnographic Study Comparing To-Do Lists and Completed Activity Lists",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29058942/",
+      "year": 2018,
+      "finding": "RCT (n=57, polisomnografia). Napisanie konkretnej listy 5 zadań na jutro przed snem skróciło zasypianie o ~9 minut wzgledem opisywania spraw juz zalatwionych; im bardziej szczegolowa lista, tym krotszy czas zasypiania. Wspiera mechanizm 'wyrzucania' zalegosci z glowy. Probka: zdrowi mlodzi dorosli, nie ADHD/autyzm."
+    },
+    {
+      "title": "Behavior therapy singly and combined with constructive worry for insomnia: Cognitive and behavioral processes as mediators",
+      "type": "rct",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1389945713015815",
+      "year": 2014,
+      "finding": "RCT (n=31, bezsennosc pierwotna). Dodanie 'konstruktywnego martwienia sie' (wypisanie zmartwien i rozwiazan wczesniej wieczorem) do terapii behawioralnej; spadek zamartwiania mediowal poprawe bezsennosci i jakosci snu. Wspiera mechanizm wieczornego wyrzucania zmartwien."
+    },
+    {
+      "title": "Effects of worry postponement on daily worry and sleep: a randomised controlled trial",
+      "type": "rct",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/08870446.2025.2590072",
+      "year": 2025,
+      "finding": "Czteroramienne RCT (n=186). Interwencje odraczania zamartwiania ('wyznaczony czas na martwienie sie') obnizaly codzienne zamartwianie i wplywaly na sen — spojne z przenoszeniem ruminacji poza moment zasypiania. Populacja ogolna, nie ADHD."
+    },
+    {
+      "title": "Randomized controlled trial of expressive writing for psychological and physical health: the moderating role of emotional expressivity",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23742666/",
+      "year": 2014,
+      "finding": "RCT (n=116). Brak glownego efektu pisania ekspresyjnego na lek/depresje; korzysc tylko u osob wysoko ekspresyjnych, a u nisko ekspresyjnych lek WZROSL. Wazne zastrzezenie: wariant check-in emocjonalny nie pomaga kazdemu i u czesci moze zaszkodzic."
+    },
+    {
+      "title": "The online journaling effects on mental health: meta-analysis (journaling and mental health outcomes)",
+      "type": "meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=journaling+mental+health+meta-analysis",
+      "year": 2022,
+      "finding": "Meta-analiza: prowadzenie dziennika dalo male, ale istotne ~5% obnizenie wynikow zdrowia psychicznego wzgledem kontroli, najwiekszy efekt przy leku (~9%), mniejszy przy depresji (~2%). Efekty realne, ale skromne; nie dotycza specyficznie ADHD/autyzmu."
+    }
+  ]
 }
 ---
 

@@ -12,7 +12,7 @@
     {
       "target": "zaczynanie",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "niski",
       "note": "System nagród zamiast presji jako długofalowy motor."
     }
@@ -26,7 +26,30 @@
       "note": "Punkty/nagrody + „najpierw trudne”; nagrody małe i zdrowe, by nie wzmacniać nawyku złym."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "ADHD and the Choice of Small Immediate Over Larger Delayed Rewards: A Comparative Meta-Analysis of Performance on Simple Choice-Delay and Temporal Discounting Paradigms",
+      "type": "meta-analysis",
+      "url": "https://journals.sagepub.com/doi/10.1177/1087054718772138",
+      "year": 2021,
+      "finding": "Metaanaliza potwierdza, że osoby z ADHD konsekwentnie wolą małą natychmiastową nagrodę od większej odroczonej; realne nagrody niemal podwajają efekt. Potwierdza to mechanizm odroczonej gratyfikacji, który metoda adresuje — ale opisuje deficyt, nie testuje samej interwencji nagrodowej."
+    },
+    {
+      "title": "Behavior Management for School Aged Children with ADHD",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4167345/",
+      "year": 2014,
+      "finding": "Przegląd zarządzania behawioralnego: ekonomia żetonowa / systemy punktowe z natychmiastowym, warunkowym wzmocnieniem to ugruntowany, oparty na dowodach element poprawiający koncentrację i samoregulację u dzieci z ADHD. Wspiera zasadę systemu nagród, ale w kontekście dziecięco-szkolnym, nie inicjacji zadań u dorosłych."
+    },
+    {
+      "title": "Sustained improvements by behavioural parent training for children with ADHD: A meta-analytic review of longer-term child and parental outcomes",
+      "type": "meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10501699/",
+      "year": 2023,
+      "finding": "Metaanaliza: trening behawioralny rodziców (oparty na pozytywnym, warunkowym wzmocnieniu) jest evidence-based i rekomendowany przez NICE, z pozytywnym krótkoterminowym wpływem na objawy i zachowanie. Pośrednie wsparcie dla strategii wzmacniających; wyniki dotyczą szerokiego zachowania dzieci, nie konkretnie inicjacji zadań."
+    }
+  ]
 }
 ---
 
