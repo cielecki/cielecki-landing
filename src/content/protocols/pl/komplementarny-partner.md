@@ -46,7 +46,30 @@
       "note": "Rama Neda Hallowella „właściwa kariera, właściwa praca, właściwy partner”: przekuj posiadane umiejętności w rolę z większym ruchem, różnorodnością lub kontaktem z ludźmi."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Entrepreneurship and attention deficit/hyperactivity disorder: a large-scale study involving the clinical condition of ADHD",
+      "type": "cohort",
+      "url": "https://link.springer.com/article/10.1007/s11187-018-0061-1",
+      "year": 2019,
+      "finding": "Duże badanie obserwacyjne (Lerner, Verheul, Thurik): osoby z klinicznym ADHD częściej wybierają przedsiębiorczość; powiązane prace wskazują, że założyciele z cechami ADHD radzą sobie lepiej w zespołach o wysokiej komplementarności kompetencji i funkcji. Korelacyjne, nie testuje świadomego dobierania komplementarnego partnera jako interwencji."
+    },
+    {
+      "title": "ADHD symptoms, entrepreneurial orientation (EO), and firm performance",
+      "type": "cohort",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1042258719892987",
+      "year": 2021,
+      "finding": "Badanie obserwacyjne (Yu, Wiklund, Perez-Luno) łączące objawy ADHD z orientacją przedsiębiorczą i wynikami firmy; skład zespołu/kontekst moderuje, czy cechy ADHD przekładają się na wyniki. Pośrednie wsparcie dla komplementarności, brak testu przyczynowego dobierania partnera."
+    },
+    {
+      "title": "Adult ADHD and Relationships (clinical guidance on strengths-based division of labor)",
+      "type": "review",
+      "url": "https://www.helpguide.org/mental-health/adhd/adult-adhd-and-relationships",
+      "year": 2024,
+      "finding": "Wskazówki kliniczne/narracyjne: przydzielanie zadań według rzeczywistych mocnych stron funkcji wykonawczych każdego partnera (zamiast konwencji) zmniejsza konflikt i nierówny rozkład obciążenia w związkach z ADHD. Konsensus ekspercki, nie test empiryczny."
+    }
+  ]
 }
 ---
 

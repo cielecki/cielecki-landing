@@ -12,14 +12,14 @@
     {
       "target": "pobudzony-uklad",
       "kind": "mechanism",
-      "evidence": "C",
+      "evidence": "B",
       "community": "niski",
       "note": "Zdjęcie wymogu zaśnięcia usuwa lęk wydajnościowy, który sam podbija pobudzenie i blokuje sen."
     },
     {
       "target": "sen",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "niski",
       "note": "Odpoczynek bez presji często prowadzi do zaśnięcia, a przy okazji resetuje układ nerwowy."
     }
@@ -40,7 +40,30 @@
       "note": "Zamknij oczy i ułóż się wygodnie, bo to zmniejsza ilość informacji, które mózg musi przetwarzać, dzięki czemu łatwiej się wyciszyć."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Paradoxical intention for insomnia: A systematic review and meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34405469/",
+      "year": 2022,
+      "finding": "Jansson-Fromjark i wsp., Journal of Sleep Research. 10 badan, lacznie n=384. Intencja paradoksalna (lezenie, rezygnacja z prob zasniecia) dawala DUZA poprawe objawow bezsennosci vs grupy bierne i UMIARKOWANA vs grupy aktywne (latencja zasypiania, wybudzenia). Autorzy zaznaczaja male proby i umiarkowana jakosc badan."
+    },
+    {
+      "title": "Feasibility and Preliminary Efficacy of Online-Delivered Paradoxical Intention Therapy among Adults with Insomnia Symptoms and High Sleep Effort",
+      "type": "rct",
+      "url": "https://www.ijpsy.com/volumen25/num2/683.html",
+      "year": 2025,
+      "finding": "Online intencja paradoksalna istotnie obnizyla wysilek wkladany w sen (Glasgow Sleep Effort Scale) i poprawila latencje zasypiania, wybudzenia, efektywnosc i jakosc snu - bezposrednio potwierdza mechanizm (usuniecie presji zasniecia obniza pobudzenie)."
+    },
+    {
+      "title": "Pre-sleep arousal as a possible mechanism driving sleep problems in relation to ADHD traits",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40629000/",
+      "year": 2025,
+      "finding": "Trudnosci z zasypianiem w ADHD wynikaja glownie z pobudzenia przedsennego (poznawcze ~10x czestsze niz somatyczne) - uzasadnia mechanistycznie metode celujaca w lek wydajnosciowy/pobudzenie, ale to nie jest badanie interwencyjne."
+    }
+  ]
 }
 ---
 

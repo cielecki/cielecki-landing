@@ -46,7 +46,30 @@
       "note": "Ned Hallowell's 'right career, right job, right partner': repurpose your existing skills into a role with more movement, variety, or human contact."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Entrepreneurship and attention deficit/hyperactivity disorder: a large-scale study involving the clinical condition of ADHD",
+      "type": "cohort",
+      "url": "https://link.springer.com/article/10.1007/s11187-018-0061-1",
+      "year": 2019,
+      "finding": "Large-scale observational study (Lerner, Verheul, Thurik) showing people with clinical ADHD select into entrepreneurship; downstream work notes ADHD-like founders fare better when embedded in teams with high skill/function complementarity. Correlational, not a test of deliberate complementary-partner selection as an intervention."
+    },
+    {
+      "title": "ADHD symptoms, entrepreneurial orientation (EO), and firm performance",
+      "type": "cohort",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1042258719892987",
+      "year": 2021,
+      "finding": "Observational study (Yu, Wiklund, Perez-Luno) linking ADHD symptoms to entrepreneurial orientation and firm performance; team/context composition moderates whether ADHD traits translate into performance. Indirect support for complementarity, no causal test of partner-matching."
+    },
+    {
+      "title": "Adult ADHD and Relationships (clinical guidance on strengths-based division of labor)",
+      "type": "review",
+      "url": "https://www.helpguide.org/mental-health/adhd/adult-adhd-and-relationships",
+      "year": 2024,
+      "finding": "Clinical/narrative guidance that assigning tasks by each partner's actual executive-function strengths (rather than convention) reduces conflict and mental-load imbalance in ADHD relationships. Expert consensus, not empirical test."
+    }
+  ]
 }
 ---
 

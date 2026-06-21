@@ -40,7 +40,37 @@
       "note": "'The opposite of RSD is euphoria from praise — open with praise to dilute later criticism.'"
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Feedback sandwiches affect perceptions but not performance",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22581568/",
+      "year": 2013,
+      "finding": "Two controlled studies of written peer feedback in medical students: recipients PERCEIVED sandwich feedback (praise-critique-praise) as more useful and effective, but it produced NO better subsequent performance than other feedback formats. Perception improves, behaviour does not."
+    },
+    {
+      "title": "Sandwich feedback: The empirical evidence of its effectiveness (review)",
+      "type": "review",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0023969020301429",
+      "year": 2020,
+      "finding": "Review concludes the sandwich technique is widely recommended despite scant evidence; it tends to soften emotional reception but is not shown to improve performance, and the buried-criticism can dilute the corrective message."
+    },
+    {
+      "title": "The Rightful Demise of the Sh*t Sandwich: Providing Effective Feedback",
+      "type": "review",
+      "url": "https://www.cambridge.org/core/journals/behavioural-and-cognitive-psychotherapy/article/abs/rightful-demise-of-the-sht-sandwich-providing-effective-feedback/BA231E7EDBD052D55C911C564B70A60B",
+      "year": 2019,
+      "finding": "CBT-oriented commentary argues the sandwich format is often insincere and ineffective and should be retired in favour of clear, direct, specific feedback."
+    },
+    {
+      "title": "The lived experience of rejection sensitivity in ADHD - a qualitative exploration (citing Babinski et al.)",
+      "type": "cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12822938/",
+      "year": 2025,
+      "finding": "Qualitative ADHD/RSD study reporting the neural finding that rejection sensitivity in ADHD pairs heightened sensitivity to rejection cues with DESENSITISATION to positive social feedback - which undercuts the assumption that front-loading praise reliably buffers the blow."
+    }
+  ]
 }
 ---
 

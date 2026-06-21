@@ -12,21 +12,21 @@
     {
       "target": "zaczynanie",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "średni",
       "note": "Zgoda na „kiepską” pierwszą wersję usuwa perfekcjonistyczny próg startu."
     },
     {
       "target": "praca-kariera",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "niski",
       "note": "Trzymanie wersji minimalnej chroni przed rozdmuchaniem pomysłu w nieosiągalny projekt."
     },
     {
       "target": "petla-paralizu",
       "kind": "mechanism",
-      "evidence": "C",
+      "evidence": "B",
       "community": "niski",
       "note": "Działa wprost na przytłoczenie z przeskalowanego zakresu."
     }
@@ -47,7 +47,37 @@
       "note": "„Prosty pomysł po tygodniu rozbudowujesz w ogromną, nieosiągalną rzecz — i robi się przytłaczający.”"
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Intentional Imperfection Program: A pilot randomised controlled trial to help university students manage perfectionism",
+      "type": "rct",
+      "url": "https://link.springer.com/article/10.1007/s12144-024-06238-4",
+      "year": 2024,
+      "finding": "Krótka interwencja zbudowana wprost wokół 'intencjonalnej niedoskonałości' (celowego robienia rzeczy byle jak) dała istotne statystycznie, małe-do-umiarkowanych spadki perfekcjonizmu zorientowanego na siebie (d=-0,48) i narzucanego społecznie, oraz spadek depresji i lęku. To najbliższy bezpośredni test taktyki 'zrób to celowo kiepsko', ale na studentach, nie w grupie ADHD/autyzm."
+    },
+    {
+      "title": "The Efficacy of Interventions Aimed at Reducing Procrastination: A Meta-Analysis of Randomized Controlled Trials (Malouff & Schutte)",
+      "type": "meta-analysis",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/jcad.12243",
+      "year": 2019,
+      "finding": "Metaanaliza 12 RCT (n=646) interwencji antyprokrastynacyjnych (głównie elementy CBT: restrukturyzacja perfekcjonistycznych standardów, aktywacja behawioralna, obniżanie progu wejścia) dała duży łączny efekt, Hedges g=1,18. Wspiera nadrzędną klasę technik 'obniż próg startu', ale nie tę konkretną taktykę i nie jest specyficzna dla ADHD."
+    },
+    {
+      "title": "A randomised controlled trial of cognitive-behaviour therapy for clinical perfectionism: A preliminary study",
+      "type": "rct",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2777249/",
+      "year": 2009,
+      "finding": "RCT terapii CBT dla klinicznego perfekcjonizmu, której rdzeniem behawioralnym są eksperymenty behawioralne — celowe tworzenie/oddawanie niedoskonałej pracy by obalić katastroficzne przewidywania — obniżyło perfekcjonizm oraz powiązany lęk/depresję. Mechanistycznie tożsame z 'zrób celowo kiepską pierwszą wersję', lecz na ogólnej próbie klinicznej."
+    },
+    {
+      "title": "Cognitive behavioral therapy for ADHD predominantly inattentive presentation: randomized controlled trial of two psychological treatments (CADDI)",
+      "type": "rct",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12018340/",
+      "year": 2025,
+      "finding": "RCT u dorosłych z ADHD typu nieuważnego: protokół CBT akcentujący strategie aktywacji/inicjowania zadań dał istotnie większą poprawę 'aktywacji' niż leczenie standardowe. Potwierdza, że komponenty CBT nastawione na start działają w ADHD, ale nie izoluje taktyki 'celowo kiepskiej wersji'."
+    }
+  ]
 }
 ---
 

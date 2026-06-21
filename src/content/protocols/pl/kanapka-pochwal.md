@@ -40,7 +40,37 @@
       "note": "„Przeciwieństwem RSD jest euforia od pochwały — otwórz pochwałą, by rozcieńczyć późniejszą krytykę.”"
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Feedback sandwiches affect perceptions but not performance",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22581568/",
+      "year": 2013,
+      "finding": "Dwa kontrolowane badania na studentach medycyny: odbiorcy POSTRZEGALI kanapkę feedbacku (pochwała-krytyka-pochwała) jako bardziej użyteczną i przyjazną, ale NIE poprawiała ona późniejszych wyników bardziej niż inne formaty. Postrzeganie rośnie, zachowanie nie."
+    },
+    {
+      "title": "Sandwich feedback: The empirical evidence of its effectiveness (review)",
+      "type": "review",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0023969020301429",
+      "year": 2020,
+      "finding": "Przegląd: technika kanapki jest szeroko zalecana mimo skąpych dowodów; łagodzi odbiór emocjonalny, ale nie wykazano poprawy wyników, a 'ukryta' krytyka bywa rozmywana."
+    },
+    {
+      "title": "The Rightful Demise of the Sh*t Sandwich: Providing Effective Feedback",
+      "type": "review",
+      "url": "https://www.cambridge.org/core/journals/behavioural-and-cognitive-psychotherapy/article/abs/rightful-demise-of-the-sht-sandwich-providing-effective-feedback/BA231E7EDBD052D55C911C564B70A60B",
+      "year": 2019,
+      "finding": "Komentarz z nurtu CBT: format kanapki bywa nieszczery i nieskuteczny; lepiej zastąpić go jasnym, bezpośrednim, konkretnym feedbackiem."
+    },
+    {
+      "title": "The lived experience of rejection sensitivity in ADHD - a qualitative exploration (citing Babinski et al.)",
+      "type": "cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12822938/",
+      "year": 2025,
+      "finding": "Badanie jakościowe ADHD/RSD przywołujące wynik neurobiologiczny: wrażliwość na odrzucenie w ADHD łączy się z DESENSYTYZACJĄ na pozytywny feedback społeczny - co podważa założenie, że wcześniejsza pochwała niezawodnie buforuje cios."
+    }
+  ]
 }
 ---
 

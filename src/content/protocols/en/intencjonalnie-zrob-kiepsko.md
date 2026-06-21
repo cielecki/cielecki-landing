@@ -12,21 +12,21 @@
     {
       "target": "zaczynanie",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "średni",
       "note": "Accepting a 'bad' first version removes the perfectionist start threshold."
     },
     {
       "target": "praca-kariera",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "niski",
       "note": "Keeping the version minimal guards against inflating the idea into an unachievable project."
     },
     {
       "target": "petla-paralizu",
       "kind": "mechanism",
-      "evidence": "C",
+      "evidence": "B",
       "community": "niski",
       "note": "Acts directly on the overwhelm from over-scoped scope."
     }
@@ -47,7 +47,37 @@
       "note": "'A simple idea, after a week, you build into a huge unachievable thing — and it gets overwhelming.'"
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Intentional Imperfection Program: A pilot randomised controlled trial to help university students manage perfectionism",
+      "type": "rct",
+      "url": "https://link.springer.com/article/10.1007/s12144-024-06238-4",
+      "year": 2024,
+      "finding": "A brief intervention explicitly built around 'intentional imperfection' (deliberately doing things imperfectly) produced statistically significant small-to-moderate reductions in self-oriented perfectionism (d=-0.48) and socially-prescribed perfectionism, plus reductions in depression and anxiety. This is the closest direct test of the 'deliberately do it badly' tactic, but in university students, not an ADHD/autism sample."
+    },
+    {
+      "title": "The Efficacy of Interventions Aimed at Reducing Procrastination: A Meta-Analysis of Randomized Controlled Trials (Malouff & Schutte)",
+      "type": "meta-analysis",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/jcad.12243",
+      "year": 2019,
+      "finding": "Meta-analysis of 12 RCTs (n=646) of anti-procrastination interventions (predominantly CBT components: cognitive restructuring of perfectionistic standards, behavioral activation, breaking the entry threshold) found a large pooled effect, Hedges's g=1.18. Supports the parent class of techniques that 'lower the bar to start', but not this specific tactic and not ADHD-specific."
+    },
+    {
+      "title": "A randomised controlled trial of cognitive-behaviour therapy for clinical perfectionism: A preliminary study",
+      "type": "rct",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2777249/",
+      "year": 2009,
+      "finding": "RCT of CBT for clinical perfectionism, whose core behavioral component is performing behavioral experiments — deliberately producing/submitting imperfect work to disconfirm catastrophic predictions — reduced perfectionism and associated anxiety/depression. Mechanistically identical to 'make a deliberately bad first version', but general clinical-perfectionism sample."
+    },
+    {
+      "title": "Cognitive behavioral therapy for ADHD predominantly inattentive presentation: randomized controlled trial of two psychological treatments (CADDI)",
+      "type": "rct",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12018340/",
+      "year": 2025,
+      "finding": "RCT in adults with inattentive-presentation ADHD: a CBT protocol emphasizing activation/task-initiation strategies produced significantly greater improvement on 'activation' than standard treatment. Establishes that initiation-focused CBT components work in ADHD, but does not isolate the 'deliberately bad draft' tactic."
+    }
+  ]
 }
 ---
 

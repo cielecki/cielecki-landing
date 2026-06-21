@@ -12,7 +12,7 @@
     {
       "target": "chroniczna-czujnosc",
       "kind": "mechanism",
-      "evidence": "C",
+      "evidence": "D",
       "community": "średni",
       "note": "Sygnały bezpieczeństwa i obecność spokojnej osoby wyciszają wyuczoną czujność, która blokuje zaśnięcie."
     },
@@ -54,7 +54,44 @@
       "note": "Równoległa aktywność z partnerem działa jak ko-regulacja: gdy on się wycisza, tobie też łatwiej zacząć wyciszenie."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Weighted blankets and sleep in autistic children—a randomized controlled trial (Gringras et al.)",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25022743/",
+      "year": 2014,
+      "finding": "U 73 dzieci autystycznych ciężki koc NIE wydłużył snu, nie skrócił zasypiania ani nie zmniejszył wybudzeń względem koca kontrolnego (aktygrafia + dzienniczki). Mimo to dzieci i rodzice preferowali ciężki koc — odczuwalne ukojenie/komfort bez obiektywnego efektu na sen."
+    },
+    {
+      "title": "The efficacy of weighted blankets for sleep in children with ADHD—a randomized controlled crossover trial (Lönn et al., J Sleep Research)",
+      "type": "rct",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jsr.13990",
+      "year": 2024,
+      "finding": "Randomizowany RCT krzyżowy ciężkich koców u dzieci z ADHD i problemami ze snem. Stanowi kontrolowany dowód dla deep-pressure (ciężki koc) — najlepiej bezpośrednio przetestowanego składnika tej metody; wyniki dokładają się do niejednoznacznego obrazu (korzyść subiektywna i część sygnałów, ale efekty obiektywne umiarkowane/niespójne)."
+    },
+    {
+      "title": "The effect of weighted blankets on sleep quality and mental health symptoms in people with psychiatric disorders: a systematic review and meta-analysis (J Psychiatric Research)",
+      "type": "meta-analysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022395624005508",
+      "year": 2024,
+      "finding": "Meta-analiza w populacjach psychiatrycznych (w tym ADHD, autyzm, depresja). Ciężkie koce dały małe/umiarkowane zmniejszenie lęku (SMD ~-0,47), ale zbiorczy efekt na bezsenność/obiektywny sen był NIEistotny. Literatura ograniczona małymi próbami, heterogenicznością, niewieloma dobrymi RCT."
+    },
+    {
+      "title": "A calming hug: design and validation of a tactile aid to ease anxiety (PLOS ONE)",
+      "type": "other",
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0259838&type=printable",
+      "year": 2021,
+      "finding": "Walidacja: urządzenie naśladujące przytulenie/deep-pressure obniżało lęk i pobudzenie. Wspiera mechanizm dotyk→ukojenie przywspółczulne, ale to badanie urządzenia w populacji ogólnej, nie RCT snu w ADHD/autyzmie."
+    },
+    {
+      "title": "Perspectives on interpersonal touch are related to subjective sleep quality",
+      "type": "cohort",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10909536/",
+      "year": 2024,
+      "finding": "Badanie obserwacyjne wiążące pozytywny stosunek/doświadczenie dotyku interpersonalnego z lepszą subiektywną jakością snu. Korelacyjne, populacja ogólna — pośrednie wsparcie idei kojącego dotyku przed snem, bez dowodu przyczynowego ani specyficznego dla neuroróżnorodności."
+    }
+  ]
 }
 ---
 
