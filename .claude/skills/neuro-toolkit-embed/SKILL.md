@@ -43,8 +43,8 @@ established frameworks (DBT/ACT/GTD/CBT) to B.
 - Then the same extract→synthesize→apply as B, fanned over the corpus. This is how the **symptom taxonomy is derived bottom-up** — let the synthesis propose symptoms, then curate with Maciej (the decision gate).
 
 ## Conventions (enforce on every embed)
-- **Two signals, never merged**: `evidence` A–D (scientific strength) and `community` wysoki/średni/niski/brak (do people report it works). Be HONEST — a bare YouTube claim is C; A/B needs a study or strong mechanism.
-- **Every resource nugget links to the exact second**: url `…&t=Ns`, plus a `note` (the nugget itself), `author`, `type`.
+- **Two signals**: `evidence` A–D (scientific strength, per-edge) and the **source count** (how many INDEPENDENT sources back the method — computed from `resources[]`, NOT authored). Be HONEST on evidence — a bare YouTube claim is C; A/B needs a study or strong mechanism. The old `community` enum is retired (it was an unmeasurable guess); you no longer set it. The way to make a method's source signal stronger is to attach MORE genuine resources from DIFFERENT authors — never inflate.
+- **Every resource nugget links to the exact second**: url `…&t=Ns`, plus a `note` (the nugget itself = the quote shown on the page), `author` (drives the independent-source count — distinct authors count as distinct sources), `type`. Two nuggets from the same interview = ONE source.
 - **Fact-check before trusting synth claims.** The synth guesses evidence and can misquote studies (it once wrote "30 min" for a study that used ~1 h). For any specific study/number a node asserts, verify via web search and add the real link (inline markdown in the body) or correct it. This is health content — unverified claims are the top risk.
 - **Reuse slugs; prefer enriching an existing method over a near-duplicate.** Curate overlaps (e.g. phone-out-of-bedroom ⊂ digital-sunset).
 - **Bilingual**: pl + en, same slug. Bodies 2–4 short concrete paragraphs.

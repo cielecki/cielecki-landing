@@ -3,7 +3,7 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 import AudhdLayout from '../../../../layouts/AudhdLayout.astro';
 import Signals from '../../../../components/Signals.astro';
 import { useTranslations, otherLang, type Lang, type UIKey } from '../../../../i18n/ui';
-import { edgeScore, conditionLabel, conditionIcon, conditionColor } from '../../../../lib/signals';
+import { edgeScore, sourceCount, conditionLabel, conditionIcon, conditionColor } from '../../../../lib/signals';
 
 export async function getStaticPaths() {
   const protocols = await getCollection('protocols');
@@ -36,13 +36,17 @@ const links = entry.data.addresses
     const target = e.kind === 'mechanism' ? mechMap.get(e.target) : sympMap.get(e.target);
     if (!target) return null;
     const href = e.kind === 'mechanism' ? `/nt/${lang}/mechanizm/${e.target}/` : `/nt/${lang}/symptom/${e.target}/`;
-    return { title: target.data.title, icon: target.data.icon, href, kind: e.kind, ev: e.evidence, comm: e.community, note: e.note };
+    return { title: target.data.title, icon: target.data.icon, href, kind: e.kind, ev: e.evidence, note: e.note };
   })
   .filter((x): x is NonNullable<typeof x> => x !== null);
 
+// Independent sources backing this method — the same count applies to every edge,
+// since it's a property of the method, not of any single target it addresses.
+const methodSources = sourceCount(entry.data.resources);
+
 // Headline "how proven is this method" — the strongest edge, summarised at the top.
 const best = [...entry.data.addresses]
-  .map((e) => ({ ev: e.evidence, comm: e.community, score: edgeScore(e.evidence, e.community) }))
+  .map((e) => ({ ev: e.evidence, score: edgeScore(e.evidence, methodSources) }))
   .sort((a, b) => b.score - a.score)[0];
 
 // Breadcrumb parent: a directly-addressed symptom, else the symptom behind the first mechanism.
@@ -97,7 +101,7 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
       {best && (
         <div class="mt-4">
           <div class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/55 mb-1.5">{t('nt.howProven')}</div>
-          <Signals evidence={best.ev} community={best.comm} lang={lang} />
+          <Signals evidence={best.ev} sources={methodSources} lang={lang} />
         </div>
       )}
       <div class="flex flex-wrap items-center gap-1.5 mt-4">
@@ -133,7 +137,7 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
                       {l.title}
                     </div>
                     <div class="mt-1.5">
-                      <Signals evidence={l.ev} community={l.comm} lang={lang} />
+                      <Signals evidence={l.ev} sources={methodSources} lang={lang} />
                     </div>
                     {l.note && <p class="text-xs text-charcoal-light/70 italic mt-1.5">{l.note}</p>}
                   </div>

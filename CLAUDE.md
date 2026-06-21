@@ -11,8 +11,11 @@ articles + timestamped links**, filterable per profile (ADHD / autism / AuDHD). 
 `docs/neuro-toolkit/2026-06-04-graph-model-pilot.md`.
 
 **One structure: the graph model at `/nt/[lang]/`.** Three layers: `symptoms` → `mechanisms`
-→ `protocols` (collections in `src/content/`), many-to-many directed edges, each edge carrying
-**two independent signals**: `evidence` (A–D scientific) + `community` (real-world). Defined in
+→ `protocols` (collections in `src/content/`), many-to-many directed edges. Each method shows
+**two independent signals**: `evidence` (A–D scientific, per-edge) + **sources** (count of
+INDEPENDENT sources backing it, computed from `resources[]` via `lib/signals.ts` → `sourceCount`).
+The old per-edge `community` enum was retired 2026-06-21 (unmeasurable LLM guess → now a real
+count; the field is kept optional in the schema for back-compat but is not displayed). Defined in
 `src/content.config.ts`. Currently ~20 symptoms / ~22 mechanisms / ~87 methods, bilingual.
 
 The OLD flat pilot (`challenges` + `methods` collections, `/neuro-toolkit/*`) was retired

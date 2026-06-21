@@ -34,11 +34,15 @@ const condition = z.enum(['adhd', 'autism', 'audhd']);
 //   SYMPTOM (lay-language entry) → MECHANISM (why) → PROTOCOL (what to do).
 // Edges are many-to-many and directional, each carrying TWO independent signals:
 //   evidence  — strength of scientific backing (A = meta-analysis/RCT … D = anecdote/theory)
-//   community — whether people report it works (the group, lived experience)
-// Shown SEPARATELY so the reader weighs "strong in studies" vs "people say it works".
+//   sources   — how many INDEPENDENT sources back the method (computed from resources[]
+//               at render time, see lib/signals.ts → sourceCount). Replaces the old,
+//               unmeasurable LLM "community" guess. Shown SEPARATELY from evidence so the
+//               reader weighs "strong in studies" vs "many independent voices recommend it".
 
 const evidence = z.enum(['A', 'B', 'C', 'D']);
-const community = z.enum(['wysoki', 'średni', 'niski', 'brak']);
+// DEPRECATED: kept optional for backward-compat with already-authored data. No longer
+// displayed — the second signal is now the computed source count. New synth may omit it.
+const community = z.enum(['wysoki', 'średni', 'niski', 'brak']).optional();
 
 // A directed edge from a PROTOCOL to the mechanism (or symptom) it addresses.
 const edge = z.object({

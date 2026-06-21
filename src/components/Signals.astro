@@ -1,13 +1,15 @@
 ---
 import { useTranslations, type Lang, type UIKey } from '../i18n/ui';
+import { sourcesLabel, sourceTier } from '../lib/signals';
 
 interface Props {
   evidence: string;
-  community: string;
+  /** Count of independent sources backing the method (computed from resources). */
+  sources: number;
   lang: Lang;
 }
 
-const { evidence, community, lang } = Astro.props;
+const { evidence, sources, lang } = Astro.props;
 const t = useTranslations(lang);
 
 const evClass: Record<string, string> = {
@@ -16,12 +18,12 @@ const evClass: Record<string, string> = {
   C: 'bg-sand/45 text-charcoal-light',
   D: 'bg-charcoal/8 text-charcoal-light/70',
 };
-const commClass: Record<string, string> = {
-  wysoki: 'bg-terracotta/22 text-terracotta-dark',
-  średni: 'bg-terracotta/12 text-terracotta-dark',
-  niski: 'bg-charcoal/8 text-charcoal-light/70',
-  brak: 'bg-charcoal/5 text-charcoal-light/50',
+const srcClass: Record<string, string> = {
+  high: 'bg-terracotta/22 text-terracotta-dark',
+  mid: 'bg-terracotta/12 text-terracotta-dark',
+  low: 'bg-charcoal/8 text-charcoal-light/70',
 };
+const tier = sourceTier(sources);
 ---
 
 <div class="flex flex-wrap items-center gap-2">
@@ -32,11 +34,13 @@ const commClass: Record<string, string> = {
     <span class="iconify text-sm" data-icon="mdi:flask-outline"></span>
     {t(`ev.${evidence}` as UIKey)}
   </span>
-  <span
-    class={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium ${commClass[community] ?? ''}`}
-    title={t('nt.community')}
-  >
-    <span class="iconify text-sm" data-icon="mdi:account-group-outline"></span>
-    {t('nt.community')}: {t(`comm.${community}` as UIKey)}
-  </span>
+  {sources > 0 && (
+    <span
+      class={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium ${srcClass[tier]}`}
+      title={t('nt.sourcesHint')}
+    >
+      <span class="iconify text-sm" data-icon="mdi:account-voice"></span>
+      {sourcesLabel(sources, lang)}
+    </span>
+  )}
 </div>

@@ -3,7 +3,7 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 import AudhdLayout from '../../../../layouts/AudhdLayout.astro';
 import Signals from '../../../../components/Signals.astro';
 import { useTranslations, otherLang, type Lang } from '../../../../i18n/ui';
-import { edgeScore } from '../../../../lib/signals';
+import { edgeScore, sourceCount } from '../../../../lib/signals';
 
 export async function getStaticPaths() {
   const symptoms = await getCollection('symptoms');
@@ -32,19 +32,24 @@ const mechSlugs = new Set(mechanisms.map((m) => slugOf(m.id)));
 
 // A protocol is relevant if it addresses this symptom directly OR any of its mechanisms.
 const protocols = await getCollection('protocols', (p) => p.data.lang === lang);
-type Ranked = { p: CollectionEntry<'protocols'>; ev: string; comm: string; score: number };
+type Ranked = { p: CollectionEntry<'protocols'>; ev: string; sources: number; score: number };
 const ranked: Ranked[] = [];
 for (const p of protocols) {
-  let best: { ev: string; comm: string; score: number } | null = null;
+  const sources = sourceCount(p.data.resources);
+  let bestEv: string | null = null;
+  let bestScore = -1;
   for (const e of p.data.addresses) {
     const relevant =
       (e.kind === 'symptom' && e.target === slug) ||
       (e.kind === 'mechanism' && mechSlugs.has(e.target));
     if (!relevant) continue;
-    const s = edgeScore(e.evidence, e.community);
-    if (!best || s > best.score) best = { ev: e.evidence, comm: e.community, score: s };
+    const s = edgeScore(e.evidence, sources);
+    if (s > bestScore) {
+      bestScore = s;
+      bestEv = e.evidence;
+    }
   }
-  if (best) ranked.push({ p, ...best });
+  if (bestEv) ranked.push({ p, ev: bestEv, sources, score: bestScore });
 }
 ranked.sort((a, b) => b.score - a.score);
 
@@ -66,7 +71,7 @@ const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
   <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-4">{t('nt.topMethods')}</h2>
   <ul class="grid gap-3 mb-12 xl:grid-cols-2">
     {
-      ranked.map(({ p, ev, comm }) => {
+      ranked.map(({ p, ev, sources }) => {
         const pslug = slugOf(p.id);
         return (
           <li class="reveal" data-conditions={p.data.conditions.join(' ')}>
@@ -83,7 +88,7 @@ const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
                   {p.data.title}
                 </h3>
                 <p class="text-sm text-charcoal-light leading-relaxed mt-1 mb-2.5">{p.data.summary}</p>
-                <Signals evidence={ev} community={comm} lang={lang} />
+                <Signals evidence={ev} sources={sources} lang={lang} />
               </div>
               <span class="iconify flex-shrink-0 mt-1 text-lg text-charcoal-light/40 group-hover:text-terracotta group-hover:translate-x-0.5 transition-all" data-icon="mdi:arrow-right" />
             </a>
