@@ -23,13 +23,6 @@
       "evidence": "C",
       "community": "niski",
       "note": "Rozmowa telefoniczna/FaceTime przed spotkaniem obniża nowość i nerwy pierwszej randki."
-    },
-    {
-      "target": "sensoryczne-zaklocenia",
-      "kind": "mechanism",
-      "evidence": "D",
-      "community": "niski",
-      "note": "Wybór aktywności z drogą wyjścia daje większą kontrolę nad bodźcami niż zamknięta restauracja."
     }
   ],
   "resources": [

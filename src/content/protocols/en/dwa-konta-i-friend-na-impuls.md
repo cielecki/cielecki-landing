@@ -23,13 +23,6 @@
       "evidence": "C",
       "community": "niski",
       "note": "A rigid same-day payment routine brings order to finances."
-    },
-    {
-      "target": "deficyt-dopaminy",
-      "kind": "mechanism",
-      "evidence": "C",
-      "community": "niski",
-      "note": "Distraction rides out the time-limited reward-seeking impulse."
     }
   ],
   "resources": [

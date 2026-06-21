@@ -23,13 +23,6 @@
       "evidence": "C",
       "community": "średni",
       "note": "Umawianie intymnego czasu chroni regularność intymności w parze ND."
-    },
-    {
-      "target": "deficyt-funkcji-wykonawczych",
-      "kind": "mechanism",
-      "evidence": "C",
-      "community": "niski",
-      "note": "Rusztowanie zewnętrzne (kalendarz) kompensuje trudność z przełączaniem trybów."
     }
   ],
   "resources": [

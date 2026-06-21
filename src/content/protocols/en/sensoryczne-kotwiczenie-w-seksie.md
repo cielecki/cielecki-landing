@@ -22,13 +22,6 @@
       "evidence": "C",
       "community": "niski",
       "note": "Presses the accelerator via louder stimuli rather than fighting the brake."
-    },
-    {
-      "target": "sensoryczne-zaklocenia",
-      "kind": "mechanism",
-      "evidence": "D",
-      "community": "niski",
-      "note": "Uses sensory input deliberately (controlled input) instead of letting it distract."
     }
   ],
   "resources": [

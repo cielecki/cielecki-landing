@@ -22,13 +22,6 @@
       "evidence": "C",
       "community": "średni",
       "note": "Ten sam mechanizm co przy scrollowaniu — ograniczenie ekspozycji czasem."
-    },
-    {
-      "target": "deficyt-dopaminy",
-      "kind": "mechanism",
-      "evidence": "C",
-      "community": "niski",
-      "note": "Adresuje poszukiwanie dopaminy „tu i teraz”, które napędza nadużywanie aplikacji."
     }
   ],
   "resources": [

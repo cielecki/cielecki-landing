@@ -23,13 +23,6 @@
       "evidence": "C",
       "community": "niski",
       "note": "A pre-date call lowers the novelty and nerves of the first date."
-    },
-    {
-      "target": "sensoryczne-zaklocenia",
-      "kind": "mechanism",
-      "evidence": "D",
-      "community": "niski",
-      "note": "Choosing an activity with an exit gives more control over stimuli than a closed restaurant."
     }
   ],
   "resources": [

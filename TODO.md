@@ -31,11 +31,13 @@ Kalibracja każdej oceny A–D względem literatury + realne cytowania (sekcja �
 ### 4. Kuracja (jakość treści)
 - [ ] Przejść 87 metod pod kątem near-duplikatów / przegenerowania → scalić / przyciąć
 - [ ] Dorobić głębię cienkim objawom (część ma 1–2 metody) — kolejne małe runy harvestu
-- [ ] **Audyt szerokości krawędzi metoda→mechanizm.** Trawersja jest tranzytywna (metoda celująca
-      w mechanizm pokazuje się pod wszystkimi objawami tego mechanizmu — i odwrotnie). Skutek: luźne
-      skojarzenia, np. „Dwa konta + znajomy na impuls" pokazuje się pod „Nie mogę zacząć" (wspólny
-      mechanizm Deficyt dopaminy). Przejrzeć, czy takie krawędzie metoda→mechanizm nie są za szerokie;
-      jeśli tak — zawęzić do bezpośredniej krawędzi metoda→objaw albo usunąć krawędź do mechanizmu.
+- [x] **Audyt szerokości krawędzi metoda→mechanizm** (1. przejście). Przejrzano 37 metod / 55
+      tranzytywnych linków. Usunięto 6 jednoznacznie za szerokich krawędzi do mechanizmów (niskoocenowe
+      C/D rozsmarowujące wąską metodę na niepowiązany objaw, przy zachowanych trafnych krawędziach
+      bezpośrednich): dwa-konta, limit-czasu-na-swipe, polka-pomyslow (→ deficyt-dopaminy); planuj-intymnosc
+      (→ deficyt-funkcji-wykonawczych); randka-aktywna, sensoryczne-kotwiczenie-w-seksie (→ sensoryczne-zaklocenia).
+      Resztę (RSD→emocje/lęk, pętla paraliżu→chaos/energia, pamięć robocza, maskowanie→wypalenie) zostawiono
+      jako trafny rozrzut. Narzędzie: `/tmp/edge_audit.py` (raport zasięgu) — przy kolejnym przemiale przejrzeć borderline'y.
 
 ### 5. Polish wizualny / launch
 - [ ] Color-coding ADHD / autyzm / AuDHD (rozważyć — czy nie zaszumi)

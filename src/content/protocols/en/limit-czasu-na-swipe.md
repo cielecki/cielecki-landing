@@ -22,13 +22,6 @@
       "evidence": "C",
       "community": "średni",
       "note": "Same mechanism as scrolling — capping exposure with time."
-    },
-    {
-      "target": "deficyt-dopaminy",
-      "kind": "mechanism",
-      "evidence": "C",
-      "community": "niski",
-      "note": "Addresses the 'reward now' dopamine-seeking that drives the overuse."
     }
   ],
   "resources": [

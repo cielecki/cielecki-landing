@@ -22,13 +22,6 @@
       "evidence": "C",
       "community": "niski",
       "note": "'Plan instead of gear' satisfies the buying impulse far more cheaply."
-    },
-    {
-      "target": "deficyt-dopaminy",
-      "kind": "mechanism",
-      "evidence": "D",
-      "community": "niski",
-      "note": "Leverages the ADHD brain getting dopamine from planning itself."
     }
   ],
   "resources": [

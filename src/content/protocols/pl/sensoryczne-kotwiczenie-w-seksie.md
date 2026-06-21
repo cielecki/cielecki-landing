@@ -22,13 +22,6 @@
       "evidence": "C",
       "community": "niski",
       "note": "Dociska akcelerator przez większą głośność bodźców, zamiast walczyć z hamulcem."
-    },
-    {
-      "target": "sensoryczne-zaklocenia",
-      "kind": "mechanism",
-      "evidence": "D",
-      "community": "niski",
-      "note": "Wykorzystuje sensorykę celowo (kontrolowany input) zamiast pozwolić jej rozpraszać."
     }
   ],
   "resources": [

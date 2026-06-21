@@ -23,13 +23,6 @@
       "evidence": "C",
       "community": "niski",
       "note": "Sztywna rutyna płatności jednego dnia porządkuje finanse."
-    },
-    {
-      "target": "deficyt-dopaminy",
-      "kind": "mechanism",
-      "evidence": "C",
-      "community": "niski",
-      "note": "Rozproszenie przeczekuje ograniczony w czasie impuls poszukiwania nagrody."
     }
   ],
   "resources": [

@@ -22,13 +22,6 @@
       "evidence": "C",
       "community": "niski",
       "note": "„Plan zamiast sprzętu” zaspokaja impuls zakupowy dużo taniej."
-    },
-    {
-      "target": "deficyt-dopaminy",
-      "kind": "mechanism",
-      "evidence": "D",
-      "community": "niski",
-      "note": "Wykorzystuje to, że mózg ADHD dostaje dopaminę z samego planowania."
     }
   ],
   "resources": [

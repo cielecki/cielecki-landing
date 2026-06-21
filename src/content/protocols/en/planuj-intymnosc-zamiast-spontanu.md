@@ -23,13 +23,6 @@
       "evidence": "C",
       "community": "średni",
       "note": "Scheduling intimate time protects the regularity of intimacy in an ND couple."
-    },
-    {
-      "target": "deficyt-funkcji-wykonawczych",
-      "kind": "mechanism",
-      "evidence": "C",
-      "community": "niski",
-      "note": "External scaffolding (a calendar) compensates for the difficulty switching modes."
     }
   ],
   "resources": [
