@@ -1,0 +1,146 @@
+---
+import { useTranslations, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<!-- trigger (placed in the header) -->
+<button
+  type="button"
+  id="nt-search-btn"
+  class="flex-shrink-0 inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-charcoal/10 bg-white/60 backdrop-blur text-sm font-medium text-charcoal-light hover:bg-white hover:text-terracotta-dark transition-all"
+  aria-label={t('search.label')}
+>
+  <span class="iconify text-base" data-icon="mdi:magnify"></span>
+  <span class="hidden sm:inline">{t('search.label')}</span>
+  <kbd class="hidden md:inline-flex items-center justify-center w-5 h-5 rounded border border-charcoal/15 bg-white/70 text-[11px] font-sans text-charcoal-light/60">/</kbd>
+</button>
+
+<!-- modal -->
+<div
+  id="nt-search-modal"
+  class="ad-hidden fixed inset-0 z-50 flex items-start justify-center px-4 pt-[10vh] sm:pt-[14vh]"
+  role="dialog"
+  aria-modal="true"
+  aria-label={t('search.label')}
+>
+  <div id="nt-search-backdrop" class="absolute inset-0 bg-charcoal-dark/40 backdrop-blur-sm"></div>
+  <div class="relative w-full max-w-xl bg-cream border border-charcoal/10 rounded-2xl shadow-2xl overflow-hidden">
+    <div class="flex items-center gap-2 px-4 py-3 border-b border-charcoal/8">
+      <span class="iconify text-lg text-terracotta-dark" data-icon="mdi:magnify"></span>
+      <span class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/55">{t('search.label')}</span>
+      <button
+        type="button"
+        id="nt-search-close"
+        class="ml-auto inline-flex items-center justify-center w-7 h-7 rounded-lg text-charcoal-light/60 hover:bg-charcoal/8 hover:text-charcoal-dark transition-colors"
+        aria-label="Close"
+      >
+        <span class="iconify text-lg" data-icon="mdi:close"></span>
+      </button>
+    </div>
+    <div class="p-4 max-h-[60vh] overflow-y-auto">
+      <div id="nt-search-ui"></div>
+      <p id="nt-search-hint" class="text-sm text-charcoal-light/50 px-1 py-2">{t('search.hint')}</p>
+    </div>
+  </div>
+</div>
+
+<script
+  is:inline
+  define:vars={{
+    placeholder: t('search.placeholder'),
+    zero: t('search.zeroResults'),
+    lang,
+  }}
+>
+  (function () {
+    const modal = document.getElementById('nt-search-modal');
+    const btn = document.getElementById('nt-search-btn');
+    const closeBtn = document.getElementById('nt-search-close');
+    const backdrop = document.getElementById('nt-search-backdrop');
+    const hint = document.getElementById('nt-search-hint');
+    if (!modal || !btn) return;
+
+    let inited = false;
+
+    function loadAsset(tag, attrs) {
+      return new Promise((resolve, reject) => {
+        const el = document.createElement(tag);
+        Object.assign(el, attrs);
+        el.onload = resolve;
+        el.onerror = reject;
+        document.head.appendChild(el);
+      });
+    }
+
+    async function ensureUI() {
+      if (inited) return;
+      inited = true;
+      try {
+        await loadAsset('link', { rel: 'stylesheet', href: '/pagefind/pagefind-ui.css' });
+        await loadAsset('script', { src: '/pagefind/pagefind-ui.js', defer: true });
+        if (hint) hint.remove();
+        /* eslint-disable no-undef */
+        new PagefindUI({
+          element: '#nt-search-ui',
+          showSubResults: true,
+          showImages: false,
+          resetStyles: false,
+          translations: { placeholder: placeholder, zero_results: zero + ' "[SEARCH_TERM]"' },
+        });
+      } catch (e) {
+        if (hint) hint.textContent = '⚠️ ' + (lang === 'pl' ? 'Wyszukiwarka działa po publikacji (build).' : 'Search works after the build is published.');
+        inited = false; // allow retry once published
+      }
+    }
+
+    function open() {
+      modal.classList.remove('ad-hidden');
+      document.body.style.overflow = 'hidden';
+      ensureUI();
+      setTimeout(() => {
+        const input = modal.querySelector('input');
+        if (input) input.focus();
+      }, 60);
+    }
+    function close() {
+      modal.classList.add('ad-hidden');
+      document.body.style.overflow = '';
+    }
+
+    btn.addEventListener('click', open);
+    if (closeBtn) closeBtn.addEventListener('click', close);
+    if (backdrop) backdrop.addEventListener('click', close);
+
+    document.addEventListener('keydown', (e) => {
+      const tag = (e.target && e.target.tagName) || '';
+      const typing = tag === 'INPUT' || tag === 'TEXTAREA' || (e.target && e.target.isContentEditable);
+      if (e.key === '/' && !typing && modal.classList.contains('ad-hidden')) {
+        e.preventDefault();
+        open();
+      } else if (e.key === 'Escape' && !modal.classList.contains('ad-hidden')) {
+        close();
+      }
+    });
+  })();
+</script>
+
+<style is:global>
+  /* Pagefind UI tuned to the Neuro Toolkit palette (terracotta accent, cream surfaces). */
+  #nt-search-ui {
+    --pagefind-ui-primary: #A8624A;
+    --pagefind-ui-text: #36454F;
+    --pagefind-ui-background: transparent;
+    --pagefind-ui-border: rgba(54, 69, 79, 0.12);
+    --pagefind-ui-tag: rgba(168, 98, 74, 0.1);
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 0.75rem;
+    --pagefind-ui-font: inherit;
+  }
+  #nt-search-ui .pagefind-ui__result-title a { color: #36454F; }
+  #nt-search-ui .pagefind-ui__result-title a:hover { color: #A8624A; }
+</style>

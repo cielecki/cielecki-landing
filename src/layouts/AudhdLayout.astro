@@ -1,6 +1,8 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import TopicNav from '../components/TopicNav.astro';
+import SearchModal from '../components/SearchModal.astro';
+import NtFooter from '../components/NtFooter.astro';
 import { useTranslations, otherLang, languageNames, type Lang } from '../i18n/ui';
 
 interface Crumb {
@@ -50,6 +52,8 @@ const profiles = [
         </a>
 
         <div class="flex items-center gap-3 ml-auto">
+          <SearchModal lang={lang} />
+
           <!-- profile selector as a segmented control (client-side filter) -->
           <div
             id="ad-profiles"
@@ -82,7 +86,7 @@ const profiles = [
       </div>
     </header>
 
-    <main class="relative z-10 flex-1 max-w-6xl mx-auto w-full px-6 pt-6 pb-8">
+    <main class="relative z-10 flex-1 max-w-6xl mx-auto w-full px-6 pt-6 pb-8" data-pagefind-body>
       <!-- breadcrumb — only on sub-pages; lighter, in-content (not a band) -->
       {crumbs.length > 0 && (
         <nav class="mb-4" aria-label="breadcrumb">
@@ -132,11 +136,7 @@ const profiles = [
       )}
     </main>
 
-    <footer class="relative z-10 border-t border-charcoal/8 mt-12">
-      <div class="max-w-6xl mx-auto w-full px-6 py-6 text-sm text-charcoal-light/70 leading-relaxed">
-        {t('footer.disclaimer')}
-      </div>
-    </footer>
+    <NtFooter lang={lang} altLangUrl={altLangUrl} />
   </div>
 </BaseLayout>
 

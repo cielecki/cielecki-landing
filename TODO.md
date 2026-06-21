@@ -17,16 +17,16 @@ Kalibracja każdej oceny A–D względem literatury + realne cytowania (sekcja �
   (downgrade auto, upgrade po przeglądzie: `--upgrade-slugs`). Recepta na 529: małe runy, batch 2, retry.
 - **Zasada:** ZAWSZE sprawdź, czy URL cytowania się rozwiązuje i tytuł się zgadza, zanim zaufasz syntezie.
 
-### 2. Wyszukiwarka (po wszystkim)
-- [ ] Pełnotekstowe wyszukiwanie po objawach / mechanizmach / metodach / treści / źródłach
-- **Rekomendacja:** [Pagefind](https://pagefind.app) — indeksuje zbudowany statyczny HTML, zero-config,
-  działa bez backendu (idealne pod GitHub Pages). Dodać do nagłówka (ikona lupy → modal) + skrót `/`.
-- Alternatywa: prebuilt JSON index + Fuse.js (więcej roboty, mniej „za darmo").
+### 2. Wyszukiwarka (po wszystkim) ✅
+- [x] Pełnotekstowe wyszukiwanie po objawach / mechanizmach / metodach / treści — **Pagefind**, ikona lupy
+      w nagłówku → modal, skrót `/`, indeks per-język (pl/en), zakres = `data-pagefind-body` na `<main>` (pomija landing).
+      Build: `astro build && pagefind --site dist`. Działa po publikacji (potrzebuje `/pagefind/` z builda).
 
-### 3. Stopka + mapa strony (sitemap)
-- [ ] Porządny footer na dole każdej strony z **mapą bazy**: wszystkie objawy pogrupowane wg kategorii
-      (TEMATY), + linki: O projekcie / Disclaimer medyczny / przełącznik języka / (docelowo) grupa założycieli
-- [ ] `sitemap.xml` dla SEO — `@astrojs/sitemap` (osobne od footera; maszynowe)
+### 3. Stopka + mapa strony (sitemap) ✅
+- [x] Footer (`NtFooter.astro`) na dole każdej strony `/nt/` z **mapą bazy**: 20 objawów pogrupowanych
+      wg TEMATÓW + about + disclaimer + przełącznik języka + link do cielecki.com
+- [x] `sitemap.xml` — `@astrojs/sitemap` (261 URL-i, sitemap-index)
+- [ ] (opcjonalnie później) link do grupy założycieli w footerze — patrz pkt 5
 
 ### 4. Kuracja (jakość treści)
 - [ ] Przejść 87 metod pod kątem near-duplikatów / przegenerowania → scalić / przyciąć
