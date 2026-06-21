@@ -51,7 +51,37 @@
       "note": "Ok. 80% osób z ADHD ma znaczące różnice w profilu sensorycznym (dotyk, smak, zapach, hałas) — rozpoznaj własne wrażliwości jako część ADHD, nie tylko autyzmu."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Putting Feelings Into Words: Affect Labeling Disrupts Amygdala Activity in Response to Affective Stimuli",
+      "type": "other",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17576282/",
+      "year": 2007,
+      "finding": "Badanie fMRI (Lieberman i wsp.): nazwanie stanu emocjonalnego słowami ('affect labeling') obniżało reaktywność ciała migdałowatego na bodźce awersyjne i zwiększało aktywność prawej kory przedczołowej. Mechanistyczne wsparcie dla komponentu 'nazwij na głos', ale na próbie ogólnej (nie autystycznej) i mierzy reaktywność neuronalną, a nie realne skutki przestymulowania."
+    },
+    {
+      "title": "Antecedent-Based Interventions (ABI) — evidence-based practice brief / VCU Autism Center fact sheet",
+      "type": "review",
+      "url": "https://vcuautismcenter.org/resources/factsheets/printView.cfm/1193",
+      "year": 2020,
+      "finding": "Interwencje oparte na antecedentach (modyfikacja środowiska/sytuacji z wyprzedzeniem, by zapobiec problematycznej reakcji — np. przewidywanie wyzwalaczy i wbudowanie przerw) są klasyfikowane jako praktyka oparta na dowodach dla osób autystycznych, poparta licznymi badaniami single-case i grupowymi. Wspiera komponent 'rozpoznaj okoliczności ryzyka i planuj z góry' — ale baza dowodowa dotyczy głównie dzieci i interwencji prowadzonych przez terapeutów, nie samodzielnych zaplanowanych wyjść u dorosłych."
+    },
+    {
+      "title": "Experiences of Sensory Overload and Communication Barriers by Autistic Adults in Health Care Settings",
+      "type": "other",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8992902/",
+      "year": 2022,
+      "finding": "Badanie jakościowe dorosłych osób autystycznych: przeciążenie sensoryczne jest częste i obezwładniające, a ujawnianie/komunikowanie potrzeb sensorycznych oraz możliwość wyjścia lub modyfikacji otoczenia opisywane są jako kluczowe strategie radzenia sobie. Wsparcie z doświadczenia, ale opisowe — nie test skuteczności."
+    },
+    {
+      "title": "Navigating Autistic Shutdown and Burnout Through a Neurodiversity-Affirming Approach",
+      "type": "review",
+      "url": "https://autismspectrumnews.org/navigating-autistic-shutdown-and-burnout-through-a-neurodiversity-affirming-approach/",
+      "year": 2024,
+      "finding": "Narracyjny przegląd kliniczny ujmujący shutdown jako napędzany przeciążeniem i zalecający proaktywne zarządzanie obciążeniem, akomodacje sensoryczne, komunikowanie potrzeb oraz wbudowane regenerację/wyjścia, by zapobiegać wypaleniu. Bezpośrednio zgodny z deklaracją metody o zapobieganiu wypaleniu, ale to konsensus ekspercki/kliniczny, nie dane empiryczne."
+    }
+  ]
 }
 ---
 

@@ -25,7 +25,23 @@
       "note": "„Nie chodzi o znane nieznane, tylko o nieznane nieznane” — wartość niezależna od wyniku."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "When expectation meets experience: A qualitative analysis of serial interviews with adults before and after autism assessment",
+      "type": "cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12804394/",
+      "year": 2024,
+      "finding": "Wywiady jakościowe z dorosłymi przed i po ocenie pod kątem autyzmu pokazały, że samą ścieżkę oceny napędza dążenie do zrozumienia siebie; wgląd i przewartościowanie własnej historii powstają w toku procesu, nie tylko z samej diagnozy/wyniku — spójne z ujęciem 'ocena jako reflektor niezależnie od wyniku'."
+    },
+    {
+      "title": "Understanding the Self-identification of Autism in Adults: a Scoping Review",
+      "type": "review",
+      "url": "https://link.springer.com/article/10.1007/s40489-023-00361-x",
+      "year": 2023,
+      "finding": "Przegląd zakresu: autoidentyfikacja/autoocena to wzmacniająca droga do pozytywnej tożsamości autystycznej i większej świadomości potrzeb; ustrukturyzowane narzędzia samoopisowe pomagają dorosłym przewartościować długo posiadane cechy — wspiera mechanizm wglądu, ale nie testuje konkretnej interwencji przeramowania."
+    }
+  ]
 }
 ---
 

@@ -33,7 +33,37 @@
       "note": "Poza 'nogi w górę na ścianę' relaksuje dolną część ciała przed snem, czasem uspokaja niespokojne nogi i przywraca krążenie po długim siedzeniu."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Efficacy of an eight-week yoga intervention on symptoms of restless legs syndrome (RLS): a pilot study",
+      "type": "other",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23270319/",
+      "year": 2013,
+      "finding": "Niekontrolowany pilotaż (n=13 kobiet) 8-tygodniowego łagodnego programu jogi Iyengara (wiele pozycji, w tym leżące/regeneracyjne) wykazał duże zmniejszenie nasilenia objawów zespołu niespokojnych nóg (d Cohena 1,6-2,2) oraz istotną poprawę snu, stresu i nastroju (wielkości efektu 1,0-1,6), z zależnością dawka-odpowiedź. To nie wyizolowana poza nogi-na-ścianę, brak próby ADHD/autyzm."
+    },
+    {
+      "title": "The Effects of a Gentle Yoga Program on Sleep, Mood, and Blood Pressure in Older Women with Restless Legs Syndrome (RLS): A Preliminary Randomized Controlled Trial",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22474497/",
+      "year": 2012,
+      "finding": "Mały wstępny RCT u starszych kobiet z RLS: łagodny wielopozycyjny program jogi poprawił sen, nastrój i ciśnienie względem kontroli. Wspiera związek niespokojne nogi/sen, ale testuje cały program jogi, nie pojedynczą pozę nogi-na-ścianę, i nie w ADHD/autyzmie."
+    },
+    {
+      "title": "The effect of yoga on sleep quality and insomnia in women with sleep problems: a systematic review and meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7193366/",
+      "year": 2020,
+      "finding": "Metaanaliza: interwencje jogi poprawiają jakość snu i bezsenność u kobiet z problemami ze snem. Dotyczy ogólnej, wieloskładnikowej praktyki jogi, nie wyizolowanej pozy viparita karani ani populacji ADHD/autyzm."
+    },
+    {
+      "title": "Yoga and heart rate variability: A comprehensive review of the literature",
+      "type": "review",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4959333/",
+      "year": 2016,
+      "finding": "Przegląd: praktyki jogi (w tym pozycje leżące/regeneracyjne i wolny oddech) przesuwają równowagę autonomiczną w stronę przewagi przywspółczulnej/wagalnej, podnosząc HRV. Daje wiarygodny mechanizm wyciszania pobudzonego układu nerwowego przed snem, ale jest mechanistyczny, nie testuje pozy nogi-na-ścianę."
+    }
+  ]
 }
 ---
 

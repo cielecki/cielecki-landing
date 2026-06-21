@@ -51,7 +51,37 @@
       "note": "About 80% of ADHD people have significant sensory-profile differences (touch, taste, smell, noise) — recognize your own sensitivities as part of ADHD, not just autism."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Putting Feelings Into Words: Affect Labeling Disrupts Amygdala Activity in Response to Affective Stimuli",
+      "type": "other",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17576282/",
+      "year": 2007,
+      "finding": "fMRI study (Lieberman et al.): verbally labeling an emotional state ('affect labeling') reduced amygdala/limbic reactivity to aversive stimuli and increased right ventrolateral prefrontal activity. Mechanistic support for the 'name it out loud' component, but in a general (non-autistic) sample and measuring neural reactivity, not real-world overstimulation outcomes."
+    },
+    {
+      "title": "Antecedent-Based Interventions (ABI) — evidence-based practice brief / VCU Autism Center fact sheet",
+      "type": "review",
+      "url": "https://vcuautismcenter.org/resources/factsheets/printView.cfm/1193",
+      "year": 2020,
+      "finding": "Antecedent-based interventions (modifying the environment/situation in advance to prevent a problematic response, e.g. anticipating triggers and building in breaks) are classified as an evidence-based practice for autistic learners, supported by numerous single-case and group studies. Supports the 'recognize risk circumstances and plan ahead' component — but evidence base is largely children and practitioner-delivered, not adult self-managed planned exits."
+    },
+    {
+      "title": "Experiences of Sensory Overload and Communication Barriers by Autistic Adults in Health Care Settings",
+      "type": "other",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8992902/",
+      "year": 2022,
+      "finding": "Qualitative study of autistic adults: sensory overload is common and disabling, and disclosing/communicating sensory needs plus being able to leave or modify the environment are described as key coping strategies. Lived-experience support for naming the state and planning an exit, but descriptive — not an efficacy test."
+    },
+    {
+      "title": "Navigating Autistic Shutdown and Burnout Through a Neurodiversity-Affirming Approach",
+      "type": "review",
+      "url": "https://autismspectrumnews.org/navigating-autistic-shutdown-and-burnout-through-a-neurodiversity-affirming-approach/",
+      "year": 2024,
+      "finding": "Narrative clinical review framing shutdown as overload-driven and recommending proactive load management, sensory accommodations, communicating needs, and built-in recovery/exits to prevent burnout. Aligns directly with the method's burnout-prevention claim, but it is expert/clinical consensus, not empirical."
+    }
+  ]
 }
 ---
 

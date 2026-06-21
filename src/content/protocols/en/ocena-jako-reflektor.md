@@ -25,7 +25,23 @@
       "note": "'It's not the known unknown, it's the unknown unknown' — value independent of the result."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "When expectation meets experience: A qualitative analysis of serial interviews with adults before and after autism assessment",
+      "type": "cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12804394/",
+      "year": 2024,
+      "finding": "Serial qualitative interviews with adults before and after autism assessment found the assessment journey was driven by a search for self-understanding; insight and reinterpretation of one's history accrued through the process itself, not solely from the diagnostic label/outcome — consistent with the 'assessment as reflector regardless of result' framing."
+    },
+    {
+      "title": "Understanding the Self-identification of Autism in Adults: a Scoping Review",
+      "type": "review",
+      "url": "https://link.springer.com/article/10.1007/s40489-023-00361-x",
+      "year": 2023,
+      "finding": "Scoping review: self-identification/self-assessment is an empowering route to a positive autistic identity and greater self-awareness of needs; structured self-report tools help adults reinterpret long-held traits and self-advocate — supporting the insight mechanism but not testing any specific reframing intervention."
+    }
+  ]
 }
 ---
 
