@@ -30,24 +30,76 @@ const symptoms = await getCollection('symptoms', (s) => s.data.lang === lang);
 const mechMap = new Map(mechanisms.map((m) => [slugOf(m.id), m]));
 const sympMap = new Map(symptoms.map((s) => [slugOf(s.id), s]));
 
-// Resolve each edge to a real, linkable target (the graph drill-down).
-const links = entry.data.addresses
-  .map((e) => {
-    const target = e.kind === 'mechanism' ? mechMap.get(e.target) : sympMap.get(e.target);
-    if (!target) return null;
-    const href = e.kind === 'mechanism' ? `/nt/${lang}/mechanizm/${e.target}/` : `/nt/${lang}/symptom/${e.target}/`;
-    return { title: target.data.title, icon: target.data.icon, href, kind: e.kind, ev: e.evidence, note: e.note };
-  })
-  .filter((x): x is NonNullable<typeof x> => x !== null);
-
-// Independent sources backing this method — the same count applies to every edge,
-// since it's a property of the method, not of any single target it addresses.
+// Independent sources backing this method — a property of the method, not of any
+// single target, so the same count applies to every edge it makes.
 const methodSources = sourceCount(entry.data.resources);
 
-// Headline "how proven is this method" — the strongest edge, summarised at the top.
-const best = [...entry.data.addresses]
-  .map((e) => ({ ev: e.evidence, score: edgeScore(e.evidence, methodSources) }))
-  .sort((a, b) => b.score - a.score)[0];
+// ── What this method helps with (graph traversal — kept CONSISTENT with the symptom
+// page) ───────────────────────────────────────────────────────────────────────────
+// A method helps a symptom when it addresses that symptom directly OR addresses a
+// mechanism that underlies it. We surface the mechanisms it works through AND every
+// symptom reached (directly or via a mechanism), so the symptom→method link always
+// closes back to the symptom you arrived from — no dangling one-way edges.
+const mechLinks = entry.data.addresses
+  .filter((e) => e.kind === 'mechanism')
+  .map((e) => {
+    const m = mechMap.get(e.target);
+    if (!m) return null;
+    return {
+      title: m.data.title,
+      icon: m.data.icon,
+      href: `/nt/${lang}/mechanizm/${e.target}/`,
+      ev: e.evidence,
+      note: e.note,
+      score: edgeScore(e.evidence, methodSources),
+    };
+  })
+  .filter((x): x is NonNullable<typeof x> => x !== null)
+  .sort((a, b) => b.score - a.score);
+
+type SympLink = {
+  title: string;
+  icon: string;
+  href: string;
+  ev: string;
+  note?: string;
+  via: string[];
+  direct: boolean;
+  score: number;
+};
+const sympAgg = new Map<string, SympLink>();
+const addSymp = (sl: string, ev: string, opts: { direct?: boolean; via?: string; note?: string }) => {
+  const target = sympMap.get(sl);
+  if (!target) return;
+  const score = edgeScore(ev, methodSources);
+  const cur = sympAgg.get(sl);
+  if (!cur) {
+    sympAgg.set(sl, {
+      title: target.data.title,
+      icon: target.data.icon,
+      href: `/nt/${lang}/symptom/${sl}/`,
+      ev,
+      note: opts.note,
+      via: opts.via ? [opts.via] : [],
+      direct: !!opts.direct,
+      score,
+    });
+  } else {
+    if (score > cur.score) { cur.score = score; cur.ev = ev; }
+    if (opts.direct) cur.direct = true;
+    if (opts.note && !cur.note) cur.note = opts.note;
+    if (opts.via && !cur.via.includes(opts.via)) cur.via.push(opts.via);
+  }
+};
+for (const e of entry.data.addresses) {
+  if (e.kind === 'symptom') addSymp(e.target, e.evidence, { direct: true, note: e.note });
+  else {
+    const m = mechMap.get(e.target);
+    if (m) for (const sl of m.data.symptoms) addSymp(sl, e.evidence, { via: m.data.title });
+  }
+}
+const sympLinks = [...sympAgg.values()].sort((a, b) => b.score - a.score);
+const hasLinks = sympLinks.length > 0 || mechLinks.length > 0;
 
 // Breadcrumb parent: a directly-addressed symptom, else the symptom behind the first mechanism.
 let parentSymptom = entry.data.addresses.find((e) => e.kind === 'symptom')?.target;
@@ -119,11 +171,11 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
     <div class="audhd-prose text-charcoal leading-relaxed max-w-2xl"><Content /></div>
 
     {
-      links.length > 0 && (
+      hasLinks && (
         <section class="mt-10">
           <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-4">{t('nt.helpsWith')}</h2>
           <ul class="grid gap-2.5">
-            {links.map((l) => (
+            {sympLinks.map((l) => (
               <li>
                 <a
                   href={l.href}
@@ -131,9 +183,31 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
                 >
                   <span class="iconify flex-shrink-0 mt-0.5 text-lg text-charcoal-light/70" data-icon={l.icon} />
                   <div class="flex-1 min-w-0">
-                    <div class="text-[11px] font-semibold uppercase tracking-wide text-charcoal-light/45">
-                      {l.kind === 'mechanism' ? t('type.mechanism') : t('type.symptom')}
+                    <div class="text-[11px] font-semibold uppercase tracking-wide text-charcoal-light/45">{t('type.symptom')}</div>
+                    <div class="font-medium text-charcoal-dark leading-snug group-hover:text-terracotta-dark transition-colors">
+                      {l.title}
                     </div>
+                    <div class="mt-1.5">
+                      <Signals evidence={l.ev} sources={methodSources} lang={lang} muted={entry.data.studies.length === 0} hideSources={true} />
+                    </div>
+                    {!l.direct && l.via.length > 0 && (
+                      <p class="text-xs text-charcoal-light/55 mt-1.5">{t('nt.viaMechanism')}: {l.via.join(', ')}</p>
+                    )}
+                    {l.note && <p class="text-xs text-charcoal-light/70 italic mt-1.5">{l.note}</p>}
+                  </div>
+                  <span class="iconify flex-shrink-0 mt-1 text-base text-charcoal-light/40 group-hover:text-terracotta group-hover:translate-x-0.5 transition-all" data-icon="mdi:arrow-right" />
+                </a>
+              </li>
+            ))}
+            {mechLinks.map((l) => (
+              <li>
+                <a
+                  href={l.href}
+                  class="group flex items-start gap-3 p-4 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl hover:bg-white hover:-translate-y-0.5 hover:shadow-sm transition-all"
+                >
+                  <span class="iconify flex-shrink-0 mt-0.5 text-lg text-charcoal-light/70" data-icon={l.icon} />
+                  <div class="flex-1 min-w-0">
+                    <div class="text-[11px] font-semibold uppercase tracking-wide text-charcoal-light/45">{t('type.mechanism')}</div>
                     <div class="font-medium text-charcoal-dark leading-snug group-hover:text-terracotta-dark transition-colors">
                       {l.title}
                     </div>

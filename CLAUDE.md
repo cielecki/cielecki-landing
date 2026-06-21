@@ -22,6 +22,12 @@ The OLD flat pilot (`challenges` + `methods` collections, `/neuro-toolkit/*`) wa
 2026-06-20: its unique methods were ported into the graph, the collections + pages deleted,
 and `/neuro-toolkit*` + `/audhd*` now redirect to `/nt/`.
 
+**Traversal consistency (load-bearing):** a method "helps" a symptom iff it addresses that
+symptom directly OR addresses a mechanism whose `symptoms[]` includes it. BOTH the symptom page
+(methods listed for it) and the method page ("Pomaga na") MUST use this same transitive rule, or
+the link becomes one-way (method shows under a symptom, but the method page doesn't show that
+symptom — fixed 2026-06-21). Transitive symptoms on the method page carry a "przez mechanizm: X" note.
+
 Schema is authoritative in `src/content.config.ts`. Every node is bilingual (same slug in
 `pl/` and `en/`) and tagged `conditions: [adhd|autism|audhd]` so the header profile filter
 (see `src/layouts/AudhdLayout.astro`) works graph-wide.
