@@ -17,7 +17,7 @@ const groups = buildNav(symptoms, lang);
 <nav class="text-sm" aria-label="Tematy">
   {
     groups.map((g) => (
-      <div class="mb-5">
+      <div class="mb-5" data-conditions={g.conditions.join(' ')}>
         <div class="px-3 mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-charcoal-light/45">
           {g.label}
         </div>
@@ -25,7 +25,7 @@ const groups = buildNav(symptoms, lang);
           {g.items.map((it) => {
             const active = it.slug === activeSlug;
             return (
-              <li>
+              <li data-conditions={it.conditions.join(' ')}>
                 <a
                   href={`/nt/${lang}/symptom/${it.slug}/`}
                   aria-current={active ? 'page' : undefined}

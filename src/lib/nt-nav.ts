@@ -54,14 +54,17 @@ export interface NavItem {
   slug: string;
   title: string;
   icon: string;
+  conditions: string[]; // which profiles this topic applies to (for the filter)
 }
 export interface ResolvedGroup {
   id: string;
   label: string;
   items: NavItem[];
+  conditions: string[]; // UNION of member conditions — lets the whole group hide when empty
 }
 
-type SymptomEntry = { id: string; data: { title: string; icon: string } };
+const ALL_CONDITIONS = ['adhd', 'autism', 'audhd'];
+type SymptomEntry = { id: string; data: { title: string; icon: string; conditions?: string[] } };
 
 // Resolve the frozen group structure against the symptoms that actually exist
 // in this language, so unpublished topics never render as dead links.
@@ -72,9 +75,12 @@ export function buildNav(entries: SymptomEntry[], lang: Lang): ResolvedGroup[] {
     const items: NavItem[] = [];
     for (const slug of g.symptoms) {
       const e = map.get(slug);
-      if (e) items.push({ slug, title: e.data.title, icon: e.data.icon });
+      if (e) items.push({ slug, title: e.data.title, icon: e.data.icon, conditions: e.data.conditions ?? ALL_CONDITIONS });
     }
-    if (items.length) groups.push({ id: g.id, label: g.label[lang], items });
+    if (items.length) {
+      const conditions = [...new Set(items.flatMap((it) => it.conditions))];
+      groups.push({ id: g.id, label: g.label[lang], items, conditions });
+    }
   }
   return groups;
 }
