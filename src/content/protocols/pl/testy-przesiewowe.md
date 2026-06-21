@@ -13,7 +13,7 @@
     {
       "target": "diagnoza",
       "kind": "symptom",
-      "evidence": "B",
+      "evidence": "A",
       "community": "wysoki"
     }
   ],
