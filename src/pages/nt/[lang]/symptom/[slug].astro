@@ -58,6 +58,10 @@ const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
 
 <AudhdLayout lang={lang} title={entry.data.title} altLangUrl={altLangUrl} crumbs={[{ label: entry.data.title }]} showNav={true} activeSlug={slug}>
   <header class="mb-8 reveal">
+    <div class="flex items-center gap-1.5 mb-2 text-xs font-semibold uppercase tracking-wider text-terracotta-dark">
+      <span class="iconify text-sm" data-icon="mdi:pulse" />
+      {t('type.symptom')}
+    </div>
     <div class="flex items-center gap-3 mb-3">
       <span class="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-terracotta/10 rounded-xl text-terracotta-dark">
         <span class="iconify text-2xl" data-icon={entry.data.icon} />
