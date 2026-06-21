@@ -30,15 +30,23 @@ const { title, description = "Builder. Founded 10Clouds and grew it from zero to
     <slot />
 
     <script>
+      const reveal = (el: Element) => el.classList.add('visible');
+      const els = document.querySelectorAll('.reveal');
+      // threshold 0: fire as soon as any part enters. A .reveal taller than the
+      // viewport never reaches a positive threshold, so a higher value would leave
+      // it (and its whole subtree, via opacity:0) permanently hidden at load.
       const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
+        entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
+            reveal(entry.target);
+            observer.unobserve(entry.target);
           }
         });
-      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+      }, { threshold: 0, rootMargin: '0px 0px -40px 0px' });
 
-      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+      els.forEach((el) => observer.observe(el));
+      // Safety net: never leave content hidden if the observer misfires.
+      window.setTimeout(() => els.forEach(reveal), 1500);
     </script>
 </body>
 </html>
