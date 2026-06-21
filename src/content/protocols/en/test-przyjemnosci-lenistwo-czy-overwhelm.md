@@ -20,14 +20,14 @@
     {
       "target": "zaczynanie",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "D",
       "community": "niski",
       "note": "The distinction lifts the self-flagellation over 'inaction' that is really overwhelm."
     },
     {
       "target": "energia-wypalenie",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "D",
       "community": "niski",
       "note": "Names apparent inaction as a regulation/energy problem, not a character flaw."
     }
@@ -46,7 +46,44 @@
       "note": "'Shame like a vampire hates daylight — in a group you see everyone has the same struggle.'"
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Effectiveness of self-compassion-related interventions for reducing self-criticism: A systematic review and meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/cpp.2586",
+      "year": 2022,
+      "finding": "Meta-analysis of ~20 RCTs (~1,350 participants) found self-compassion-related interventions produce a significant medium-sized reduction in self-criticism vs controls. Supports the reframe-away-from-self-blame mechanism behind the 'pleasure test', but is general (not ADHD/autism-specific) and tests structured SC programs, not this one-line heuristic."
+    },
+    {
+      "title": "The role of self-compassion in the mental health of adults with ADHD",
+      "type": "cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9790285/",
+      "year": 2022,
+      "finding": "Cross-sectional/observational study: higher self-compassion is associated with better mental health in adults with ADHD; authors give preliminary support for using self-compassion interventions in this population. Correlational, not a trial of the reframe itself."
+    },
+    {
+      "title": "Psychoeducational groups for adults with ADHD and their significant others (PEGASUS): a pragmatic multicenter randomized controlled trial",
+      "type": "rct",
+      "url": "https://www.cambridge.org/core/journals/european-psychiatry/article/psychoeducational-groups-for-adults-with-adhd-and-their-significant-others-pegasus-a-pragmatic-multicenter-and-randomized-controlled-trial/7499896E20CF58984C603053A386A71B",
+      "year": 2017,
+      "finding": "Multicenter RCT of group psychoeducation for adults with ADHD: improved ADHD knowledge and wellbeing. Supports the second layer of the method (group normalization of difficulty reduces isolation/shame), though it does not isolate the 'laziness vs overwhelm' reframe and core-symptom effects were limited."
+    },
+    {
+      "title": "Psychoeducation for adults with ADHD vs. cognitive behavioral group therapy: a randomized controlled pilot study",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24080677/",
+      "year": 2013,
+      "finding": "Pilot RCT: both group psychoeducation and CBGT produced significant improvements in ADHD symptoms and self-esteem. Indirect support for the self-worth target via group/psychoeducational format; small pilot, does not test the specific heuristic."
+    },
+    {
+      "title": "Self-criticism in autistic burnout / autistic burnout is not laziness (clinical literature)",
+      "type": "review",
+      "url": "https://www.dralicenicholls.com/self-criticism-in-autistic-burnout/",
+      "year": 2023,
+      "finding": "Clinical/neuroaffirming accounts converge on the same reframe: what looks like laziness in autistic burnout is reversible capacity collapse, and self-criticism is a barrier to recovery while recognition ('this is burnout, not failing') itself functions as relief. Expert clinical consensus, not empirical test."
+    }
+  ]
 }
 ---
 

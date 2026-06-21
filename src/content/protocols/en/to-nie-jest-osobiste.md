@@ -12,7 +12,7 @@
     {
       "target": "randki-zwiazki",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "średni",
       "note": "Shifts the frame from 'them vs me' to 'us vs the situation', removing defensiveness."
     },
@@ -39,7 +39,37 @@
       "note": "\"I'm dysregulated now, my executive function's off, I'm thinking about the shopping list\" — naming the mechanism instead of taking it as failure."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Psychoeducational groups for adults with ADHD and their significant others (PEGASUS): A pragmatic multicenter and randomized controlled trial",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28641216/",
+      "year": 2017,
+      "finding": "Multicenter RCT (n=179, including 92 significant others/partners). Partners randomized to an 8-session CBT-based psychoeducation that frames ADHD symptoms as the disorder rather than a personal attack reported reduced SUBJECTIVE burden and improved relationship/wellbeing vs treatment-as-usual, with large gains in ADHD knowledge (d~0.97). This is the closest direct test of the depersonalize-and-reframe mechanism, but the reframe is one component of a multi-element package, not isolated."
+    },
+    {
+      "title": "Cognitive behavior therapy-based psychoeducational groups for adults with ADHD and their significant others (PEGASUS): an open clinical feasibility trial",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24863143/",
+      "year": 2015,
+      "finding": "Open feasibility trial (precursor to the RCT): significant others improved in ADHD knowledge and wellbeing after a program that explicitly reframes symptoms as the disorder rather than the person. Supports the feasibility and direction of the depersonalize mechanism but is uncontrolled."
+    },
+    {
+      "title": "Young adult romantic couples' conflict resolution and satisfaction varies with partner's attention-deficit/hyperactivity disorder type",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24749971/",
+      "year": 2014,
+      "finding": "Observational couples study: ADHD-related behaviors drive greater negativity and lower relational satisfaction during conflict. Establishes the problem the method targets (partners interpreting ADHD behavior as personal) but does not test the depersonalize advice itself."
+    },
+    {
+      "title": "Parental attribution / mentalization in families with ADHD (narrative synthesis of attribution-reframe research)",
+      "type": "review",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2019.00263/full",
+      "year": 2019,
+      "finding": "Reviews evidence that parents/caregivers who attribute malicious intent to ADHD behavior show more hostility, while parental mentalization (understanding behavior as the disorder, not a personal slight) buffers hostility and supports caregiver wellbeing. Mechanistic support for the family/caregiver target, not a direct trial of this advice."
+    }
+  ]
 }
 ---
 

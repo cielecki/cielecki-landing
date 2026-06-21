@@ -46,7 +46,37 @@
       "note": "People-pleasing can override accurate intuition: you sense someone is wrong but can't say no — hence unwanted dates and relationships. Honor the gut feeling despite the fear."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "A Meta-Analysis of Randomised Controlled Trials on the Efficacy of Assertiveness Training for Social Anxiety",
+      "type": "meta-analysis",
+      "url": "https://link.springer.com/article/10.1007/s41042-026-00297-7",
+      "year": 2026,
+      "finding": "Meta-analysis of RCTs found assertiveness training produces moderate-to-large gains in adaptive assertiveness (ES ~0.95-1.73) and reductions in social anxiety (ES ~0.67-0.93). Supports boundary-asserting behaviour broadly, but tests structured skill training, not this specific 'they were never a friend' reframe, and not in ADHD/autism samples."
+    },
+    {
+      "title": "Efficacy of transdiagnostic cognitive-behavioral therapy for assertiveness: A randomized controlled trial",
+      "type": "rct",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214782923000295",
+      "year": 2023,
+      "finding": "RCT showing a CBT-based assertiveness protocol improved adaptive assertiveness and reduced social anxiety vs. waitlist. Indirect support for the behavioural half of the method (start setting boundaries); does not test the dichotomous 'real vs. fake friend' filter or measure relationship-filtering outcomes."
+    },
+    {
+      "title": "The lived experience of rejection sensitivity in ADHD - A qualitative exploration",
+      "type": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12822938/",
+      "year": 2025,
+      "finding": "Qualitative study documenting how RSD drives masking, people-pleasing and relationship withdrawal in ADHD. Establishes the mechanism the method targets (RSD + people-pleasing constellation) but offers no test of the boundary-test reframe as an intervention."
+    },
+    {
+      "title": "Coping Strategies for Rejection Sensitivity and ADHD / clinical consensus content (Cleveland Clinic, Understood, clinical blogs)",
+      "type": "review",
+      "url": "https://my.clevelandclinic.org/health/diseases/24099-rejection-sensitive-dysphoria-rsd",
+      "year": 2024,
+      "finding": "Clinical-consensus and narrative sources recommend boundary-setting plus cognitive reframing ('what else could this mean?') for RSD/people-pleasing in ADHD/autism. Consensus-level only; notably, the method's absolute claim ('they were never a friend') is itself all-or-nothing thinking, the kind of dichotomous distortion CBT treats rather than endorses."
+    }
+  ]
 }
 ---
 

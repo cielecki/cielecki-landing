@@ -46,7 +46,37 @@
       "note": "People-pleasing potrafi przebić trafną intuicję: wyczuwasz, że ktoś jest niewłaściwy, ale nie umiesz odmówić — stąd niechciane randki i związki. Honoruj przeczucie mimo lęku."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "A Meta-Analysis of Randomised Controlled Trials on the Efficacy of Assertiveness Training for Social Anxiety",
+      "type": "meta-analysis",
+      "url": "https://link.springer.com/article/10.1007/s41042-026-00297-7",
+      "year": 2026,
+      "finding": "Metaanaliza RCT: trening asertywności daje umiarkowane-do-dużych efekty na asertywność (ES ~0,95-1,73) i redukcję lęku społecznego (ES ~0,67-0,93). Wspiera ogólnie stawianie granic, ale testuje ustrukturyzowany trening umiejętności, a nie ten konkretny reframe ani populację ADHD/autyzm."
+    },
+    {
+      "title": "Efficacy of transdiagnostic cognitive-behavioral therapy for assertiveness: A randomized controlled trial",
+      "type": "rct",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214782923000295",
+      "year": 2023,
+      "finding": "RCT: protokół asertywności oparty na CBT poprawił asertywność i zmniejszył lęk społeczny vs. lista oczekujących. Pośrednie wsparcie dla behawioralnej połowy metody (zacznij stawiać granice); nie testuje binarnego filtra 'prawdziwy/fałszywy przyjaciel'."
+    },
+    {
+      "title": "The lived experience of rejection sensitivity in ADHD - A qualitative exploration",
+      "type": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12822938/",
+      "year": 2025,
+      "finding": "Badanie jakościowe dokumentujące, jak RSD napędza maskowanie, people-pleasing i wycofanie z relacji w ADHD. Potwierdza mechanizm, który metoda adresuje, ale nie testuje samego reframe jako interwencji."
+    },
+    {
+      "title": "Coping Strategies for Rejection Sensitivity and ADHD / clinical consensus content (Cleveland Clinic, Understood, clinical blogs)",
+      "type": "review",
+      "url": "https://my.clevelandclinic.org/health/diseases/24099-rejection-sensitive-dysphoria-rsd",
+      "year": 2024,
+      "finding": "Źródła konsensusu klinicznego zalecają stawianie granic plus reframe poznawczy w RSD/people-pleasing przy ADHD/autyzmie. Tylko poziom konsensusu; istotne: absolutne twierdzenie metody ('nigdy nie był przyjacielem') to myślenie zero-jedynkowe, czyli zniekształcenie, które CBT raczej koryguje niż wzmacnia."
+    }
+  ]
 }
 ---
 

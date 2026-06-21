@@ -12,7 +12,7 @@
     {
       "target": "randki-zwiazki",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "średni",
       "note": "Przesuwa ramę z „on/ona vs ja” na „my vs sytuacja”, zdejmując obronność."
     },
@@ -39,7 +39,37 @@
       "note": "„Jestem teraz rozregulowana, funkcja wykonawcza szwankuje, myślę o liście zakupów” — nazwanie mechanizmu zamiast brania za porażkę."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Psychoeducational groups for adults with ADHD and their significant others (PEGASUS): A pragmatic multicenter and randomized controlled trial",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28641216/",
+      "year": 2017,
+      "finding": "Wieloosrodkowy RCT (n=179, w tym 92 bliskich/partnerow). Partnerzy losowo przydzieleni do 8-sesyjnej psychoedukacji CBT, ktora ujmuje objawy jako ADHD a nie atak osobisty, zglaszali mniejsze SUBIEKTYWNE obciazenie i poprawe relacji/dobrostanu vs leczenie standardowe; duzy wzrost wiedzy o ADHD. To najblizszy bezposredni test mechanizmu 'nie bierz tego do siebie', ale przeramowanie jest jednym elementem pakietu, nie wyizolowanym."
+    },
+    {
+      "title": "Cognitive behavior therapy-based psychoeducational groups for adults with ADHD and their significant others (PEGASUS): an open clinical feasibility trial",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24863143/",
+      "year": 2015,
+      "finding": "Otwarte badanie wykonalnosci (poprzednik RCT): bliscy poprawili wiedze o ADHD i dobrostan po programie wprost przeramowujacym objawy jako zaburzenie, a nie osobe. Wspiera kierunek mechanizmu, ale jest niekontrolowane."
+    },
+    {
+      "title": "Young adult romantic couples' conflict resolution and satisfaction varies with partner's attention-deficit/hyperactivity disorder type",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24749971/",
+      "year": 2014,
+      "finding": "Obserwacyjne badanie par: zachowania zwiazane z ADHD prowadza do wiekszej negatywnosci i nizszej satysfakcji podczas konfliktu. Pokazuje problem, ktory metoda adresuje (interpretowanie zachowan jako osobistych), ale nie testuje samej rady o depersonalizacji."
+    },
+    {
+      "title": "Parental attribution / mentalization in families with ADHD (narrative synthesis of attribution-reframe research)",
+      "type": "review",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2019.00263/full",
+      "year": 2019,
+      "finding": "Przeglada dowody, ze opiekunowie przypisujacy zlosliwa intencje zachowaniom ADHD przejawiaja wiecej wrogosci, a mentalizacja rodzicielska (rozumienie zachowania jako zaburzenia, nie afrontu) buforuje wrogosc i wspiera dobrostan opiekuna. Wsparcie mechanistyczne dla celu opiekunczego, nie bezposredni test tej rady."
+    }
+  ]
 }
 ---
 

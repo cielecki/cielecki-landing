@@ -34,7 +34,51 @@
       "note": "„Używanie porno to bardzo silny coping emocjonalny — tłumi negatywne emocje”; pętla wstydu napędza kolejne sięgnięcie."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "The efficacy of cognitive-behavioral therapy for adults with ADHD: a meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12434339/",
+      "year": 2025,
+      "finding": "Metaanaliza 17 RCT wykazała umiarkowane wielkości efektu (~0,52-0,58) na korzyść CBT u dorosłych z ADHD, redukując zarówno objawy rdzeniowe, jak i emocjonalne; CBT to solidnie udowodniona terapia."
+    },
+    {
+      "title": "Effectiveness of cognitive behavioural-based interventions for adults with ADHD extends beyond core symptoms: a meta-analysis of RCTs (Liu et al.)",
+      "type": "meta-analysis",
+      "url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/papt.12455",
+      "year": 2023,
+      "finding": "Interwencje oparte na CBT poprawiały jakość życia, regulację emocji, depresję i lęk u dorosłych z ADHD, z efektami utrzymującymi się w follow-upie."
+    },
+    {
+      "title": "Dialectical behavioral therapy for adult ADHD: a meta-analysis of randomized controlled trials",
+      "type": "meta-analysis",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0165178125001994",
+      "year": 2025,
+      "finding": "Metaanaliza RCT wspiera DBT u dorosłych z ADHD, ze wstępnymi dowodami korzyści zwłaszcza dla dysregulacji emocji i współwystępującej depresji."
+    },
+    {
+      "title": "DBT-based group treatment versus treatment as usual for adults with ADHD: a multicenter RCT (COMPAS)",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9706966/",
+      "year": 2022,
+      "finding": "Wieloośrodkowy RCT ustrukturyzowanego treningu umiejętności w grupie opartego na DBT (vs leczenie standardowe) u dorosłych z ADHD — kontrolowane badanie modalności trzeciej fali."
+    },
+    {
+      "title": "ACT for individuals with ADHD: a scoping review / systematic review of cognitive function outcomes",
+      "type": "review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10015206/",
+      "year": 2023,
+      "finding": "Przegląd systematyczny (RCT N=9 plus badania wewnątrzgrupowe) wykazał poprawę uwagi, funkcji wykonawczych i poznania subiektywnego po ACT; obiecujące, ale mniej i mniejszych badań niż dla CBT."
+    },
+    {
+      "title": "For whom does a match matter most? Patient-level moderators of evidence-based patient-therapist matching",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34110861/",
+      "year": 2021,
+      "finding": "Dopasowanie pacjentów do mocnych stron terapeutów przewyższało standardowe przydzielanie, zwłaszcza w cięższych przypadkach — wspiera ogólną zasadę dopasowania, ale to dopasowanie do terapeuty, nie modalności do neurotypu, i nie dotyczy ADHD."
+    }
+  ]
 }
 ---
 
