@@ -88,7 +88,7 @@ const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
                   {p.data.title}
                 </h3>
                 <p class="text-sm text-charcoal-light leading-relaxed mt-1 mb-2.5">{p.data.summary}</p>
-                <Signals evidence={ev} sources={sources} lang={lang} />
+                <Signals evidence={ev} sources={sources} lang={lang} muted={p.data.studies.length === 0} />
               </div>
               <span class="iconify flex-shrink-0 mt-1 text-lg text-charcoal-light/40 group-hover:text-terracotta group-hover:translate-x-0.5 transition-all" data-icon="mdi:arrow-right" />
             </a>

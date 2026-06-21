@@ -1,6 +1,20 @@
 // Ranking helpers for the two-signal graph model (evidence + sources).
 export const evRank: Record<string, number> = { A: 4, B: 3, C: 2, D: 1 };
 
+// Evidence badge colour — MONOTONIC: stronger evidence is more saturated, weaker
+// fades to neutral grey. (Was inverted: C in warm sand stood out more than B.)
+// One hue (sage/green) for A–B so "backed" reads instantly; C–D go grey.
+export const evidenceClass: Record<string, string> = {
+  A: 'bg-sage/40 text-sage-dark ring-1 ring-sage/30',
+  B: 'bg-sage/20 text-sage-dark',
+  C: 'bg-charcoal/8 text-charcoal-light/75',
+  D: 'bg-charcoal/5 text-charcoal-light/55',
+};
+// When a grade has no direct studies behind it (just a mechanism/experience estimate),
+// it renders greyed regardless of letter — the letter still shows, the colour says "unverified".
+export const evidenceMutedClass = 'bg-charcoal/6 text-charcoal-light/55';
+export const gradeOrder = ['A', 'B', 'C', 'D'] as const;
+
 // Evidence dominates the sort; the count of independent sources breaks ties.
 export function edgeScore(evidence: string, sources = 0): number {
   return (evRank[evidence] ?? 0) * 100 + Math.min(sources, 99);
