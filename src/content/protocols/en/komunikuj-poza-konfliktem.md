@@ -13,14 +13,14 @@
     {
       "target": "randki-zwiazki",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "B",
       "community": "średni",
       "note": "Moves communication out of crisis mode into a calm, non-defensive setting."
     },
     {
       "target": "obrona-kontrobrona",
       "kind": "mechanism",
-      "evidence": "C",
+      "evidence": "B",
       "community": "niski",
       "note": "Rehearsing talk outside conflict reduces the defense–counter-defense reflex in a crisis."
     }
@@ -34,7 +34,37 @@
       "note": "'Practice it when you don't need to… sit down, have a tea, and ask: how could I improve this relationship for you?'"
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "A meta-analytic review of relationship maintenance and its correlates",
+      "type": "meta-analysis",
+      "url": "https://journals.sagepub.com/doi/10.1177/0265407512463338",
+      "year": 2013,
+      "finding": "Ogolsky & Bowers' meta-analysis found that proactive, interactive relationship-maintenance behaviors (positivity, openness, assurances) show robust positive associations with relationship satisfaction and commitment — supporting the value of communicating to build the relationship rather than only when distressed."
+    },
+    {
+      "title": "Interventions for Couples (Annual Review of Clinical Psychology)",
+      "type": "review",
+      "url": "https://marriage.psych.ucla.edu/wp-content/uploads/sites/213/2021/04/Bradbury-Bodenmann-ARCP-2020.pdf",
+      "year": 2020,
+      "finding": "Bradbury & Bodenmann review the prevention/enrichment literature: behaviorally based programs that teach couples better non-conflict communication and relationship-maintenance skills aim to prevent declines in satisfaction, with controlled-trial support for skills training improving satisfaction."
+    },
+    {
+      "title": "A Meta-Analytical Review of the Demand/Withdraw Pattern of Interaction and its Associations with Individual, Relational, and Communicative Outcomes",
+      "type": "meta-analysis",
+      "url": "https://www.researchgate.net/publication/263347858_A_Meta-Analytical_Review_of_the_DemandWithdraw_Pattern_of_Interaction_and_its_Associations_with_Individual_Relational_and_Communicative_Outcomes",
+      "year": 2014,
+      "finding": "Schrodt et al. meta-analysis confirms the demand/withdraw (defend–counter-defend) pattern predicts concurrent and longitudinal dissatisfaction — establishing the mechanism this method targets, i.e. that conflict-only communication degrades the relationship."
+    },
+    {
+      "title": "Effectiveness of digital interventions on relationship satisfaction among couples: a systematic review and meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12482273/",
+      "year": 2024,
+      "finding": "Self-directed couple programs teaching communication/maintenance skills produced significant increases in relationship satisfaction vs control, maintained at follow-up — but none target ADHD/autism populations or this specific scheduled non-conflict prompt."
+    }
+  ]
 }
 ---
 

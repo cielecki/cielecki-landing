@@ -40,7 +40,30 @@
       "note": "„Z listy 10 zrobię 2. Z listy 3 naraz potrafię zrobić 6 w ciągu dnia.”"
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload",
+      "type": "meta-analysis",
+      "url": "https://academic.oup.com/jcr/article-abstract/37/3/409/1827647",
+      "year": 2010,
+      "finding": "Metaanaliza 63 warunków z 50 eksperymentów (N=5036): średni efekt 'większej liczby opcji' na motywację/satysfakcję był praktycznie zerowy, z dużą niewyjaśnioną zmiennością. Założenie 'za dużo opcji paraliżuje', na którym opiera się ta metoda, NIE jest mocno potwierdzone jako ogólne prawo."
+    },
+    {
+      "title": "Choice overload: A conceptual review and meta-analysis (Chernev, Böckenholt, Goodman)",
+      "type": "meta-analysis",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1057740814000916",
+      "year": 2015,
+      "finding": "Metaanaliza 99 obserwacji (N=7202): przeciążenie wyborem pojawia się tylko przy konkretnych moderatorach (złożoność zestawu, trudność decyzji, niepewność preferencji, cel decyzji). Ukrywanie zadań może pomóc w sytuacjach naprawdę przytłaczających/złożonych, ale efekt nie jest uniwersalny — wsparcie pośrednie, zależne od kontekstu."
+    },
+    {
+      "title": "A randomized controlled trial of CBT for adults with ADHD with and without medication",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3414742/",
+      "year": 2012,
+      "finding": "RCT terapii CBT dla dorosłych z ADHD, gdzie strukturyzacja zadań przez listy/plan dnia była modułem bazowym; CBT poprawiło objawy i funkcjonowanie. Wspiera szerszą rodzinę strategii list/strukturyzacji jako część leczenia opartego na dowodach, ale NIE izoluje manipulacji '2-3 widoczne zadania, reszta ukryta'."
+    }
+  ]
 }
 ---
 

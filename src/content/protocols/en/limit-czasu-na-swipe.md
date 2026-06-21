@@ -39,7 +39,37 @@
       "note": "In the dopamine trough you chase porn/social/YouTube to pull out — this drives jumping attention and app overuse."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Achieving Digital Wellbeing Through Digital Self-control Tools: A Systematic Review and Meta-analysis",
+      "type": "meta-analysis",
+      "url": "https://dl.acm.org/doi/full/10.1145/3571810",
+      "year": 2023,
+      "finding": "Meta-analysis of digital self-control tools (timers, lockouts, blockers) found a small-to-medium effect on reducing time spent on distracting technology, but most tools rely on simple block/timer mechanisms and effects are modest and often fade."
+    },
+    {
+      "title": "Smartphone screen time reduction improves mental health: a randomized controlled trial",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39985031/",
+      "year": 2025,
+      "finding": "RCT (n=111) restricting smartphone use to <=2h/day for 3 weeks reduced depressive symptoms (~27%, small-medium effect) and improved well-being vs control; gains diminished once normal use resumed. Not ADHD-specific, not dating-app-specific."
+    },
+    {
+      "title": "Digital self-control interventions for distracting media multitasking - A systematic review",
+      "type": "review",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcal.12581",
+      "year": 2021,
+      "finding": "Systematic review of digital self-control interventions: timers and lockout mechanisms can reduce distracting media use but evidence quality is limited and rarely addresses underlying impulsivity/habit mechanisms."
+    },
+    {
+      "title": "Dating Apps & ADHD: Navigating Executive Dysfunction in the Swipe Era",
+      "type": "other",
+      "url": "https://www.agavehealth.com/post/dating-apps-and-adhd",
+      "year": 2024,
+      "finding": "Clinical/expert content (non-empirical) describing how ADHD time blindness turns 'a few swipes' into long sessions and recommending timers/app limits as a coping strategy. Plausible mechanism, no outcome data."
+    }
+  ]
 }
 ---
 

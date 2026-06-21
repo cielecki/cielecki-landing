@@ -40,7 +40,30 @@
       "note": "'From a list of 10 I'll do 2. From a list of 3 at a time I can do 6 in a day.'"
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload",
+      "type": "meta-analysis",
+      "url": "https://academic.oup.com/jcr/article-abstract/37/3/409/1827647",
+      "year": 2010,
+      "finding": "Meta-analysis of 63 conditions from 50 experiments (N=5,036): the mean effect of having more options on motivation/satisfaction was virtually zero, with large unexplained between-study variance. The 'too many options paralyzes' premise behind this method is NOT robustly supported as a general law."
+    },
+    {
+      "title": "Choice overload: A conceptual review and meta-analysis (Chernev, Böckenholt, Goodman)",
+      "type": "meta-analysis",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1057740814000916",
+      "year": 2015,
+      "finding": "Meta-analysis of 99 observations (N=7,202) found choice overload occurs only under specific moderators (high choice-set complexity, decision difficulty, preference uncertainty, decision goal). This means hiding tasks could help in genuinely overwhelming/complex situations but is not a universally reliable effect — context-dependent, indirect support only."
+    },
+    {
+      "title": "A randomized controlled trial of CBT for adults with ADHD with and without medication",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3414742/",
+      "year": 2012,
+      "finding": "RCT of CBT for adult ADHD where task structuring via to-do lists/agendas was a core skill module; CBT improved ADHD symptoms and functioning. Supports the broader family of list/structuring strategies as part of evidence-based ADHD treatment, but does NOT isolate the '2-3 visible tasks, hide the rest' manipulation."
+    }
+  ]
 }
 ---
 

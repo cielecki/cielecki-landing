@@ -50,7 +50,37 @@
       "note": "Odsypianie rano sabotuje kolejną noc — za mało presji snu zdąży narosnąć przed porą snu, więc nie zaśniesz, co napędza błędne koło."
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "A randomized controlled trial of a behavioral intervention for decreasing bedtime procrastination using a wait-list control group in a non-clinical sample of young adults",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37354745/",
+      "year": 2023,
+      "finding": "RCT z grupa wait-list (n=60, mlodzi dorosli bez psychopatologii). Interwencja behawioralna obnizyla odraczanie snu o 35,56% (d=2,19), przesunela pore snu o ~46 min wczesniej (d=1,22) i poprawila efektywnosc snu (d=1,25). Wspiera ustrukturyzowane interwencje, ale proba NIE byla ADHD/autystyczna."
+    },
+    {
+      "title": "Using mental contrasting with implementation intentions to reduce bedtime procrastination: two randomised trials",
+      "type": "rct",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/08870446.2019.1652753",
+      "year": 2019,
+      "finding": "Dwa randomizowane badania nad MCII (kontrastowanie mentalne + intencje wdrozeniowe) - strategia dzialania powiazanego z sygnalem (ta sama rodzina co 'alarm + staly rytual'). MCII zmniejszylo odraczanie snu jako szybkie, tanie narzedzie samoregulacji - wspiera mechanizm zewnetrznej kotwicy, ale w probach ogolnych, nie ADHD/autystycznych."
+    },
+    {
+      "title": "Bedtime procrastination: a self-regulation perspective on sleep insufficiency in the general population / Self-Determination Theory accounts of revenge bedtime procrastination",
+      "type": "review",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00611/full",
+      "year": 2014,
+      "finding": "Praca zalozycielska ujmujaca odraczanie snu jako porazke samoregulacji; pozniejsze badania przekrojowe i dzienniczkowe wiaza je z niskim poczuciem autonomii w ciagu dnia / frustracja potrzeb (teoria autodeterminacji). Wspiera to glowna teze metody - oddanie sobie autonomii wczesniej oslabia nocny przymus kompensacji - ale to mechanizm/korelacja, nie eksperyment manipulujacy autonomia."
+    },
+    {
+      "title": "Transdiagnostic CBT for bedtime procrastination: a pilot randomized controlled trial targeting behavioral, cognitive, and emotional dimensions",
+      "type": "rct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40660368/",
+      "year": 2025,
+      "finding": "Maly podwojnie zaslepiony pilotaz RCT (n=32 studentow). Transdiagnostyczna CBT z elementem strukturyzacji behawioralnej poprawila odraczanie snu, regulacje emocji i przekonania o snie z duzymi efektami utrzymanymi po 3 miesiacach. Potwierdza, ze ustrukturyzowane rytualy konca dnia pomagaja, ale znowu proba ogolna i bardzo mala."
+    }
+  ]
 }
 ---
 
