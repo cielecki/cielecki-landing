@@ -7,8 +7,8 @@ export const evRank: Record<string, number> = { A: 4, B: 3, C: 2, D: 1 };
 export const evidenceClass: Record<string, string> = {
   A: 'bg-sage/40 text-sage-dark ring-1 ring-sage/30',
   B: 'bg-sage/20 text-sage-dark',
-  C: 'bg-charcoal/8 text-charcoal-light/75',
-  D: 'bg-charcoal/5 text-charcoal-light/55',
+  C: 'bg-charcoal/12 text-charcoal-light',
+  D: 'bg-charcoal/8 text-charcoal-light/90',
 };
 // When a grade has no direct studies behind it (just a mechanism/experience estimate),
 // it renders greyed regardless of letter — the letter still shows, the colour says "unverified".
