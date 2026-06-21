@@ -40,7 +40,30 @@
       "note": "'I don't struggle to express feelings, I struggle to start the conversation — when someone asks directly, I break the barrier.'"
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Softening Start-Up / harsh vs. soft startup in conflict (Gottman observational research program)",
+      "type": "cohort",
+      "url": "https://www.gottman.com/blog/softening-startup/",
+      "year": 2015,
+      "finding": "Longitudinal observational research on married couples found that the way a difficult conversation is opened predicts its outcome: harsh start-ups (criticism/blame) trigger defensiveness and escalation, while soft, non-accusatory openings predict de-escalation and greater long-term stability/satisfaction. This is the closest behavioral analogue to 'ask directly instead of attacking,' but it is observational (not RCT) and not ADHD-specific."
+    },
+    {
+      "title": "The lived experience of rejection sensitivity in ADHD - A qualitative exploration",
+      "type": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12822938/",
+      "year": 2025,
+      "finding": "Qualitative study confirming that adults with ADHD experience intense dysphoria in response to perceived criticism/rejection and readily detect (and over-detect) rejection. This supports the proposed mechanism: an accusatory opening is likely to be experienced as attack and trigger shutdown/defensiveness, whereas a neutral question carries less rejection cue. Mechanism support only — does not test the communication technique."
+    },
+    {
+      "title": "Emotional dysregulation is part of ADHD: how psychologists are helping (APA Monitor review)",
+      "type": "review",
+      "url": "https://www.apa.org/monitor/2024/04/adhd-managing-emotion-dysregulation",
+      "year": 2024,
+      "finding": "Review noting 30-70% of adults with ADHD struggle with emotion regulation, difficulty disengaging from conflict, and heightened reactivity to social-threat cues. Supports the premise that confrontational framing escalates and that lowering the emotional-threat load of an opening could help — but offers no controlled test of the specific question-vs-attack technique."
+    }
+  ]
 }
 ---
 

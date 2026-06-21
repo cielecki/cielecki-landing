@@ -40,7 +40,37 @@
       "note": "'Learn to live with the loss and take it with you' — reject the 3-month norm."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "An Empirical Examination of the Stage Theory of Grief (Maciejewski, Zhang, Block, Prigerson)",
+      "type": "cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17312291/",
+      "year": 2007,
+      "finding": "Prospective study of bereaved individuals found acceptance, not the stage sequence, predominated from the start; the rigid stage model with a fixed resolution timeline is not empirically supported, and grief trajectories vary widely. Supports rejecting a societally imposed 'get over it in 3 months' norm — but concerns death-bereavement, not ADHD-diagnosis grief."
+    },
+    {
+      "title": "Loss, Trauma, and Human Resilience: Have We Underestimated the Human Capacity to Thrive After Extremely Aversive Events? (Bonanno)",
+      "type": "review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14736317/",
+      "year": 2004,
+      "finding": "Resilience — a stable trajectory of healthy functioning — is the most common outcome after loss (~majority of bereaved), with high variability and no obligatory stages or timeline. Indirectly supports normalizing a non-standard grief course, but is a bereavement-after-death literature, not tested on late-diagnosis grief."
+    },
+    {
+      "title": "The Role of Continuing Bonds in Coping With Grief: Overview and Future Directions (Stroebe, Schut et al.)",
+      "type": "review",
+      "url": "https://www.researchgate.net/publication/260167392_The_Role_of_Continuing_Bonds_in_Coping_With_Grief_Overview_and_Future_Directions",
+      "year": 2012,
+      "finding": "Maintaining a transformed bond with the loss ('continuing bonds') rather than full detachment is not inherently pathological and can be adaptive — but the evidence is mixed: symbolic/abstract bonds tend to aid resolution while concrete bonds can mark unresolved/prolonged grief. Quantitative support is limited and context-dependent."
+    },
+    {
+      "title": "Grieving a Late Diagnosis of ADHD (Zacharias, Existential Psychiatry) and clinical/blog commentary on late-ADHD-diagnosis grief",
+      "type": "other",
+      "url": "https://existentialpsychiatry.com/grieving-a-late-diagnosis-of-adhd/",
+      "year": 2024,
+      "finding": "Clinical and lived-experience writing frames grief after late ADHD diagnosis as normal and recommends processing/integrating rather than rushing it. This is the only literature addressing the exact target — but it is narrative/anecdotal, with no controlled or empirical test of the 'live with the loss vs. get over it' method."
+    }
+  ]
 }
 ---
 

@@ -40,7 +40,30 @@
       "note": "„Nie zmagam się z wyrażaniem uczuć, tylko z rozpoczęciem rozmowy — gdy ktoś wprost pyta, przełamuję barierę.”"
     }
   ],
-  "lang": "pl"
+  "lang": "pl",
+  "studies": [
+    {
+      "title": "Softening Start-Up / harsh vs. soft startup in conflict (Gottman observational research program)",
+      "type": "cohort",
+      "url": "https://www.gottman.com/blog/softening-startup/",
+      "year": 2015,
+      "finding": "Obserwacyjne badania podłużne par wykazały, że sposób rozpoczęcia trudnej rozmowy przewiduje jej wynik: ostry start (krytyka/oskarżenie) wyzwala defensywność i eskalację, a łagodny, nieoskarżający start sprzyja deeskalacji oraz większej stabilności i satysfakcji w czasie. To najbliższy behawioralny odpowiednik zasady 'zapytaj wprost zamiast atakować', ale jest obserwacyjny (nie RCT) i nie dotyczy ADHD."
+    },
+    {
+      "title": "The lived experience of rejection sensitivity in ADHD - A qualitative exploration",
+      "type": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12822938/",
+      "year": 2025,
+      "finding": "Badanie jakościowe potwierdzające, że dorośli z ADHD doświadczają intensywnej dysforii w reakcji na postrzeganą krytykę/odrzucenie i łatwo (nadmiarowo) wykrywają odrzucenie. To wspiera proponowany mechanizm: oskarżający start bywa odbierany jako atak i wyzwala zamknięcie/defensywność, a neutralne pytanie niesie mniej sygnału odrzucenia. Wsparcie wyłącznie mechanistyczne — nie testuje samej techniki komunikacyjnej."
+    },
+    {
+      "title": "Emotional dysregulation is part of ADHD: how psychologists are helping (APA Monitor review)",
+      "type": "review",
+      "url": "https://www.apa.org/monitor/2024/04/adhd-managing-emotion-dysregulation",
+      "year": 2024,
+      "finding": "Przegląd wskazujący, że 30-70% dorosłych z ADHD ma trudności z regulacją emocji, z wycofaniem się z konfliktu i z nadwrażliwością na sygnały zagrożenia społecznego. Wspiera założenie, że konfrontacyjne ramowanie eskaluje i że obniżenie ładunku zagrożenia w starcie może pomóc — ale nie dostarcza kontrolowanego testu konkretnej techniki 'pytanie zamiast ataku'."
+    }
+  ]
 }
 ---
 
