@@ -49,7 +49,7 @@ science and attaches citations, which render as the **"Co mówią badania"** sec
 
 1. **Prep**: `python3 scripts/prep_grades.py /tmp/grades.json [--slugs a,b,c | --cap N]` → JSON of methods + current grades + resolved target names.
 2. **Verify**: run the **Workflow** tool with `scripts/gradecheck-workflow.js`, args = that JSON. Each agent literature-searches the method→target efficacy, assigns a defensible grade, returns REAL citations. Small batches (`BATCH=2`) + retry (529 defense). Keep a run ≤ ~6 methods.
-3. **Apply**: `python3 scripts/apply_grades.py <workflow-output.json>` — auto-applies **downgrades**, reports **upgrades** for review (rerun with `--apply-upgrades` to accept), writes `studies[]`. `--dry-run` first.
+3. **Apply**: `python3 scripts/apply_grades.py <workflow-output.json>` — auto-applies **downgrades**, reports **upgrades** for review, writes `studies[]`. `--dry-run` first. Accept upgrades after eyeballing them: `--apply-upgrades` (ALL) or `--upgrade-slugs a,b,c` (only the reviewed ones — preferred). Accepts a top-level list OR the workflow's `{result:{results:[]}}`. NB: the workflow forces each result's `slug` to the input slug and `per_target.target` to the target SLUG (the model otherwise invents title-derived slugs that miss the files).
 4. `npm run build`, spot-check the "Co mówią badania" section, **fetch 1–2 of the returned citations to confirm they are real** (the agent can hallucinate URLs — this is the top risk), commit.
 
 Grade taxonomy — **keep identical** in the workflow prompt AND on the page:
