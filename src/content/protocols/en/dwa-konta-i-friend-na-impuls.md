@@ -45,7 +45,37 @@
       "note": "In AuDHD the rigid, routine (autistic) side around money genuinely reins in impulsive (ADHD) spending — lean on it deliberately."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Impulsive Buying and Deferment of Gratification Among Adults With ADHD",
+      "type": "cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11636743/",
+      "year": 2024,
+      "finding": "Cross-sectional study (225 adults with ADHD vs 121 students): ADHD is linked to higher impulsive buying, mediated by reduced ability to defer gratification. Establishes the problem and names delay-of-gratification as a treatment target, but tests NO coping strategy (no separate accounts, no distraction)."
+    },
+    {
+      "title": "Enabling Delay of Gratification Behavior in Those Not So Predisposed: The Moderating Role of Social Support",
+      "type": "other",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4796028/",
+      "year": 2016,
+      "finding": "Five mixed correlational/experimental studies (n=698, China, non-clinical). High social support raises delay-of-gratification behavior in people low in the trait to the level of high-trait individuals. Supports the mechanism behind 'text a friend during an urge' but does not test impulse buying or ADHD/autism."
+    },
+    {
+      "title": "Impulse Buying: Interventions to Support Self-control with E-commerce",
+      "type": "other",
+      "url": "https://dl.acm.org/doi/10.1145/3170427.3173026",
+      "year": 2018,
+      "finding": "Experimental HCI work testing nudges that postpone the purchase, set spending limits, or distract/prompt reflection before buying. Distraction and friction/delay reduce impulse buying in general-population online shopping — direct support for the 'distract until the urge passes' mechanism, but not in ADHD/autism."
+    },
+    {
+      "title": "Earmarking and Partitioning: Increasing Saving by Low-Income Households",
+      "type": "other",
+      "url": "https://www.researchgate.net/publication/228137222_Earmarking_and_Partitioning_Increasing_Saving_by_Low-Income_Households",
+      "year": 2011,
+      "finding": "Field study (Soman & Cheema): physically segregating/earmarking funds into separate partitions increased savings by over 300% over 14 weeks vs un-partitioned money. Robust behavioral-economics support for the 'two accounts / don't-touch the bills account' structural component, but tested in low-income households, not ADHD/autism."
+    }
+  ]
 }
 ---
 

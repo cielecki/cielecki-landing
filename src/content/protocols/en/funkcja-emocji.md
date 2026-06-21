@@ -20,7 +20,7 @@
     {
       "target": "pamiec-mysli",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "D",
       "community": "niski",
       "note": "Recognizing rumination's function (memory protection) lets you offload remembering to external systems."
     }
@@ -39,7 +39,37 @@
       "note": "Naming an emotion links language centers to the amygdala and calms it; a feelings wheel helps."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Putting Feelings Into Words: Affect Labeling Disrupts Amygdala Activity in Response to Affective Stimuli (Lieberman et al.)",
+      "type": "other",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17576282/",
+      "year": 2007,
+      "finding": "Landmark fMRI study: labeling the emotion in a face reduced amygdala activity and increased right ventrolateral prefrontal cortex activity, with PFC statistically mediating the amygdala drop. This is the core mechanistic basis for 'name it to tame it' — but it is an acute neuroimaging experiment in healthy adults, not a clinical-outcome trial."
+    },
+    {
+      "title": "Effectiveness of affect labelling as an emotion regulation strategy in individuals with high emotional reactivity: a systematic review",
+      "type": "review",
+      "url": "https://link.springer.com/article/10.1007/s12144-026-09229-9",
+      "year": 2026,
+      "finding": "Systematic review: affect labeling reliably reduces physiological and neural markers of reactivity (skin conductance, amygdala) but effects on SUBJECTIVE distress are variable — sometimes reduced, sometimes minimal or paradoxically increased (esp. with internal-state labeling or low-intensity stimuli). Clinical benefit clearer in PTSD and social anxiety; alexithymia and low emotional granularity moderate (blunt) effectiveness. No ADHD/autism arm."
+    },
+    {
+      "title": "Affect labeling and reappraisal as an emotion regulation strategy (Affective Science)",
+      "type": "other",
+      "url": "https://link.springer.com/article/10.1007/s42761-026-00362-z",
+      "year": 2026,
+      "finding": "Experimental comparison finding affect labeling is roughly as effective at reducing self-reported distress as reappraisal and distraction. Supports the strategy as a legitimate low-effort regulation tool, but again in general (non-neurodivergent) samples."
+    },
+    {
+      "title": "Alexithymia is frequent in ASD and ADHD and underlies emotion-dysregulation/anger symptoms",
+      "type": "review",
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2023.1098210/full",
+      "year": 2023,
+      "finding": "Emotional verbal-fluency work in adults with ADHD and ADHD+ASD: difficulty generating/identifying emotion words (alexithymia) is common and drives dysregulation. This is double-edged for the method: it confirms the TARGET problem is real, but also implies the very labeling step the method depends on is harder for exactly this population — a reason for caution, not confidence."
+    }
+  ]
 }
 ---
 

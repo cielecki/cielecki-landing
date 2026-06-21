@@ -19,7 +19,7 @@
     {
       "target": "uzaleznienia",
       "kind": "symptom",
-      "evidence": "C",
+      "evidence": "D",
       "community": "niski",
       "note": "Shifting toward effort dopamine reduces the pull of easy hits (scrolling, sugar)."
     }
@@ -45,7 +45,37 @@
       "note": "After a workout (a rise from ~6 to ~7.5) you only lose a little motivation, you don't crash — the swing was small."
     }
   ],
-  "lang": "en"
+  "lang": "en",
+  "studies": [
+    {
+      "title": "Motivation deficit in ADHD is associated with dysfunction of the dopamine reward pathway",
+      "type": "cohort",
+      "url": "https://www.nature.com/articles/mp201097",
+      "year": 2011,
+      "finding": "Imaging study linking ADHD motivational deficits to dysfunction of the mesolimbic dopamine reward pathway (low D2/D3 receptor and transporter availability in nucleus accumbens/midbrain). Supports the premise that the ADHD reward system is hypofunctional — but tests biology, not the effortful-vs-effortless intervention."
+    },
+    {
+      "title": "A neurocomputational account of reward and novelty processing and effects of psychostimulants in attention deficit hyperactivity disorder",
+      "type": "cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5917772/",
+      "year": 2018,
+      "finding": "Models the 'dopamine transfer deficit' in ADHD — impaired shift of dopamine firing from rewards to predictive cues, explaining steep delay discounting / preference for immediate reward. Indirectly supports why easy immediate hits are over-attractive in ADHD, but does not test substituting them with effortful rewards."
+    },
+    {
+      "title": "Abnormal Striatal BOLD Responses to Reward Anticipation and Reward Delivery in ADHD",
+      "type": "cohort",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3935853/",
+      "year": 2014,
+      "finding": "ADHD group showed blunted striatal response during reward anticipation but exaggerated response at reward delivery — consistent with the idea that the ADHD brain under-engages with effortful/delayed rewards and over-responds to immediate consummatory ones."
+    },
+    {
+      "title": "Randomized Controlled Trial of Exercise for ADHD and Disruptive Behavior Disorders",
+      "type": "rct",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4911251/",
+      "year": 2016,
+      "finding": "RCT showing structured physical exercise (an effortful, completion-based activity) improves ADHD symptoms. This is the closest CONTROLLED evidence that effortful activity helps ADHD — but it tests exercise as treatment, not the specific 'choose effortful over effortless dopamine sources' reward-substitution model."
+    }
+  ]
 }
 ---
 
