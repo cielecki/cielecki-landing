@@ -3,7 +3,7 @@
 Status tego, co zostało do zrobienia w bazie `/nt/`. Model + konwencje: [CLAUDE.md](CLAUDE.md)
 i [docs/neuro-toolkit/](docs/neuro-toolkit/). Aktualizuj ten plik przy każdej większej zmianie.
 
-Stan: **20 objawów · 22 mechanizmy · 87 metod**, bilingualnie. Deploy: push na `main` → GitHub Pages (cielecki.com).
+Stan: **20 objawów · 25 mechanizmów · 118 metod**, bilingualnie. Oceny krawędzi: A=6 · B=66 · C=174 · D=14 (wszystkie literaturowo zweryfikowane). Deploy: push na `main` → GitHub Pages (cielecki.com).
 
 ---
 
