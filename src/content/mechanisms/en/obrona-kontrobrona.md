@@ -9,7 +9,6 @@
     "audhd"
   ],
   "symptoms": [
-    "odrzucenie-rsd",
     "emocje-rozregulowane",
     "randki-zwiazki"
   ],

@@ -8,9 +8,7 @@
     "audhd"
   ],
   "symptoms": [
-    "energia-wypalenie",
-    "randki-zwiazki",
-    "emocje-rozregulowane"
+    "energia-wypalenie"
   ],
   "lang": "en"
 }

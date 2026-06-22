@@ -9,8 +9,7 @@
     "audhd"
   ],
   "symptoms": [
-    "seks-porno-wstyd",
-    "odrzucenie-rsd"
+    "seks-porno-wstyd"
   ],
   "lang": "pl"
 }

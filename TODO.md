@@ -51,6 +51,14 @@ Kalibracja każdej oceny A–D względem literatury + realne cytowania (sekcja �
       (→ deficyt-funkcji-wykonawczych); randka-aktywna, sensoryczne-kotwiczenie-w-seksie (→ sensoryczne-zaklocenia).
       Resztę (RSD→emocje/lęk, pętla paraliżu→chaos/energia, pamięć robocza, maskowanie→wypalenie) zostawiono
       jako trafny rozrzut. Narzędzie: `/tmp/edge_audit.py` (raport zasięgu) — przy kolejnym przemiale przejrzeć borderline'y.
+- [x] **Audyt szerokości krawędzi, runda 2** (po skoku do 118 metod — strony objawów puchły do 20+). Zwężono 5
+      za-szerokich krawędzi MECHANIZM→objaw, gdzie ŻADNA metoda na mechanizmie realnie nie obsługiwała danego
+      objawu: `rsd`→drop lęk-unikanie (11 metod RSD to regulacja emocji, nie unikanie), `obrona-kontrobrona`+
+      `hamulec-akcelerator`→drop odrzucenie-rsd, `przeciwny-ciag-audhd`→tylko energia-wypalenie, `petla-paralizu`
+      →drop energia-wypalenie. Efekt: lęk-unikanie 20→10, odrzucenie-rsd 13→7, energia 18→14.
+      **Zostaje świadomie:** zaczynanie (24), emocje (22), sen (20) są duże, bo mają realnie po 14–17 metod
+      BEZPOŚREDNICH — to nie szum tranzytywny, tylko bogata baza. Dalsze skrócenie = albo UI-cap (odrzucony),
+      albo scalanie/kuracja metod bezpośrednich (osobny pass).
 
 ### 5. Polish wizualny / launch
 - [x] Color-coding ADHD / autyzm / AuDHD — **ODRZUCONE** (wdrożone i cofnięte 2026-06-22). Per-karta

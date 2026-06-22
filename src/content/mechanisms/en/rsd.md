@@ -9,8 +9,7 @@
     "audhd"
   ],
   "symptoms": [
-    "emocje-rozregulowane",
-    "lek-unikanie"
+    "emocje-rozregulowane"
   ],
   "lang": "en"
 }

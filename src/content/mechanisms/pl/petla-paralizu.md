@@ -10,8 +10,7 @@
   ],
   "symptoms": [
     "zaczynanie",
-    "chaos-czas-organizacja",
-    "energia-wypalenie"
+    "chaos-czas-organizacja"
   ],
   "lang": "pl"
 }
