@@ -3,7 +3,7 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 import AudhdLayout from '../../../../layouts/AudhdLayout.astro';
 import Signals from '../../../../components/Signals.astro';
 import { useTranslations, otherLang, type Lang, type UIKey } from '../../../../i18n/ui';
-import { edgeScore, sourceCount, conditionIcon, conditionColor } from '../../../../lib/signals';
+import { edgeScore, sourceCount, conditionIcon, conditionColor, profileAccent } from '../../../../lib/signals';
 
 export async function getStaticPaths() {
   const symptoms = await getCollection('symptoms');
@@ -88,7 +88,8 @@ const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
           <li class="reveal" data-conditions={p.data.conditions.join(' ')}>
             <a
               href={`/nt/${lang}/metoda/${pslug}/`}
-              class="group flex items-start gap-4 p-5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-2xl hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all"
+              style={`border-left-color:${profileAccent(p.data.conditions)}`}
+              class="group flex items-start gap-4 p-5 bg-white/60 backdrop-blur border border-l-[3px] border-charcoal/8 rounded-2xl hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all"
             >
               <span class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-sage/15 rounded-xl text-sage-dark">
                 <span class="iconify text-xl" data-icon={p.data.icon} />
@@ -125,7 +126,8 @@ const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
               <li class="reveal" data-conditions={m.data.conditions.join(' ')}>
                 <a
                   href={`/nt/${lang}/mechanizm/${mslug}/`}
-                  class="group flex flex-col h-full gap-2 p-4 bg-sand/15 border border-charcoal/8 rounded-2xl hover:bg-sand/25 hover:-translate-y-0.5 transition-all"
+                  style={`border-left-color:${profileAccent(m.data.conditions)}`}
+                  class="group flex flex-col h-full gap-2 p-4 bg-sand/15 border border-l-[3px] border-charcoal/8 rounded-2xl hover:bg-sand/25 hover:-translate-y-0.5 transition-all"
                 >
                   <div class="flex items-center gap-2.5">
                     <span class="iconify text-lg text-charcoal-light/70" data-icon={m.data.icon} />
