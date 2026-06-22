@@ -50,7 +50,9 @@ Kalibracja każdej oceny A–D względem literatury + realne cytowania (sekcja �
       jako trafny rozrzut. Narzędzie: `/tmp/edge_audit.py` (raport zasięgu) — przy kolejnym przemiale przejrzeć borderline'y.
 
 ### 5. Polish wizualny / launch
-- [ ] Color-coding ADHD / autyzm / AuDHD (rozważyć — czy nie zaszumi)
+- [x] Color-coding ADHD / autyzm / AuDHD — **ODRZUCONE** (wdrożone i cofnięte 2026-06-22). Per-karta
+      „to ADHD czy autyzm" jest dla użytkownika bez znaczenia (po wybraniu profilu już go to nie obchodzi),
+      a wizualnie psuło karty. Nie wracać do tego.
 - [ ] **Launch: link z homepage** — DOPIERO po skończeniu bazy + Twoim wizualnym QA + Twoim „tak"
 - [ ] Link do grupy WhatsApp założycieli ADHD/autyzm
 
