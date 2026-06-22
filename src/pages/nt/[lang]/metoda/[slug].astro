@@ -91,12 +91,12 @@ const addSymp = (sl: string, ev: string, opts: { direct?: boolean; via?: string;
     if (opts.via && !cur.via.includes(opts.via)) cur.via.push(opts.via);
   }
 };
+// Only symptoms this method addresses DIRECTLY. We no longer flatten in the symptoms
+// behind each mechanism — that produced one-way-feeling nonsense (a method showing under
+// a symptom it doesn't really help). Mechanisms it works through are listed separately
+// below (mechLinks); click through to see that mechanism's own methods.
 for (const e of entry.data.addresses) {
   if (e.kind === 'symptom') addSymp(e.target, e.evidence, { direct: true, note: e.note });
-  else {
-    const m = mechMap.get(e.target);
-    if (m) for (const sl of m.data.symptoms) addSymp(sl, e.evidence, { via: m.data.title });
-  }
 }
 const sympLinks = [...sympAgg.values()].sort((a, b) => b.score - a.score);
 const hasLinks = sympLinks.length > 0 || mechLinks.length > 0;

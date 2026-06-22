@@ -22,11 +22,19 @@ The OLD flat pilot (`challenges` + `methods` collections, `/neuro-toolkit/*`) wa
 2026-06-20: its unique methods were ported into the graph, the collections + pages deleted,
 and `/neuro-toolkit*` + `/audhd*` now redirect to `/nt/`.
 
-**Traversal consistency (load-bearing):** a method "helps" a symptom iff it addresses that
-symptom directly OR addresses a mechanism whose `symptoms[]` includes it. BOTH the symptom page
-(methods listed for it) and the method page ("Pomaga na") MUST use this same transitive rule, or
-the link becomes one-way (method shows under a symptom, but the method page doesn't show that
-symptom — fixed 2026-06-21). Transitive symptoms on the method page carry a "przez mechanizm: X" note.
+**Traversal consistency (load-bearing) — DIRECT-ONLY:** a method is listed under a symptom iff
+it addresses that symptom **directly** (a `kind:'symptom'` edge). We do NOT flatten in the symptoms
+behind a method's mechanisms. Transitive routing (method→mechanism→symptom) was tried 2026-06-21
+and removed 2026-06-22: because every method on a multi-symptom mechanism inherited ALL its symptoms,
+it produced nonsense placements (a note-taking method under "can't start" because both touch working
+memory) that grew with the base and couldn't be fixed by edge-trimming. The **mechanisms are the
+bridge** instead: symptom page shows direct methods + a "Dlaczego tak się dzieje" mechanisms section;
+click a mechanism → mechanism page lists the methods that address THAT mechanism directly. Symmetry
+holds on direct edges: method→symptom shows on both the symptom page and the method page's "Pomaga na";
+method→mechanism shows on both the method page and the mechanism page. A `mechanism.symptoms[]` entry
+means "this mechanism underlies this symptom" (drives the symptom's "why" section + breadcrumbs), NOT
+"route every method here onto that symptom". Keep symptom/mechanism/method pages on this direct rule —
+do not re-add transitive method routing.
 
 Schema is authoritative in `src/content.config.ts`. Every node is bilingual (same slug in
 `pl/` and `en/`) and tagged `conditions: [adhd|autism|audhd]` so the header profile filter

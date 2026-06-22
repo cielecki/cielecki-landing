@@ -83,3 +83,7 @@ Kalibracja każdej oceny A–D względem literatury + realne cytowania (sekcja �
 - **Wyszukiwarka (Pagefind)** — nagłówek + skrót `/` + modal, indeks per-język, zakres `/nt/`
 - **Footer z mapą bazy + `sitemap.xml`** (@astrojs/sitemap, 261 URL-i)
 - **Audyt szerokości krawędzi** (1. przejście) — usunięto 6 za szerokich krawędzi metoda→mechanizm
+- **Fix architektoniczny trawersji (direct-only, 2026-06-22)** — strona objawu pokazuje TYLKO metody
+  celujące w niego bezpośrednio; mechanizmy są warstwą „Dlaczego" → drill-in. Zlikwidował CAŁĄ klasę
+  tranzytywnego nonsensu (np. „zapisuj zamiast przerywać" pod „nie mogę zacząć") na stałe — zastępuje
+  whack-a-mole przycinania krawędzi. Reguła w CLAUDE.md zaktualizowana (nie wracać do tranzytywnego routingu).

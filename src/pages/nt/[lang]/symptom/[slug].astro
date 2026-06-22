@@ -28,9 +28,11 @@ const slugOf = (id: string) => id.split('/').pop()!;
 const mechanisms = (
   await getCollection('mechanisms', (m) => m.data.lang === lang && m.data.symptoms.includes(slug))
 ).sort((a, b) => a.data.order - b.data.order);
-const mechSlugs = new Set(mechanisms.map((m) => slugOf(m.id)));
 
-// A protocol is relevant if it addresses this symptom directly OR any of its mechanisms.
+// A method is listed here only if it addresses THIS symptom DIRECTLY. Methods that work
+// through a mechanism are NOT flattened in (that created nonsense placements — e.g. a
+// note-taking method showing under "can't start" because both touch working memory).
+// The mechanisms section below is the bridge: click a mechanism to see its methods.
 const protocols = await getCollection('protocols', (p) => p.data.lang === lang);
 type Ranked = { p: CollectionEntry<'protocols'>; ev: string; sources: number; score: number };
 const ranked: Ranked[] = [];
@@ -39,10 +41,7 @@ for (const p of protocols) {
   let bestEv: string | null = null;
   let bestScore = -1;
   for (const e of p.data.addresses) {
-    const relevant =
-      (e.kind === 'symptom' && e.target === slug) ||
-      (e.kind === 'mechanism' && mechSlugs.has(e.target));
-    if (!relevant) continue;
+    if (!(e.kind === 'symptom' && e.target === slug)) continue;
     const s = edgeScore(e.evidence, sources);
     if (s > bestScore) {
       bestScore = s;
