@@ -38,6 +38,13 @@
       "url": "https://www.youtube.com/watch?v=AuIrlA-myos&t=1846s",
       "author": "Dad V Girls",
       "note": "'From a list of 10 I'll do 2. From a list of 3 at a time I can do 6 in a day.'"
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (two lists: backlog + daily three)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=2679s",
+      "author": "ADHD Chatter",
+      "note": "'Keep two lists: a backlog with everything (20–30 items) and a separate daily one. Each day move no more than three from backlog and do no more than three.' Prioritising itself drains executive function — separating the lists offloads it."
     }
   ],
   "lang": "en",

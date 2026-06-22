@@ -23,6 +23,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=2288s",
       "note": "„Nie chodzi o znane nieznane, tylko o nieznane nieznane” — wartość niezależna od wyniku."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (miernikiem jest JAK się pojawiłeś, nie wynik)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=1069s",
+      "author": "Roxanne Pink",
+      "note": "„Dobry wynik czasem zdarza się dlatego, że nic nie zrobiłeś — więc wynik to nie miernik; miernikiem jest, jak się pojawiłeś. Zawsze można się czegoś nauczyć; nie jesteśmy stworzeni do bycia idealnymi.”"
     }
   ],
   "lang": "pl",

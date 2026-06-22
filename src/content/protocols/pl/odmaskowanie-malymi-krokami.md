@@ -44,6 +44,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=_AAm-_8spAE&t=3296s",
       "note": "Wypisz rzeczy, które ciągle robisz wbrew sobie, i te, z którymi się męczysz, choć robisz je dobrze."
+    },
+    {
+      "title": "2 Vital Lessons From A Late Diagnosed ADHD Woman — Dez Rock (maskowanie to przegrana strategia)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=DEd6XlstFzw&t=2534s",
+      "author": "Dez Rock",
+      "note": "„Im bardziej błyszczę, im bardziej pozwalam sobie być sobą, tym bardziej odnoszę sukcesy… bycie autentycznie sobą okazało się dla mnie dobre pod każdym względem.” Energia na maskę jest odjęta od wyników i dobrostanu."
     }
   ],
   "lang": "pl",

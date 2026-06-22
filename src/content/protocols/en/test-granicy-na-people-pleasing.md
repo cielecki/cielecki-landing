@@ -57,6 +57,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=0V5XbmfHZFQ&t=2658s",
       "note": "Agreeing 'in the moment' to dodge rejection has real costs — a contract signed against intuition triggered a 5-year case; learn to spot the reflex."
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (assertiveness is a muscle to train)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=1717s",
+      "author": "Kate Moryoussef",
+      "note": "'It's genuinely like a muscle I have to practice… like doing star jumps, come on, and I do it and it's not as bad as I thought.' RSD inflates the anticipated cost of saying no; repetition recalibrates the expectation."
     }
   ],
   "lang": "en",

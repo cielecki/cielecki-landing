@@ -38,6 +38,13 @@
       "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=3036s",
       "author": "Karen Doherty",
       "note": "„Przeciwieństwem RSD jest euforia od pochwały — otwórz pochwałą, by rozcieńczyć późniejszą krytykę.”"
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (~20 000 więcej negatywnych komunikatów = zaprogramowanie wstydem)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=1267s",
+      "author": "Dr Ayan Panja",
+      "note": "„Słynna już statystyka: dzieci z ADHD słyszą ok. 20 000 więcej negatywnych komunikatów niż neurotypowe… kumulują się, więc jako dorośli są niemal zaprogramowani na wstyd.” To uzasadnia, czemu krytyka uderza tak mocno i czemu warto poprosić o pochwały najpierw."
     }
   ],
   "lang": "pl",

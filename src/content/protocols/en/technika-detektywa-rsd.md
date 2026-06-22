@@ -46,6 +46,13 @@
       "url": "https://www.youtube.com/watch?v=PJLI9rcnfg8&t=1836s",
       "author": "Hester Grainger",
       "note": "'If a colleague had sent that email, would they get fired?'"
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (name RSD and reality-check with someone safe)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=5560s",
+      "author": "Roxanne Pink",
+      "note": "'Because I knew it was RSD I got to talk it out with Rich and get validation there was no evidence… if I hadn't known it was RSD I might have cut off that friendship.' A sudden 'they don't like me' is RSD — reality-check with a safe person before cutting anyone off."
     }
   ],
   "lang": "en",

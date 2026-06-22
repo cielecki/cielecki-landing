@@ -38,9 +38,12 @@ Kalibracja każdej oceny A–D względem literatury + realne cytowania (sekcja �
 - [x] Przejść 87 metod pod kątem near-duplikatów → **brak realnych duplikatów** (analiza podobieństwa
       tytuł+summary: najwyższe pary sim ≤0.36 to komplementarne metody, nie duplikaty — np. światło rano vs
       melatonina wieczór). Korpus już odkurzony dyscypliną „wzbogacaj zamiast duplikować".
-- [ ] **Dorobić głębię 3 cienkim objawom** (trawersja tranzytywna): `trauma-przeszlosc` (1 metoda),
-      `szukam-pomocy` (1), `rodzicielstwo-bliscy` (2). ⛔ Wymaga NOWEGO materiału źródłowego (harvest filmów) —
-      metod się nie zmyśla, więc to czeka na źródła + run harvestu, nie na samo przeliczenie.
+- [x] **Pogłębiono 3 cienkie objawy** z ISTNIEJĄCEGO korpusu (nie trzeba było nowych źródeł): `trauma-przeszlosc`
+      1→5, `szukam-pomocy` 1→5, `rodzicielstwo-bliscy` 2→5. Żaden objaw nie ma już <5 metod. Zmineowano 14
+      transkryptów (2 runy extract→synth→apply→gradecheck→factcheck): **+31 metod, +3 mechanizmy, +68 wzbogaceń**
+      (baza 87→118 metod / 22→25 mechanizmów). Każda nowa ocena NCBI-zweryfikowana; poprawki fact-check:
+      interocepcja zhedge'owana, pisz-o-sobie-laskawie zreconciliowane z Wood 2009 (afirmacje na siłę szkodzą
+      przy niskiej samoocenie). 3 zhalucynowane PMID-y wyłapane i usunięte.
 - [x] **Audyt szerokości krawędzi metoda→mechanizm** (1. przejście). Przejrzano 37 metod / 55
       tranzytywnych linków. Usunięto 6 jednoznacznie za szerokich krawędzi do mechanizmów (niskoocenowe
       C/D rozsmarowujące wąską metodę na niepowiązany objaw, przy zachowanych trafnych krawędziach

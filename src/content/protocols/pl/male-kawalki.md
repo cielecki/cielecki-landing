@@ -25,6 +25,20 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "10-godzinny audiobook → wiele 20-minutowych kawałków; po pierwszej „torturze” reszta jest łatwa."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (obniż poprzeczkę: 30 sekund na zewnątrz, nie 10 000 kroków)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=2096s",
+      "author": "ADHD Chatter",
+      "note": "„Zamiast »przepchaj się i zrób 10 000 kroków« — może wyjdź na 30 sekund?… obniż tę poprzeczkę maksymalnie.” Jaki jest najmniejszy krok w dobrym kierunku? Po starcie często przychodzi dopamina."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (zrób, co możesz dzisiaj, zamiast „bądź zdyscyplinowany”)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=1217s",
+      "author": "ADHD Chatter",
+      "note": "„Rób rzecz, którą możesz zrobić dzisiaj — jeśli to tylko założenie butów i spacer, to zrób to. A jeśli zamieni się w bieg, świetnie.” Cel »dyscyplina« załamuje się po jednym potknięciu i wyzwala wstyd, który blokuje aktywację."
     }
   ],
   "lang": "pl",

@@ -51,6 +51,13 @@
       "url": "https://www.youtube.com/watch?v=PJLI9rcnfg8&t=1086s",
       "author": "Hester Grainger",
       "note": "For an impulsive hobby don't buy gear — rent it (dinghy, paddleboard) to test if it sticks; caps the 'hobby graveyard'."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (two-week rule on the idea shelf)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=3585s",
+      "author": "Roxanne Pink",
+      "note": "'I try not to act on the impulse immediately — I put it on a metaphorical idea shelf, and if it's still tugging at me two weeks later, then I buy the domain.' (Follows it ~1 in 10 times, but that one time works.)"
     }
   ],
   "lang": "en",

@@ -45,6 +45,20 @@
       "url": "https://www.youtube.com/watch?v=AuIrlA-myos&t=3032s",
       "author": "Dad V Girls",
       "note": "„Najwięcej pracy robię w głośnej kawiarni, sam na laptopie — vs. połowa tego w samotności.”"
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (body doubling wirtualnie i bez rozmowy)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=889s",
+      "author": "ADHD Chatter",
+      "note": "„Czasem mam partnera na ekranie, jak na callu Zoom — nie zawsze rozmawiamy, ale sama świadomość obecności pozwala nam przebrnąć przez zadania admin.” Cicha obecność wystarcza."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (body double pracujący w tym samym chaotycznym rytmie)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=724s",
+      "author": "Holly Morris",
+      "note": "„Pracowała w ten sam chaotyczny sposób, więc siedziałyśmy do 2 w nocy… i przez to nie czułam, że jestem z tyłu — brnęłyśmy razem i w końcu się udało.” Rówieśnik o tym samym rytmie normalizuje styl last-minute i daje współregulację."
     }
   ],
   "lang": "pl",

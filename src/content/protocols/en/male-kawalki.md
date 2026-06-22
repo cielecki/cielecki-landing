@@ -25,6 +25,20 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "A 10-hour audiobook → many 20-minute chunks; after the first 'torture' the rest is easy."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (lower the hurdle: 30 seconds outside, not 10,000 steps)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=2096s",
+      "author": "ADHD Chatter",
+      "note": "'Instead of just push through and do 10,000 steps — can you go outside for 30 seconds?… drop that hurdle as low as possible.' What's the smallest step in the right direction? Dopamine often comes after the start."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (do the thing you can do today, not 'be disciplined')",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=1217s",
+      "author": "ADHD Chatter",
+      "note": "'Do the thing you can do today — if it's just putting on shoes and walking, do that. And if it turns into a run, great.' A 'discipline' goal collapses after one slip and triggers shame that shuts down activation."
     }
   ],
   "lang": "en",

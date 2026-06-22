@@ -58,6 +58,27 @@
       "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=2347s",
       "author": "Sonya Barlow",
       "note": "Burnout self-care concretely: go offline (and tell loved ones), a nature walk/hike, fiction, water, vitamins, eating well."
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (recharge zone + energy barometer)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=2305s",
+      "author": "Kate Moryoussef",
+      "note": "'We have finite energy and a more sensitive nervous system… if you don't take moments to reflect, you overcommit, and burnout creeps up until you snap at your partner, order a takeaway or skip your morning workout.' Have a conscious recharge zone (Epsom-salt bath, sauna, nature walk)."
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (antique-scales effect: a tiny thing tips you over)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=2696s",
+      "author": "Kate Moryoussef",
+      "note": "'It's always the small thing that tips me over — I can write a book, do the podcast, then someone asks for a tiny thing and I go into complete overwhelm, my nervous system shuts down.' Invisible weights accumulate to threshold; read sudden overwhelm as a full-scales signal."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (the same task = 100 steps, not 10 → burnout)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=1177s",
+      "author": "Holly Morris",
+      "note": "'For a neurotypical person a normal thing takes 10 processes; for me it takes 100… all that energy is invisible because it's in my head — that's why we burn out so much more.' Hidden cognitive overhead explains why energy runs out faster."
     }
   ],
   "lang": "en",

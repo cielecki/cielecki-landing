@@ -51,6 +51,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=0V5XbmfHZFQ&t=1565s",
       "note": "Zaplanuj okres żałoby za „to, co mogło być” (wg prof. Susan Young) i bądź dumny — działałeś na „hard mode”, bez wsparcia i instrukcji."
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (ADHD nasila się przy hormonach i dużych stresach)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=555s",
+      "author": "Kate Moryoussef",
+      "note": "„ADHD mutuje i zmienia się w różnych okresach życia… dochodzą duże zmiany i stresy — choroba, rozwód, żałoba, zmiana kariery — i wtedy ADHD daje o sobie znać.” Spodziewaj się nawrotów objawów wokół przejść hormonalnych (dojrzewanie, poporodowe, perimenopauza) i dużych wydarzeń; szukaj wsparcia, zanim dojdzie do kryzysu."
     }
   ],
   "lang": "pl",

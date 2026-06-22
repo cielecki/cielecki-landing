@@ -52,6 +52,13 @@
       "url": "https://www.youtube.com/watch?v=73c3MWbuSHM&t=192s",
       "author": "Dr Judith Mohring",
       "note": "Dopamina i noradrenalina są „pływowe” — raz odpływ (rozproszenie), raz przypływ (hiperfokus); stan za pół godziny bywa zupełnie inny."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (całkowita szczerość w czasie rzeczywistym w związku)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=1955s",
+      "author": "Holly Morris",
+      "note": "„Klucz w związku z ADHD to całkowita szczerość… »teraz jestem nie w humorze, to nie przez ciebie, tylko bo musiałam się spieszyć«.” Z partnerem, który bezwarunkowo ci wierzy. Uprzedzanie stanu zapobiega braniu twojego nastroju do siebie."
     }
   ],
   "lang": "pl",

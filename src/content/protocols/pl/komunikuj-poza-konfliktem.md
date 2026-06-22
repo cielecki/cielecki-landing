@@ -32,6 +32,13 @@
       "url": "https://www.youtube.com/watch?v=4gksLQ_HG30&t=2056s",
       "author": "Jamie Johnston",
       "note": "„Ćwicz to, gdy nie musisz… usiądźcie przy herbacie i zapytajcie: jak mogę poprawić ten związek dla ciebie?”"
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (bezpieczeństwo emocjonalne przez trudne rozmowy)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=1434s",
+      "author": "Kate Moryoussef",
+      "note": "„Jeśli nie czujesz się bezpiecznie w przyjaźniach, związkach, rodzinie, twój układ nerwowy jest stale w trybie stresu, hiperczujny — nie możesz się rozluźnić… musimy być otwarci na te niewygodne rozmowy.” Prowadź wrażliwe rozmowy, by budować bezpieczeństwo, zamiast zrywać relacje."
     }
   ],
   "lang": "pl",

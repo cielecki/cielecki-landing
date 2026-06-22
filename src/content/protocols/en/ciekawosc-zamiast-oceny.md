@@ -25,6 +25,20 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "Observe behaviour without context or label; you see only the tip of the iceberg, not the function beneath."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (meet 'I can't today' with non-judgmental curiosity)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=2270s",
+      "author": "ADHD Chatter",
+      "note": "'I say: I'm not judging, I'm curious and want to understand… once we've diagnosed what is, there's no judgment, it just is, and we take the right action for the current state.' Unpacking usually reveals a concrete cause (no sleep, no energy)."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (ban 'just' and 'should')",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=2352s",
+      "author": "ADHD Chatter",
+      "note": "'Be a curious observer of what is — it isn't good or bad, it just is… if we ban the word just, we should also ban should.' Both encode the assumption something is easy and fuel shame; assess your strengths just as accurately."
     }
   ],
   "lang": "en",

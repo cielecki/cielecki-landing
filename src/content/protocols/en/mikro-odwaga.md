@@ -25,6 +25,13 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "'I asked for three, not four' — a micro-act of discomfort as training for bigger situations."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (play 'the character who can listen' for 2 minutes)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=1587s",
+      "author": "Holly Morris",
+      "note": "'I say: okay, Holly, right now you're playing a character who can listen — I play it for about 2 minutes until they're done, then it's my turn.' A concrete script for the urge to interrupt; a fidget (e.g. a ring) helps."
     }
   ],
   "lang": "en",

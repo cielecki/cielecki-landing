@@ -25,6 +25,13 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "„Prosiłem o trzy, nie cztery” — mikro-akt dyskomfortu jako trening na większe sytuacje."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (graj „postać, która umie słuchać” przez 2 minuty)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=1587s",
+      "author": "Holly Morris",
+      "note": "„Mówię sobie: »OK, Holly, teraz grasz postać, która umie słuchać« — gram ją przez jakieś 2 minuty, aż skończą, i wtedy »moja kolej«.” Konkretny skrypt na impuls przerywania; pomaga fidget (np. pierścionek)."
     }
   ],
   "lang": "pl",

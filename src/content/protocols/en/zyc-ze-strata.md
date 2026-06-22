@@ -51,6 +51,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=0V5XbmfHZFQ&t=1565s",
       "note": "Budget a mourning period for 'what could have been' (per Prof. Susan Young) and be proud — you ran on 'hard mode', no support, no manual."
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (ADHD intensifies with hormones and major stress)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=555s",
+      "author": "Kate Moryoussef",
+      "note": "'ADHD mutates and changes across periods of life… big changes and stresses come — illness, divorce, grief, career change — and then ADHD rears its head.' Expect symptom flare-ups around hormonal transitions (puberty, postnatal, perimenopause) and major events; seek support before crisis."
     }
   ],
   "lang": "en",

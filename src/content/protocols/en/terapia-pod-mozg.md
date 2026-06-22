@@ -38,6 +38,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=xovHDuZFb_A&t=2641s",
       "note": "While waiting for a diagnosis, educate yourself and find community first; seek the assessment only if you'll act on it — the explanation matters, not the label."
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (talking therapies genuinely help)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=2175s",
+      "author": "Dr Ayan Panja",
+      "note": "'People who've had talking therapies seem to do quite well… holding things inside is a huge amount of shame, because you feel you're not being honest with those closest to you.' Letting out things kept for years reduces shame."
     }
   ],
   "lang": "en",

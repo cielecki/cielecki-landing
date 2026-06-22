@@ -25,6 +25,20 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "Obserwuj zachowanie bez kontekstu i etykiety; widać tylko czubek góry lodowej, nie funkcję pod spodem."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (na „nie czuję tego dziś” reaguj ciekawością bez oceny)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=2270s",
+      "author": "ADHD Chatter",
+      "note": "„Mówię: nie oceniam, jestem ciekawa i chcę zrozumieć… kiedy zdiagnozujemy, co jest, nie ma oceny — to po prostu jest, i dobieramy działanie do obecnego stanu.” Po rozpakowaniu zwykle wychodzi konkret (brak snu, brak energii)."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (zbanuj „po prostu” i „powinienem”)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=2352s",
+      "author": "ADHD Chatter",
+      "note": "„Bądź ciekawym obserwatorem tego, co jest — to nie dobre ani złe, po prostu jest… jeśli banujemy słowo »po prostu«, zbanujmy też »powinienem«.” Oba kodują założenie, że coś jest łatwe, i napędzają wstyd; tak samo trafnie nazywaj swoje mocne strony."
     }
   ],
   "lang": "pl",

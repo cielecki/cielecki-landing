@@ -24,6 +24,27 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "Points/rewards + 'hard thing first'; keep rewards small and healthy so you don't reinforce a habit with a bad one."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (rubber wristbands, max 3 tasks, reward)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=555s",
+      "author": "ADHD Chatter",
+      "note": "'I write tasks on rubber wristbands, no more than three a day; when done the band drops into a bowl, and when I finish all three I reward myself. I gamify it.' A physical, visible reward delivers dopamine at the moment of completion."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (temptation bundling: show only on the treadmill)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=1393s",
+      "author": "ADHD Chatter",
+      "note": "Long-term goals don't motivate (time blindness) — pair the hard thing with dopamine NOW: 'I'm only allowed to watch ADHD Chatter on the treadmill', so I start looking forward to getting on it."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (reward the single instance, not the streak)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=1886s",
+      "author": "ADHD Chatter",
+      "note": "'You don't make it all hang on always doing it. You make it hang on a reward for having done it.' Not 'I clean weekly' → 'when I clean, I reward myself' — the streak model has no grace for a bad day."
     }
   ],
   "lang": "en",

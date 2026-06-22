@@ -52,6 +52,13 @@
       "url": "https://www.youtube.com/watch?v=iKMozqX8zS0&t=171s",
       "author": "Tired of Doomscrolling? Here Are Some Alternatives!",
       "note": "Practicing redirecting attention and not reacting to every thought or to-do makes it easier to focus on relaxing."
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (one-minute recharge between parts of the day)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=2396s",
+      "author": "Dr Ayan Panja",
+      "note": "'One-minute recharge — I do it when I pull up to work and to home: I sit for a minute, close my eyes and just breathe, either to prepare for what I'm walking into or to lose the day's stress.' Great for transitions between activities with ADHD."
     }
   ],
   "lang": "en",

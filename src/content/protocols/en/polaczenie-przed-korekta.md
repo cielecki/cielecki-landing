@@ -46,6 +46,13 @@
       "url": "https://www.youtube.com/watch?v=_ZzKcIEWCcM&t=1591s",
       "author": "Jannine Perry",
       "note": "Say outright you're in their corner no matter what."
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (instead of scolding — compassion and patience)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=459s",
+      "author": "Dr Ayan Panja",
+      "note": "'The best thing a parent can do is the counterintuitive thing: be really compassionate and patient — because that's what helps a child with ADHD. Scolding is almost the worst, because it triggers things like rejection sensitivity.'"
     }
   ],
   "lang": "en",

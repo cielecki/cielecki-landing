@@ -58,6 +58,27 @@
       "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=2347s",
       "author": "Sonya Barlow",
       "note": "Self-care w wypaleniu konkretnie: zejdź offline (i powiedz to bliskim), spacer/hike w naturze, fikcja, woda, witaminy, dobre jedzenie."
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (strefa ładowania + barometr energii)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=2305s",
+      "author": "Kate Moryoussef",
+      "note": "„Mamy skończoną energię i wrażliwszy układ nerwowy… jak nie robisz przerw na refleksję, przeciążasz się, a wypalenie podkrada się, aż warczysz na partnera, zamawiasz jedzenie albo odpuszczasz poranny trening.” Miej świadomą strefę ładowania (sól Epsom, sauna, spacer w naturze)."
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (efekt antycznej wagi: drobiazg wywraca układ)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=2696s",
+      "author": "Kate Moryoussef",
+      "note": "„Zawsze ta mała rzecz mnie wywraca — mogę napisać książkę, robić podcast, a potem ktoś prosi o drobiazg i wpadam w totalny overwhelm, układ nerwowy się zamyka.” Niewidoczne ciężary nawarstwiają się aż do progu; rozpoznaj nagły overwhelm jako sygnał pełnej wagi."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (to samo zadanie = 100 kroków, nie 10 → wypalenie)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=1177s",
+      "author": "Holly Morris",
+      "note": "„Dla neurotypowej osoby zwykła rzecz to 10 procesów; dla mnie 100… cała ta energia jest niewidoczna, bo dzieje się w głowie — dlatego o wiele łatwiej się wypalamy.” Ukryty narzut poznawczy uzasadnia, czemu energia kończy się szybciej."
     }
   ],
   "lang": "pl",

@@ -44,6 +44,20 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=hPSp2vqAjWo&t=1546s",
       "note": "Ned Hallowell's 'right career, right job, right partner': repurpose your existing skills into a role with more movement, variety, or human contact."
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (split chores by neurotype-fit)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=2899s",
+      "author": "Kate Moryoussef",
+      "note": "'My husband, more on the autistic spectrum, loves washing… so he's in charge of the washing because I'd put a wash on and forget it; he does washing, I do cooking.' Hand the tasks your brain can't hold to the partner for whom they're natural."
+    },
+    {
+      "title": "2 Vital Lessons From A Late Diagnosed ADHD Woman — Dez Rock (cruise ship vs jet ski)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=DEd6XlstFzw&t=1658s",
+      "author": "Dez Rock",
+      "note": "'Give him time to come to his conclusion… stop trying to make him into what I am, and vice versa.' In a two-neurotype relationship: name the dynamic (cruise ship vs jet ski), give the slower one time and the faster one space."
     }
   ],
   "lang": "en",

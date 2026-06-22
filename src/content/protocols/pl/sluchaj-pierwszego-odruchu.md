@@ -32,6 +32,20 @@
       "url": "https://www.youtube.com/watch?v=73c3MWbuSHM&t=862s",
       "author": "Dr Judith Mohring",
       "note": "Spontaniczny przypływ ekscytacji to wewnętrzne dziecko wskazujące, co cię obchodzi."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (efekt sroki: sprawdź zgodność z motywacją wewnętrzną)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=3659s",
+      "author": "Roxanne Pink",
+      "note": "Codzienna refleksja „co mnie dziś ucieszyło / zasmuciło” mapuje motywacje wewnętrzne; przy nowym pomyśle, pracy, partnerze sprawdź, czy łączy się z nimi — pasja zgodna z motywacją utrzymuje hiperfokus, niezgodna gaśnie mimo logiki."
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (zbieraj dane o własnych impulsach)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=1696s",
+      "author": "Dr Ayan Panja",
+      "note": "„Możesz zebrać dane z doświadczenia: które impulsywne decyzje dały dobre, a które złe wyniki… teraz wiem, że mogę zaufać intuicji w większości przypadków.” Rozpoznawanie wzorców (rosnące z wiekiem) kalibruje, kiedy ufać impulsowi."
     }
   ],
   "lang": "pl",

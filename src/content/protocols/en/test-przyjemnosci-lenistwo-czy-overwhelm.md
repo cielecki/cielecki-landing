@@ -44,6 +44,20 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=hPSp2vqAjWo&t=1944s",
       "note": "'Shame like a vampire hates daylight — in a group you see everyone has the same struggle.'"
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (ask a friend about their shame to normalise yours)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=2681s",
+      "author": "Dr Ayan Panja",
+      "note": "'A good starting point: ask a close friend — is there anything you've ever felt ashamed of? Everyone has something, and it immediately normalises your shame.' People with ADHD feel it more acutely because they're highly sensitive."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (decision paralysis looks like laziness but gives no pleasure)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=2153s",
+      "author": "Holly Morris",
+      "note": "'Decision paralysis looks like laziness — lying down, doomscrolling — but you can't do anything from overwhelm… lazy people enjoy relaxing; I don't enjoy lying on my phone.' Test: do you actually enjoy this rest?"
     }
   ],
   "lang": "en",

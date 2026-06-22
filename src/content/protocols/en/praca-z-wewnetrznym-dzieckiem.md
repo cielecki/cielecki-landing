@@ -49,6 +49,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=g7InSpfQOG0&t=3920s",
       "note": "Work between you and you; partner co-regulation only afterwards."
+    },
+    {
+      "title": "2 Vital Lessons From A Late Diagnosed ADHD Woman — Dez Rock (hidden low self-esteem, 'keep going')",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=DEd6XlstFzw&t=2585s",
+      "author": "Dez Rock",
+      "note": "'My self-esteem was so low that my consciousness was hiding parts of trauma… the only thing I can say is: keep going.' The unmasking/therapy process can be painful with physical symptoms (a rash), but the reward is peace and authenticity."
     }
   ],
   "lang": "en",

@@ -51,6 +51,13 @@
       "url": "https://www.youtube.com/watch?v=PJLI9rcnfg8&t=1086s",
       "author": "Hester Grainger",
       "note": "Przy impulsywnym hobby nie kupuj sprzętu — wypożycz (dinghy, paddleboard), by sprawdzić, czy hobby się utrzyma; ogranicza „cmentarz hobby”."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (reguła dwóch tygodni na półce pomysłów)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=3585s",
+      "author": "Roxanne Pink",
+      "note": "„Staram się nie działać na impuls od razu — odkładam pomysł na metaforyczną półkę i jeśli po dwóch tygodniach nadal mnie ciągnie, dopiero wtedy kupuję domenę.” (Stosuje to ~1 raz na 10, ale ten jeden raz się opłaca.)"
     }
   ],
   "lang": "pl",

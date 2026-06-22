@@ -23,6 +23,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=2288s",
       "note": "'It's not the known unknown, it's the unknown unknown' — value independent of the result."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (the barometer is HOW you showed up, not the outcome)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=1069s",
+      "author": "Roxanne Pink",
+      "note": "'A good outcome can happen because you didn't actually do anything — so the outcome isn't the barometer; it's how you showed up. We can always learn something; we're not built to be perfect.'"
     }
   ],
   "lang": "en",

@@ -52,6 +52,13 @@
       "url": "https://www.youtube.com/watch?v=73c3MWbuSHM&t=192s",
       "author": "Dr Judith Mohring",
       "note": "Dopamine and noradrenaline are 'tidal' — tide out (scattered), tide in (hyperfocus); your state in half an hour can be totally different."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (complete real-time honesty in the relationship)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=1955s",
+      "author": "Holly Morris",
+      "note": "'The key in an ADHD relationship is complete honesty… I'm not in a good mood right now, it's not personal, it's because I had to rush.' With a partner who unconditionally believes you. Pre-announcing your state prevents them taking your mood personally."
     }
   ],
   "lang": "en",

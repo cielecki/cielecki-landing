@@ -57,6 +57,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=0V5XbmfHZFQ&t=2658s",
       "note": "Zgoda „w danej chwili” by uniknąć odrzucenia ma realne koszty — podpisany wbrew intuicji kontrakt uruchomił 5-letni proces; ucz się łapać ten odruch."
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (asertywność to mięsień do ćwiczenia)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=1717s",
+      "author": "Kate Moryoussef",
+      "note": "„To naprawdę jak mięsień, który muszę ćwiczyć… jakbym robiła pajacyki, »no dawaj«, robię to i okazuje się, że nie było tak źle, jak myślałam.” RSD zawyża spodziewany koszt odmowy; powtarzanie rekalibruje oczekiwanie."
     }
   ],
   "lang": "pl",

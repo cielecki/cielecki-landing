@@ -32,6 +32,13 @@
       "url": "https://www.youtube.com/watch?v=4gksLQ_HG30&t=2056s",
       "author": "Jamie Johnston",
       "note": "'Practice it when you don't need to… sit down, have a tea, and ask: how could I improve this relationship for you?'"
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (emotional safety via hard conversations)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=1434s",
+      "author": "Kate Moryoussef",
+      "note": "'If you don't feel safe in your friendships, relationships, family, your nervous system is always in stress response, hypervigilant — you can't relax… we have to be open to these uncomfortable conversations.' Have vulnerable conversations to build safety instead of breaking relationships."
     }
   ],
   "lang": "en",

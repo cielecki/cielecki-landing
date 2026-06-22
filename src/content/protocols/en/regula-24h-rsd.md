@@ -77,6 +77,20 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=g7InSpfQOG0&t=668s",
       "note": "'Rejected → alone → vulnerable → could die' — name it a primitive response and refuse to give it air time."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (pause, safe word, compassion first)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=5717s",
+      "author": "Roxanne Pink",
+      "note": "Put a pause between trigger and response, remove yourself, do the logical 'working out' afterwards; agree a 'safe word' with your partner that signals an RSD trigger; add self-compassion: 'this is my real reality now, an old, real pain is activated'."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (the RSD chain: trigger → shutdown → flee → self-disgust)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=5790s",
+      "author": "Roxanne Pink",
+      "note": "'You have the trigger (the pancake comment), then you shut down, shoulders slump, you want to leave — then self-disgust at yourself for it, a double hit.' Map your chain so you can catch and interrupt it between trigger and response."
     }
   ],
   "lang": "en",

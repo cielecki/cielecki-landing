@@ -46,6 +46,13 @@
       "url": "https://www.youtube.com/watch?v=_ZzKcIEWCcM&t=1591s",
       "author": "Jannine Perry",
       "note": "Powiedz wprost, że jesteś w jego narożniku bez względu na wszystko."
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (zamiast besztać — współczucie i cierpliwość)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=459s",
+      "author": "Dr Ayan Panja",
+      "note": "„Najlepsze, co rodzic może zrobić, jest kontrintuicyjne: być naprawdę współczującym i cierpliwym — bo właśnie to pomaga dziecku z ADHD. Besztanie jest niemal najgorsze, bo wyzwala m.in. wrażliwość na odrzucenie.”"
     }
   ],
   "lang": "pl",

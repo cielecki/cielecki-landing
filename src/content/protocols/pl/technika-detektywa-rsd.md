@@ -46,6 +46,13 @@
       "url": "https://www.youtube.com/watch?v=PJLI9rcnfg8&t=1836s",
       "author": "Hester Grainger",
       "note": "„Gdyby kolega wysłał ten mail, czy zostałby zwolniony?”"
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (nazwij RSD i sprawdź dowody z zewnątrz)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=5560s",
+      "author": "Roxanne Pink",
+      "note": "„Bo wiedziałam, że to RSD, mogłam to obgadać z Richem i dostać potwierdzenie, że nie ma dowodów… gdybym nie wiedziała, że to RSD, mogłabym zerwać tę przyjaźń.” Nagłe „oni mnie nie lubią” to RSD — sprawdź z bezpieczną osobą, zanim odetniesz relację."
     }
   ],
   "lang": "pl",

@@ -44,6 +44,27 @@
       "url": "https://www.youtube.com/watch?v=vCe_L6M915g&t=695s",
       "author": "Leanne Maskell",
       "note": "Codzienny dziennik, miesięczna lista osiągnięć i zaplanowany w kalendarzu czas na świętowanie — bo mózg ADHD szybko zapomina, co zrobił."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (buduj bazę dowodową, świętuj nawet nudne sukcesy)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=977s",
+      "author": "Roxanne Pink",
+      "note": "„Intencjonalne świętowanie osiągnięć buduje w podświadomości bazę dowodów, że jesteś zdolny i kompetentny — wtedy syndrom oszusta jest rozbrojony.” Osoby z ADHD po sukcesie czują często tylko ulgę, nie satysfakcję, więc odnotuj nawet drobne wygrane."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (pakt: nie publikuj treści, które cię poniżają)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=927s",
+      "author": "Roxanne Pink",
+      "note": "„W 2022 zawarłam ze sobą pakt: nie publikuję niczego, co mnie poniża — w praktyce przestałam postować, aż znalazłam inny język.” Zakaz samoponiżających treści zmusza do wypracowania neutralnego/pozytywnego słownika na własne osiągnięcia („jestem szczęśliwa, wyprzedaż, dziękuję, jestem dumna”)."
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (świadomie nagradzaj siebie, „poklep po plecach”)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=1822s",
+      "author": "Dr Ayan Panja",
+      "note": "„Nagradzanie siebie i poklepanie po plecach jest ważne, bo inaczej nie uznajesz, że to zrobiłeś — to część współczującego mówienia do siebie.” Wielu z ADHD czuje po zadaniu tylko ulgę, nie osiągnięcie."
     }
   ],
   "lang": "pl",

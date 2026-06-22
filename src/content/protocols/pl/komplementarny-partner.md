@@ -44,6 +44,20 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=hPSp2vqAjWo&t=1546s",
       "note": "Rama Neda Hallowella „właściwa kariera, właściwa praca, właściwy partner”: przekuj posiadane umiejętności w rolę z większym ruchem, różnorodnością lub kontaktem z ludźmi."
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (podział obowiązków pod neurotyp)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=2899s",
+      "author": "Kate Moryoussef",
+      "note": "„Mąż, bardziej na spektrum autyzmu, kocha pranie… więc jest od prania, bo ja bym nastawiła pralkę i o niej zapomniała; on od prania, ja od gotowania.” Oddaj zadania, których twój mózg nie unosi, partnerowi, dla którego są naturalne."
+    },
+    {
+      "title": "2 Vital Lessons From A Late Diagnosed ADHD Woman — Dez Rock (statek wycieczkowy kontra skuter wodny)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=DEd6XlstFzw&t=1658s",
+      "author": "Dez Rock",
+      "note": "„Da mu czas, żeby doszedł do swoich wniosków… przestań próbować zrobić z niego siebie, i odwrotnie.” W związku dwóch neurotypów: nazwij dynamikę (statek vs skuter wodny), daj wolniejszemu czas, a szybszemu przestrzeń."
     }
   ],
   "lang": "pl",

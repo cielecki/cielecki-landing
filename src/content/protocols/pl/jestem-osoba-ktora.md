@@ -32,6 +32,20 @@
       "url": "https://www.youtube.com/watch?v=73c3MWbuSHM&t=2439s",
       "author": "Dr Judith Mohring",
       "note": "Nie musisz ujawniać diagnozy; proś o ciszę/elastyczność jako swój styl pracy."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (najczęstsze akomodacje są tanie — poproś o nie)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=1581s",
+      "author": "ADHD Chatter",
+      "note": "„Większość akomodacji ADHD w pracy nie jest droga i jest wykonalna… słuchawki wygłuszające, brak spotkań plecy-w-plecy.” To nie egzotyka typu „praca z Fidżi” — warto o nie poprosić (self-advocacy)."
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (niedopasowana praca to puzzel wciśnięty na siłę)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=1217s",
+      "author": "Kate Moryoussef",
+      "note": "„To jak wciskanie elementu układanki, który nie pasuje… gdy pracujemy nad tym, co nas pasjonuje i co pasuje do nas — czasowo, energetycznie, sensorycznie, środowiskowo — lecimy.” Audytuj pracę pod kątem dopasowania, zamiast wciskać się w konwencjonalną formę."
     }
   ],
   "lang": "pl",

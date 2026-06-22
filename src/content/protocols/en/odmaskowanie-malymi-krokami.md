@@ -44,6 +44,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=_AAm-_8spAE&t=3296s",
       "note": "List things you constantly do against yourself, and things you struggle with yet do well."
+    },
+    {
+      "title": "2 Vital Lessons From A Late Diagnosed ADHD Woman — Dez Rock (masking is a losing strategy)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=DEd6XlstFzw&t=2534s",
+      "author": "Dez Rock",
+      "note": "'The more I shine, the more I let myself be me, the more successful I was… being authentically me turned out to be really good for me in every way.' Energy spent on the mask is subtracted from performance and wellbeing."
     }
   ],
   "lang": "en",

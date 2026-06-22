@@ -38,6 +38,13 @@
       "url": "https://www.youtube.com/watch?v=AuIrlA-myos&t=1846s",
       "author": "Dad V Girls",
       "note": "„Z listy 10 zrobię 2. Z listy 3 naraz potrafię zrobić 6 w ciągu dnia.”"
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (dwie listy: backlog + dzienna trójka)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=2679s",
+      "author": "ADHD Chatter",
+      "note": "„Miej dwie listy: backlog ze wszystkim (20–30 rzeczy) i osobną dzienną. Codziennie przerzucasz z backlogu najwyżej trzy rzeczy i nie robisz więcej niż trzy dziennie.” Sama priorytetyzacja zżera funkcje wykonawcze — rozdzielenie list ją odciąża."
     }
   ],
   "lang": "pl",

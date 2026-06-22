@@ -77,6 +77,20 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=g7InSpfQOG0&t=668s",
       "note": "„Odrzucenie → samotność → bezbronność → mogę umrzeć” — nazwij to prymitywną reakcją i odmów dawania jej czasu antenowego."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (pauza, safe word, najpierw współczucie)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=5717s",
+      "author": "Roxanne Pink",
+      "note": "Wstaw pauzę między wyzwalaczem a reakcją, usuń się z sytuacji, a logiczne „rozliczanie” zrób później; ustal z partnerem „safe word” sygnalizujące wyzwolenie RSD; dodaj samowspółczucie: „to moja realna rzeczywistość teraz, odzywa się stary, prawdziwy ból”."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (łańcuch RSD: wyzwalacz → zamknięcie → ucieczka → wstręt do siebie)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=5790s",
+      "author": "Roxanne Pink",
+      "note": "„Masz wyzwalacz (komentarz o naleśnikach), potem się zamykasz, ramiona opadają, chcesz odejść — a potem wstręt do siebie za tę reakcję, czyli podwójne uderzenie.” Zmapuj swój łańcuch, by go wyłapać i przerwać między wyzwalaczem a reakcją."
     }
   ],
   "lang": "pl",

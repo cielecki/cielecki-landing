@@ -22,7 +22,15 @@
       "community": "niski"
     }
   ],
-  "resources": [],
+  "resources": [
+    {
+      "title": "2 Vital Lessons From A Late Diagnosed ADHD Woman — Dez Rock („bezużyteczne” pasje wciąż mają wartość)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=DEd6XlstFzw&t=690s",
+      "author": "Dez Rock",
+      "note": "„To, że uznajemy coś za bezużyteczne, nie znaczy, że takie jest… nie ma też nic bezużytecznego w edukowaniu się o jakimś temacie.” Krótkoterminowa stymulacja i nauka mają wartość same w sobie — kontra wstyd o „zmarnowany” hiperfokus."
+    }
+  ],
   "studies": [
     {
       "title": "Dopamine menus: the science behind the trend – and how it might help people with ADHD (The Conversation)",

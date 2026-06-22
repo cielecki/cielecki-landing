@@ -38,6 +38,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=xovHDuZFb_A&t=2641s",
       "note": "Czekając na diagnozę, najpierw się edukuj i szukaj wspólnoty; diagnozę rób, tylko jeśli zamierzasz coś z nią zrobić — liczy się wyjaśnienie, nie etykieta."
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (terapie rozmową realnie pomagają)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=2175s",
+      "author": "Dr Ayan Panja",
+      "note": "„Osoby, które miały terapie rozmową, radzą sobie całkiem dobrze… trzymanie rzeczy w środku to ogromny wstyd, bo czujesz, że nie jesteś szczery wobec najbliższych.” Wypuszczenie rzeczy trzymanych latami zmniejsza wstyd."
     }
   ],
   "lang": "pl",

@@ -38,6 +38,13 @@
       "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=3036s",
       "author": "Karen Doherty",
       "note": "'The opposite of RSD is euphoria from praise — open with praise to dilute later criticism.'"
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (~20,000 more negative messages = shame-priming)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=1267s",
+      "author": "Dr Ayan Panja",
+      "note": "'A famous statistic now: kids with ADHD hear ~20,000 more negative messages than neurotypical kids… they compound, so as adults they're almost primed for shame.' This is why criticism lands so hard and why asking for praise first helps."
     }
   ],
   "lang": "en",

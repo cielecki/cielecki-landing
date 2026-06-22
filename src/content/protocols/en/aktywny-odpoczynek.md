@@ -25,6 +25,20 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "Movement demanding full attention (e.g. horse riding) switches thinking off; boring exercise leaves the head idling."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (passive rest triggers guilt — occupy the brain)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=1370s",
+      "author": "Holly Morris",
+      "note": "'I can't even lie on the sofa, because my brain shouts you've got so much to do, this is a waste… that's why I love my Nintendo Switch.' When passive rest triggers a guilt spiral, substitute a lightly engaging activity to actually decompress."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (Zumba: movement + mental occupation silences the chatter)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=2438s",
+      "author": "Holly Morris",
+      "note": "'Physically you're doing something, so you get endorphins; mentally I'm stimulated too… my brain was occupied so I didn't have the overwhelming chatter.' Choose movement that occupies the mind (choreography), not repetitive or anxiety-inducing (HIIT = a panic attack)."
     }
   ],
   "lang": "en",

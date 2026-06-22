@@ -52,6 +52,13 @@
       "url": "https://www.youtube.com/watch?v=iKMozqX8zS0&t=171s",
       "author": "Tired of Doomscrolling? Here Are Some Alternatives!",
       "note": "Ćwiczenie przekierowywania uwagi i niereagowania na każdą myśl czy zadanie ułatwia skupienie się na relaksie."
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (jednominutowy reset między częściami dnia)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=2396s",
+      "author": "Dr Ayan Panja",
+      "note": "„One-minute recharge — robię to, gdy podjadę pod pracę i pod dom: siedzę minutę z zamkniętymi oczami i oddycham, by albo przygotować się na to, w co wchodzę, albo zrzucić stres dnia.” Świetne na przejścia między aktywnościami przy ADHD."
     }
   ],
   "lang": "pl",

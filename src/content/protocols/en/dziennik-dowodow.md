@@ -44,6 +44,27 @@
       "url": "https://www.youtube.com/watch?v=vCe_L6M915g&t=695s",
       "author": "Leanne Maskell",
       "note": "Daily journal, monthly achievement list, and scheduled celebration time — because the ADHD brain quickly forgets what it has done."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (build an evidence base, celebrate even dull wins)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=977s",
+      "author": "Roxanne Pink",
+      "note": "'Intentionally celebrating your achievements builds an evidence base in your subconscious that you are capable and qualified — then imposter syndrome is disarmed.' People with ADHD often feel only relief after a win, not satisfaction, so log even small wins."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (pact: don't post self-degrading content)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=927s",
+      "author": "Roxanne Pink",
+      "note": "'In 2022 I made a pact: I won't post anything degrading myself — basically I stopped posting until I found another language.' A ban on self-degrading posts forces a neutral/positive vocabulary for your wins ('I'm happy, this sold out, thank you, I'm proud')."
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (deliberately reward yourself, pat on the back)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=1822s",
+      "author": "Dr Ayan Panja",
+      "note": "'Rewarding yourself and patting yourself on the back matters, because otherwise you don't recognise you did it — it's part of self-compassion self-talk.' Many with ADHD feel only relief after a task, not accomplishment."
     }
   ],
   "lang": "en",

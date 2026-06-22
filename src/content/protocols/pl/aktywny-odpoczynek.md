@@ -25,6 +25,20 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "Ruch wymagający pełnej uwagi (np. jazda konna) wyłącza myślenie; nudny trening zostawia głowę na biegu jałowym."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (bierny odpoczynek wyzwala winę — zajmij mózg)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=1370s",
+      "author": "Holly Morris",
+      "note": "„Nie umiem nawet leżeć na kanapie, bo mózg krzyczy »masz tyle do zrobienia, to strata czasu«… dlatego kocham Nintendo Switch.” Gdy bierny odpoczynek wywołuje spiralę winy, podstaw lekko angażującą aktywność, by faktycznie odpocząć."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (Zumba: ruch + zajęcie mózgu wycisza natłok)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=2438s",
+      "author": "Holly Morris",
+      "note": "„Fizycznie coś robisz, więc masz endorfiny; mentalnie też jestem zajęta… mózg był zajęty, więc nie miałam tego wiecznego natłoku myśli.” Wybieraj ruch angażujący głowę (choreografia), nie powtarzalny czy lękotwórczy (HIIT = atak paniki)."
     }
   ],
   "lang": "pl",

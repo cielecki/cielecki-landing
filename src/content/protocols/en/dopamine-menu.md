@@ -22,7 +22,15 @@
       "community": "niski"
     }
   ],
-  "resources": [],
+  "resources": [
+    {
+      "title": "2 Vital Lessons From A Late Diagnosed ADHD Woman — Dez Rock ('useless' interests still have value)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=DEd6XlstFzw&t=690s",
+      "author": "Dez Rock",
+      "note": "'Just because we deem it useless doesn't mean it is… there's also nothing useless about educating yourself on a topic.' Short-term stimulation and learning have intrinsic value — countering shame about 'wasted' hyperfocus."
+    }
+  ],
   "studies": [
     {
       "title": "Dopamine menus: the science behind the trend – and how it might help people with ADHD (The Conversation)",

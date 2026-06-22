@@ -32,6 +32,20 @@
       "url": "https://www.youtube.com/watch?v=73c3MWbuSHM&t=862s",
       "author": "Dr Judith Mohring",
       "note": "A spontaneous surge of excitement is the inner child pointing at what you care about."
+    },
+    {
+      "title": "Rox Pink confronts psychologist over childhood trauma (magpie effect: check against intrinsic motivation)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=el0p7-meWjE&t=3659s",
+      "author": "Roxanne Pink",
+      "note": "Daily reflection 'what made me happy/sad today' maps intrinsic motivations; with a new idea/job/partner, check whether it connects to them — passion aligned with motivation sustains hyperfocus, misaligned ones fade despite logic."
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (gather data on your own impulses)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=1696s",
+      "author": "Dr Ayan Panja",
+      "note": "'You can gather data from experience: which impulsive decisions led to good outcomes and which to bad… I now know to trust my intuition most of the time.' Pattern recognition (growing with age) calibrates when to trust an impulse."
     }
   ],
   "lang": "en",

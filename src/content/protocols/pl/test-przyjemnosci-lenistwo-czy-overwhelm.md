@@ -44,6 +44,20 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=hPSp2vqAjWo&t=1944s",
       "note": "„Wstyd jak wampir nie znosi światła dziennego — w grupie widać, że wszyscy mają to samo.”"
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (zapytaj przyjaciela o jego wstyd, by go znormalizować)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=2681s",
+      "author": "Dr Ayan Panja",
+      "note": "„Dobry punkt startu: zapytaj bliskiego przyjaciela — czy jest coś w życiu, czego się wstydziłeś? Każdy coś ma, i to od razu normalizuje twój wstyd.” Osoby z ADHD czują go ostrzej, bo są wysoko wrażliwe."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (paraliż decyzyjny wygląda jak lenistwo, ale nie daje przyjemności)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=2153s",
+      "author": "Holly Morris",
+      "note": "„Paraliż decyzyjny wygląda jak lenistwo — leżenie i doomscrolling — ale nie możesz nic zrobić z przeciążenia… leniwi ludzie cieszą się relaksem; ja nie czuję przyjemności, leżąc z telefonem.” Test: czy faktycznie cieszysz się tym odpoczynkiem?"
     }
   ],
   "lang": "pl",

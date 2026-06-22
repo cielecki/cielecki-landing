@@ -45,6 +45,20 @@
       "url": "https://www.youtube.com/watch?v=AuIrlA-myos&t=3032s",
       "author": "Dad V Girls",
       "note": "'I get the most work done in a loud cafe, alone on my laptop — vs half that by myself.'"
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (body doubling virtually and silently)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=889s",
+      "author": "ADHD Chatter",
+      "note": "'Some days I have my partner on screen, like a Zoom call — we don't always talk, but just knowing there's a presence lets us both get through admin tasks.' Silent presence is enough."
+    },
+    {
+      "title": "Holly Morris Opens Up About Late ADHD Diagnosis (a body double who works in the same chaotic way)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=AKmBCQ0IqCU&t=724s",
+      "author": "Holly Morris",
+      "note": "'She worked in the same chaotic way, so we'd stay up to 2am… and because of that I didn't feel behind — we bundled along together and got there.' A peer with your rhythm normalises the last-minute style and provides co-regulation."
     }
   ],
   "lang": "en",

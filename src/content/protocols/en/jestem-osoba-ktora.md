@@ -32,6 +32,20 @@
       "url": "https://www.youtube.com/watch?v=73c3MWbuSHM&t=2439s",
       "author": "Dr Judith Mohring",
       "note": "You needn't disclose; ask for quiet/flexibility as your working style."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (the commonest accommodations are cheap — ask for them)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=1581s",
+      "author": "ADHD Chatter",
+      "note": "'The vast majority of ADHD workplace accommodations aren't expensive and are doable… noise-cancelling headphones, no back-to-back meetings.' Not exotic 'work from Fiji' asks — worth advocating for."
+    },
+    {
+      "title": "3 Devastating Costs Of Undiagnosed Female ADHD — Kate Moryoussef (a mismatched job is a jigsaw piece forced in)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=6T355auoPIs&t=1217s",
+      "author": "Kate Moryoussef",
+      "note": "'It's like cramming a jigsaw piece that doesn't fit… when we work on what we're passionate about and what aligns with us — time, energy, sensory, environment — we fly.' Audit your work for fit instead of forcing yourself into a conventional mould."
     }
   ],
   "lang": "en",

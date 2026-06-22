@@ -44,6 +44,20 @@
       "url": "https://www.youtube.com/watch?v=PJLI9rcnfg8&t=2173s",
       "author": "Hester Grainger",
       "note": "A list in a closed notebook/phone fails — put it on whiteboards around the house or a clipboard; out of sight = out of mind."
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (alarms, timers and lists genuinely help)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=2449s",
+      "author": "Dr Ayan Panja",
+      "note": "'Alarms and timers can change the trajectory of someone struggling with routine… contrary to influencers: lists are brilliant with ADHD, because you can knock them off.' Ticking off gives a reward the ADHD brain otherwise misses."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (convert minutes to seconds + sand timer)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=2495s",
+      "author": "ADHD Chatter",
+      "note": "'Instead of 5 minutes say 300 seconds — you see 300 start counting down, and suddenly it's not long at all.' Back it with visual sand timers; seeing time pass motivates."
     }
   ],
   "lang": "en",

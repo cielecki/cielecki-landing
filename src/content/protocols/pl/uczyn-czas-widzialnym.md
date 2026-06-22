@@ -44,6 +44,20 @@
       "url": "https://www.youtube.com/watch?v=PJLI9rcnfg8&t=2173s",
       "author": "Hester Grainger",
       "note": "Lista w zamkniętym notesie/telefonie nie działa — wynieś ją na białe tablice po domu albo klips; z oczu = z myśli."
+    },
+    {
+      "title": "Secrets to Manage ADHD Shame — Dr Ayan Panja (alarmy, timery i listy realnie pomagają)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Tpw_C_kovJU&t=2449s",
+      "author": "Dr Ayan Panja",
+      "note": "„Alarmy i timery potrafią zmienić trajektorię kogoś, kto walczy z rutyną… wbrew influencerom: listy są świetne przy ADHD, bo można je odhaczać.” Odhaczanie daje nagrodę, której mózg ADHD inaczej nie rejestruje."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (przeliczaj minuty na sekundy + minutnik z piaskiem)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=2495s",
+      "author": "ADHD Chatter",
+      "note": "„Zamiast »5 minut« powiedz »300 sekund« — widzisz, jak 300 zaczyna odliczać, i nagle to wcale nie jest długo.” Wspomagaj wizualnymi minutnikami z piaskiem; widoczny upływ czasu motywuje."
     }
   ],
   "lang": "pl",

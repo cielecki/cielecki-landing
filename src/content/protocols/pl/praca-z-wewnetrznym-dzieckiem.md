@@ -49,6 +49,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=g7InSpfQOG0&t=3920s",
       "note": "Praca między tobą a tobą; ko-regulacja z partnerem dopiero potem."
+    },
+    {
+      "title": "2 Vital Lessons From A Late Diagnosed ADHD Woman — Dez Rock (ukryta niska samoocena, „po prostu idź dalej”)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=DEd6XlstFzw&t=2585s",
+      "author": "Dez Rock",
+      "note": "„Moja samoocena była tak niska, że świadomość ukrywała kawałki traumy… jedyne, co mogę powiedzieć, to: idź dalej.” Proces odmaskowania/terapii bywa bolesny i z objawami fizycznymi (wysypka), ale nagrodą jest spokój i autentyczność."
     }
   ],
   "lang": "pl",

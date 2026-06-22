@@ -24,6 +24,27 @@
       "type": "video",
       "author": "Magdalena Daniłoś",
       "note": "Punkty/nagrody + „najpierw trudne”; nagrody małe i zdrowe, by nie wzmacniać nawyku złym."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (gumki na nadgarstku, max 3 zadania, nagroda)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=555s",
+      "author": "ADHD Chatter",
+      "note": "„Na gumkach zapisuję zadania, nie więcej niż trzy dziennie; po wykonaniu gumka spada do miski, a jak skończę wszystkie trzy — nagradzam się. Grywalizuję to.” Fizyczna, widoczna nagroda dostarcza dopaminy w momencie ukończenia."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (temptation bundling: serial tylko na bieżni)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=1393s",
+      "author": "ADHD Chatter",
+      "note": "Cel dalekosiężny nie motywuje (ślepota czasu) — sparuj rzecz trudną z dopaminą TERAZ: „pozwalam sobie oglądać ADHD Chatter tylko na bieżni”, więc zaczynam czekać na wejście na bieżnię."
+    },
+    {
+      "title": "10 Rules That Traumatise ADHD & Autistic Brains (nagroda za jednorazowe wykonanie, nie za streak)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Al5cYCOv4UM&t=1886s",
+      "author": "ADHD Chatter",
+      "note": "„Nie zawieszasz wszystkiego na »zawsze to rób«. Zawieszasz to na nagrodzie za to, że to zrobiłeś.” Zamiast „sprzątam co tydzień” → „kiedy posprzątam, nagradzam się” — model streaka nie ma gracji na gorszy dzień."
     }
   ],
   "lang": "pl",
