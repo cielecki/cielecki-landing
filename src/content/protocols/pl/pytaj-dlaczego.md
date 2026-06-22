@@ -25,6 +25,13 @@
       "url": "https://www.youtube.com/watch?v=mTT4Qrfrm-A&t=2940s",
       "author": "Martine McCutcheon",
       "note": "„Dlaczego, ale dlaczego” raz za razem, by wrócić do źródła motywacji."
+    },
+    {
+      "title": "How To Build A Deeper Connection With Your ADHD/Autistic Child — „a co mam robić zamiast?”",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_ZzKcIEWCcM&t=3140s",
+      "author": "Jannine Perry",
+      "note": "Pytaj DLACZEGO dziecko robi coś po swojemu zamiast od razu instruować; pytanie „co mam robić zamiast?” zmusza dorosłego do sprawdzenia, czy zmiana jest w ogóle potrzebna."
     }
   ],
   "lang": "pl",

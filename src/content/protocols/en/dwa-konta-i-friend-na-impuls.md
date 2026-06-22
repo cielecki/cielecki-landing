@@ -43,6 +43,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=660s",
       "note": "In AuDHD the rigid, routine (autistic) side around money genuinely reins in impulsive (ADHD) spending — lean on it deliberately."
+    },
+    {
+      "title": "How To Build A Deeper Connection With Your ADHD/Autistic Child — 'money or the thing?'",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_ZzKcIEWCcM&t=3315s",
+      "author": "Jannine Perry",
+      "note": "On an impulse ask: 'which do I need more — the money or the thing?' and buy only when the thing wins."
     }
   ],
   "lang": "en",

@@ -64,6 +64,19 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2855s",
       "note": "For an RSD spike: record on your phone what you feel before seeking reassurance from others; rewatch a day or two later — usually the rejection wasn't real."
+    },
+    {
+      "title": "3 Ways To SAVE A Failing ADHD Relationship — remove yourself, don't act in dysregulation",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=z6Opd8B4ipk&t=605s",
+      "author": "Karen Doherty",
+      "note": "In extreme dysregulation/RSD remove yourself — the impulsive 'I'm moving out/I want a divorce' turns out, after waiting, not to be meant."
+    },
+    {
+      "title": "How Trauma Shows Up In ADHD Women — break RSD into the survival chain",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=g7InSpfQOG0&t=668s",
+      "note": "'Rejected → alone → vulnerable → could die' — name it a primitive response and refuse to give it air time."
     }
   ],
   "lang": "en",

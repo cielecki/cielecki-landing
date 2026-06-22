@@ -31,6 +31,13 @@
       "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=2424s",
       "author": "Jay Beech",
       "note": "'Look at the bridge of the nose — they think you're looking in the eyes. Either my attention or my eye contact.'"
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — bridge-of-nose trick",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=2421s",
+      "author": "Jay Beech",
+      "note": "Look at the nose bridge: looks like eye contact. Forced, the brain bounces between eyes and you can't listen."
     }
   ],
   "lang": "en",

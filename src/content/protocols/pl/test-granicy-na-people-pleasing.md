@@ -44,6 +44,19 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2447s",
       "note": "People-pleasing potrafi przebić trafną intuicję: wyczuwasz, że ktoś jest niewłaściwy, ale nie umiesz odmówić — stąd niechciane randki i związki. Honoruj przeczucie mimo lęku."
+    },
+    {
+      "title": "Cambridge Psychiatrist Shares New ADHD Treatment — „daj mi wrócić do ciebie”",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=73c3MWbuSHM&t=2213s",
+      "author": "Dr Judith Mohring",
+      "note": "Zamiast odruchowego „tak” mów „daj mi wrócić do ciebie” — przerwa między prośbą a odpowiedzią rozbraja ludziopodobanie."
+    },
+    {
+      "title": "How To Process A Late ADHD Diagnosis — koszt ścieżki najmniejszego oporu",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=0V5XbmfHZFQ&t=2658s",
+      "note": "Zgoda „w danej chwili” by uniknąć odrzucenia ma realne koszty — podpisany wbrew intuicji kontrakt uruchomił 5-letni proces; ucz się łapać ten odruch."
     }
   ],
   "lang": "pl",

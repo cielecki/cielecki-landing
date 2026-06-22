@@ -26,6 +26,13 @@
     {
       "title": "Centrum Dialog (Warszawa)",
       "type": "specialist"
+    },
+    {
+      "title": "My Secret To Keeping a Neurodiverse Family FUNCTIONAL — a child's diagnosis exposes the parent",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=PJLI9rcnfg8&t=301s",
+      "author": "Hester Grainger",
+      "note": "During the child's assessment the psychologist asks 'does he do X?' and the parent realises 'no, but I do' — the route to her own diagnosis at 43."
     }
   ],
   "studies": [

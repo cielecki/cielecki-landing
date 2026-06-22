@@ -38,6 +38,13 @@
       "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1364s",
       "author": "Jay Beech",
       "note": "'I don't struggle to express feelings, I struggle to start the conversation — when someone asks directly, I break the barrier.'"
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — the trouble is starting, not the feelings",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1362s",
+      "author": "Jay Beech",
+      "note": "The difficulty isn't expressing feelings but STARTING the conversation; a direct question supplies activation, an attack shuts it down."
     }
   ],
   "lang": "en",

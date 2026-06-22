@@ -32,6 +32,12 @@
       "url": "https://www.youtube.com/watch?v=y1CkUhfHSxQ&t=60s",
       "author": "Dr K (HealthyGamerGG)",
       "note": "„Używanie porno to bardzo silny coping emocjonalny — tłumi negatywne emocje”; pętla wstydu napędza kolejne sięgnięcie."
+    },
+    {
+      "title": "Late-Diagnosed ADHD: Mourning The Life You Could've Had — najpierw edukacja i wspólnota",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=xovHDuZFb_A&t=2641s",
+      "note": "Czekając na diagnozę, najpierw się edukuj i szukaj wspólnoty; diagnozę rób, tylko jeśli zamierzasz coś z nią zrobić — liczy się wyjaśnienie, nie etykieta."
     }
   ],
   "lang": "pl",

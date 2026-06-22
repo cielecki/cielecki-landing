@@ -32,6 +32,12 @@
       "url": "https://www.youtube.com/watch?v=y1CkUhfHSxQ&t=60s",
       "author": "Dr K (HealthyGamerGG)",
       "note": "\"Porn use is a very powerful emotional coping mechanism — it suppresses negative emotions\"; the shame loop drives the next use."
+    },
+    {
+      "title": "Late-Diagnosed ADHD: Mourning The Life You Could've Had — education and community first",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=xovHDuZFb_A&t=2641s",
+      "note": "While waiting for a diagnosis, educate yourself and find community first; seek the assessment only if you'll act on it — the explanation matters, not the label."
     }
   ],
   "lang": "en",

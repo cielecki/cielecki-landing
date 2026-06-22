@@ -38,6 +38,19 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=2751s",
       "note": "„Naucz się żyć ze stratą i zabrać ją ze sobą” — odrzuć normę 3 miesięcy."
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — cykl żałoby po diagnozie",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=276s",
+      "author": "Jay Beech",
+      "note": "Diagnoza w dorosłości uruchamia rozpamiętywanie utraconych przyjaźni, prac i związków — normalna faza, nie kolejny problem."
+    },
+    {
+      "title": "How To Process A Late ADHD Diagnosis — żałoba i „hard mode”",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=0V5XbmfHZFQ&t=1565s",
+      "note": "Zaplanuj okres żałoby za „to, co mogło być” (wg prof. Susan Young) i bądź dumny — działałeś na „hard mode”, bez wsparcia i instrukcji."
     }
   ],
   "lang": "pl",

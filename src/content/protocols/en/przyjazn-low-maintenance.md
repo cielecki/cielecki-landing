@@ -59,6 +59,13 @@
       "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=2483s",
       "author": "Sonya Barlow",
       "note": "Pattern: hyperfixate on a new person, intense closeness, sudden loss of interest — it's an ADHD trend, not disrespect; design lighter upkeep."
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — relationship object permanence",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=358s",
+      "author": "Jay Beech",
+      "note": "Out of sight, out of mind — when someone isn't near, the ADHD brain can forget they exist; not a lack of caring."
     }
   ],
   "lang": "en",

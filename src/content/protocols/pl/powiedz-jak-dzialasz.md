@@ -45,6 +45,13 @@
       "url": "https://www.youtube.com/watch?v=AuIrlA-myos&t=3372s",
       "author": "Dad V Girls",
       "note": "„Diagnoza może stać się wymówką, by nie próbować — reframe ma odblokowywać obejścia, nie usprawiedliwiać rezygnację.”"
+    },
+    {
+      "title": "Cambridge Psychiatrist Shares New ADHD Treatment — rozregulowana, nie niska dopamina",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=73c3MWbuSHM&t=192s",
+      "author": "Dr Judith Mohring",
+      "note": "Dopamina i noradrenalina są „pływowe” — raz odpływ (rozproszenie), raz przypływ (hiperfokus); stan za pół godziny bywa zupełnie inny."
     }
   ],
   "lang": "pl",

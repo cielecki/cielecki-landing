@@ -44,6 +44,13 @@
       "url": "https://www.youtube.com/watch?v=vCe_L6M915g&t=2804s",
       "author": "Leanne Maskell",
       "note": "„Rzeka pomysłów”: każdy pomysł to ryba — wyciągasz tylko jedną naraz, resztę zapisz i wracaj co ~3 miesiące, bo jak wyciągniesz dwie, jedna zginie."
+    },
+    {
+      "title": "My Secret To Keeping a Neurodiverse Family FUNCTIONAL — wypożycz, zanim kupisz",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=PJLI9rcnfg8&t=1086s",
+      "author": "Hester Grainger",
+      "note": "Przy impulsywnym hobby nie kupuj sprzętu — wypożycz (dinghy, paddleboard), by sprawdzić, czy hobby się utrzyma; ogranicza „cmentarz hobby”."
     }
   ],
   "lang": "pl",

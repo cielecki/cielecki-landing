@@ -37,6 +37,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=PJ0g4NEXDvU&t=1172s",
       "note": "„Jestem teraz rozregulowana, funkcja wykonawcza szwankuje, myślę o liście zakupów” — nazwanie mechanizmu zamiast brania za porażkę."
+    },
+    {
+      "title": "How To Build A Deeper Connection With Your ADHD/Autistic Child — nie tłumacz przez własne ego",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_ZzKcIEWCcM&t=1003s",
+      "author": "Jannine Perry",
+      "note": "Rozregulowana kontrola impulsu działa w obie strony: działanie bez myślenia ORAZ niemożność startu — ten sam mechanizm, nie lenistwo."
     }
   ],
   "lang": "pl",

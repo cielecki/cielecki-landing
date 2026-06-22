@@ -31,6 +31,13 @@
       "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=2424s",
       "author": "Jay Beech",
       "note": "„Patrz na nasadę nosa — myślą, że patrzysz w oczy. Albo moja uwaga, albo kontakt wzrokowy.”"
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — trik na nasadę nosa",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=2421s",
+      "author": "Jay Beech",
+      "note": "Patrz na nasadę nosa: wygląda jak kontakt wzrokowy. Przy wymuszonym mózg „odbija” między oczami i nie da się słuchać."
     }
   ],
   "lang": "pl",

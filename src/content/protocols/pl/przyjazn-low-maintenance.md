@@ -59,6 +59,13 @@
       "url": "https://www.youtube.com/watch?v=6AdH54tniiY&t=2483s",
       "author": "Sonya Barlow",
       "note": "Wzorzec: hiperfiksacja na nowej osobie, intensywna bliskość, nagła utrata zainteresowania — to trend ADHD, nie brak szacunku; projektuj lżejsze utrzymanie."
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — stałość obiektu w relacjach",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=358s",
+      "author": "Jay Beech",
+      "note": "„Z oczu, z myśli” — gdy kogoś nie ma w pobliżu, mózg ADHD potrafi zapomnieć o jego istnieniu; to nie brak sympatii."
     }
   ],
   "lang": "pl",

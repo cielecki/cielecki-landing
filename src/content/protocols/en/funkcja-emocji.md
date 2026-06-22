@@ -37,6 +37,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=hPSp2vqAjWo&t=2604s",
       "note": "Naming an emotion links language centers to the amygdala and calms it; a feelings wheel helps."
+    },
+    {
+      "title": "How To Build A Deeper Connection With Your ADHD/Autistic Child — attention goes where the dopamine is",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_ZzKcIEWCcM&t=924s",
+      "author": "Jannine Perry",
+      "note": "ADHD isn't a deficit of attention but of its REGULATION — all-or-nothing attention goes where the dopamine is."
     }
   ],
   "lang": "en",

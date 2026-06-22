@@ -26,6 +26,13 @@
     {
       "title": "Centrum Dialog (Warszawa)",
       "type": "specialist"
+    },
+    {
+      "title": "My Secret To Keeping a Neurodiverse Family FUNCTIONAL — diagnoza dziecka demaskuje rodzica",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=PJLI9rcnfg8&t=301s",
+      "author": "Hester Grainger",
+      "note": "Podczas oceny dziecka psycholog pyta „czy on robi X?”, a rodzic orientuje się „nie, ale JA tak” — droga do własnej diagnozy w wieku 43 lat."
     }
   ],
   "studies": [

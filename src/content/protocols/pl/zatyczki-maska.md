@@ -68,6 +68,13 @@
       "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=513s",
       "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
       "note": "Napraw problemy sensoryczne wokół snu (metki, drapiące koce, dziwna pasta) — przyjemny sensorycznie zestaw do spania zwiększa motywację, by w ogóle iść do łóżka."
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — słuchawki jako kocyk bezpieczeństwa",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1469s",
+      "author": "Jay Beech",
+      "note": "Słuchawki ANC na co dzień: selektywnie blokują przytłaczające dźwięki; ta sama piosenka w kółko zagłusza świat i daje mózgowi przerwę."
     }
   ],
   "lang": "pl",

@@ -46,6 +46,20 @@
       "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=2745s",
       "author": "Karen Doherty",
       "note": "'The couple need a symbol for when they're good and loving — the item that snaps memory back to a good time.'"
+    },
+    {
+      "title": "3 Ways To SAVE A Failing ADHD Relationship — a couple's code for escalation",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=z6Opd8B4ipk&t=628s",
+      "author": "Karen Doherty",
+      "note": "Agree a private code (tap/signal/word), mutually owned 'for the couple', not to silence; then walk away and reconvene later."
+    },
+    {
+      "title": "3 Ways To SAVE A Failing ADHD Relationship — partner senses it first + a lexicon of triggers",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=z6Opd8B4ipk&t=645s",
+      "author": "Karen Doherty",
+      "note": "The partner usually senses oncoming dysregulation first, so they can call the code early; a next-day 'process conversation' builds a shared lexicon of triggers."
     }
   ],
   "lang": "en",

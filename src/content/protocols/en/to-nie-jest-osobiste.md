@@ -37,6 +37,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=PJ0g4NEXDvU&t=1172s",
       "note": "\"I'm dysregulated now, my executive function's off, I'm thinking about the shopping list\" — naming the mechanism instead of taking it as failure."
+    },
+    {
+      "title": "How To Build A Deeper Connection With Your ADHD/Autistic Child — don't filter it through your ego",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_ZzKcIEWCcM&t=1003s",
+      "author": "Jannine Perry",
+      "note": "Disregulated impulse control runs both ways: acting without thinking AND being unable to start — same mechanism, not laziness."
     }
   ],
   "lang": "en",

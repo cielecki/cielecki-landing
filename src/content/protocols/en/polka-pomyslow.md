@@ -44,6 +44,13 @@
       "url": "https://www.youtube.com/watch?v=vCe_L6M915g&t=2804s",
       "author": "Leanne Maskell",
       "note": "'River of ideas': each idea is a fish — take only one out at a time, park the rest and review every ~3 months, because if you pull two out one will die."
+    },
+    {
+      "title": "My Secret To Keeping a Neurodiverse Family FUNCTIONAL — hire before you buy",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=PJLI9rcnfg8&t=1086s",
+      "author": "Hester Grainger",
+      "note": "For an impulsive hobby don't buy gear — rent it (dinghy, paddleboard) to test if it sticks; caps the 'hobby graveyard'."
     }
   ],
   "lang": "en",

@@ -46,6 +46,20 @@
       "url": "https://www.youtube.com/watch?v=NOwZNNiSSEk&t=2745s",
       "author": "Karen Doherty",
       "note": "„Para potrzebuje symbolu na czas, gdy są dobrzy i kochający — który snapuje pamięć do dobrego czasu.”"
+    },
+    {
+      "title": "3 Ways To SAVE A Failing ADHD Relationship — kod pary na eskalację",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=z6Opd8B4ipk&t=628s",
+      "author": "Karen Doherty",
+      "note": "Ustalcie prywatny kod (dotyk/gest/słowo), wspólnie uznany za „dla pary”, nie do uciszania; potem rozejdźcie się i wróćcie do tematu później."
+    },
+    {
+      "title": "3 Ways To SAVE A Failing ADHD Relationship — partner wyczuwa to wcześniej + leksykon triggerów",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=z6Opd8B4ipk&t=645s",
+      "author": "Karen Doherty",
+      "note": "Partner zwykle czuje nadchodzącą dysregulację wcześniej, więc to on może w porę zawołać kod; następnego dnia „rozmowa procesująca” buduje wspólny leksykon triggerów."
     }
   ],
   "lang": "pl",

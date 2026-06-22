@@ -44,6 +44,19 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2447s",
       "note": "People-pleasing can override accurate intuition: you sense someone is wrong but can't say no — hence unwanted dates and relationships. Honor the gut feeling despite the fear."
+    },
+    {
+      "title": "Cambridge Psychiatrist Shares New ADHD Treatment — 'let me get back to you'",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=73c3MWbuSHM&t=2213s",
+      "author": "Dr Judith Mohring",
+      "note": "Instead of a reflex 'yes' say 'let me get back to you' — a pause between ask and answer defuses people-pleasing."
+    },
+    {
+      "title": "How To Process A Late ADHD Diagnosis — the cost of the path of least resistance",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=0V5XbmfHZFQ&t=2658s",
+      "note": "Agreeing 'in the moment' to dodge rejection has real costs — a contract signed against intuition triggered a 5-year case; learn to spot the reflex."
     }
   ],
   "lang": "en",

@@ -38,6 +38,13 @@
       "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1364s",
       "author": "Jay Beech",
       "note": "„Nie zmagam się z wyrażaniem uczuć, tylko z rozpoczęciem rozmowy — gdy ktoś wprost pyta, przełamuję barierę.”"
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — trudność to inicjacja, nie uczucia",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1362s",
+      "author": "Jay Beech",
+      "note": "Trudność nie w wyrażaniu uczuć, lecz w ZAINICJOWANIU rozmowy; bezpośrednie pytanie daje energię startu, atak zamyka rozmowę."
     }
   ],
   "lang": "pl",

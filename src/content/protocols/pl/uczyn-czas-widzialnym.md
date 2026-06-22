@@ -37,6 +37,13 @@
       "url": "https://www.youtube.com/watch?v=mTT4Qrfrm-A&t=4846s",
       "author": "Martine McCutcheon",
       "note": "Bez dzwonka/alarmu nie wraca do tego, co miała zrobić — od mycia zębów po wyprawienie syna."
+    },
+    {
+      "title": "My Secret To Keeping a Neurodiverse Family FUNCTIONAL — lista tam, gdzie ją widzisz",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=PJLI9rcnfg8&t=2173s",
+      "author": "Hester Grainger",
+      "note": "Lista w zamkniętym notesie/telefonie nie działa — wynieś ją na białe tablice po domu albo klips; z oczu = z myśli."
     }
   ],
   "lang": "pl",

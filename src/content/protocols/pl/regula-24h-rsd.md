@@ -64,6 +64,19 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=2855s",
       "note": "Na falę RSD: nagraj telefonem, co czujesz, zanim zaczniesz szukać zapewnień u innych; obejrzyj dzień–dwa później — zwykle widać, że odrzucenie nie było realne."
+    },
+    {
+      "title": "3 Ways To SAVE A Failing ADHD Relationship — usuń się, nie działaj w dysregulacji",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=z6Opd8B4ipk&t=605s",
+      "author": "Karen Doherty",
+      "note": "W skrajnej dysregulacji/RSD usuń się z sytuacji — impulsywne „wyprowadzam się/chcę rozwodu” po odczekaniu okazuje się nieprawdziwe."
+    },
+    {
+      "title": "How Trauma Shows Up In ADHD Women — rozłóż RSD na łańcuch przetrwania",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=g7InSpfQOG0&t=668s",
+      "note": "„Odrzucenie → samotność → bezbronność → mogę umrzeć” — nazwij to prymitywną reakcją i odmów dawania jej czasu antenowego."
     }
   ],
   "lang": "pl",

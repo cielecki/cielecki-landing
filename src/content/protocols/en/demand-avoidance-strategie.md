@@ -28,6 +28,12 @@
       "title": "Demand Avoidance in Autistic Adults — Why It Happens and What Helps",
       "type": "video",
       "author": "Orion Kelly"
+    },
+    {
+      "title": "Late-Diagnosed ADHD: Mourning The Life You Could've Had — don't tell them what to do",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=xovHDuZFb_A&t=1836s",
+      "note": "A command reads as criticism and removes ownership of the task — even if they were about to do it; they'll do it when ready."
     }
   ],
   "studies": [

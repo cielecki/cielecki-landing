@@ -68,6 +68,13 @@
       "url": "https://www.youtube.com/watch?v=wzC_f8dagZ0&t=513s",
       "author": "How to Sleep When You Have ADHD (Fairy Not Included)",
       "note": "Fix sensory friction around sleep (PJ tags, scratchy blankets, weird toothpaste) — a sleep setup that feels good makes you want to go to bed."
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — headphones as a safety blanket",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=1469s",
+      "author": "Jay Beech",
+      "note": "Daily ANC headphones: selectively block overwhelming sound; the same song on repeat drowns the world out and rests the brain."
     }
   ],
   "lang": "en",

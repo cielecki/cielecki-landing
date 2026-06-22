@@ -43,6 +43,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=QYsVfWS7UBc&t=660s",
       "note": "W AuDHD sztywna, rutynowa strona (autyzm) wokół pieniędzy realnie hamuje impulsywne wydawanie (ADHD) — celowo na tym graj."
+    },
+    {
+      "title": "How To Build A Deeper Connection With Your ADHD/Autistic Child — „pieniądze czy rzecz?”",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_ZzKcIEWCcM&t=3315s",
+      "author": "Jannine Perry",
+      "note": "Przy impulsie zapytaj: „czego potrzebuję bardziej — pieniędzy czy tej rzeczy?” i kupuj tylko, gdy wygrywa rzecz."
     }
   ],
   "lang": "pl",

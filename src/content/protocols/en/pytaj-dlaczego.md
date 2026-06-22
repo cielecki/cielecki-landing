@@ -25,6 +25,13 @@
       "url": "https://www.youtube.com/watch?v=mTT4Qrfrm-A&t=2940s",
       "author": "Martine McCutcheon",
       "note": "'Why, but why' repeatedly to get back to the source of the motivation."
+    },
+    {
+      "title": "How To Build A Deeper Connection With Your ADHD/Autistic Child — 'what should I do instead?'",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_ZzKcIEWCcM&t=3140s",
+      "author": "Jannine Perry",
+      "note": "Ask WHY the child does it their way rather than instructing; 'what do you want me to do instead?' forces the adult to check whether change is even needed."
     }
   ],
   "lang": "en",

@@ -38,6 +38,19 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=EH5D1UeRSFo&t=2751s",
       "note": "'Learn to live with the loss and take it with you' — reject the 3-month norm."
+    },
+    {
+      "title": "Explaining ADHD & Autism To My Partner — post-diagnosis grief cycle",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=uA3dhBBPgPk&t=276s",
+      "author": "Jay Beech",
+      "note": "Adult diagnosis triggers replaying lost friendships, jobs and relationships — a normal phase, not another problem."
+    },
+    {
+      "title": "How To Process A Late ADHD Diagnosis — mourning and 'hard mode'",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=0V5XbmfHZFQ&t=1565s",
+      "note": "Budget a mourning period for 'what could have been' (per Prof. Susan Young) and be proud — you ran on 'hard mode', no support, no manual."
     }
   ],
   "lang": "en",

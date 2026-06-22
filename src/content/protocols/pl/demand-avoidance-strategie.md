@@ -28,6 +28,12 @@
       "title": "Demand Avoidance in Autistic Adults — Why It Happens and What Helps",
       "type": "video",
       "author": "Orion Kelly"
+    },
+    {
+      "title": "Late-Diagnosed ADHD: Mourning The Life You Could've Had — nie mów, co ma robić",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=xovHDuZFb_A&t=1836s",
+      "note": "Polecenie odbierane jest jak krytyka i odbiera poczucie własności zadania — nawet jeśli i tak miał zamiar je zrobić; zrobi, gdy będzie gotów."
     }
   ],
   "studies": [

@@ -37,6 +37,13 @@
       "url": "https://www.youtube.com/watch?v=mTT4Qrfrm-A&t=4846s",
       "author": "Martine McCutcheon",
       "note": "Without a bell/alarm she doesn't get back to what she meant to do — from brushing teeth to getting her son ready."
+    },
+    {
+      "title": "My Secret To Keeping a Neurodiverse Family FUNCTIONAL — the list where you can see it",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=PJLI9rcnfg8&t=2173s",
+      "author": "Hester Grainger",
+      "note": "A list in a closed notebook/phone fails — put it on whiteboards around the house or a clipboard; out of sight = out of mind."
     }
   ],
   "lang": "en",

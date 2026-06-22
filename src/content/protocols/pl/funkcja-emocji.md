@@ -37,6 +37,13 @@
       "type": "video",
       "url": "https://www.youtube.com/watch?v=hPSp2vqAjWo&t=2604s",
       "note": "Nazwanie emocji łączy ośrodki językowe z ciałem migdałowatym i wycisza je; pomaga koło uczuć."
+    },
+    {
+      "title": "How To Build A Deeper Connection With Your ADHD/Autistic Child — uwaga idzie tam, gdzie dopamina",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_ZzKcIEWCcM&t=924s",
+      "author": "Jannine Perry",
+      "note": "ADHD to nie deficyt uwagi, lecz deficyt jej REGULACJI — uwaga typu wszystko-albo-nic idzie tam, gdzie dopamina."
     }
   ],
   "lang": "pl",

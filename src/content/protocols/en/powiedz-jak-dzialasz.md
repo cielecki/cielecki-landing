@@ -45,6 +45,13 @@
       "url": "https://www.youtube.com/watch?v=AuIrlA-myos&t=3372s",
       "author": "Dad V Girls",
       "note": "'Diagnosis can become a crutch to stop trying — the reframe should unlock workarounds, not excuse giving up.'"
+    },
+    {
+      "title": "Cambridge Psychiatrist Shares New ADHD Treatment — dysregulated, not low dopamine",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=73c3MWbuSHM&t=192s",
+      "author": "Dr Judith Mohring",
+      "note": "Dopamine and noradrenaline are 'tidal' — tide out (scattered), tide in (hyperfocus); your state in half an hour can be totally different."
     }
   ],
   "lang": "en",
