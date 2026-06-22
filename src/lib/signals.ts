@@ -73,21 +73,3 @@ export const conditionColor: Record<string, string> = {
   autism: '#6E8268',
   audhd: '#7E6BA8',
 };
-
-// Primary profile accent for a card, as a SUBTLE left-border so the type colours
-// (terracotta=symptom, sage=method) stay intact while the profile leaning is legible
-// at a glance. Matches the active-filter chip colours in AudhdLayout (the legend).
-//
-// The `audhd` tag is near-universal in this base (almost everything applies to AuDHD),
-// so it carries no signal — keying off it paints everything violet. The real signal is
-// the ADHD-vs-autism leaning: both present → violet blend; only one → that hue; only the
-// bare audhd tag → blend.
-export function profileAccent(conditions: string[]): string {
-  const s = new Set(conditions);
-  const adhd = s.has('adhd');
-  const autism = s.has('autism');
-  if (adhd && autism) return conditionColor.audhd;
-  if (adhd) return conditionColor.adhd;
-  if (autism) return conditionColor.autism;
-  return conditionColor.audhd;
-}
