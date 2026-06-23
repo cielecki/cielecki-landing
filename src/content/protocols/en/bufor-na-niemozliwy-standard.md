@@ -78,4 +78,4 @@ When years of micro-corrections build a 'I always let people down' identity, psy
 
 The first move is cognitive: name the standard as impossible to keep ('I'm always going to fail it') and notice that safe people give far more flexibility than you give yourself. Most of the world isn't counting minutes the way your inner critic is.
 
-The second move is practical and is what actually lifts the anxiety: over-buffer exactly the situations you fail most. To stop being late, Roxanne started leaving two trains earlier — and went six months without being late once. An oversized buffer is cheaper than another meltdown.
+The second move is practical and is what actually lifts the anxiety: over-buffer exactly the situations you fail most. To stop being late, you can leave two trains earlier — a margin like that can mean six months without being late once. An oversized buffer is cheaper than another meltdown.

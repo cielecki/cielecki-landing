@@ -79,6 +79,6 @@
 }
 ---
 
-Neuronaukowiec TJ Power rozróżnia dopaminę „wysiłkową” i „bezwysiłkową”. Wysiłkowa przychodzi ewolucyjnie na końcu trudnego, ukończonego zadania — jak po wielogodzinnym polowaniu. Bezwysiłkowa to natychmiastowy zastrzyk bez pracy: cukier, fast food, scroll — chwytany na skróty, który rozregulowuje układ nagrody.
+Neurobiolog TJ Power rozróżnia dopaminę „wysiłkową" i „bezwysiłkową". Wysiłkowa przychodzi ewolucyjnie na końcu trudnego, ukończonego zadania — jak po wielogodzinnym polowaniu. Bezwysiłkowa to natychmiastowy zastrzyk bez pracy: cukier, fast food, scroll — chwytany na skróty, który rozregulowuje układ nagrody.
 
-Praktyka: świadomie przesuwaj się ku źródłom wysiłkowym (kończenie trudnych rzeczy daje „czystą” dopaminę) i ograniczaj łatwe hity, które podkręcają próg i napędzają kompulsje. To nie zakaz przyjemności — to dbanie, żeby nagroda dalej była powiązana z robotą, a nie z odruchowym sięganiem.
+Praktyka: świadomie przesuwaj się ku źródłom wysiłkowym (kończenie trudnych rzeczy daje „czystą" dopaminę) i ograniczaj łatwe hity, które podkręcają próg i napędzają kompulsje. To nie zakaz przyjemności — to dbanie, żeby nagroda dalej była powiązana z robotą, a nie z odruchowym sięganiem.

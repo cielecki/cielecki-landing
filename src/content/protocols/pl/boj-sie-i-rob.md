@@ -60,6 +60,6 @@
 }
 ---
 
-Po latach lęku przed lataniem Magdalena nie wybrała ani „nie wsiadam”, ani „wsiadam i walczę” (co przez prawo akcji-reakcji tylko podbija lęk). Wybrała trzecią drogę: wsiąść RAZEM z lękiem, z góry zakładając „będzie strasznie, będę się bać — siadam z tym lękiem”. Dosłownie wyobraziła sobie lęk na fotelu obok. To akceptacja w rozumieniu ACT.
+Wobec długotrwałego lęku (na przykład lęku przed lataniem) są trzy reakcje. Pierwsza: „nie wsiadam”. Druga: „wsiadam i walczę z lękiem” — co przez prawo akcji-reakcji tylko go podbija. Jest też trzecia droga: wsiąść RAZEM z lękiem, z góry zakładając „będzie strasznie, będę się bać — siadam z tym lękiem”. Pomaga tu dosłowne wyobrażenie sobie lęku na fotelu obok. To akceptacja w rozumieniu ACT.
 
-Ten sam ruch poprzedził utratę 36 kg: najpierw musiała nazwać sytuację (przestać mówić „jestem puszysta”, spojrzeć na fakt otyłości II stopnia), zanim w ogóle zaczęła szukać rozwiązań. „Trudne jest drogą” — omijanie trudności to omijanie dobra po jej drugiej stronie.
+Ten sam ruch poprzedza realną zmianę nawet w trudnych obszarach, takich jak otyłość: najpierw trzeba nazwać sytuację (przestać mówić „jestem puszysty/puszysta”, spojrzeć na fakt, np. otyłość II stopnia), zanim w ogóle zacznie się szukać rozwiązań. „Trudne jest drogą” — omijanie trudności to omijanie dobra po jej drugiej stronie.

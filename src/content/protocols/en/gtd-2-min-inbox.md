@@ -60,6 +60,6 @@
 }
 ---
 
-From David Allen's GTD: if something takes under two minutes, do it now — otherwise an unrecorded thought 'eats' working memory for a week. Everything else goes into ONE inbox (Magdalena keeps it all in Google Keep, synced phone↔PC; Mateusz: a paper card during deep work, later copied to one master list).
+From David Allen's GTD: if something takes under two minutes, do it now — otherwise an unrecorded thought 'eats' working memory for a week. Everything else goes into ONE inbox. Any container works as long as it's single and always at hand: a notes app synced between phone and computer, or a paper card set aside during deep work and later copied to one master list.
 
 The trap: open the notes app DIRECTLY — don't get hijacked by email and messengers on the way. A system works as long as everything's in it, you look at it, and you keep it tidy.

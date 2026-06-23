@@ -78,4 +78,4 @@ Gdy lata mikrokorekt zbudują w tobie tożsamość „zawsze kogoś zawodzę”,
 
 Pierwszy ruch jest poznawczy: nazwij standard jako niemożliwy do utrzymania („zawsze przy nim przegram”) i zauważ, że bezpieczni ludzie dają dużo więcej elastyczności, niż dajesz sobie ty sam. Większość świata nie liczy minut tak jak twój wewnętrzny krytyk.
 
-Drugi ruch jest praktyczny i to on realnie zdejmuje lęk: nadbuforuj dokładnie te sytuacje, w których najczęściej zawodzisz. Roxanne, by przestać się spóźniać, zaczęła wyjeżdżać dwa pociągi wcześniej — i przez pół roku nie spóźniła się ani razu. Nadmiarowy bufor jest tańszy niż kolejny meltdown.
+Drugi ruch jest praktyczny i to on realnie zdejmuje lęk: nadbuforuj dokładnie te sytuacje, w których najczęściej zawodzisz. Żeby przestać się spóźniać, można wyjeżdżać dwa pociągi wcześniej — taki margines potrafi sprawić, że przez pół roku nie spóźnisz się ani razu. Nadmiarowy bufor jest tańszy niż kolejny meltdown.

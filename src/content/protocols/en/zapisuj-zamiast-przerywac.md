@@ -66,6 +66,6 @@
 }
 ---
 
-Interrupting has two roots: excitement to add your two cents, and (more important) weaker working memory — fear you'll forget the thought. A rule from Magdalena's group (works 1-on-1 too): while someone speaks, everyone writes down what they want to ask. The funny payoff — half the questions become moot because the speaker already answered them.
+Interrupting has two roots: excitement to add your two cents, and (more important) weaker working memory — fear you'll forget the thought. A simple rule helps (in a group and 1-on-1): while someone speaks, everyone writes down what they want to ask. The funny payoff — half the questions become moot because the speaker already answered them.
 
 You can openly pull out your phone: 'One sec, I'm noting this so I don't forget' — it relieves tension on both sides.

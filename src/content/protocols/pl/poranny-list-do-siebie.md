@@ -74,4 +74,4 @@
 }
 ---
 
-W najcięższych okresach negatywny monolog wewnętrzny działa na okrągło i sam się napędza. Prosty, fizyczny przeciwwaga: co rano napisz do siebie krótki list, w którym wprost przeramowujesz własną wartość — np. „nie jesteś porażką, już nieraz zrobiłeś rzeczy trudne”. Wypisanie tego na zewnątrz (a nie tylko pomyślenie) odrywa cię od pętli wstydu i daje punkt startu na dzień. To narzędzie kryzysowe, codzienne, nie jednorazowe — autorka stosowała je dzień po dniu i uznała za pomocne.
+W najcięższych okresach negatywny monolog wewnętrzny działa na okrągło i sam się napędza. Prosty, fizyczny przeciwwaga: co rano napisz do siebie krótki list, w którym wprost przeramowujesz własną wartość — np. „nie jesteś porażką, już nieraz zrobiłeś rzeczy trudne". Wypisanie tego na zewnątrz (a nie tylko pomyślenie) odrywa od pętli wstydu i daje punkt startu na dzień. To narzędzie kryzysowe, codzienne, nie jednorazowe — bywa pomocne właśnie wtedy, gdy stosuje się je dzień po dniu.

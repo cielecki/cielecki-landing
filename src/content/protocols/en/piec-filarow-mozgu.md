@@ -102,7 +102,7 @@
 }
 ---
 
-Independent of medication and therapy there is a set of interconnected, physiological levers that modulate ADHD symptom severity — the doctor calls them brain pillars:
+Independent of medication and therapy there is a set of interconnected, physiological levers that modulate ADHD symptom severity. They are sometimes called brain pillars:
 
 1) Sleep — prioritise it as a regulator. 2) Stress — manage it actively. 3) Hormones — get support understanding them (for women especially the cycle, PMDD, perimenopause). 4) Gut — gut health. 5) Movement/exercise.
 

@@ -60,6 +60,6 @@
 }
 ---
 
-Z metody GTD Davida Allena: jeśli coś zajmie do dwóch minut, zrób od razu — niezarejestrowana myśl inaczej „zżera” pamięć roboczą przez tydzień. Resztę wrzucaj do JEDNEGO inboxa (Magdalena trzyma wszystko w Google Keep, synchronizowanym telefon↔PC; Mateusz: kartka obok podczas głębokiej pracy, potem przepisana na jedną listę-matkę).
+Z metody GTD Davida Allena: jeśli coś zajmie do dwóch minut, zrób od razu — niezarejestrowana myśl inaczej „zżera" pamięć roboczą przez tydzień. Resztę wrzucaj do JEDNEGO inboxa. Sprawdza się dowolny pojemnik, byle jeden i zawsze pod ręką: aplikacja do notatek zsynchronizowana między telefonem a komputerem albo kartka odkładana obok podczas głębokiej pracy, później przepisywana na jedną listę-matkę.
 
 Pułapka: otwieraj appkę z notatkami WPROST — nie daj się po drodze porwać mailom i komunikatorom. System działa, dopóki wszystko w nim jest, zaglądasz do niego i utrzymujesz porządek.

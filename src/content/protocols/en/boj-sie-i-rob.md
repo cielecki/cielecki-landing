@@ -60,6 +60,6 @@
 }
 ---
 
-After years of fearing flying, Magdalena chose neither 'I won't board' nor 'board and fight' (which, by action-reaction, only inflates the fear). She chose a third path: board WITH the fear, expecting it — 'this will be terrible, I'll be scared — I sit down with this fear'. She literally pictured the fear in the seat beside her. That's acceptance in ACT terms.
+Facing a long-standing fear (such as a fear of flying) tends to offer three responses. One: 'I won't board'. Two: 'board and fight the fear' — which, by action-reaction, only inflates it. There is also a third path: board WITH the fear, expecting it — 'this will be terrible, I'll be scared — I sit down with this fear'. Literally picturing the fear in the seat beside you helps. That's acceptance in ACT terms.
 
-The same move preceded losing 36 kg: she first had to name the situation (stop saying 'I'm just plump', face the Stage-II obesity fact) before she could even look for solutions. 'Hard is the way' — avoiding difficulty means avoiding the good on its far side.
+The same move precedes real change even in hard areas like obesity: you first have to name the situation (stop saying 'I'm just plump', face the fact, e.g. Stage-II obesity) before you can even look for solutions. 'Hard is the way' — avoiding difficulty means avoiding the good on its far side.

@@ -66,6 +66,6 @@
 }
 ---
 
-Za przerywaniem stoją dwie rzeczy: ekscytacja, żeby dorzucić swoje trzy grosze, oraz (ważniejsze) słabsza pamięć robocza — strach, że zapomnisz myśl. Zasada z grupy Magdaleny (działa też 1:1): dopóki ktoś mówi, każdy zapisuje to, o co chce zapytać. Zabawny efekt — połowa pytań staje się nieistotna, bo mówca już na nie odpowiedział.
+Za przerywaniem stoją dwie rzeczy: ekscytacja, żeby dorzucić swoje trzy grosze, oraz (ważniejsze) słabsza pamięć robocza — strach, że zapomnisz myśl. Pomaga prosta zasada (działa w grupie i 1:1): dopóki ktoś mówi, każdy zapisuje to, o co chce zapytać. Zabawny efekt — połowa pytań staje się nieistotna, bo mówca już na nie odpowiedział.
 
 Możesz wprost wyjąć telefon: „Sekundę, zanotuję to, żeby nie zapomnieć” — to rozładowuje napięcie po obu stronach.

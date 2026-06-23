@@ -95,6 +95,6 @@
 }
 ---
 
-Zakładamy „skoro ja tak mam, to inni też” — i większość trudności bierze się z NIEmówienia. Magdalena mówi wprost współpracownikom: „to zajmie mi 13× więcej energii i czasu niż Kasi czy Marcinowi — znajdźmy inne rozwiązanie”. Korzyści: nazwanie trudności uruchamia szukanie lepszego podejścia zamiast brnięcia na siłę; ludzie przestają oczekiwać tego, czego nie dasz; „czysta gra”.
+Łatwo założyć „skoro ja tak mam, to inni też" — a większość trudności bierze się z NIEmówienia o tym, jak działa twój mózg. Warto powiedzieć współpracownikom wprost: „to zajmie mi dużo więcej energii i czasu niż innym osobom w zespole — znajdźmy inne rozwiązanie". Korzyści: nazwanie trudności uruchamia szukanie lepszego podejścia zamiast brnięcia na siłę; ludzie przestają oczekiwać tego, czego nie dasz; „czysta gra".
 
-Ważne: to NIE „nie umiem, bo mam ADHD” jako wymówka — nie musisz nawet wspominać o ADHD. Wystarczy „mój mózg tego nie ogarnia, potrzebuję tego prościej / na piśmie / narysowane”, w parze ze wskazaniem, co zrobisz znakomicie. Odwaga mówienia i o słabościach, i o mocnych stronach.
+Ważne: to NIE „nie umiem, bo mam ADHD" jako wymówka — nie musisz nawet wspominać o ADHD. Wystarczy „mój mózg tego nie ogarnia, potrzebuję tego prościej / na piśmie / narysowane", w parze ze wskazaniem, co zrobisz znakomicie. Chodzi o odwagę mówienia i o słabościach, i o mocnych stronach.

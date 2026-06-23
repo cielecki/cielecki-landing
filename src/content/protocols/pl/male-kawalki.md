@@ -75,6 +75,6 @@
 }
 ---
 
-Ludzie oczekują skoku od „posłuchałem podcastu” do działania o trudności 9, lekceważąc mikro-kroki — a to one są najważniejszą częścią roboty w ADHD. Syn Magdaleny ogarnia 10-godzinny audiobook, tnąc go na „miliard” 20-minutowych kawałków.
+Ludzie często oczekują skoku od „posłuchałem podcastu” do działania o trudności 9, lekceważąc mikro-kroki — a to one są najważniejszą częścią roboty w ADHD. Nawet wielogodzinny audiobook da się ogarnąć, tnąc go na „miliard” 20-minutowych kawałków.
 
 Ustaw absurdalnie niski próg: nie „napisz raport”, tylko „otwórz dokument i napisz tytuł”. Po przekroczeniu pierwszej bariery rozpęd zwykle niesie dalej.

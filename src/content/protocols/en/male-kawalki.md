@@ -75,6 +75,6 @@
 }
 ---
 
-People expect to jump from 'I listened to a podcast' to a difficulty-9 action, dismissing the micro-steps — yet those are the most important part of the work in ADHD. Magdalena's son tackles a 10-hour audiobook by splitting it into 'a gazillion' 20-minute chunks.
+People often expect to jump from 'I listened to a podcast' to a difficulty-9 action, dismissing the micro-steps — yet those are the most important part of the work in ADHD. Even a multi-hour audiobook becomes manageable when split into 'a gazillion' 20-minute chunks.
 
 Set an absurdly low bar: not 'write the report' but 'open the doc and type the title'. Once you cross the first barrier, momentum usually carries you.
