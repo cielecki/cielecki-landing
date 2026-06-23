@@ -74,4 +74,4 @@
 }
 ---
 
-In the hardest stretches the negative inner monologue runs on a loop and feeds itself. A simple, physical counterweight: each morning write yourself a short letter that explicitly reframes your worth — e.g. 'you are not a failure, you've done hard things before'. Writing it out (not just thinking it) pulls you off the shame loop and gives the day a starting point. It's a crisis tool, daily not one-off — it tends to help precisely when it's repeated day after day.
+In the hardest stretches the negative inner monologue runs on a loop and feeds itself. A simple, physical counterweight: each morning write yourself a short letter that explicitly reframes your worth — e.g. 'you are not a failure, you've done hard things before'. Writing it out (not just thinking it) pulls you off the shame loop and gives the day a starting point. It's a crisis tool, daily not one-off.

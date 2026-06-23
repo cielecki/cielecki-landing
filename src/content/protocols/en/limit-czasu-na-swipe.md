@@ -73,4 +73,4 @@
 }
 ---
 
-Unlimited-swipe dating apps (Tinder/Bumble/Hinge) deliver a micro-dopamine hit per like and match. In ADHD brains the dopamine-seeking makes swiping near-compulsive. Instead of fighting the impulse, cap exposure with time: set a fixed daily timer (e.g. 30 minutes in the evening) and treat it as an investment — 'I'm giving myself this much time for online dating and that's it'. When the timer rings, you're done. You can leave notifications on so you don't seem rude by missing replies.
+Unlimited-swipe dating apps (Tinder/Bumble/Hinge) deliver a micro-dopamine hit per like and match. In ADHD brains the dopamine-seeking makes swiping compulsive. Instead of fighting the impulse, cap exposure with time: set a fixed daily timer (e.g. 30 minutes in the evening) and treat it as an investment — 'I'm giving myself this much time for dating online and that's it'. When the timer rings, you're done. You can leave notifications on so you don't seem rude by missing replies.

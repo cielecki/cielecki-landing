@@ -73,4 +73,4 @@
 }
 ---
 
-Aplikacje randkowe z nieograniczonym swipowaniem (Tinder/Bumble/Hinge) dostarczają mózgowi mikro-zastrzyk dopaminy z każdego lajka i matcha. U osób z ADHD poszukiwanie dopaminy sprawia, że swipowanie staje się niemal kompulsywne. Zamiast walczyć z impulsem, ogranicz ekspozycję czasem: ustaw stały dzienny timer (np. 30 minut wieczorem) i traktuj to jak inwestycję — „daję sobie tyle czasu na online dating i tyle”. Gdy timer dzwoni, kończysz. Powiadomienia możesz zostawić włączone, żeby nie wyjść na niegrzecznego przez przeoczone odpowiedzi.
+Aplikacje randkowe z nieograniczonym swipowaniem (Tinder/Bumble/Hinge) dostarczają mózgowi mikro-zastrzyk dopaminy z każdego lajka i matcha. U osób z ADHD poszukiwanie dopaminy sprawia, że swipowanie staje się kompulsywne. Zamiast walczyć z impulsem, ogranicz ekspozycję czasem: ustaw stały dzienny timer (np. 30 minut wieczorem) i traktuj to jak inwestycję — „daję sobie tyle czasu na randki online i tyle”. Gdy timer dzwoni, kończysz. Powiadomienia możesz zostawić włączone, żeby nie wyjść na niegrzecznego przez przeoczone odpowiedzi.

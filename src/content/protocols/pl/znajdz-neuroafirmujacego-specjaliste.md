@@ -89,8 +89,8 @@
 }
 ---
 
-Wiedza, że „jest powód, nie jestem zepsuta ani nie wymyślam tego sobie”, przesuwa cię ze stanu „chyba wariuję” do poczucia sprawczości. Dlatego pierwszy ruch po (lub w trakcie) kryzysu to znaleźć profesjonalistę neuroafirmującego — kogoś, kto rozumie wpływ neuroróżnorodności na zdrowie psychiczne i nie potraktuje twoich objawów jako samego lęku czy depresji do zagłuszenia.
+Wiedza, że „jest powód, nie jestem zepsuta ani nie wymyślam tego sobie”, przesuwa cię ze stanu „chyba wariuję” do poczucia sprawczości. Dlatego pierwszy ruch po (lub w trakcie) kryzysu to znaleźć profesjonalistę neuroafirmującego, kogoś, kto rozumie wpływ neuroróżnorodności na zdrowie psychiczne i nie potraktuje twoich objawów jako samego lęku czy depresji do zagłuszenia.
 
-Sama walidacja, zrozumienie i przeramowanie „jesteś inaczej okablowana, nie wybrakowana” są częścią leczenia — nie tylko wstępem do niego.
+Walidacja, zrozumienie i przeramowanie „jesteś inaczej okablowana, nie wybrakowana” są częścią leczenia, nie tylko wstępem do niego.
 
-Drugi krok to psychoedukacja: dla wielu kobiet to moment, w którym faktycznie zaczynają czuć się lepiej. Zadawaj konkretne pytania — „kto może mi pomóc, gdzie szukać wsparcia, co przeczytać” — i szukaj społeczności osób z podobnym mózgiem. Wiedza zastępuje samoobwinianie i pozwala celować w pomoc, która naprawdę pasuje.
+Drugi krok to psychoedukacja: dla wielu kobiet to moment, w którym faktycznie zaczynają czuć się lepiej. Zadawaj konkretne pytania: „kto może mi pomóc, gdzie szukać wsparcia, co przeczytać”, i szukaj społeczności osób z podobnym mózgiem. Wiedza zastępuje samoobwinianie i pozwala celować w pomoc, która naprawdę pasuje.

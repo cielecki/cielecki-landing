@@ -132,6 +132,6 @@
 
 Relaks przy ekranie jest mniej regenerujący niż bez ekranu — zwłaszcza gdy dochodzi poczucie winy z powodu telefonu, które samo podbija pobudzenie. Zamiast walczyć z nawykiem siłą woli, zmień otoczenie: rozstaw narzędzia do relaksu wszędzie tam, gdzie zwykle sięgasz po telefon (kanapa, podłoga, kuchnia, na zewnątrz), żeby bezekranowy relaks był równie wygodny i niskoprogowy.
 
-Wybierz kilka pozycji z menu: hobby zajmujące ręce (cross-stitch, dzierganie) pozwala dłoniom "fidgetować", podczas gdy mózg się wyłącza; zabawa sensoryczna (pojemnik z suchymi fasolkami, kinetyczny piasek, woda) jest dziwnie kojąca; wyjście na zieleń daje uwadze przerwę, bo natura przyciąga ją bezwysiłkowo. Przy bardzo niskiej energii połóż się i gap w sufit, ale znajdź delikatny punkt skupienia (gra światła i cienia), żeby "robić nic, ale nie nic" i nie zacząć nowego zadania.
+Wybierz kilka pozycji z menu: hobby zajmujące ręce (haft, dzierganie) sprawia, że dłonie mają zajęcie, podczas gdy mózg się wyłącza; zabawa sensoryczna (pojemnik z suchymi fasolkami, kinetyczny piasek, woda) jest dziwnie kojąca; wyjście na zieleń daje uwadze przerwę, bo natura przyciąga ją bezwysiłkowo. Przy bardzo niskiej energii połóż się i gap w sufit, ale znajdź delikatny punkt skupienia (gra światła i cienia), żeby nic nie robić, a jednak czymś zająć uwagę i nie zacząć nowego zadania.
 
 Nie używaj wszystkich narzędzi naraz — wybierz jedno lub dwa na początek, bo nadmiar opcji to w ADHD prosta droga do paraliżu decyzyjnego.

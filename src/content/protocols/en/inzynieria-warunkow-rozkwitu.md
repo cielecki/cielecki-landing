@@ -75,7 +75,7 @@
 }
 ---
 
-The root of the difficulty isn't laziness or lack of will — it's neurotransmitter dysregulation in the prefrontal cortex; the effort is usually already maxed out. That's why 'try harder' only leads to exhaustion. The breakthrough is changing the question: not 'how do I try harder' but 'under what conditions do I succeed'.
+The root of the difficulty isn't laziness or lack of will; it's neurotransmitter dysregulation in the prefrontal cortex, and the effort is usually already maxed out. That's why 'try harder' only leads to exhaustion. The breakthrough is changing the question: not 'how do I try harder' but 'under what conditions do I succeed'.
 
 Step 1: inventory your 'thrive conditions' — the time of day you think most clearly, a visual timer on the desk, a body double on screen, quiet and headphones, a concrete deadline. These are things that have already worked for you before.
 

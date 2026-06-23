@@ -74,4 +74,4 @@
 }
 ---
 
-Długa lista przytłacza i paraliżuje: widząc 10 rzeczy, zrobisz może 2. Widząc 3, potrafisz zrobić 6 w ciągu dnia. Mechanizm jest prosty — krótka lista redukuje overwhelm i utrzymuje ruch. Poproś partnera, asystenta (albo skonfiguruj sobie widok), żeby pokazywał ci tylko 2–3 zadania naraz i ukrywał resztę. Po odhaczeniu poproś o kolejne kilka. Chodzi o to, żeby w polu widzenia nigdy nie było całej góry — tylko najbliższy, wykonalny kawałek.
+Długa lista przytłacza i paraliżuje: widząc 10 rzeczy, zrobisz może 2. Widząc 3, potrafisz zrobić 6 w ciągu dnia. Mechanizm jest prosty — krótka lista redukuje przytłoczenie i utrzymuje ruch. Poproś partnera, asystenta (albo skonfiguruj sobie widok), żeby pokazywał ci tylko 2–3 zadania naraz i ukrywał resztę. Po odhaczeniu poproś o kolejne kilka. Chodzi o to, żeby w polu widzenia nigdy nie było całej góry, tylko najbliższy, wykonalny kawałek.

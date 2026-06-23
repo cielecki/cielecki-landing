@@ -94,6 +94,6 @@
 }
 ---
 
-Po późnej diagnozie ADHD naturalna jest żałoba — opłakiwanie lat i wyborów (związków, pracy), które mogłyby wyglądać inaczej, gdybyś wcześniej wiedział. Warto się na ten smutek przygotować i nie traktować go jak objawu choroby.
+Po późnej diagnozie ADHD naturalna jest żałoba, opłakiwanie lat i wyborów (związków, pracy), które mogłyby wyglądać inaczej, gdybyś wcześniej wiedział. Ten smutek warto nazwać i nie traktować go jak objawu choroby.
 
-Problem leży w narzuconej normie, nie w tobie. Społeczeństwo każe „przeboleć” stratę w jakieś trzy miesiące, co jest nienaturalne i sprawia, że uznajemy siebie (i bywamy diagnozowani) za chorych. Zdrowsze podejście to nauczyć się ŻYĆ ze stratą: zabrać ją ze sobą w dalszą drogę, kontynuować wartości, których dotyczy, pozwolić sobie na smutek w ważnych momentach — i jednocześnie śmiać się ze wspomnień. Odrzuć kalendarz „masz mieć to z głowy do trzech miesięcy”.
+Problem leży w narzuconej normie, nie w tobie. Społeczeństwo każe „przeboleć” stratę w jakieś trzy miesiące, co jest nienaturalne i sprawia, że uznajemy siebie (i bywamy diagnozowani) za chorych. Zdrowsze podejście to nauczyć się ŻYĆ ze stratą: zabrać ją ze sobą w dalszą drogę, kontynuować wartości, których dotyczy, pozwolić sobie na smutek w ważnych momentach i jednocześnie śmiać się ze wspomnień. Odrzuć kalendarz „masz mieć to z głowy do trzech miesięcy”.

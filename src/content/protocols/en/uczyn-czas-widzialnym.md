@@ -87,4 +87,4 @@
 }
 ---
 
-With time blindness the brain doesn't perceive the passage of time intuitively, so time management must be moved outside by making time VISIBLE. The simplest lever: colors in the calendar. Each event type gets a color, so a glance at the day instantly says what's when — and a missing or wrong color can literally cost half an hour of lateness. Add other external markers (alarms, visible clocks, a board) so no appointment is 'invisible'. This differs from alarms-as-time: here it's about a VISUAL representation of the whole day at once, not single pings.
+With time blindness the brain doesn't perceive the passage of time intuitively, so time management must be moved outside by making time VISIBLE. The simplest place to start: colors in the calendar. Each event type gets a color, so a glance at the day instantly says what's when, and a missing or wrong color can literally cost half an hour of lateness. Add other external markers (alarms, visible clocks, a board) so no appointment is 'invisible'. This differs from alarms-as-time: here it's about a VISUAL representation of the whole day at once, not single pings.

@@ -67,8 +67,8 @@
 }
 ---
 
-The harder you must fall asleep, the harder it gets — the pressure of "I have to sleep now" generates performance anxiety that raises arousal and blocks sleep. The nap game sidesteps the paradox: you're not trying to sleep, you're resting.
+The harder you must fall asleep, the harder it gets. The pressure of "I have to sleep now" generates performance anxiety that raises arousal and blocks sleep. The nap game sidesteps the paradox: you're not trying to sleep, you're resting.
 
-The mechanics are simple. Set a 20-minute timer and go through all the motions of a nap: lights off, settle into a comfortable position, close your eyes, focus on your breath. Closing your eyes and a comfortable position reduce the information the brain has to process, making it easier to calm down. The key rule: no pressure to actually sleep — if you're too wound up, you just rest for those 20 minutes and that's a full success.
+The mechanics are simple. Set a 20-minute timer and go through all the motions of a nap: lights off, settle into a comfortable position, close your eyes, focus on your breath. Closing your eyes and a comfortable position reduce the information the brain has to process, making it easier to calm down. The key rule: no pressure to actually sleep. If you're too wound up, you just rest for those 20 minutes and that's enough.
 
-Paradoxically, by removing the demand to sleep you often fall asleep anyway — and even if not, you give the nervous system a real reset instead of a war with the pillow. It's a good tool both for a daytime nap and as an escape hatch when you can't sleep at night and the tension around it is mounting.
+Paradoxically, by removing the demand to sleep you often fall asleep anyway; and even if not, you give the nervous system a real reset instead of a war with the pillow. It's a good tool both for a daytime nap and as an escape hatch when you can't sleep at night and the tension around it is mounting.

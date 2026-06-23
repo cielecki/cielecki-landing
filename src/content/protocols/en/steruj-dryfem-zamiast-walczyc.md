@@ -74,4 +74,4 @@
 }
 ---
 
-Fighting for presence breeds shame and frustration in an ADHD person, which press the arousal brake. The opposite approach can work: let your mind drift, but steer it toward what's arousing — e.g. the hottest sex you remember. Then the drift doesn't land on negative thoughts, there's no self-berating, and stimulation continues — you can orgasm despite 'drifting off'. It helps to tell your partner this is what works for you, so they don't take the drift personally.
+Fighting for presence breeds shame and frustration in an ADHD person, which press the arousal brake. The opposite approach can work: let your mind drift, but steer it toward what's arousing — e.g. the hottest sex you remember. Then the drift doesn't land on negative thoughts, there's no self-berating, and stimulation continues — you can orgasm despite 'drifting off'. Tell your partner this is what works for you, so they don't take the drift personally.

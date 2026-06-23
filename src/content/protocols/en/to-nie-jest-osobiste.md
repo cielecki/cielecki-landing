@@ -80,4 +80,4 @@
 }
 ---
 
-This is advice for the partner/loved one. Ego-driven personalisation ('why are they doing this to me') makes you miss the subtle cues the ADHD person sends instead of words — because they often can't name what they feel. Take both people's feelings out of the equation, name 'ADHD is at play here' plainly, and solve the situation together, as a problem to navigate rather than an attack on you. That shift from 'them vs me' to 'us vs the situation' unlocks cooperation and removes defensiveness on both sides.
+This is advice for the partner/loved one. Ego-driven personalisation ('why are they doing this to me') makes you miss the subtle cues the ADHD person sends instead of words — because they often can't name what they feel. Take both people's feelings out of the equation, name 'ADHD is at play here' plainly, and solve the situation together, as a problem to sort out rather than an attack on you. That shift from 'them vs me' to 'us vs the situation' unlocks cooperation and removes defensiveness on both sides.

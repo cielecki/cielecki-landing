@@ -74,4 +74,4 @@
 }
 ---
 
-A long list overwhelms and paralyses: seeing 10 things, you might do 2. Seeing 3, you can do 6 in a day. The mechanism is simple — a short list cuts overwhelm and keeps you moving. Ask a partner, an assistant (or set up a view) to show you only 2–3 tasks at a time and hide the rest. Once they're ticked off, ask for a few more. The point is that the whole mountain is never in view — only the nearest, doable chunk.
+A long list overwhelms and paralyses: seeing 10 things, you might do 2. Seeing 3, you can do 6 in a day. The mechanism is simple — a short list cuts overwhelm and keeps you moving. Ask a partner, an assistant (or set up a view) to show you only 2–3 tasks at a time and hide the rest. Once they're ticked off, ask for a few more. The point is that the whole mountain is never in view, only the nearest, doable chunk.

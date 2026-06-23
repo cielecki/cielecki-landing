@@ -89,8 +89,8 @@
 }
 ---
 
-Knowing that 'there is a reason — I'm not broken or imagining it' shifts you from 'maybe I'm going crazy' to a sense of agency. So the first move after (or during) a crisis is to find a neuro-affirming professional — someone who understands how neurodivergence affects mental health and won't treat your symptoms as mere anxiety or depression to be silenced.
+Knowing that 'there is a reason — I'm not broken or imagining it' shifts you from 'maybe I'm going crazy' to a sense of agency. So the first move after (or during) a crisis is to find a neuro-affirming professional, someone who understands how neurodivergence affects mental health and won't treat your symptoms as mere anxiety or depression to be silenced.
 
-Validation, understanding and the reframe 'you're wired differently, not deficient' are part of the treatment — not just a preamble to it.
+Validation, understanding and the reframe 'you're wired differently, not deficient' are part of the treatment, not just a preamble to it.
 
-The second step is psychoeducation: for many women this is the point where they actually start feeling better. Ask concrete questions — 'who can help me, where do I find support, what should I read' — and seek out a community of similarly-wired people. Knowledge replaces self-blame and lets you target help that genuinely fits.
+The second step is psychoeducation: for many women this is the point where they actually start feeling better. Ask concrete questions: 'who can help me, where do I find support, what should I read', and seek out a community of similarly-wired people. Knowledge replaces self-blame and lets you target help that genuinely fits.

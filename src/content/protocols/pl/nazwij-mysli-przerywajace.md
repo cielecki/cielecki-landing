@@ -88,4 +88,4 @@
 }
 ---
 
-W modelu hamulca/akceleratora lękowe myśli samoobserwacyjne aktywują hamulec. Trik: nazwij je partnerowi i poproś o odpowiedź. „Czy ładnie pachnę, czy dobrze wyglądam w tej pozycji, czy on się dobrze bawi” — to pytania, które wyskakują i blokują pobudzenie. Wygadanie ich i krótkie zapewnienie zdejmuje inhibitor, zamiast zostawiać go pracujący w tle. To wariant otwartej, beznamiętnej komunikacji o samym problemie ze skupieniem — wielu ludzi z ADHD nosi wstyd i milczy, bo boi się, że partner uzna seks za zły.
+W modelu hamulca/akceleratora lękowe myśli samoobserwacyjne aktywują hamulec. Trik: nazwij je partnerowi i poproś o odpowiedź. „Czy ładnie pachnę, czy dobrze wyglądam w tej pozycji, czy partner się dobrze bawi” — to pytania, które wyskakują i blokują pobudzenie. Wygadanie ich i krótkie zapewnienie zdejmuje inhibitor, zamiast zostawiać go pracujący w tle. To wariant otwartej, beznamiętnej komunikacji o samym problemie ze skupieniem — wielu ludzi z ADHD czuje wstyd i milczy, bo boi się, że partner uzna seks za zły.

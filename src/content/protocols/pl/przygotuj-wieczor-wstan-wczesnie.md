@@ -28,7 +28,7 @@
       "kind": "mechanism",
       "evidence": "C",
       "community": "niski",
-      "note": "Mniej porannych decyzji = mniejszy overwhelm, który wpędza w zamrożenie."
+      "note": "Mniej porannych decyzji = mniejsze przytłoczenie, który wpędza w zamrożenie."
     }
   ],
   "resources": [
@@ -81,4 +81,4 @@
 }
 ---
 
-Brak przygotowania tworzy poranny overwhelm i paraliż, który potrafi wykoleić cały dzień (z „świetnego dnia na mieście” robi się całodniowe moping w domu). Usuń decyzje z rana: wieczorem przygotuj rzeczy na następny dzień (sam albo z partnerem) — np. ubrania dzieci. Potem wstań przed wszystkimi (np. 5:00–6:00), zanim ruszy strumień wiadomości i zanim ktokolwiek zacznie ci przeszkadzać. To okno ciszy wykorzystaj na najważniejszą pracę — brak bodźców i żądań z zewnątrz daje czyste okno skupienia i ustawia resztę dnia na lepszej trajektorii.
+Brak przygotowania tworzy poranne przytłoczenie i paraliż, który potrafi wykoleić cały dzień (z „świetnego dnia na mieście” robi się całodniowe moping w domu). Usuń decyzje z rana: wieczorem przygotuj rzeczy na następny dzień (sam albo z partnerem) — np. ubrania dzieci. Potem wstań przed wszystkimi (np. 5:00–6:00), zanim ruszy strumień wiadomości i zanim ktokolwiek zacznie ci przeszkadzać. To okno ciszy wykorzystaj na najważniejszą pracę — brak bodźców i żądań z zewnątrz daje czyste okno skupienia i ustawia resztę dnia na lepszej trajektorii.

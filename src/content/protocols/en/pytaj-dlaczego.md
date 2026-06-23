@@ -70,4 +70,4 @@
 
 Instead of distracting yourself, sit with yourself and ask 'why am I doing this?', then keep asking 'but why?' over and over — exactly the way a child does. Each successive 'why' peels off a layer and exposes the real motive underneath.
 
-The goal: tell apart whether you're acting from self-love and respect, or from lack, fear and low self-esteem. The same decision made 'from fullness' versus 'from a hole' leads somewhere different — and that's exactly what you want to see before you move.
+The goal: tell apart whether you're acting from self-love and respect, or from lack, fear and low self-esteem. The same decision made from a sense of fullness versus a sense of lack leads somewhere different — and that's exactly what you want to see before you move.

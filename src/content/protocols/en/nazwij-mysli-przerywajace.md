@@ -88,4 +88,4 @@
 }
 ---
 
-In the brake/accelerator model, anxious self-monitoring thoughts activate the brake. The trick: name them to your partner and ask for an answer. 'Do I smell, do I look good in this position, is he enjoying himself' — these are the questions that pop up and block arousal. Voicing them and getting brief reassurance removes the inhibitor instead of leaving it running in the background. This is a flavour of open, shame-free communication about the focus problem itself — many ADHD people carry shame and stay silent, fearing the partner will think the sex is bad.
+In the brake/accelerator model, anxious self-monitoring thoughts activate the brake. The trick: name them to your partner and ask for an answer. 'Do I smell nice, do I look good in this position, is my partner enjoying themselves' — these are the questions that pop up and block arousal. Voicing them and getting brief reassurance removes the inhibitor instead of leaving it running in the background. This is a flavour of open, shame-free communication about the focus problem itself — many ADHD people feel shame and stay silent, fearing the partner will think the sex is bad.

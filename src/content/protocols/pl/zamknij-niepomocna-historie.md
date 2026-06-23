@@ -75,8 +75,8 @@
 }
 ---
 
-Wewnętrzny narrator przy ADHD bywa głośny i lubi dokręcać czarne scenariusze, zwłaszcza wieczorem. Kluczowa zmiana: traktuj natrętną ruminację nie jako fakt, lecz jako historię — a skoro ty jesteś jej autorem, nie masz obowiązku doczytać jej do końca.
+Wewnętrzny narrator przy ADHD bywa głośny i lubi dokręcać czarne scenariusze, zwłaszcza wieczorem. Zamiast brać natrętną ruminację za fakt, potraktuj ją jak historię, a skoro ty jesteś jej autorem, nie masz obowiązku doczytać jej do końca.
 
-Procedura: (1) zauważ, że właśnie „czytasz książkę” — opowiadasz sobie historię; (2) zadaj jedno pytanie: „czy ta historia mi pomaga?”; (3) jeśli nie — powiedz sobie „dobra, zostawmy tę historię” i celowo przerwij; kontynuuj tylko narracje, które ci służą.
+Procedura: (1) zauważ, że właśnie „czytasz książkę”, opowiadasz sobie historię; (2) zadaj jedno pytanie: „czy ta historia mi pomaga?”; (3) jeśli nie, powiedz sobie „dobra, zostawmy tę historię” i celowo przerwij; kontynuuj tylko narracje, które ci służą.
 
-To technika z terapii, nie wyłączanie myśli na siłę — chodzi o świadome zamknięcie konkretnej, niepomocnej opowieści, zamiast pozwalać jej toczyć się do najgorszego końca.
+To technika z terapii, nie wyłączanie myśli na siłę. Chodzi o świadome zamknięcie konkretnej, niepomocnej opowieści, zamiast pozwalać jej toczyć się do najgorszego końca.

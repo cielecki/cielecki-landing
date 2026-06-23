@@ -104,6 +104,6 @@
 
 Independent of medication and therapy there is a set of interconnected, physiological levers that modulate ADHD symptom severity. They are sometimes called brain pillars:
 
-1) Sleep — prioritise it as a regulator. 2) Stress — manage it actively. 3) Hormones — get support understanding them (for women especially the cycle, PMDD, perimenopause). 4) Gut — gut health. 5) Movement/exercise.
+1) Sleep — prioritise it as a regulator. 2) Stress — manage it actively. 3) Hormones — work on understanding them (for women especially the cycle, PMDD, perimenopause). 4) Gut — the microbiome and digestion. 5) Movement/exercise.
 
-They're interconnected, and managing them genuinely lowers symptom severity: even people on medication likely need less of it if they handle sleep, stress, hormones, gut and movement effectively. These are levers to start on right away, even before a diagnosis.
+They're interconnected, and managing them genuinely lowers symptom severity: even people on medication often need less of it if they handle sleep, stress, hormones, gut and movement effectively. These are levers to start on right away, even before a diagnosis.

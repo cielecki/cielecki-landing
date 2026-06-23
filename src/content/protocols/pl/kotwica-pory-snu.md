@@ -84,4 +84,4 @@
 }
 ---
 
-Na odraczanie snu z buntu nie pomoże silna wola — pomoże **zewnętrzna kotwica**. Ustaw stały **alarm „kładę się”** (np. na głośniku/HomePodzie, nie na telefonie, który wciąga) i powiąż go z **krótkim rytuałem** zamykającym dzień. Ale sednem jest mechanizm: oddaj sobie **trochę autonomii wcześniej** w ciągu dnia — inaczej mózg i tak zażąda „swojego” czasu nocą i alarm zignorujesz.
+Na odraczanie snu z buntu nie pomoże silna wola — pomoże zewnętrzna kotwica. Ustaw stały alarm „kładę się” (np. na głośniku/HomePodzie, nie na telefonie, który wciąga) i powiąż go z krótkim rytuałem zamykającym dzień. Ale sednem jest mechanizm: oddaj sobie trochę autonomii wcześniej w ciągu dnia, inaczej mózg i tak zażąda „swojego” czasu nocą i alarm zignorujesz.

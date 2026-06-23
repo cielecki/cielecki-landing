@@ -55,4 +55,4 @@
 
 Instead of relying on willpower, work with the existing behaviour pattern by changing the 'geography of the house'. Notice where things land naturally — e.g. the bag and clothes always in the same corner — and add infrastructure there to match the habit: a coat rack, a basket, a hook.
 
-It's a 'let's solve the problem together' approach, not 'stop being messy'. You fit the environment to the brain instead of forcing the brain to fight the environment — and the mess simply stops being created.
+It's a 'let's solve the problem together' approach, not 'stop being messy'. You fit the environment to the brain instead of forcing the brain to fight the environment, so the mess has fewer chances to build up.

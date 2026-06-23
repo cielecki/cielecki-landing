@@ -104,6 +104,6 @@
 
 Niezależnie od leków i terapii istnieje zestaw połączonych, fizjologicznych dźwigni, które modulują nasilenie objawów ADHD. Bywają nazywane filarami mózgu:
 
-1) Sen — priorytet jako regulator. 2) Stres — aktywne zarządzanie. 3) Hormony — warto zdobyć wsparcie w ich zrozumieniu (u kobiet szczególnie cykl, PMDD, perimenopauza). 4) Jelita — zdrowie jelit. 5) Ruch/ćwiczenia.
+1) Sen — priorytet jako regulator. 2) Stres — aktywne zarządzanie. 3) Hormony — zadbaj o ich zrozumienie (u kobiet szczególnie cykl, PMDD, perimenopauza). 4) Jelita — mikrobiom i trawienie. 5) Ruch/ćwiczenia.
 
-Są ze sobą powiązane, a ich ogarnięcie realnie obniża nasilenie objawów: nawet osoby na lekach prawdopodobnie potrzebują ich mniej, jeśli skutecznie zarządzają snem, stresem, hormonami, jelitami i ruchem. To dźwignie do ruszenia od razu, jeszcze przed diagnozą.
+Są ze sobą powiązane, a ich ogarnięcie realnie obniża nasilenie objawów: nawet osoby na lekach często potrzebują ich mniej, jeśli skutecznie zarządzają snem, stresem, hormonami, jelitami i ruchem. To dźwignie do ruszenia od razu, jeszcze przed diagnozą.

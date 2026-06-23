@@ -118,4 +118,4 @@
 }
 ---
 
-Jeśli to bodźce trzymają Cię w czuwaniu, **odetnij je fizycznie**. Z grupy przedsiębiorców ADHD/autyzm: do snu najlepiej sprawdzają się **woskowe zatyczki za ~3 zł z apteki** oraz **piankowe 3M** (przetestowane nawet przy całodobowej budowie pod oknem). Do dnia/skupienia — słuchawki ANC lub filtrujące (Loop). Do tego **maska na oczy** odcina światło. Traktuj to jak akomodację, nie fanaberię.
+Jeśli to bodźce trzymają Cię w czuwaniu, **odetnij je fizycznie**. Do snu najlepiej sprawdzają się woskowe zatyczki za ~3 zł z apteki oraz piankowe 3M (przetestowane nawet przy całodobowej budowie pod oknem). Do dnia/skupienia: słuchawki ANC lub filtrujące (Loop). Do tego maska na oczy odcina światło. Traktuj to jak akomodację, nie fanaberię.

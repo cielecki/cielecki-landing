@@ -52,6 +52,6 @@
 }
 ---
 
-Reframe an assessment (e.g. for the autism spectrum) as an insight tool, not an exam to pass. The structured questioning acts as 'unmasking' — it forces you to question traits you took as 'just my personality' — regardless of the final outcome.
+Reframe an assessment (e.g. for the autism spectrum) as an insight tool, not an exam to pass. The structured questioning acts as 'unmasking' — it forces you to question traits you took as 'just my personality', regardless of the final outcome.
 
-The problem isn't the 'known unknowns' but the 'unknown unknowns': things you don't know you don't know, because you mask them to please others. The assessment shines a spotlight on them. As one psychiatrist put it: 'what was the greatest thing from your ADHD diagnosis? Understanding. So why would this be any different?'.
+The problem isn't the 'known unknowns' but the 'unknown unknowns': things you don't know you don't know, because you mask them to please others. The assessment shines a spotlight on them. As psychiatrists put it: 'what was the greatest thing from your ADHD diagnosis? Understanding. So why would this be any different?'.

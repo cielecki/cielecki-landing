@@ -67,8 +67,8 @@
 }
 ---
 
-Im bardziej musisz zasnąć, tym trudniej zasnąć — presja "muszę już spać" sama generuje lęk wydajnościowy, który podbija pobudzenie i blokuje sen. Gra w drzemkę obchodzi ten paradoks: nie próbujesz zasnąć, tylko odpoczywasz.
+Im bardziej musisz zasnąć, tym trudniej zasnąć. Presja „muszę już spać” sama generuje lęk wydajnościowy, który podbija pobudzenie i blokuje sen. Gra w drzemkę obchodzi ten paradoks: nie próbujesz zasnąć, tylko odpoczywasz.
 
-Mechanika jest prosta. Ustaw 20-minutowy timer i wykonaj wszystkie czynności drzemki: zgaś światło, połóż się w wygodnej pozycji, zamknij oczy, skup się na oddechu. Zamknięcie oczu i komfortowa pozycja zmniejszają ilość informacji, które mózg musi przetwarzać, więc łatwiej się wyciszyć. Kluczowa zasada: żadnej presji, by faktycznie zasnąć — jeśli jesteś zbyt nakręcony, po prostu odpoczywasz przez te 20 minut i to jest pełny sukces.
+Mechanika jest prosta. Ustaw 20-minutowy timer i wykonaj wszystkie czynności drzemki: zgaś światło, połóż się w wygodnej pozycji, zamknij oczy, skup się na oddechu. Zamknięcie oczu i komfortowa pozycja zmniejszają ilość informacji, które mózg musi przetwarzać, więc łatwiej się wyciszyć. Kluczowa zasada: żadnej presji, by faktycznie zasnąć. Jeśli jesteś zbyt nakręcony, po prostu odpoczywasz przez te 20 minut i to wystarczy.
 
-Paradoksalnie, zdejmując wymóg zaśnięcia, często zasypiasz — a nawet jeśli nie, dajesz układowi nerwowemu realny reset zamiast wojny z poduszką. To dobre narzędzie i na drzemkę w ciągu dnia, i jako furtka, gdy wieczorem nie możesz zasnąć i napięcie wokół tego rośnie.
+Paradoksalnie, zdejmując wymóg zaśnięcia, często zasypiasz; a nawet jeśli nie, dajesz układowi nerwowemu realny reset zamiast wojny z poduszką. To dobre narzędzie i na drzemkę w ciągu dnia, i jako furtka, gdy wieczorem nie możesz zasnąć i napięcie wokół tego rośnie.

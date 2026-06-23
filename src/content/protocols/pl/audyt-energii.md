@@ -115,9 +115,9 @@
 }
 ---
 
-Zarządzanie energią to fundament, nie dodatek. Kilka dźwigni z rozmowy:
+Kilka dźwigni z zarządzania energią:
 
 • „Parking” — lista zadań, które świadomie przyjmujesz, że nie wydarzą się w tym tygodniu; akceptacja tego, czego NIE zrobisz, redukuje poczucie winy i mielenie w głowie.
 • „Głowa myśli, że ciało może więcej, niż może” — pytaj, czy ciało realnie udźwignie to, na co właśnie się zapisałeś.
-• „Muszę, bo muszę” vs „muszę, bo chcę” — zadania-chcę dają energię na te trudne; wytnij je, a motywacja, żeby wstać jutro, się sypie. Balans jest konieczny.
+• „Muszę, bo muszę” vs „muszę, bo chcę” — zadania-chcę dają energię na te trudne; wytnij je, a motywacja, żeby wstać jutro, się sypie.
 • „Jutro nowa gra” — nie przewalaj niezrobionych zadań w stertę poczucia winy; wyczyść tablicę i zaprojektuj kolejny dzień od zera.

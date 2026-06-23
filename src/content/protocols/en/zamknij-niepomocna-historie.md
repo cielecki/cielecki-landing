@@ -75,8 +75,8 @@
 }
 ---
 
-The inner narrator in ADHD can be loud and likes to crank up worst-case scenarios, especially in the evening. The key shift: treat intrusive rumination not as fact but as a story — and since you're its author, you're under no obligation to read it to the end.
+The inner narrator in ADHD can be loud and likes to crank up worst-case scenarios, especially in the evening. Instead of taking intrusive rumination as fact, treat it as a story, and since you're its author, you're under no obligation to read it to the end.
 
-Procedure: (1) notice that you're 'reading a book' right now — telling yourself a story; (2) ask one question: 'is this story helping me?'; (3) if not — tell yourself 'okay, let's drop that story' and deliberately stop; keep going only on narratives that serve you.
+Procedure: (1) notice that you're 'reading a book' right now, telling yourself a story; (2) ask one question: 'is this story helping me?'; (3) if not, tell yourself 'okay, let's drop that story' and deliberately stop; keep going only on narratives that serve you.
 
-This is a therapy technique, not forcibly switching thoughts off — it's about consciously closing one specific, unhelpful tale instead of letting it run to its worst ending.
+This is a therapy technique, not forcibly switching thoughts off. It's about consciously closing one specific, unhelpful tale instead of letting it run to its worst ending.

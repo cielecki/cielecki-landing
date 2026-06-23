@@ -87,6 +87,6 @@
 }
 ---
 
-Mocne strony ADHD (kreatywność, odważne, impulsywne startowanie) najlepiej działają, gdy ktoś je równoważy follow-through i chłodną logiką. Świadomie dobieraj komplementarną osobę — bardziej asertywną albo spokojniejszą — która naciśnie hamulec, gdy ty bez lęku rzucasz się w nowe rzeczy. Działa to w związku, w biznesie i w zespole.
+Mocne strony ADHD (kreatywność, odważne i impulsywne startowanie) najlepiej działają, gdy ktoś je równoważy follow-through i chłodną logiką. Świadomie dobieraj komplementarną osobę — bardziej asertywną albo spokojniejszą — która naciśnie hamulec, gdy ty bez lęku rzucasz się w nowe rzeczy. Działa to w związku, w biznesie i w zespole.
 
 Klucz to odwaga powiedzenia wprost: „w tym jestem dobry, w tym nie — połączmy siły”. To nie przyznanie się do słabości, tylko ustawienie układu, w którym twój yang dostaje swój yin i całość jedzie dalej, niż każde z osobna.

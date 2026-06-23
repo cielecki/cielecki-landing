@@ -89,4 +89,4 @@
 }
 ---
 
-Mindfulness and exercise have the strongest evidence base among ADHD interventions. The snag: classic still mindfulness is unbearably hard for the ADHD brain. The fix: do mindfulness as movement — mindful running, dancing or consciously listening to music. Movement (especially morning/outdoor) calms the mental chatter and measurably improves focus for the rest of the day. Default: a daily walk or run; and when you can't get outside, substitute ~20 star jumps in the mirror — even that small thing can shift the day's focus trajectory.
+Mindfulness and exercise have the strongest evidence base among ADHD interventions. The snag: classic still mindfulness is unbearably hard for the ADHD brain. The fix: do mindfulness as movement — mindful running, dancing or consciously listening to music. Movement (especially morning/outdoor) calms the mental chatter and measurably improves focus for the rest of the day. Default: a daily walk or run; and when you can't get outside, substitute ~20 star jumps in the mirror — even that small thing can improve your focus for the whole day.

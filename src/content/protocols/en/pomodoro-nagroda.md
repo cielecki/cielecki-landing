@@ -76,4 +76,4 @@
 
 The ADHD brain needs the reward now, not abstractly 'later' — and the undefined scale of a task paralyses it. The Pomodoro method gives both at once: set 30 minutes of work and plan a concrete reward at the end in advance. You get a near-term, closed-off target instead of an endless mountain.
 
-This is especially effective against the cleaning paralysis loop ('I see the mess → overwhelm → I sit down'). A timer plus a defined payoff turns 'clean the whole house' into 'work for 30 minutes, then X'. It helps to name the payoff before you even start ('what will I feel when I'm done?') to build the motivational pathway.
+This is especially effective against the cleaning paralysis loop ('I see the mess → overwhelm → I sit down'). A timer plus a defined payoff turns 'clean the whole house' into 'work for 30 minutes, then X'. Name the payoff before you even start ('what will I feel when I'm done?'), so the target is tangible from the first minute.

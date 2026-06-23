@@ -74,6 +74,6 @@
 }
 ---
 
-Mózg ADHD potrzebuje nagrody teraz, nie abstrakcyjnie „potem” — a nieokreślony ogrom zadania go paraliżuje. Metoda pomodoro daje jedno i drugie naraz: ustaw 30 minut pracy i z góry zaplanuj konkretną nagrodę na koniec. Dostajesz bliski, domknięty cel zamiast bezkresnej góry.
+Mózg ADHD potrzebuje nagrody teraz, nie abstrakcyjnie „potem" — a nieokreślony ogrom zadania go paraliżuje. Metoda pomodoro daje jedno i drugie naraz: ustaw 30 minut pracy i z góry zaplanuj konkretną nagrodę na koniec. Dostajesz bliski, domknięty cel zamiast bezkresnej góry.
 
-To szczególnie skuteczne na pętlę paraliżu przy sprzątaniu („widzę bałagan → przytłoczenie → siadam”). Timer plus zdefiniowana wypłata zmieniają „posprzątaj cały dom” w „pracuj 30 minut, potem X”. Warto domknięcie nazwać jeszcze przed startem („co poczuję, jak skończę?”), żeby zbudować ścieżkę motywacji.
+To szczególnie skuteczne na pętlę paraliżu przy sprzątaniu („widzę bałagan → przytłoczenie → siadam"). Timer plus zdefiniowana wypłata zmieniają „posprzątaj cały dom" w „pracuj 30 minut, potem X". Nazwij nagrodę jeszcze przed startem („co poczuję, jak skończę?"), żeby cel był namacalny od pierwszej minuty.

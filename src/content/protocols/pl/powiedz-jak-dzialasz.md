@@ -95,6 +95,6 @@
 }
 ---
 
-Łatwo założyć „skoro ja tak mam, to inni też" — a większość trudności bierze się z NIEmówienia o tym, jak działa twój mózg. Warto powiedzieć współpracownikom wprost: „to zajmie mi dużo więcej energii i czasu niż innym osobom w zespole — znajdźmy inne rozwiązanie". Korzyści: nazwanie trudności uruchamia szukanie lepszego podejścia zamiast brnięcia na siłę; ludzie przestają oczekiwać tego, czego nie dasz; „czysta gra".
+Łatwo założyć „skoro ja tak mam, to inni też” — a większość trudności bierze się z NIEmówienia o tym, jak działa twój mózg. Powiedz współpracownikom wprost: „to zajmie mi dużo więcej energii i czasu niż innym osobom w zespole — znajdźmy inne rozwiązanie”. Korzyści: nazwanie trudności uruchamia szukanie lepszego podejścia zamiast brnięcia na siłę; ludzie przestają oczekiwać tego, czego nie dasz; gra robi się uczciwa.
 
-Ważne: to NIE „nie umiem, bo mam ADHD" jako wymówka — nie musisz nawet wspominać o ADHD. Wystarczy „mój mózg tego nie ogarnia, potrzebuję tego prościej / na piśmie / narysowane", w parze ze wskazaniem, co zrobisz znakomicie. Chodzi o odwagę mówienia i o słabościach, i o mocnych stronach.
+Ważne: to NIE „nie umiem, bo mam ADHD” jako wymówka — nie musisz nawet wspominać o ADHD. Wystarczy „mój mózg tego nie ogarnia, potrzebuję tego prościej / na piśmie / narysowane”, w parze ze wskazaniem, co zrobisz znakomicie. Mów i o słabościach, i o mocnych stronach.

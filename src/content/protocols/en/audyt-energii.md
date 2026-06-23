@@ -115,9 +115,9 @@
 }
 ---
 
-Energy management is the foundation, not an add-on. A few levers from the talk:
+A few levers for managing energy:
 
 • 'Parking lot' — a list of tasks you consciously accept won't happen this week; accepting what you WON'T do reduces guilt and mental churn.
 • 'Your head thinks the body can do more than it can' — ask whether the body will actually carry what you just signed up for.
-• 'Must because I must' vs 'must because I want' — want-tasks fuel energy for the hard ones; strip them away and the motivation to get up tomorrow collapses. Balance is essential.
+• 'Must because I must' vs 'must because I want' — want-tasks fuel energy for the hard ones; strip them away and the motivation to get up tomorrow collapses.
 • 'Tomorrow is a new game' — don't roll undone tasks into a guilt pile; wipe the board and design the next day from zero.

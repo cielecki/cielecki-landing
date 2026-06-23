@@ -95,6 +95,6 @@
 }
 ---
 
-It's easy to assume 'if I'm like this, others are too' — and most difficulty comes from NOT telling people how your brain works. It helps to say it plainly to collaborators: 'this'll take me much more energy and time than others on the team — let's find another solution'. Benefits: naming a difficulty triggers a search for a better approach instead of grinding through; people stop expecting what you won't give; a 'clean game'.
+It's easy to assume 'if I'm like this, others are too' — and most difficulty comes from NOT telling people how your brain works. Say it plainly to collaborators: 'this'll take me much more energy and time than others on the team — let's find another solution'. Benefits: naming a difficulty triggers a search for a better approach instead of grinding through; people stop expecting what you won't give; the game gets fair.
 
-Important: this is NOT 'I can't, I have ADHD' as a blanket excuse — you needn't even mention ADHD. Just 'my brain doesn't handle this, I need it simpler / written / drawn', paired with pointing to what you'll do excellently. It's about the courage to speak of both weaknesses and strengths.
+Important: this is NOT 'I can't, I have ADHD' as a blanket excuse — you needn't even mention ADHD. Just 'my brain doesn't handle this, I need it simpler / written / drawn', paired with pointing to what you'll do excellently. Speak of both weaknesses and strengths.

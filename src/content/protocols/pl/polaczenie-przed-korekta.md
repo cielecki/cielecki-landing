@@ -91,6 +91,6 @@
 
 Próba zmiany zachowania dziecka, które nie czuje się z tobą połączone, nie zadziała — najpierw połączenie, potem korekta. W praktyce:
 
-- Ciekawość zamiast krytyki: przy wpadce pytaj „powiedz, co myślałeś, kiedy to robiłeś”, zamiast od razu zakładać motyw i karcić. Często odpowiedź jest niewinna albo praktyczna, a wtedy uczysz „pomyśl, zanim” zamiast zostawiać dziecko z poczuciem niesprawiedliwości i złości.
-- Bądź po stronie dziecka: „przestań ciągnąć linę”. Wobec szkoły mów „zgadzam się, że to zachowanie było nie do przyjęcia — co MY, dorośli, zrobimy, żeby mu pomóc tego nie robić?”. Stań się sojusznikiem, nie drugim źródłem kary.
-- Powiedz wprost: „jestem w twoim narożniku, no matter what”. Nie zakładaj, że dziecko to wie — dla wielu jest to nowość i punkt zwrotny (pomaga namacalna kotwica, np. przedmiot nazwany „No Matter What”). Granice na zachowanie nadal obowiązują.
+- Ciekawość zamiast krytyki: przy wpadce pytaj „powiedz, co myślałeś, kiedy to robiłeś", zamiast od razu zakładać motyw i karcić. Często odpowiedź jest niewinna albo praktyczna, a wtedy uczysz „pomyśl, zanim" zamiast zostawiać dziecko z poczuciem niesprawiedliwości i złości.
+- Bądź po stronie dziecka: „przestań ciągnąć linę". Wobec szkoły mów „zgadzam się, że to zachowanie było nie do przyjęcia — co MY, dorośli, zrobimy, żeby mu pomóc tego nie robić?". Stań się sojusznikiem, nie drugim źródłem kary.
+- Powiedz wprost: „jestem w twoim narożniku, bez względu na wszystko". Nie zakładaj, że dziecko to wie — dla wielu jest to nowość i punkt zwrotny (pomaga namacalna kotwica, np. przedmiot nazwany „No Matter What"). Granice na zachowanie nadal obowiązują.

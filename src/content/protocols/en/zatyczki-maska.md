@@ -118,4 +118,4 @@
 }
 ---
 
-If it's stimuli keeping you awake, **block them physically**. From the ADHD/autism founders' group: for sleep, **~3 zł wax plugs from the pharmacy** and **3M foam plugs** win (tested even against 24/7 construction outside the window). For daytime/focus — ANC or filtering headphones (Loop). Add an **eye mask** to cut light. Treat it as an accommodation, not a luxury.
+If it's stimuli keeping you awake, **block them physically**. For sleep, ~3 zł wax plugs from the pharmacy and 3M foam plugs work best (tested even against 24/7 construction outside the window). For daytime/focus: ANC or filtering headphones (Loop). Add an eye mask to cut light. Treat it as an accommodation, not a luxury.

@@ -95,11 +95,11 @@
 }
 ---
 
-Dopasowanie modalności terapii ma duże znaczenie dla mózgu neuroatypowego — terapia, która „nie zadziałała”, często znaczy „ta forma nie pasowała”, a nie „terapia nie działa”.
+Dopasowanie modalności terapii do mózgu neuroatypowego potrafi przesądzić o efekcie — terapia, która „nie zadziałała”, często znaczy „ta forma nie pasowała”, a nie „terapia nie działa”.
 
 Co bywa istotne przy ADHD/autyzmie:
 
-- Terapia mało ustrukturyzowana, oparta na ciszy i swobodnych skojarzeniach (klasyczna psychodynamiczna) bywa trudnym dopasowaniem — niski poziom struktury i bodźców utrudnia zaangażowanie. To obserwacja kliniczna i z doświadczeń, nie reguła; części osób psychodynamiczna pomaga.
+- Terapia mało ustrukturyzowana, oparta na ciszy i swobodnych skojarzeniach (klasyczna psychodynamiczna) bywa trudnym dopasowaniem — niski poziom struktury i bodźców utrudnia zaangażowanie. To obserwacja kliniczna, nie reguła; części osób psychodynamiczna pomaga.
 - Podejścia pracujące z ciałem (np. Gestalt, terapie somatyczne) bywają trafniejsze tam, gdzie kontakt z własnym ciałem i emocjami jest osłabiony.
 - Najmocniejsze zaplecze badawcze ma CBT i jej „trzecia fala” (DBT, ACT); ich wspólny rdzeń to uczenie się dystansu do myśli i tolerowania dyskomfortu.
 

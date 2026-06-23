@@ -89,4 +89,4 @@
 }
 ---
 
-Mindfulness i ruch mają najmocniejsze zaplecze dowodowe wśród interwencji na ADHD. Problem: klasyczny mindfulness w bezruchu jest dla mózgu ADHD nieznośnie trudny. Rozwiązanie: rób mindfulness jako ruch — uważne bieganie, taniec albo świadome słuchanie muzyki. Ruch (zwłaszcza poranny/na zewnątrz) wycisza gonitwę i mierzalnie poprawia skupienie na resztę dnia. Domyślnie: codzienny spacer lub bieg; a gdy nie możesz wyjść, podstaw ~20 pajacyków przed lustrem — nawet ten drobiazg potrafi zmienić trajektorię focusu na cały dzień.
+Mindfulness i ruch mają najmocniejsze zaplecze dowodowe wśród interwencji na ADHD. Problem: klasyczny mindfulness w bezruchu jest dla mózgu ADHD nieznośnie trudny. Rozwiązanie: rób mindfulness jako ruch — uważne bieganie, taniec albo świadome słuchanie muzyki. Ruch (zwłaszcza poranny/na zewnątrz) wycisza gonitwę i mierzalnie poprawia skupienie na resztę dnia. Domyślnie: codzienny spacer lub bieg; a gdy nie możesz wyjść, podstaw ~20 pajacyków przed lustrem — nawet ten drobiazg potrafi poprawić skupienie na cały dzień.

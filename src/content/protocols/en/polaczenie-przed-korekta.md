@@ -91,6 +91,6 @@
 
 Trying to change the behaviour of a child who doesn't feel connected to you won't work — connection first, correction second. In practice:
 
-- Curiosity over criticism: on a misstep ask 'tell me what you were thinking when you did that', instead of assuming a motive and scolding. The answer is often innocent or practical, and then you coach 'think before' rather than leaving the child with a pool of injustice and rage.
+- Curiosity over criticism: on a misstep ask 'tell me what you were thinking when you did that', instead of assuming a motive and scolding. The answer is often innocent or practical, and then you coach 'think before' rather than leaving the child feeling unjustly treated and angry.
 - Get on the child's side: 'drop the rope'. With the school, say 'I agree that behaviour wasn't acceptable — what are WE, the adults, going to do to help him not do this?'. Become an ally, not a second source of punishment.
 - Say it outright: 'I'm in your corner, no matter what'. Don't assume the child knows it — for many it's news and a turning point (a tangible anchor helps, e.g. an object named 'No Matter What'). Boundaries on behaviour still hold.

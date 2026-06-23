@@ -84,4 +84,4 @@
 }
 ---
 
-Willpower won't beat revenge bedtime procrastination — an **external anchor** will. Set a fixed **'time for bed' alarm** (on a speaker/HomePod, not the phone that sucks you in) and tie it to a **short closing ritual**. But the real fix is the mechanism: give yourself **some autonomy earlier** in the day — otherwise the brain demands 'its' time at night and you'll ignore the alarm.
+Willpower won't beat revenge bedtime procrastination — an external anchor will. Set a fixed 'time for bed' alarm (on a speaker/HomePod, not the phone that sucks you in) and tie it to a short closing ritual. But the real fix is the mechanism: give yourself some autonomy earlier in the day, otherwise the brain demands 'its' time at night and you'll ignore the alarm.

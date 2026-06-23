@@ -74,4 +74,4 @@
 }
 ---
 
-Walka o obecność rodzi u osoby z ADHD wstyd i frustrację, które wciskają hamulec pobudzenia. Bywa skuteczne podejście odwrotne: pozwól umysłowi błądzić, ale kieruj go ku temu, co podniecające — np. ku najlepszemu seksowi, jaki pamiętasz. Wtedy dryf nie ląduje na myślach negatywnych, nie ma berbotania siebie, a stymulacja trwa — można osiągnąć orgazm mimo „odpłynięcia". Warto powiedzieć partnerowi, że to właśnie ci pomaga, żeby nie brał odpływu do siebie.
+Walka o obecność rodzi u osoby z ADHD wstyd i frustrację, które wciskają hamulec pobudzenia. Bywa skuteczne podejście odwrotne: pozwól umysłowi błądzić, ale kieruj go ku temu, co podniecające — np. ku najlepszemu seksowi, jaki pamiętasz. Wtedy dryf nie ląduje na myślach negatywnych, nie ma obwiniania siebie, a stymulacja trwa — można osiągnąć orgazm mimo „odpłynięcia”. Powiedz partnerowi, że to właśnie ci pomaga, żeby nie brał odpływu do siebie.

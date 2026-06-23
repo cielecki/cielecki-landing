@@ -55,4 +55,4 @@
 
 Zamiast liczyć na silną wolę, pracuj z istniejącym wzorcem zachowania, zmieniając „geografię domu”. Zauważ, gdzie rzeczy lądują naturalnie — np. torba i ubrania zawsze w tym samym kącie — i dołóż tam infrastrukturę pod ten nawyk: wieszak na płaszcze, koszyk, haczyk.
 
-To podejście „rozwiązujemy problem razem”, nie „przestań być bałaganiarą”. Dopasowujesz otoczenie do mózgu, zamiast wymuszać na mózgu walkę z otoczeniem — i bałagan po prostu przestaje powstawać.
+To podejście „rozwiązujemy problem razem”, nie „przestań być bałaganiarą”. Dopasowujesz otoczenie do mózgu, zamiast wymuszać na mózgu walkę z otoczeniem, więc bałagan ma mniej okazji, żeby powstać.

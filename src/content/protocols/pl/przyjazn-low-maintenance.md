@@ -15,7 +15,7 @@
       "kind": "symptom",
       "evidence": "C",
       "community": "średni",
-      "note": "Zdejmuje presję częstego kontaktu, która generuje overwhelm i zabija przyjaźnie."
+      "note": "Zdejmuje presję częstego kontaktu, która generuje przytłoczenie i zabija przyjaźnie."
     },
     {
       "target": "brak-stalosci-obiektu",
@@ -102,4 +102,4 @@
 }
 ---
 
-Sztywne „musimy pisać codziennie” przyjaźnie nie są zrównoważone dla osób neuroatypowych: obowiązek natychmiastowej odpowiedzi tworzy overwhelm, a słaba stałość obiektu i tak wypycha nieobecnych z pamięci — co potem napędza wstyd i winę za milczenie, aż relacja umiera. Odwróć założenie: szukaj (zwłaszcza z innymi neuroatypowymi osobami) przyjaźni, w których długie przerwy są okej. Umówcie się wprost, że można nie pisać tygodniami czy rok i podjąć rozmowę jak gdyby nigdy nic, zamiast przepraszać i zasypywać się wiadomościami na nadrobienie. Brak presji = brak spirali wstydu, która zabija przyjaźnie ADHD.
+Sztywne „musimy pisać codziennie” przyjaźnie nie są zrównoważone dla osób neuroatypowych: obowiązek natychmiastowej odpowiedzi tworzy przytłoczenie, a słaba stałość obiektu i tak wypycha nieobecnych z pamięci — co potem napędza wstyd i winę za milczenie, aż relacja umiera. Odwróć założenie: szukaj (zwłaszcza z innymi neuroatypowymi osobami) przyjaźni, w których długie przerwy są okej. Umówcie się wprost, że można nie pisać tygodniami czy rok i podjąć rozmowę jak gdyby nigdy nic, zamiast przepraszać i zasypywać się wiadomościami na nadrobienie. Brak presji = brak spirali wstydu, która zabija przyjaźnie ADHD.

@@ -132,6 +132,6 @@
 
 Relaxing with screens is less restorative than relaxing without them — especially when guilt about the phone, which itself raises arousal, comes along. Instead of fighting the habit with willpower, change the environment: place relaxation tools everywhere you'd otherwise reach for your phone (couch, floor, kitchen, outside) so screen-free relaxing is just as convenient and low-friction.
 
-Pick a few items from the menu: a hands-busy hobby (cross-stitch, knitting) lets the hands fidget while the brain disengages; sensory play (a bin of dried beans, kinetic sand, water) is oddly calming; going outside for green time gives attention a break because nature draws it effortlessly. When energy is very low, lie down and stare at the ceiling but find a gentle focal point (light and shadow) so you 'do nothing, but not nothing' and don't start a new task.
+Pick a few items from the menu: a hands-busy hobby (cross-stitch, knitting) keeps the hands occupied while the brain disengages; sensory play (a bin of dried beans, kinetic sand, water) is oddly calming; going outside for green time gives attention a break because nature draws it effortlessly. When energy is very low, lie down and stare at the ceiling but find a gentle focal point (light and shadow) so you do nothing yet still occupy your attention and don't start a new task.
 
 Don't use all the tools at once — pick one or two to start, because too many options is a fast route to decision paralysis in ADHD.

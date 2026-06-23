@@ -94,6 +94,6 @@
 }
 ---
 
-After a late ADHD diagnosis grief is natural — mourning the years and choices (relationships, jobs) that could have been different had you known earlier. It's worth preparing for that sadness and not treating it as a symptom of illness.
+After a late ADHD diagnosis grief is natural, mourning the years and choices (relationships, jobs) that could have been different had you known earlier. Name that sadness and don't treat it as a symptom of illness.
 
-The problem lies in an imposed norm, not in you. Society pressures us to 'get over' a loss in some three months, which is unnatural and makes us deem ourselves (and get diagnosed as) sick. The healthier approach is to learn to LIVE WITH the loss: carry it forward with you, continue the values it concerns, allow sadness in meaningful moments — and at the same time laugh at the memories. Reject the 'be over it within three months' calendar.
+The problem lies in an imposed norm, not in you. Society pressures us to 'get over' a loss in some three months, which is unnatural and makes us deem ourselves (and get diagnosed as) sick. The healthier approach is to learn to LIVE WITH the loss: carry it forward with you, continue the values it concerns, allow sadness in meaningful moments and at the same time laugh at the memories. Reject the 'be over it within three months' calendar.

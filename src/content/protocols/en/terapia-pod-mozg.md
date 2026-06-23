@@ -95,11 +95,11 @@
 }
 ---
 
-How well a therapy modality fits matters a lot for a neurodivergent brain — a therapy that 'didn't work' often means 'that format didn't fit', not 'therapy doesn't work'.
+How well a therapy modality fits a neurodivergent brain can decide the outcome — a therapy that 'didn't work' often means 'that format didn't fit', not 'therapy doesn't work'.
 
 What tends to matter in ADHD/autism:
 
-- Low-structure, silence-and-free-association therapy (classic psychodynamic) can be a hard fit — the low structure and low stimulation make it harder to engage. This is a clinical/lived-experience observation, not a rule; some people do well in psychodynamic work.
+- Low-structure, silence-and-free-association therapy (classic psychodynamic) can be a hard fit — the low structure and low stimulation make it harder to engage. This is a clinical observation, not a rule; some people do well in psychodynamic work.
 - Body-oriented approaches (e.g. Gestalt, somatic therapies) can fit better where contact with one's own body and emotions is blunted.
 - The strongest research base is for CBT and its 'third wave' (DBT, ACT); their shared core is learning to get distance from thoughts and to tolerate discomfort.
 

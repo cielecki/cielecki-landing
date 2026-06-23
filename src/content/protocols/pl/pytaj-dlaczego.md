@@ -70,4 +70,4 @@
 
 Zamiast rozpraszać się, usiądź ze sobą i zadaj pytanie „dlaczego to robię?”, a potem dopytuj „ale dlaczego?” raz za razem — dokładnie tak, jak robi to dziecko. Każde kolejne „dlaczego” zdejmuje warstwę i odsłania prawdziwy motyw pod spodem.
 
-Cel: rozróżnić, czy działasz z miłości i szacunku do siebie, czy z braku, lęku i niskiej samooceny. Ta sama decyzja podjęta „z pełni” a „z dziury” prowadzi gdzie indziej — i właśnie to chcesz zobaczyć, zanim ruszysz.
+Cel: rozróżnić, czy działasz z miłości i szacunku do siebie, czy z braku, lęku i niskiej samooceny. Ta sama decyzja podjęta z poczucia pełni a z poczucia braku prowadzi gdzie indziej — i właśnie to chcesz zobaczyć, zanim ruszysz.

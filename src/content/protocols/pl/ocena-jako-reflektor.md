@@ -52,6 +52,6 @@
 }
 ---
 
-Przeramuj ocenę (np. pod kątem spektrum autyzmu) jako narzędzie wglądu, nie egzamin do zdania. Strukturalne pytania działają jak „odmaskowywanie” — zmuszają cię do zakwestionowania cech, które brałeś za „po prostu swój charakter” — niezależnie od końcowego wyniku.
+Przeramuj ocenę (np. pod kątem spektrum autyzmu) jako narzędzie wglądu, nie egzamin do zdania. Strukturalne pytania działają jak „odmaskowywanie” — zmuszają cię do zakwestionowania cech, które brałeś za „po prostu swój charakter”, niezależnie od końcowego wyniku.
 
-Problem nie tkwi w „znanych nieznanych”, tylko w „nieznanych nieznanych”: rzeczach, o których nie wiesz, że ich nie wiesz, bo maskujesz je, by zadowolić innych. Ocena świeci na nie reflektorem. Jak ujął to pewien psychiatra: „co było największą wartością diagnozy ADHD? Zrozumienie. To czemu tu miałoby być inaczej?”.
+Problem nie tkwi w „znanych nieznanych”, tylko w „nieznanych nieznanych”: rzeczach, o których nie wiesz, że ich nie wiesz, bo maskujesz je, by zadowolić innych. Ocena świeci na nie reflektorem. Jak ujmują to psychiatrzy: „co było największą wartością diagnozy ADHD? Zrozumienie. To czemu tu miałoby być inaczej?”.

@@ -75,10 +75,10 @@
 }
 ---
 
-Korzeniem trudności nie jest lenistwo ani brak chęci, lecz dysregulacja neuroprzekaźników w korze przedczołowej — wysiłek zwykle jest już maksymalny. Dlatego „spróbuj bardziej” tylko prowadzi do wyczerpania. Przełomem jest zmiana pytania: nie „jak mam się bardziej postarać”, lecz „w jakich warunkach mi się udaje”.
+Korzeniem trudności nie jest lenistwo ani brak chęci, lecz dysregulacja neuroprzekaźników w korze przedczołowej; wysiłek zwykle jest już maksymalny. Dlatego „spróbuj bardziej” tylko prowadzi do wyczerpania. Przełomem jest zmiana pytania: nie „jak mam się bardziej postarać”, lecz „w jakich warunkach mi się udaje”.
 
 Krok 1: zrób inwentarz swoich „warunków rozkwitu” — pora dnia, w której myślisz najjaśniej, wizualny timer na biurku, body double na ekranie, cisza i słuchawki, konkretny deadline. To rzeczy, które już kiedyś zadziałały u ciebie.
 
-Krok 2: celowo aranżuj ich jak najwięcej naraz, zamiast liczyć, że tym razem „dasz radę siłą woli”. Gdy warunki sprzyjają, „spróbuj bardziej” znika samo, bo widać efekty.
+Krok 2: celowo aranżuj jak najwięcej z nich naraz, zamiast liczyć, że tym razem „dasz radę siłą woli”. Gdy warunki sprzyjają, „spróbuj bardziej” znika samo, bo widać efekty.
 
 Krok 3 (przeramowanie): porzuć bez wstydu metody, które u ciebie nie działają. Przerzucenie energii z „wymuszania konwencjonalnych systemów” na szukanie własnych to często cała różnica między ledwie-przetrwaniem a rozkwitem.
