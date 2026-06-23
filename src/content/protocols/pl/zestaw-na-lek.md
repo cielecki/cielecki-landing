@@ -68,6 +68,6 @@
 }
 ---
 
-Cel zestawu to nie natychmiastowy spokój, tylko niedopuszczenie, by lęk eskalował do niezdrowego poziomu. Klientka, która nie wyobrażała sobie wejścia do samolotu, poleciała na Cypr w 3 miesiące, budując taki kit — i ledwie z niego skorzystała. Samo posiadanie narzędzi „w kieszeni” rozładowuje wewnętrzne napięcie.
+Cel zestawu to nie natychmiastowy spokój, tylko niedopuszczenie, by lęk eskalował do niezdrowego poziomu. Działa tu prewencja: samo posiadanie narzędzi „w kieszeni”, przygotowanych zawczasu, rozładowuje wewnętrzne napięcie — często nawet nie musisz ich użyć. Osoby z silnym lękiem przed lataniem potrafią dzięki takiemu zestawowi wsiąść do samolotu, sięgając po niego minimalnie.
 
 Przykładowe narzędzia: technika 5-4-3-2-1 (5 rzeczy, które widzisz, 4 które słyszysz, 3 które czujesz…), nagły kwaśny smak (guma/cukierek — przekierowuje uwagę i redukuje lęk), termos ulubionej melisy, umówiony sygnał z bliską osobą (ściśnięcie dłoni = „boję się, potrzebuję wsparcia”), powiedzenie obsłudze/drugiej osobie.

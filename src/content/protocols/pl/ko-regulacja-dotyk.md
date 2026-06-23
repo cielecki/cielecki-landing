@@ -97,6 +97,6 @@
 
 Twój układ nerwowy zestraja się ze stanem osoby obok. Jeśli partner zaczyna się wyciszać wieczorem, tobie też łatwiej zacząć wyciszenie — to ko-regulacja. Rób wspólnie spokojną aktywność równolegle (parallel play): każde swoje, ale obok siebie, bez wymogu rozmowy. Już sama obecność kogoś, przy kim nie musisz maskować, pozwala układowi nerwowemu się rozluźnić.
 
-Dotyk dokłada warstwę fizjologiczną. Przytulenie partnera, dziecka lub zwierzaka uwalnia oksytocynę i wysyła ciału sygnały bezpieczeństwa, które przełączają cię z trybu zagrożenia w stronę odpoczynku. Jeśli nie masz z kim się przytulić, zadziała głęboki nacisk z miękkiego obiektu — przytul plaszaka, poduszkę albo ciężki/miękki koc dla efektu uziemienia.
+Dotyk dokłada warstwę fizjologiczną. Przytulenie partnera, dziecka lub zwierzaka uwalnia oksytocynę i wysyła ciału sygnały bezpieczeństwa, które przełączają cię z trybu zagrożenia w stronę odpoczynku. Jeśli nie masz z kim się przytulić, zadziała głęboki nacisk z miękkiego obiektu — przytul pluszaka, poduszkę albo ciężki/miękki koc dla efektu uziemienia.
 
 Wpleć to w wieczorną rutynę: 10-15 minut wspólnego wyciszania albo świadomego przytulania przed gaszeniem światła. To nie "dodatek", tylko realny sygnał bezpieczeństwa, bez którego mózg z ADHD często nie odpuszcza czujności.

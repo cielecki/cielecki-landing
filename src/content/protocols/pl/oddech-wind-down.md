@@ -115,4 +115,4 @@
 }
 ---
 
-Gdy ciało nie schodzi z obrotów, pomaga **spowolniony oddech**: ok. 6 oddechów na minutę (np. wdech 4 s, wydech 6 s) przez kilka–kilkanaście minut. To realnie obniża pobudzenie i u części osób skraca czas zasypiania. Działa jako część szerszego **rytuału schodzenia** (przyciemnione światło, brak ekranów). Filmiki o „regulacji układu nerwowego” bywają pomocne praktycznie — ale traktuj „teorię poliwagalną” jako metaforę, nie twardą naukę.
+Gdy ciało nie schodzi z obrotów, pomaga **spowolniony oddech**: ok. 6 oddechów na minutę (np. wdech 4 s, wydech 6 s) przez kilka–kilkanaście minut. To realnie obniża pobudzenie i u części osób skraca czas zasypiania. Działa jako część szerszego **rytuału schodzenia** (przyciemnione światło, brak ekranów). „Teorię poliwagalną”, którą często przywołuje się przy takim oddechu, traktuj jako metaforę, nie twardą naukę — sam wolny oddech działa niezależnie od niej.

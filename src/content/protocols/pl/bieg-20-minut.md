@@ -68,4 +68,4 @@
 
 Ruch działa u osób z ADHD jak dawka dopaminy/endorfin, która wycisza umysł, podnosi nastrój i wraca cię do chwili obecnej — częściowo nadrabiając deficyt dopaminy. Haczyk jest w progu: duży wyrzut przychodzi dopiero po dłuższym wysiłku, około 20. minuty.
 
-Dlatego cel to dobiec do ciągłych 20-25 minut, w dowolnym tempie — „super wolno” jest w porządku. Po przekroczeniu 20. minuty „wchodzisz w magię”; słodki punkt to 20-30 minut, i to one dają około 80% korzyści mentalnych. To rama lay (relacja osobista), nie protokół kliniczny — ale spójna z tym, że wysiłek podnosi dopaminę.
+Dlatego cel to dobiec do ciągłych 20-25 minut, w dowolnym tempie — „super wolno” jest w porządku. Liczy się przekroczenie progu dłuższego, ciągłego wysiłku, a nie tempo. Konkretna granica „20 minut” to obserwacja z doświadczenia, nie sztywny próg kliniczny — ale kierunek (dłuższy wysiłek = wyraźniejszy efekt na nastrój i skupienie) jest spójny z badaniami nad ruchem w ADHD.

@@ -68,4 +68,4 @@
 
 Movement works for people with ADHD like a dose of dopamine/endorphins that quietens the mind, lifts mood and brings you into the present — partly making up for the dopamine deficit. The catch is the threshold: the big release only comes after a longer effort, around the 20-minute mark.
 
-So the goal is to build up to a continuous 20-25 minutes, at any pace — 'super slow' is fine. Past the 20-minute mark you 'enter the magic'; the sweet spot is 20-30 minutes, and those give about 80% of the mental benefit. This is a lay frame (a personal account), not a clinical protocol — but consistent with exercise raising dopamine.
+So the goal is to build up to a continuous 20-25 minutes, at any pace — 'super slow' is fine. What matters is crossing the threshold of longer, continuous effort, not the speed. The specific '20 minutes' is an experiential observation, not a hard clinical cutoff — but the direction (longer effort = a clearer effect on mood and focus) is consistent with research on exercise in ADHD.

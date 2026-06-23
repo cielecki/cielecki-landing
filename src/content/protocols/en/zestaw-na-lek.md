@@ -68,6 +68,6 @@
 }
 ---
 
-The kit's goal isn't instant calm but keeping fear from escalating to an unhealthy degree. A client who couldn't imagine boarding a plane flew to Cyprus in 3 months by building one — and barely used it. Just having the tools 'in your pocket' discharges the inner tension.
+The kit's goal isn't instant calm but keeping fear from escalating to an unhealthy degree. The mechanism is prevention: just having the tools 'in your pocket', prepared ahead of time, discharges the inner tension — often you barely need to use them. People with a strong fear of flying can board a plane with such a kit while reaching for it only minimally.
 
 Example tools: the 5-4-3-2-1 technique (5 things you see, 4 you hear, 3 you feel…), a sudden sour taste (gum/sweet — redirects attention and cuts anxiety), a thermos of favourite melissa tea, a pre-agreed signal with a close person (a hand squeeze = 'I'm scared, I need support'), telling the crew/another person.

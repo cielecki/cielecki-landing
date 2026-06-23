@@ -115,4 +115,4 @@
 }
 ---
 
-When the body won't slow down, **slow breathing** helps: about 6 breaths per minute (e.g. 4 s in, 6 s out) for several minutes. It genuinely lowers arousal and shortens sleep onset for some people. It works as part of a wider **wind-down ritual** (dim light, no screens). 'Nervous-system regulation' videos can be practically useful — but treat 'polyvagal theory' as a metaphor, not hard science.
+When the body won't slow down, **slow breathing** helps: about 6 breaths per minute (e.g. 4 s in, 6 s out) for several minutes. It genuinely lowers arousal and shortens sleep onset for some people. It works as part of a wider **wind-down ritual** (dim light, no screens). Treat the 'polyvagal theory' often invoked around this kind of breathing as a metaphor, not hard science — slow breathing works regardless of it.
