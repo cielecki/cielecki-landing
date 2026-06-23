@@ -95,6 +95,12 @@
 }
 ---
 
-Modalność terapii ma ogromne znaczenie dla mózgu neuroatypowego. Z doświadczenia Magdaleny: terapia psychodynamiczna była brutalnym dopasowaniem (brak wody/kawy, cisza, „przez godzinę powiedzieliśmy może trzy zdania”). Gestalt dał jej najwięcej — ponowne połączenie z ciałem (wiele osób z ADHD czuje, że „ciało to tylko statyw pod głowę”). CBT i jej trzecia fala (DBT, ACT) są mocno przebadane i skuteczne; ich wspólny rdzeń to nauka, że „jesteś czymś więcej niż twoje myśli” i jak „być w dyskomforcie”.
+Dopasowanie modalności terapii ma duże znaczenie dla mózgu neuroatypowego — terapia, która „nie zadziałała”, często znaczy „ta forma nie pasowała”, a nie „terapia nie działa”.
 
-Wniosek: jeśli jedna terapia „nie działa”, to nie wyrok na terapię w ogóle — szukaj modalności pasującej do twojego mózgu. (Uwaga: dopasowanie psychodynamicznej jako „złej” to jej osobiste doświadczenie, nie reguła; skuteczność CBT/DBT/ACT w ADHD ma wsparcie badawcze.)
+Co bywa istotne przy ADHD/autyzmie:
+
+- Terapia mało ustrukturyzowana, oparta na ciszy i swobodnych skojarzeniach (klasyczna psychodynamiczna) bywa trudnym dopasowaniem — niski poziom struktury i bodźców utrudnia zaangażowanie. To obserwacja kliniczna i z doświadczeń, nie reguła; części osób psychodynamiczna pomaga.
+- Podejścia pracujące z ciałem (np. Gestalt, terapie somatyczne) bywają trafniejsze tam, gdzie kontakt z własnym ciałem i emocjami jest osłabiony.
+- Najmocniejsze zaplecze badawcze ma CBT i jej „trzecia fala” (DBT, ACT); ich wspólny rdzeń to uczenie się dystansu do myśli i tolerowania dyskomfortu.
+
+Praktyczny wniosek: jeśli jedna terapia nie działa, szukaj modalności dopasowanej do swojego mózgu, zamiast rezygnować z terapii w ogóle.

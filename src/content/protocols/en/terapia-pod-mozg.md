@@ -95,6 +95,12 @@
 }
 ---
 
-Therapy modality matters enormously for a neurodivergent brain. From Magdalena's experience: psychodynamic therapy was a brutal fit (no water/coffee, silence, 'in an hour we said maybe three sentences'). Gestalt gave her the most — reconnecting with the body (many ADHD people feel 'the body is just a tripod for the head'). CBT and its third wave (DBT, ACT) are heavily researched and effective; their shared core is learning that 'you are more than your thoughts' and how 'to be in discomfort'.
+How well a therapy modality fits matters a lot for a neurodivergent brain — a therapy that 'didn't work' often means 'that format didn't fit', not 'therapy doesn't work'.
 
-Takeaway: if one therapy 'doesn't work', it's not a verdict on therapy itself — look for a modality that fits your brain. (Note: rating psychodynamic as a 'bad' fit is her personal experience, not a rule; CBT/DBT/ACT efficacy in ADHD has research support.)
+What tends to matter in ADHD/autism:
+
+- Low-structure, silence-and-free-association therapy (classic psychodynamic) can be a hard fit — the low structure and low stimulation make it harder to engage. This is a clinical/lived-experience observation, not a rule; some people do well in psychodynamic work.
+- Body-oriented approaches (e.g. Gestalt, somatic therapies) can fit better where contact with one's own body and emotions is blunted.
+- The strongest research base is for CBT and its 'third wave' (DBT, ACT); their shared core is learning to get distance from thoughts and to tolerate discomfort.
+
+Practical takeaway: if one therapy isn't working, look for a modality that fits your brain rather than giving up on therapy altogether.
