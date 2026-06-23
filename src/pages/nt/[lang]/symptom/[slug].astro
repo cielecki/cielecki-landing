@@ -79,7 +79,7 @@ const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
   </header>
 
   <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-4">{t('nt.topMethods')}</h2>
-  <ul class="grid gap-3 mb-12 xl:grid-cols-2">
+  <ul class="flex flex-col gap-2 mb-12">
     {
       ranked.map(({ p, ev, sources }) => {
         const pslug = slugOf(p.id);
@@ -87,20 +87,21 @@ const altLangUrl = `/nt/${otherLang(lang)}/symptom/${slug}/`;
           <li class="reveal" data-conditions={p.data.conditions.join(' ')}>
             <a
               href={`/nt/${lang}/metoda/${pslug}/`}
-              class="group flex items-start gap-4 p-5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-2xl hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all"
+              class="group flex items-center gap-3.5 p-3.5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl hover:bg-white hover:shadow-sm transition-all"
             >
-              <span class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-sage/15 rounded-xl text-sage-dark">
-                <span class="iconify text-xl" data-icon={p.data.icon} />
+              <span class="flex-shrink-0 w-9 h-9 flex items-center justify-center bg-sage/15 rounded-lg text-sage-dark">
+                <span class="iconify text-lg" data-icon={p.data.icon} />
               </span>
               <div class="flex-1 min-w-0">
-                <div class="text-[11px] font-semibold uppercase tracking-wide text-sage-dark/70">{t('type.method')}</div>
-                <h3 class="font-serif text-lg font-semibold text-charcoal-dark leading-snug group-hover:text-terracotta-dark transition-colors">
+                <h3 class="font-serif text-base font-semibold text-charcoal-dark leading-snug truncate group-hover:text-terracotta-dark transition-colors">
                   {p.data.title}
                 </h3>
-                <p class="text-sm text-charcoal-light leading-relaxed mt-1 mb-2.5">{p.data.summary}</p>
+                <p class="text-sm text-charcoal-light leading-snug truncate mt-0.5">{p.data.summary}</p>
+              </div>
+              <div class="flex-shrink-0 hidden sm:block">
                 <Signals evidence={ev} sources={sources} lang={lang} muted={p.data.studies.length === 0} />
               </div>
-              <span class="iconify flex-shrink-0 mt-1 text-lg text-charcoal-light/40 group-hover:text-terracotta group-hover:translate-x-0.5 transition-all" data-icon="mdi:arrow-right" />
+              <span class="iconify flex-shrink-0 text-base text-charcoal-light/40 group-hover:text-terracotta group-hover:translate-x-0.5 transition-all" data-icon="mdi:arrow-right" />
             </a>
           </li>
         );

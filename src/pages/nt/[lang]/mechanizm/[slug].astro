@@ -70,7 +70,7 @@ const altLangUrl = `/nt/${otherLang(lang)}/mechanizm/${slug}/`;
     <div class="audhd-prose text-charcoal leading-relaxed mb-10 max-w-2xl"><Content /></div>
 
     <h2 class="text-xs font-semibold uppercase tracking-wider text-charcoal-light/60 mb-4">{t('nt.methodsHere')}</h2>
-    <ul class="grid gap-3 xl:grid-cols-2">
+    <ul class="flex flex-col gap-2">
       {
         ranked.map(({ p, ev, sources, note }) => {
           const pslug = slugOf(p.id);
@@ -78,20 +78,21 @@ const altLangUrl = `/nt/${otherLang(lang)}/mechanizm/${slug}/`;
             <li class="reveal" data-conditions={p.data.conditions.join(' ')}>
               <a
                 href={`/nt/${lang}/metoda/${pslug}/`}
-                class="group flex items-start gap-4 p-5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-2xl hover:bg-white hover:-translate-y-0.5 hover:shadow-md transition-all"
+                class="group flex items-center gap-3.5 p-3.5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl hover:bg-white hover:shadow-sm transition-all"
               >
-                <span class="flex-shrink-0 w-10 h-10 flex items-center justify-center bg-sage/15 rounded-xl text-sage-dark">
-                  <span class="iconify text-xl" data-icon={p.data.icon} />
+                <span class="flex-shrink-0 w-9 h-9 flex items-center justify-center bg-sage/15 rounded-lg text-sage-dark">
+                  <span class="iconify text-lg" data-icon={p.data.icon} />
                 </span>
                 <div class="flex-1 min-w-0">
-                  <h3 class="font-serif text-lg font-semibold text-charcoal-dark leading-snug group-hover:text-terracotta-dark transition-colors">
+                  <h3 class="font-serif text-base font-semibold text-charcoal-dark leading-snug truncate group-hover:text-terracotta-dark transition-colors">
                     {p.data.title}
                   </h3>
-                  <p class="text-sm text-charcoal-light leading-relaxed mt-1 mb-2.5">{p.data.summary}</p>
-                  <Signals evidence={ev} sources={sources} lang={lang} muted={p.data.studies.length === 0} />
-                  {note && <p class="text-xs text-charcoal-light/70 italic mt-2">{note}</p>}
+                  <p class="text-sm text-charcoal-light leading-snug truncate mt-0.5">{note || p.data.summary}</p>
                 </div>
-                <span class="iconify flex-shrink-0 mt-1 text-lg text-charcoal-light/40 group-hover:text-terracotta group-hover:translate-x-0.5 transition-all" data-icon="mdi:arrow-right" />
+                <div class="flex-shrink-0 hidden sm:block">
+                  <Signals evidence={ev} sources={sources} lang={lang} muted={p.data.studies.length === 0} />
+                </div>
+                <span class="iconify flex-shrink-0 text-base text-charcoal-light/40 group-hover:text-terracotta group-hover:translate-x-0.5 transition-all" data-icon="mdi:arrow-right" />
               </a>
             </li>
           );
