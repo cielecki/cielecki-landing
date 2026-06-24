@@ -138,6 +138,30 @@ function fragmentAt(url?: string): string | null {
   return m ? fmtTime(parseInt(m[1], 10)) : null;
 }
 
+// YouTube resources are presented as a thumbnail card. A method often links the SAME
+// video at several timestamps (one nugget per moment), so we group resources by video
+// id and render the moments as clickable chips under one thumbnail — no repeated thumbs.
+function ytId(url?: string): string | null {
+  if (!url) return null;
+  const m = url.match(/(?:youtube\.com\/watch\?(?:.*&)?v=|youtu\.be\/|youtube\.com\/embed\/)([\w-]{11})/);
+  return m ? m[1] : null;
+}
+type VidFrag = { url: string; t: number; label: string; note?: string };
+type VidGroup = { id: string; title: string; author?: string; frags: VidFrag[] };
+const vidMap = new Map<string, VidGroup>();
+const otherResources: typeof entry.data.resources = [];
+for (const r of entry.data.resources) {
+  const id = r.type === 'video' ? ytId(r.url) : null;
+  if (!id) { otherResources.push(r); continue; }
+  let v = vidMap.get(id);
+  if (!v) { v = { id, title: r.title, author: r.author, frags: [] }; vidMap.set(id, v); }
+  const tm = r.url!.match(/[?&]t=(\d+)/);
+  const t = tm ? parseInt(tm[1], 10) : 0;
+  v.frags.push({ url: r.url!, t, label: t > 0 ? fmtTime(t) : '', note: r.note });
+}
+const videoGroups = [...vidMap.values()];
+for (const v of videoGroups) v.frags.sort((a, b) => a.t - b.t);
+
 const studyIcon: Record<string, string> = {
   'meta-analysis': 'mdi:chart-box-outline',
   rct: 'mdi:flask-outline',
@@ -239,56 +263,115 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
         entry.data.resources.length === 0 ? (
           <p class="text-charcoal-light/70 text-sm">{t('method.noResources')}</p>
         ) : (
-          <ul class="grid gap-2.5">
-            {entry.data.resources.map((r) => {
-              const label = t(`resource.${r.type}` as UIKey);
-              const icon = resourceIcon[r.type] ?? 'mdi:link-variant';
-              const frag = fragmentAt(r.url);
-              const inner = (
-                <>
-                  <span class="flex-shrink-0 w-9 h-9 flex items-center justify-center bg-sand/30 rounded-lg text-charcoal-light">
-                    <span class="iconify text-lg" data-icon={icon} />
-                  </span>
-                  <div class="flex-1 min-w-0">
-                    <div class="font-medium text-charcoal-dark leading-snug">{r.title}</div>
-                    <div class="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs text-charcoal-light/60 mt-1">
-                      <span>{label}</span>
-                      {r.author && <span>· {r.author}</span>}
-                      {frag && (
-                        <span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-md bg-terracotta/10 text-terracotta-dark font-medium">
-                          <span class="iconify text-sm" data-icon="mdi:play-circle" />
-                          {t('resource.fragment')} {frag}
+          <div class="grid gap-4">
+            {videoGroups.length > 0 && (
+              <ul class="grid gap-3 sm:grid-cols-2">
+                {videoGroups.map((v) => {
+                  const hasTs = v.frags.some((f) => f.t > 0);
+                  const coverHref = v.frags[0].url;
+                  return (
+                    <li class="group bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl overflow-hidden hover:shadow-sm transition-all">
+                      <a href={coverHref} target="_blank" rel="noopener noreferrer" class="block relative aspect-video bg-charcoal-dark">
+                        <img
+                          src={`https://img.youtube.com/vi/${v.id}/hqdefault.jpg`}
+                          alt=""
+                          loading="lazy"
+                          class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform"
+                        />
+                        <span class="absolute inset-0 flex items-center justify-center">
+                          <span class="w-12 h-8 rounded-lg flex items-center justify-center text-white shadow" style="background:#FF0000">
+                            <span class="iconify text-2xl" data-icon="mdi:play" />
+                          </span>
                         </span>
+                      </a>
+                      <div class="p-3">
+                        <a
+                          href={coverHref}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="block font-medium text-sm text-charcoal-dark leading-snug line-clamp-2 hover:text-terracotta-dark transition-colors"
+                        >
+                          {v.title}
+                        </a>
+                        <div class="flex items-center gap-1.5 text-xs text-charcoal-light/55 mt-1">
+                          <span class="iconify text-sm" data-icon="mdi:youtube" style="color:#FF0000" />
+                          <span>{v.author || 'YouTube'}</span>
+                        </div>
+                        {hasTs && (
+                          <div class="flex flex-wrap gap-1.5 mt-2.5">
+                            {v.frags.map((f) => (
+                              <a
+                                href={f.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title={f.note}
+                                class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-terracotta/10 text-terracotta-dark hover:bg-terracotta/20 transition-colors"
+                              >
+                                <span class="iconify text-sm" data-icon="mdi:play-circle" />
+                                {f.label || t('resource.watchFrom')}
+                              </a>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
+            {otherResources.length > 0 && (
+              <ul class="grid gap-2.5">
+                {otherResources.map((r) => {
+                  const label = t(`resource.${r.type}` as UIKey);
+                  const icon = resourceIcon[r.type] ?? 'mdi:link-variant';
+                  const frag = fragmentAt(r.url);
+                  const inner = (
+                    <>
+                      <span class="flex-shrink-0 w-9 h-9 flex items-center justify-center bg-sand/30 rounded-lg text-charcoal-light">
+                        <span class="iconify text-lg" data-icon={icon} />
+                      </span>
+                      <div class="flex-1 min-w-0">
+                        <div class="font-medium text-charcoal-dark leading-snug">{r.title}</div>
+                        <div class="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs text-charcoal-light/60 mt-1">
+                          <span>{label}</span>
+                          {r.author && <span>· {r.author}</span>}
+                          {frag && (
+                            <span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-md bg-terracotta/10 text-terracotta-dark font-medium">
+                              <span class="iconify text-sm" data-icon="mdi:play-circle" />
+                              {t('resource.fragment')} {frag}
+                            </span>
+                          )}
+                          {!r.url && <span>· {t('method.linkSoon')}</span>}
+                        </div>
+                        {r.note && (
+                          <p class="text-sm text-charcoal-light/80 italic leading-relaxed mt-1.5">{r.note}</p>
+                        )}
+                      </div>
+                      {r.url && (
+                        <span class="iconify flex-shrink-0 mt-0.5 text-base text-charcoal-light/40 group-hover:text-terracotta transition-colors" data-icon="mdi:open-in-new" />
                       )}
-                      {!r.url && <span>· {t('method.linkSoon')}</span>}
-                    </div>
-                    {r.note && (
-                      <p class="text-sm text-charcoal-light/80 italic leading-relaxed mt-1.5">{r.note}</p>
-                    )}
-                  </div>
-                  {r.url && (
-                    <span class="iconify flex-shrink-0 mt-0.5 text-base text-charcoal-light/40 group-hover:text-terracotta transition-colors" data-icon="mdi:open-in-new" />
-                  )}
-                </>
-              );
-              return (
-                <li>
-                  {r.url ? (
-                    <a
-                      href={r.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="group flex items-start gap-3 p-3.5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl hover:bg-white hover:-translate-y-0.5 hover:shadow-sm transition-all"
-                    >
-                      {inner}
-                    </a>
-                  ) : (
-                    <div class="flex items-start gap-3 p-3.5 bg-white/40 border border-charcoal/8 rounded-xl opacity-80">{inner}</div>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
+                    </>
+                  );
+                  return (
+                    <li>
+                      {r.url ? (
+                        <a
+                          href={r.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="group flex items-start gap-3 p-3.5 bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl hover:bg-white hover:-translate-y-0.5 hover:shadow-sm transition-all"
+                        >
+                          {inner}
+                        </a>
+                      ) : (
+                        <div class="flex items-start gap-3 p-3.5 bg-white/40 border border-charcoal/8 rounded-xl opacity-80">{inner}</div>
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
+          </div>
         )
       }
     </section>
