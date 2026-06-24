@@ -16,7 +16,8 @@ articles + timestamped links**, filterable per profile (ADHD / autism / AuDHD). 
 INDEPENDENT sources backing it, computed from `resources[]` via `lib/signals.ts` → `sourceCount`).
 The old per-edge `community` enum was retired 2026-06-21 (unmeasurable LLM guess → now a real
 count; the field is kept optional in the schema for back-compat but is not displayed). Defined in
-`src/content.config.ts`. Currently ~20 symptoms / ~22 mechanisms / ~87 methods, bilingual.
+`src/content.config.ts`. Currently ~20 symptoms / ~25 mechanisms / ~119 methods, bilingual
+(all graded A–D against the literature + citation-verified; every symptom has ≥5 methods).
 
 The OLD flat pilot (`challenges` + `methods` collections, `/neuro-toolkit/*`) was retired
 2026-06-20: its unique methods were ported into the graph, the collections + pages deleted,
@@ -56,12 +57,26 @@ the exact video second, **fact-check any specific study/number before trusting t
 ### Roadmap to v1 (see docs/ for detail)
 1. Finish corpus (chunked harvest + WhatsApp founders group). 2. Derive symptom taxonomy
 bottom-up from the whole corpus — **decision gate: Maciej approves the symptom list**.
-3. (done) pipeline as this skill + CLAUDE.md. 4. Fill + fact-check each symptom. 5. Retire the
-old flat model + color-coding/product polish + link the ADHD founders group. 6. Launch:
-link from homepage. "Done" = 8–12 data-derived symptoms, each ≥3 methods with timestamped
-sources + honest evidence, one structure, one-command source-embedding, linked from homepage.
+3. (done) pipeline as this skill + CLAUDE.md. 4. (done) fill + grade + fact-check every symptom.
+5. (mostly done) flat model retired; color-coding tried & **REJECTED** 2026-06-22 (per-card profile
+colour is irrelevant once you've picked a profile — do not revisit); founders-group link still needs
+a real URL. 6. **Launch: link from homepage — the only real blocker left, gated on Maciej's visual
+QA + "tak".** The content "Done" bar (8–12 data-derived symptoms, each ≥3 graded methods with
+timestamped sources) is **exceeded** (20 symptoms, each ≥5, graded + verified). Validated next
+direction: expose the base as a **skill/MCP** ("problem in → graded methods + citations out") — all
+three testers (Ola, Bartek, Radek) said that's the killer form factor, not the website.
 
 ## Conventions
 - Commit to `main` (deploys). Keep raw transcripts and diagnostic data out of git.
+- **Impersonal voice for content.** Method/mechanism bodies are general, impersonal knowledge —
+  never a recap of one person's video (no named non-experts, no first person, no "in this video").
+  A named expert may appear as a light citation; the specific anecdote lives in the timestamped
+  resource. Enforced in the embed skill's synth prompt; a 2026-06 pass depersonalized the base and
+  audited it for AI-slop after tester feedback that anecdote-recap + visibly-unreviewed text erodes trust.
+- **YouTube resources render as grouped video cards** (method page): one thumbnail per video +
+  the video title (`resource.author`) + a chapter list of timestamped moments (`resource.title` per
+  moment), de-duplicated by video id. Thumbnail = `img.youtube.com/vi/<id>/hqdefault.jpg`, build-time,
+  no API. Non-YouTube resources stay as simple rows. Method/symptom/mechanism method-lists are
+  compact single-line rows (layout "variant B"), not the old uneven card grid.
 - Polish curly-quote trap when generating content via Python: never close `„` with an ASCII `"`
   inside a string literal — use `”` (U+201D). Build frontmatter via `json.dumps`, not f-strings.
