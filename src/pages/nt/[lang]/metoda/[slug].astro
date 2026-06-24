@@ -146,18 +146,21 @@ function ytId(url?: string): string | null {
   const m = url.match(/(?:youtube\.com\/watch\?(?:.*&)?v=|youtu\.be\/|youtube\.com\/embed\/)([\w-]{11})/);
   return m ? m[1] : null;
 }
-type VidFrag = { url: string; t: number; label: string; note?: string };
-type VidGroup = { id: string; title: string; author?: string; frags: VidFrag[] };
+// Per fragment we keep the moment headline (resource.title) so each timestamp says what
+// you'll find there; the video title lives in resource.author (shared across the group).
+type VidFrag = { url: string; t: number; label: string; headline: string };
+type VidGroup = { id: string; videoTitle: string; frags: VidFrag[] };
 const vidMap = new Map<string, VidGroup>();
 const otherResources: typeof entry.data.resources = [];
 for (const r of entry.data.resources) {
   const id = r.type === 'video' ? ytId(r.url) : null;
   if (!id) { otherResources.push(r); continue; }
   let v = vidMap.get(id);
-  if (!v) { v = { id, title: r.title, author: r.author, frags: [] }; vidMap.set(id, v); }
+  if (!v) { v = { id, videoTitle: r.author || '', frags: [] }; vidMap.set(id, v); }
+  if (!v.videoTitle && r.author) v.videoTitle = r.author;
   const tm = r.url!.match(/[?&]t=(\d+)/);
   const t = tm ? parseInt(tm[1], 10) : 0;
-  v.frags.push({ url: r.url!, t, label: t > 0 ? fmtTime(t) : '', note: r.note });
+  v.frags.push({ url: r.url!, t, label: t > 0 ? fmtTime(t) : '', headline: r.title });
 }
 const videoGroups = [...vidMap.values()];
 for (const v of videoGroups) v.frags.sort((a, b) => a.t - b.t);
@@ -267,7 +270,6 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
             {videoGroups.length > 0 && (
               <ul class="grid gap-3 sm:grid-cols-2">
                 {videoGroups.map((v) => {
-                  const hasTs = v.frags.some((f) => f.t > 0);
                   const coverHref = v.frags[0].url;
                   return (
                     <li class="group bg-white/60 backdrop-blur border border-charcoal/8 rounded-xl overflow-hidden hover:shadow-sm transition-all">
@@ -284,35 +286,36 @@ const altLangUrl = `/nt/${otherLang(lang)}/metoda/${slug}/`;
                           </span>
                         </span>
                       </a>
-                      <div class="p-3">
+                      <div class="p-3.5">
                         <a
                           href={coverHref}
                           target="_blank"
                           rel="noopener noreferrer"
-                          class="block font-medium text-sm text-charcoal-dark leading-snug line-clamp-2 hover:text-terracotta-dark transition-colors"
+                          class="flex items-start gap-1.5 mb-2.5 group/title"
                         >
-                          {v.title}
+                          <span class="iconify flex-shrink-0 text-base mt-0.5" data-icon="mdi:youtube" style="color:#FF0000" />
+                          <span class="font-medium text-sm text-charcoal-dark leading-snug line-clamp-2 group-hover/title:text-terracotta-dark transition-colors">
+                            {v.videoTitle || t('resource.video')}
+                          </span>
                         </a>
-                        <div class="flex items-center gap-1.5 text-xs text-charcoal-light/55 mt-1">
-                          <span class="iconify text-sm" data-icon="mdi:youtube" style="color:#FF0000" />
-                          <span>{v.author || 'YouTube'}</span>
-                        </div>
-                        {hasTs && (
-                          <div class="flex flex-wrap gap-1.5 mt-2.5">
-                            {v.frags.map((f) => (
+                        <ul class="flex flex-col">
+                          {v.frags.map((f) => (
+                            <li>
                               <a
                                 href={f.url}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                title={f.note}
-                                class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-terracotta/10 text-terracotta-dark hover:bg-terracotta/20 transition-colors"
+                                class="flex items-baseline gap-2 -mx-1.5 px-1.5 py-1 rounded-md hover:bg-terracotta/8 transition-colors"
                               >
-                                <span class="iconify text-sm" data-icon="mdi:play-circle" />
-                                {f.label || t('resource.watchFrom')}
+                                <span class="flex-shrink-0 inline-flex items-center gap-1 text-xs font-semibold text-terracotta-dark tabular-nums">
+                                  <span class="iconify text-sm" data-icon="mdi:play-circle" />
+                                  {f.label || t('resource.watchFrom')}
+                                </span>
+                                <span class="text-sm text-charcoal-light leading-snug">{f.headline}</span>
                               </a>
-                            ))}
-                          </div>
-                        )}
+                            </li>
+                          ))}
+                        </ul>
                       </div>
                     </li>
                   );
