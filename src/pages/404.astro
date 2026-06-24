@@ -1,0 +1,48 @@
+---
+// Static 404. The Neuro Toolkit used to live here (/nt, /neuro-toolkit, /audhd) and moved
+// to dopadone.app/neuro-toolkit/ in 2026-06. Slugs changed (pl→en) so deep old URLs can't
+// map 1:1 — any old toolkit path is sent to the toolkit home; everything else gets a plain 404.
+// GitHub Pages serves this 404.html for any unmatched path.
+const NT = 'https://dopadone.app/neuro-toolkit/';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page not found · cielecki.com</title>
+    <script is:inline define:vars={{ NT }}>
+      (function () {
+        if (/^\/(nt|neuro-toolkit|audhd)(\/|$)/.test(location.pathname)) {
+          location.replace(NT);
+        }
+      })();
+    </script>
+    <style>
+      body {
+        font-family: -apple-system, system-ui, sans-serif;
+        background: #f5f3ee;
+        color: #36454f;
+        display: flex;
+        min-height: 100vh;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem;
+      }
+      a { color: #a8624a; }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Page not found</h1>
+      <p>
+        The Neuro Toolkit moved to
+        <a href={NT}>dopadone.app/neuro-toolkit/</a>.
+      </p>
+      <p><a href="/">← cielecki.com</a></p>
+    </div>
+  </body>
+</html>
