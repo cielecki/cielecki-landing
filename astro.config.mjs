@@ -6,18 +6,18 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://cielecki.com',
   integrations: [tailwind(), sitemap()],
-  // The Neuro Toolkit moved to dopadone.app/neuro-toolkit/ (2026-06). These redirect the
+  // The Neuro Toolkit lives at neuro.cielecki.com (moved there 2026-11-01). These redirect the
   // old entry points; deep old URLs (slugs changed pl→en) are caught by src/pages/404.astro.
   redirects: {
-    '/nt': 'https://dopadone.app/neuro-toolkit/',
-    '/nt/pl': 'https://dopadone.app/neuro-toolkit/',
-    '/nt/en': 'https://dopadone.app/neuro-toolkit/',
-    '/neuro-toolkit': 'https://dopadone.app/neuro-toolkit/',
-    '/neuro-toolkit/pl': 'https://dopadone.app/neuro-toolkit/',
-    '/neuro-toolkit/en': 'https://dopadone.app/neuro-toolkit/',
-    '/audhd': 'https://dopadone.app/neuro-toolkit/',
-    '/audhd/pl': 'https://dopadone.app/neuro-toolkit/',
-    '/audhd/en': 'https://dopadone.app/neuro-toolkit/'
+    '/nt': 'https://neuro.cielecki.com/',
+    '/nt/pl': 'https://neuro.cielecki.com/',
+    '/nt/en': 'https://neuro.cielecki.com/',
+    '/neuro-toolkit': 'https://neuro.cielecki.com/',
+    '/neuro-toolkit/pl': 'https://neuro.cielecki.com/',
+    '/neuro-toolkit/en': 'https://neuro.cielecki.com/',
+    '/audhd': 'https://neuro.cielecki.com/',
+    '/audhd/pl': 'https://neuro.cielecki.com/',
+    '/audhd/en': 'https://neuro.cielecki.com/'
   },
   build: {
     inlineStylesheets: 'auto'
